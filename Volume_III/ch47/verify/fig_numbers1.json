@@ -1,0 +1,17 @@
+{
+ "hist": {
+  "width 8, origin 40": {
+   "max_density": 0.0417,
+   "n_bins_used": 6
+  },
+  "width 8, origin 44": {
+   "max_density": 0.0521,
+   "n_bins_used": 7
+  },
+  "width 3, origin 40": {
+   "max_density": 0.0611,
+   "n_bins_used": 13
+  }
+ },
+ "f58": 0.030098939399671707
+}

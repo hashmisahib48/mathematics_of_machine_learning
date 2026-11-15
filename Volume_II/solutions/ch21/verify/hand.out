@@ -1,0 +1,28 @@
+== 21A.1  x = (2, 1), z = (1, 3), the map of Eq. 21.3-2
+phi(x) = [1.     2.8284 1.4142 4.     2.8284 1.    ]
+phi(z) = [1.     1.4142 4.2426 1.     4.2426 9.    ]
+products: [ 1.  4.  6.  4. 12.  9.]  sum: 36.0
+without the sqrt(2) factors: columns [1. 2. 1. 4. 2. 1.] [1. 1. 3. 1. 3. 9.]  dot product = 25.0
+x.z = 5.0  (x.z + 1)^2 = 36.0
+sqrt(2) * 2 = 2.8284271247461903  sqrt(2) * 3 = 4.242640687119286
+
+== 21A.2  samples 1 and 2, targets 2 and 3, linear kernel, alpha = 1
+K = [[1.0, 2.0], [2.0, 4.0]]  K + I = [[2.0, 2.0], [2.0, 5.0]]  det = 6.0
+a = [0.6667 0.3333]  (2/3, 1/3)
+subtract the first equation from the second: 3 a2 = 1  so a2 = 0.3333333333333333  a1 = (2 - 2 a2)/2 = 0.6666666666666667
+w = sum a_i x_i = 1.3333   (2/3*1 + 1/3*2 = 4/3)
+Eq. 10.3-6: w = x^T y / (x^T x + alpha) = 8.0000 / 6.0000 = 1.3333
+f(3) = w * 3 = 4.0   by Eq. 21.4-4: sum a_i k(x_i, 3) = 4.0
+fitted values K a = [1.3333 2.6667]  y - alpha a = [1.3333 2.6667]
+
+== 21A.3  Laplacian kernel exp(-|x - z|) at x = 0, 1, 2
+K =
+ [[1.     0.3679 0.1353]
+ [0.3679 1.     0.3679]
+ [0.1353 0.3679 1.    ]]
+K c = [ 0.7675 -0.2642  0.7675]   c^T K c = 1.7991528017874563  = 3 - 2*2*e^-1 + 2*e^-2 = 1.799152801787456
+eigenvector (1, 0, -1): K v = [ 0.8647  0.     -0.8647]  eigenvalue 1 - e^-2 = 0.8646647167633873
+symmetric block trace 2.1353, det 0.8647 ; roots 1.5923, 0.5430
+eigvalsh: [0.543  0.8647 1.5923]  product of eigenvalues = 0.7476450724155086  det K = 0.7476450724155088
+det K = (1 - e^-2)^2 = 0.7476 ; product of the two symmetric-block roots = 0.8646 = 1 - e^-2
+leading minors of K: 1, 1 - e^-2 = 0.8647, det K = 0.7476

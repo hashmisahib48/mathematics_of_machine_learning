@@ -1,0 +1,5 @@
+ValueError: Some value(s) of y are out of the valid range of the loss 'HalfGammaLoss'.
+lbfgs            n_iter_ =  1   coef_ x 1e5 = 0.0000
+newton-cholesky  n_iter_ =  5   coef_ x 1e5 = 0.4313
+alpha=1.0: coef_ = 0.3588, D2 = 0.9369
+alpha=0.0: coef_ = 0.4313, D2 = 0.9618

@@ -1,0 +1,17 @@
+five best features (AUC in the better direction)
+  worst perimeter        AUC 0.9755
+  worst radius           AUC 0.9704
+  worst area             AUC 0.9698
+  worst concave points   AUC 0.9667
+  mean concave points    AUC 0.9644
+features with folded AUC above 0.9: 11
+features with AUC below 0.5: 3
+  mean fractal dimension AUC 0.4845
+      mean malignant 0.0627, benign 0.0629
+  smoothness error       AUC 0.4688
+      mean malignant 0.0068, benign 0.0072
+  symmetry error         AUC 0.4449
+      mean malignant 0.0205, benign 0.0206
+weakest: texture error AUC 0.5116
+standard error of an AUC of 0.5: 0.0251
+worst perimeter reversed: 0.0245

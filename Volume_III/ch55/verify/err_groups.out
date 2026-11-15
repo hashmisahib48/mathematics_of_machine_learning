@@ -1,0 +1,4 @@
+ValueError: The 'groups' parameter should not be None.
+UserWarning: The groups parameter is ignored by KFold
+held-out rows whose patient is also in training: 40 of 40
+cross_val_predict: cross_val_predict only works for partitions

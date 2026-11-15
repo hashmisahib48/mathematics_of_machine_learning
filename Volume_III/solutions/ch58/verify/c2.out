@@ -1,0 +1,10 @@
+class share 0.483, training accuracy 0.9550
+PD of x1: min 0.248 max 0.635 (range 0.387)
+mean ICE curve of the rows with x2 > 0 (294 rows): 0.044 at x1 = -0.87 to 0.965 at x1 = 0.92
+mean ICE curve of the rows with x2 < 0 (306 rows): 0.919 to 0.097
+PD = share-weighted mean of the two: max difference 1.1e-15
+range of an ICE curve: mean 0.924, smallest 0.506; share of curves with range > 0.5: 1.000
+held-out accuracy 0.869; permutation importance (accuracy): x1 0.371  x2 0.378
+mean P(class 1) on the grid in the quadrants (x1+,x2+) 0.875 (x1-,x2+) 0.087 (x1+,x2-) 0.145 (x1-,x2-) 0.902
+model fitted with x2 only: accuracy 0.797 (chance 0.5); its PD of x2 ranges from 0.281 to 0.799
+figure width 4.76 in, printed 4.9 in, smallest font 8.4 pt -> printed 8.6 pt

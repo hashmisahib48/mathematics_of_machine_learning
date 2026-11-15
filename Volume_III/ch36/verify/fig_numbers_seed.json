@@ -1,0 +1,43 @@
+{
+ "d2_first5": [
+  50.0,
+  18.0,
+  25.0,
+  65.0,
+  0.0,
+  5.0,
+  65.0,
+  73.0
+ ],
+ "seed_best": 1136.62,
+ "seed_random": {
+  "mean": 2277.9,
+  "median": 1846.8,
+  "share_within_2pct": 0.07,
+  "max": 5614.3
+ },
+ "seed_k-means++": {
+  "mean": 1207.1,
+  "median": 1137.0,
+  "share_within_2pct": 0.655,
+  "max": 1867.4
+ },
+ "seed_blobs_kpp_n_iter": 6,
+ "random_n_init10_share_within_2pct": 0.467,
+ "kpp_n_init10_share_within_2pct": 1.0,
+ "full_J_blobs5": 11815.71,
+ "mb_final_excess_pct_bs16": 0.0255,
+ "mb_final_excess_pct_bs128": 0.0234,
+ "mb_final_excess_pct_bs1024": 0.0203,
+ "bisect_births": [
+  2,
+  2,
+  3,
+  3,
+  4,
+  4,
+  5,
+  5
+ ],
+ "bisect_J": 13572.29
+}

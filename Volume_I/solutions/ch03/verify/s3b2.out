@@ -1,0 +1,9 @@
+softplus(1) = 1.3133  slope = 0.7311  curvature = 0.1966
+exact value at 1.5 : 1.7014
+first order  : 1.6788   error +0.02262
+second order : 1.7034   error -0.00195
+f''' = -0.0909   predicted error -0.00189
+h = 0.10  error -0.000015  error/h^3 -0.0153
+h = 0.25  error -0.000241  error/h^3 -0.0154
+h = 0.50  error -0.001954  error/h^3 -0.0156
+h = 1.00  error -0.015698  error/h^3 -0.0157

@@ -1,0 +1,8 @@
+accuracy on noise, mean +- sd over 15 repetitions (honest value 0.500)
+(a) variance filter on all rows      0.492 +- 0.091
+(b) SelectKBest on all rows          0.853 +- 0.039
+(c) RFECV in a pipeline, outer CV    0.477 +- 0.082
+(c') RFECV's own best score          0.573 +- 0.066
+(d) best of 8 values of k            0.589 +- 0.072
+    mean over the 8 values of k      0.493 +- 0.062
+(d') k chosen in an inner CV         0.523 +- 0.081

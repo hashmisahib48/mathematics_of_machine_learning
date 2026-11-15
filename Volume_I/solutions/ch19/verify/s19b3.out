@@ -1,0 +1,11 @@
+batch sizes: [270, 270, 269, 269, 269]
+after batch 1: n_seen =  270  test accuracy = 0.8800
+after batch 2: n_seen =  540  test accuracy = 0.8978
+after batch 3: n_seen =  809  test accuracy = 0.9000
+after batch 4: n_seen = 1078  test accuracy = 0.9022
+after batch 5: n_seen = 1347  test accuracy = 0.9044
+feature_log_prob_ equal: True
+largest difference    : 0.0
+class_log_prior_ equal : True
+accuracy of one call to fit: 0.9044
+shuffled stream equal  : True

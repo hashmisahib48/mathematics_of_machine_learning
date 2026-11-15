@@ -1,0 +1,3 @@
+degree   best = 10       CV RMSE = 0.484  test RMSE = 0.696
+n_knots  best = 11       CV RMSE = 0.485  test RMSE = 0.566
+alpha    best = 0.1      CV RMSE = 0.582  test RMSE = 0.541

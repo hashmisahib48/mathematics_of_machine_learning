@@ -1,0 +1,26 @@
+== Q1  why not a line
+least-squares line: [ 0.1667 -0.25  ]  at 1, 8, 10 hours: [-0.0833  1.0833  1.4167]
+logistic fit b, w: -5.770320352286165 1.2822934116187767  p at 0, 1, 8, 10, 20 h: [0.0031 0.0111 0.9889 0.9991 1.    ]
+odds multiplier per hour e^w: 3.604897766828749  z at 4, 5, 6 hours: [-0.6411  0.6411  1.9234]  ln 2 = 0.6931471805599453
+odds at 4, 5, 6 h: [0.5267 1.8987 6.8445]  ratios: 3.604897766828749
+log-odds of p = 0.001, 0.5, 0.999: [-6.9068  0.      6.9068]
+
+== Q2  the contribution (p - y) x of each student
+p: [0.0111 0.039  0.1275 0.345  0.655  0.8725 0.961  0.9889]
+p - y: [ 0.0111  0.039   0.1275 -0.655   0.655  -0.1275 -0.039  -0.0111]
+x (p - y): [ 0.0111  0.0779  0.3824 -2.6201  3.2751 -0.7649 -0.2727 -0.0889]  sum: -7.812861468892152e-12  sum of p - y: -1.2874146193553315e-12
+sum of |x (p - y)| of the six correct students: 1.5979210005904563   the two wrong ones: 5.89511366101636
+hypothetical: a student with 1 hour who PASSED: p = 0.011117809302480346  p - y = -0.9888821906975197  contribution to dJ/dw: -0.9888821906975197  squared error through the sigmoid, (p - y) p (1 - p) x: -0.010871972159527636
+the same student who FAILED (correct, confident): p - y = 0.011117809302480346  contribution 0.011117809302480346
+
+== Q3  lambda = 1/(C n), and C n is what counts
+n = 426: lambda = 1/(C n) = 0.002347
+n = 4260: lambda = 1/(C n) = 0.000235
+C for the second analyst to keep lambda: 0.1
+n = 426  |w| for C = 1: 3.5955247637775387  10 copies (n = 4260) with C = 1: 8.5599   with C = 0.1: 3.5955
+largest difference of coefficients, C = 0.1 on 10 copies against C = 1 on one copy: 2.886579864025407e-15  C = 1 on 10 copies: 3.090613078939514
+
+== Q4  C = infinity against C = 1 on the breast-cancer data (the split of section 16.12)
+C =    inf: |w| =    1698.70  train acc 1.0000  test acc 0.9441  test log loss 2.0164  largest |z| on test    8565.2  n_iter 55  warnings 0
+C =      1: |w| =       3.60  train acc 0.9906  test acc 0.9580  test log loss 0.0859  largest |z| on test      29.0  n_iter 46  warnings 0
+with C = inf, the confidence on the test errors: p of the predicted class [1. 1. 1. 1. 1. 1. 1. 1.]

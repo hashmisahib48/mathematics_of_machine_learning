@@ -1,0 +1,9 @@
+batch  100: min |cos| 0.9038, max variance error 8.9e-02
+batch  400: min |cos| 0.9888, max variance error 2.9e-02
+batch 1797: min |cos| 1.0000, max variance error 0.0e+00
+partial_fit: seen 1797 samples; ratio sum 0.7347  PCA 0.7382
+TruncatedSVD: |cos(component 1, mean)| = 0.99998
+  ratio [0.0287 0.1489]  PCA [0.1489 0.1362]
+centred: components agree True
+  variance ratio to PCA 0.999444  (n-1)/n = 0.999444
+sparse input = dense input: True

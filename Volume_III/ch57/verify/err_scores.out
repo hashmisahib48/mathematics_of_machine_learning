@@ -1,0 +1,6 @@
+AUC of the scores : 0.9952
+AUC of the labels : 0.955 (no error, no warning)
+f1, three classes   ValueError: Target is multiclass but average='binary'. Pleas
+AUC, no multi_class ValueError: multi_class must be in ('ovo', 'ovr')
+AUC, margins        ValueError: Target scores need to be probabilities for multi
+AUC, ovr             0.9984

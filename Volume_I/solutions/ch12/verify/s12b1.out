@@ -1,0 +1,6 @@
+copies  alpha_ lambda_  sd(w)  sd(y*)  36 sd(w)^2  1/alpha_
+     1    1.667   1.282  0.1700   1.281     1.0400    0.6000
+     4    2.083   1.244  0.0772   0.833     0.2144    0.4800
+    16    2.187   1.237  0.0378   0.713     0.0513    0.4571
+limit of alpha_: n / SSE = 2.2222   floor 1/sqrt(alpha_) = 0.6708
+limit of lambda_: 1 / slope^2 = 1.2346

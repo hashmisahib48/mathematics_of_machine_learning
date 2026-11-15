@@ -1,0 +1,11 @@
+BayesianRidge: slope 0.802 intercept 0.933 alpha_ = 0.1942 -> noise sd 2.269
+predictive sd over the sample: min 2.269 max 2.281 ; band half width 2 sd = 4.55 everywhere
+inside +-2 sd: all 0.950, x < 2.5 1.000 (n = 78), x > 7.5 0.806 (n = 72)
+QuantileRegressor 0.025 / 0.975: inside all 0.947, x < 2.5 0.897, x > 7.5 0.917
+x range      n   true sd(mid)  residual sd   BR half-width  BR inside  QR half-width  QR inside
+ 0.0 -  2.5   78        0.64         0.83           4.55       1.00           1.21       0.90
+ 2.5 -  5.0   82        1.51         1.35           4.54       1.00           3.31       0.99
+ 5.0 -  7.5   68        2.39         2.08           4.54       0.99           5.21       0.99
+ 7.5 - 10.0   72        3.26         3.79           4.55       0.81           7.32       0.92
+true sd at x = 0 and x = 10: 0.20 and 3.70, ratio 18.5
+figure width 4.97 in, printed 4.9 in, smallest font 8.5 pt -> printed 8.4 pt

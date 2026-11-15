@@ -1,0 +1,11 @@
+kurtosis of the projection on a direction, n = 4000 (sampling s.d. about 0.08)
+two Gaussians        min  -0.01 at   8.0 deg   max   0.15 at  72.0 deg   spread 0.16
+two uniforms         min  -1.20 at  88.0 deg   max  -0.60 at 134.0 deg   spread 0.60
+Gaussian + uniform   min  -1.20 at  90.0 deg   max   0.02 at 164.0 deg   spread 1.22
+covariance of the rotated Gaussian sources:
+ [[0.999 0.014]
+ [0.014 0.988]]
+two Gaussian sources       worst |corr| of the estimates with the true sources over 40 data sets: min 0.698  median 0.881  max 0.998
+two uniform sources        worst |corr| of the estimates with the true sources over 40 data sets: min 0.991  median 0.999  max 1.000
+one Gaussian, one uniform  worst |corr| of the estimates with the true sources over 40 data sets: min 0.740  median 0.996  max 1.000
+figure width 5.27 in, printed 4.9 in, smallest font 8.2 pt -> printed 7.6 pt

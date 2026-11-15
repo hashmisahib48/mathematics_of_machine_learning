@@ -1,0 +1,35 @@
+{
+ "digits_train_shape": [
+  1347,
+  64
+ ],
+ "constant_pixels": 4,
+ "rank_nonzero_eig": 60,
+ "smallest_eig": [
+  5.787346852404202e-16,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "auto_solver_digits": "covariance_eigh",
+ "whiten_min_scale_clipped": 3,
+ "whiten_max_abs_test_score": 3080961072003285.5,
+ "whiten_ft_equals_t": true,
+ "kpca_linear_equals_pca": true,
+ "kpca_eig_over_n_minus_1_equals_pca_var": true,
+ "nan": "ValueError: Input X contains NaN. PCA does not accept missing values encoded as NaN natively. For supervised learning, you",
+ "sparse_randomized": "TypeError: PCA only support sparse inputs with the \"arpack\" and \"covariance_eigh\" solvers, while \"randomized\" was passed.",
+ "float_randomized": "ValueError: n_components=0.9 must be between 1 and min(n_samples, n_features)=64 with svd_solver='randomized'",
+ "too_many": "ValueError: n_components=70 must be between 0 and min(n_samples, n_features)=64 with svd_solver='covariance_eigh'",
+ "mle_wide": "ValueError: n_components='mle' is only supported if n_samples >= n_features",
+ "arpack_all": "ValueError: n_components=64 must be strictly less than min(n_samples, n_features)=64 with svd_solver='arpack'",
+ "inc_batch_size_": 320,
+ "sparse_objective": 964.9971423012923,
+ "sparse_error_last": 964.9971423012921,
+ "sparse_nz": [
+  8,
+  3,
+  2
+ ],
+ "sparse_n_iter": 29
+}

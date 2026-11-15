@@ -1,0 +1,8 @@
+depth 1: train 0.6188  test 0.6125
+depth 2: train 1.0000  test 0.9625
+share of class 1 for x1 > 0: 0.562, for x1 <= 0: 0.482; for x2 > 0: 0.491, x2 <= 0: 0.554
+stumps: largest |F(a,b) - F(a,c) - F(c,b) + F(c,c)| = 0.0
+depth 2: same quantity = 8.113
+20 fresh training sets, 2000 fresh test points: stumps 0.518 (range 0.424 - 0.589), depth 2 0.975
+stumps with the extra feature x1*x2: test accuracy 1.0000
+figure width 4.16 in, smallest font 8.0 pt -> printed at 4.5 in: 8.7 pt

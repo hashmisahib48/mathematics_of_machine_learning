@@ -1,0 +1,21 @@
+coin-toss labels, n = 100, p = 40: share separable 0.0350;  for n = 2(p+1) = 82 it is 0.50
+
+C = inf, standardised-size features: the solver tolerance decides the weights
+   tol      n_iter   |w|    train acc  test acc  test log loss  warnings
+   1e-02       4    1.71    1.000    0.9984       0.0210   []
+   1e-04      11    3.92    1.000    0.9980       0.0053   []
+   1e-06      17    5.95    1.000    0.9976       0.0048   []
+   1e-08      24    8.37    1.000    0.9976       0.0056   []
+   1e-10      31   10.82    1.000    0.9976       0.0069   []
+   1e-12      37   12.93    1.000    0.9974       0.0082   []
+
+the same data with every feature in units 1000 times smaller (default tol = 1e-4, max_iter = 100)
+C = inf: |w| = 5246  largest |w_j| = 1171  train acc 1.000  n_iter 25  warnings []
+
+with a penalty (features of the original size)
+C =  1.00: |w| =  1.85  train acc 1.000  test acc 0.9978  test log loss 0.0193  warnings []
+C =  0.10: |w| =  1.10  train acc 1.000  test acc 0.9982  test log loss 0.0600  warnings []
+C =  0.01: |w| =  0.50  train acc 1.000  test acc 0.9974  test log loss 0.2136  warnings []
+
+norm of w for tol = 1e-1 ... 1e-12: {1.0: [1.0, 1.7, 2.6, 3.9, 4.9, 5.9, 7.3, 8.4, 9.4, 10.8, 11.9, 12.9], 0.001: [0.0, 0.0, 0.0, 5246.2, 6786.8, 8997.8, 10714.0, 12453.2, 14790.9, 16552.2, 18317.8, 20676.5]}
+smallest text 8.0

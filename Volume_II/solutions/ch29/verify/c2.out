@@ -1,0 +1,15 @@
+member   in-sample  5-fold on the same rows  test   gap (in-sample - 5-fold)
+lr         0.7933                  0.7667  0.8100    0.0267
+rf         1.0000                  0.7900  0.8133    0.2100
+nn1        1.0000                  0.6667  0.7067    0.3333
+
+stack        weights (lr, rf, nn1)   train   test
+out-of-fold  [1.93 2.67 0.42]  0.9667  0.8167
+in-sample    [0.75 3.04 4.56]  1.0000  0.7067
+
+accuracy of each column of Z used as a vote (lr, rf, nn1), on the training rows:
+  in-sample answers : [0.7933, 1.0, 1.0]
+  out-of-fold answers: [0.7667, 0.79, 0.6667]
+correlation of each column with y:
+  in-sample : [0.62, 0.976, 1.0]
+  out-of-fold: [0.581, 0.613, 0.333]

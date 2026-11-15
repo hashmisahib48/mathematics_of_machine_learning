@@ -1,0 +1,8 @@
+SVR(kernel='linear')               w = 1.3333  b = 2.3333
+LinearSVR, intercept_scaling=1     w = 1.7308  b = 0.3462
+   minimiser of Eq. 23.4-3         w = 1.7308  b = 0.3462
+LinearSVR, intercept_scaling=10    w = 1.3333  b = 2.3333
+   minimiser of Eq. 23.4-3         w = 1.3333  b = 2.3333
+LinearSVR, squared loss            w = 1.7274  b = 0.3455
+   minimiser                       w = 1.7274  b = 0.3455
+defaults: 0.0 epsilon_insensitive auto 0.0001 1000

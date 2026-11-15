@@ -1,0 +1,15 @@
+columns: sin/cos 2, two harmonics 4, three harmonics 6, periodic spline 8
+two rush hours (cyclic.py)
+   sin, cos         R2 0.1693   largest error 3.120
+   2 harmonics      R2 0.6870   largest error 1.818
+   3 harmonics      R2 0.9423   largest error 0.849
+   periodic spline  R2 0.9353   largest error 0.931
+one hump a day
+   sin, cos         R2 1.0000   largest error 0.000
+   2 harmonics      R2 1.0000   largest error 0.000
+   3 harmonics      R2 1.0000   largest error 0.000
+   periodic spline  R2 1.0000   largest error 0.002
+the one-harmonic fit is  c + A sin + B cos  with  A = 0.223, B = -0.817: one peak at 10.98 h and one trough at 22.98 h, amplitude 0.847
+true demand: peaks at 8 h (7.00) and 17.5 h (5.00), valley at 13 h (2.11), night 3 h (2.01)
+one-harmonic fit at 8, 13, 17.5, 3 h: [3.88 4.01 3.17 2.86]
+smallest text 7.6

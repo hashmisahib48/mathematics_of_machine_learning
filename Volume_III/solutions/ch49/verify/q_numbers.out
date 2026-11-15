@@ -1,0 +1,28 @@
+== Question 1: who cares about units
+OLS             bmi coefficient    593.407 ->    0.59341   max |prediction change| 9.38e-13   test RMSE 56.393 -> 56.393
+Ridge(alpha=1)  bmi coefficient    302.877 ->    0.80215   max |prediction change| 5.94e+01   test RMSE 56.501 -> 59.116
+DecisionTree    test accuracy raw 0.9021  scaled 0.9021  predictions identical: True
+RandomForest    test accuracy raw 0.9441  scaled 0.9441  predictions identical: True
+Logistic C=1    test accuracy raw 0.9371  scaled 0.9580  predictions identical: False
+
+== Question 2: counts with zeros
+share of zeros 0.213, max 79, skewness 4.158
+box-cox: The Box-Cox transformation can only be applied to strictly positive da
+log1p skew 0.489;  Yeo-Johnson lambda -0.225, skew 0.048;  Box-Cox of (x+1) lambda -0.225
+  x = 0  log1p 0.000   Yeo-Johnson (before standardising) -0.000
+  x = 1  log1p 0.693   Yeo-Johnson (before standardising) 0.642
+  x = 3  log1p 1.386   Yeo-Johnson (before standardising) 1.191
+  x = 9  log1p 2.303   Yeo-Johnson (before standardising) 1.798
+lambda refitted on a second sample of 1000: -0.217
+
+== Question 3: the clamp of the quantile map
+true line at 10, 20, 1000: [  31.   61. 3001.]
+OLS on x          : [  30.9   60.7 2986.5]
+OLS on quantile(x): [31. 31. 31.]  transformed values [1. 1. 1.]
+normal output at 10, 20, 1000: [5.199 5.199 5.199]
+
+== Question 4: Normalizer
+row norm: mean malignant 1743.0, mean benign 736.8; AUC of the norm alone 0.962
+after Normalizer every row has norm [1.]
+share of squared norm carried by the two area columns: 0.9839
+two documents [[2. 1. 0.]] [[20. 10.  0.]] -> Normalizer: [[0.894 0.447 0.   ]] [[0.894 0.447 0.   ]]

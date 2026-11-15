@@ -1,0 +1,7 @@
+median squared nearest-neighbour distance: 275
+at gamma=20 that weight is exp(-5500) = 0.0
+rbf gamma=20    n_iter_=1     accuracy 0.099  warnings: ['RuntimeWarning']
+rbf gamma=0.02  n_iter_=3000  accuracy 0.878  warnings: ['ConvergenceWarning']
+knn k=4   rows without label mass:  371  accuracy 0.688
+knn k=7   rows without label mass:   24  accuracy 0.866
+knn k=12  rows without label mass:    0  accuracy 0.858

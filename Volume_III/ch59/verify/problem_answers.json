@@ -1,0 +1,42 @@
+{
+ "59A.1": {
+  "fits_search": 401,
+  "fits_nested": 2005
+ },
+ "59A.2": {
+  "accuracy": 0.9161,
+  "se": 0.0232,
+  "interval": [
+   0.871,
+   0.962
+  ],
+  "half_width": 0.0454
+ },
+ "59B.1": {
+  "MAE_target_encoding": 35.84,
+  "MAE_one_hot": 35.92,
+  "rows": 2250,
+  "districts": 40,
+  "smallest_district_rows": 20
+ },
+ "59C.2": {
+  "single_column_AUC": {
+   "visits": 0.635,
+   "tenure": 0.602,
+   "spend": 0.562,
+   "status": 1.0
+  }
+ },
+ "59C.3": {
+  "inertia": [
+   16909,
+   7572,
+   5055,
+   3920,
+   3234,
+   2844,
+   2463,
+   2155
+  ]
+ }
+}

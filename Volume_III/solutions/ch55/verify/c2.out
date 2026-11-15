@@ -1,0 +1,8 @@
+autocorrelation of the residuals, lag 0..12: [1.0, 0.9, 0.81, 0.72, 0.65, 0.58, 0.52, 0.47, 0.42, 0.38, 0.34, 0.3, 0.27]
+first lag with 0.9^h below 0.05: 29
+0.9^h for h = 1, 4, 5, 10: [0.9, 0.656, 0.59, 0.349]
+MSE of the d-weeks-ahead forecast (mean of 8 series), d = [1, 2, 4, 8, 16]
+  forest  RMSE [4.31, 5.4, 6.68, 8.53, 11.15]
+  ridge   RMSE [7.25, 7.42, 7.73, 8.23, 8.81]
+ratio of RMSE at d = 4 to d = 1: forest 1.55   ridge 1.07
+figure width 4.37 in, printed 4.9 in, smallest font 8.2 pt -> printed 9.2 pt

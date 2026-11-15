@@ -1,0 +1,84 @@
+== 34A.1  nodes A, u, v, B; links A-u 3, u-v 2, v-B 4, u-B 1
+degrees A, u, v, B: [3. 6. 6. 5.]
+matrix D_UU - W_UU:
+ [[ 6. -2.]
+ [-2.  6.]] 
+right-hand side W_UL f_L: [1. 4.]  det = 32.0
+f_u, f_v = [0.4375 0.8125]  as 16 f: [ 7. 13.]
+weighted means of the neighbours: [0.4375 0.8125]  check 7/16, 13/16 = 0.4375 0.8125
+f_u from first equation with f_v = 13/16: 0.4375
+
+== 34A.2  chain 1 -2 -3, weights 1 and 3, alpha 0.5
+degrees: [1. 4. 3.]  S12 = 0.5  S23 = 0.8660254037844387  S23^2 = 0.7500000000000001
+alpha S Y:
+ [[0.    0.   ]
+ [0.25  0.433]
+ [0.    0.   ]] 
+(1-alpha) Y:
+ [[0.5 0. ]
+ [0.  0. ]
+ [0.  0.5]] 
+F after one step:
+ [[0.5   0.   ]
+ [0.25  0.433]
+ [0.    0.5  ]]  class of node 2: 1
+I - alpha S:
+ [[ 1.    -0.25   0.   ]
+ [-0.25   1.    -0.433]
+ [ 0.    -0.433  1.   ]]
+F limit:
+ [[0.5417 0.0722]
+ [0.1667 0.2887]
+ [0.0722 0.625 ]]
+column 0 by hand: f2 = 0.16666666666666666  (1/6 = 0.16666666666666666 )
+column 1 by hand: f2 = 0.2886751345948129
+node 2 row: [0.1667 0.2887]  normalised: [0.366 0.634]
+scikit-learn label_distributions_[1] = [0.366 0.634]  max diff all rows: 4.440892098500626e-16
+
+== 34A.3  links 1-2 (2), 2-3 (1), 4-5 (3); nodes 1 (class 0) and 3 (class 1) labelled
+degrees: [2. 3. 1. 3. 3.]
+D_UU - W_UU for nodes 2, 4, 5:
+ [[ 3.  0.  0.]
+ [ 0.  3. -3.]
+ [ 0. -3.  3.]] 
+det = 0.0  rank = 2
+null vector (0, 1, 1): M @ v = [0. 0. 0.]  block 4,5 det = 0.0
+f_2 = (2*0 + 1*1)/3 = 0.3333333333333333
+label_distributions_:
+ [[1.     0.    ]
+ [0.6667 0.3333]
+ [0.     1.    ]
+ [0.     0.    ]
+ [0.     0.    ]] 
+transduction_: [0 0 1 0 0]  classes_: [0 1]  n_iter_: 2
+
+== 34A.4  samples at 0, 1, 3, 7; knn with 2 neighbours, itself included
+W:
+ [[1 1 0 0]
+ [1 1 0 0]
+ [0 1 1 0]
+ [0 0 1 1]] 
+column sums: [2. 3. 2. 1.]  row sums: [2. 2. 2. 2.]
+T:
+ [[0.5 0.5 0.  0. ]
+ [0.5 0.5 0.  0. ]
+ [0.  0.5 0.5 0. ]
+ [0.  0.  0.5 0.5]]
+iteration (share of class 1 at samples 2, 3):
+  t = 0: [0.5 0.5]
+  t = 1: [0.25 0.5 ]
+  t = 2: [0.125 0.375]
+  t = 3: [0.0625 0.25  ]
+  t = 4: [0.0312 0.1562]
+  t = 5: [0.0156 0.0938]
+  t = 6: [0.0078 0.0547]
+scikit-learn transduction_: [0 0 0 1] 
+label_distributions_:
+ [[1. 0.]
+ [1. 0.]
+ [1. 0.]
+ [0. 1.]]
+
+== slips mentioned in the instructor notes
+34A.1 with d_u = 5 (link u-B left out of the degree): [0.5385 0.8462]
+34A.2 with T = D^-1 W instead of S, one step: [0.125 0.375]

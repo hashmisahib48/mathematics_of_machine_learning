@@ -1,0 +1,13 @@
+annulus: 600 points, radii 1.00 to 2.00
+mean distance to the 10th neighbour 0.240 (hole diameter 2)
+method           T(10)  Procrustes disparity  inner/outer radius
+original                                                   0.537
+MDS             1.0000                0.0000               0.537
+Isomap          0.9985                0.0060               0.706
+LLE             1.0000                0.0002               0.542
+Laplacian       0.9841                0.0276               0.888
+t-SNE           0.9992                0.0051               0.656
+farthest pair: straight line 3.984, graph geodesic 4.565
+opposite pairs (distance > 2.5, angle apart > 2.8 rad): median geodesic/straight ratio 1.169, largest 1.469; all pairs: median 1.057
+eigenvalues of the classical MDS of the ring (full): [765.75 737.71   0.     0.  ]   (two dimensions only: the data are flat)
+figure width 5.42 in, printed 4.9 in, smallest font 8.8 pt -> printed 7.9 pt

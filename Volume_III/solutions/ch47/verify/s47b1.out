@@ -1,0 +1,10 @@
+identity   : h = 2.25  LOO ln f = -3.7219
+LeaveOneOut: h = 2.25  ln f = -3.7219
+largest difference: 8.9e-16
+10-fold    : h = 2.50  ln f = -3.7244
+h =  1.00  LOO ln f = -3.7534
+h =  2.00  LOO ln f = -3.7230
+h =  2.50  LOO ln f = -3.7223
+h =  3.00  LOO ln f = -3.7268
+h =  5.00  LOO ln f = -3.7832
+h = 10.00  LOO ln f = -4.0011

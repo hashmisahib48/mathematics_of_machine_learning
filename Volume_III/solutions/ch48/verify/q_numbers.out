@@ -1,0 +1,42 @@
+== Question 1: the score 0.5 on a healthy month
+forest fitted on 300 healthy readings, psi = 256 : share flagged by 'auto' in the training month 0.23 = 69 of 300
+same forest on 30 000 fresh healthy readings: share with s > 0.5: 0.2753
+score quantiles of the fresh healthy readings (s): 50% 0.461  90% 0.558  99% 0.662  99.9% 0.724  max 0.736
+500 faults: median s 0.689  share above 0.5: 1.0  share above the 99.9% healthy limit 0.724 : 0.086
+AUC healthy against faults: 0.9894
+fault rate 0.001: with 12 % flagged the best precision is 0.0083; at 10 000 readings/day: 10 faults, 1200 flags
+300 healthy readings: largest s 0.67  99.9% quantile estimate (=interpolated near the maximum) 0.67  against the 30 000 estimate 0.724
+  share of fresh healthy readings above the largest of the 300: 0.0085
+
+== Question 2: where the forest and the factor agree and disagree
+A: one Gaussian blob of 200 and a point at (6, 6): rank of the point by forest 1, by LOF 1  (scores 0.865, 7.35)
+C: dense blob (sd 0.1) + sparse blob (sd 1.5) at 6 + a point at [0.8, 0.0] : rank by forest 53, by LOF 1  (scores 0.528, 7.23)
+C: dense blob (sd 0.1) + sparse blob (sd 1.5) at 6 + a point at [1.2, 0.0] : rank by forest 43, by LOF 1  (scores 0.541, 11.90)
+C: dense blob (sd 0.1) + sparse blob (sd 1.5) at 6 + a point at [0.5, 0.0] : rank by forest 62, by LOF 1  (scores 0.513, 3.79)
+   the forest's top five of C are in the sparse blob: True  largest scores [0.661 0.663 0.671 0.684 0.708]
+   nearest distances in C: the point to its 10th neighbour 0.653  typical 10th-neighbour distance in the dense blob 0.043  in the sparse blob 0.637
+B: the toy readings: forest s(7) = 0.507, s(21) = 0.623, rank of 21 1, of 7 5; LOF(7) = 3.00, LOF(21) = 1.03, rank of 7 1, of 21 3
+
+== Question 3: the mean and the standard deviation of the scaler
+sd of the vibration: all 315 readings 0.959, the 300 clean ones 0.831; sd of the temperature 10.772 against 10.543
+median and MAD-based scale of the vibration, all 315: 1.484, 0.973
+a batch of 50 idle readings with the temperature drifted by +8 deg C (2.7 sd of the idle mode):
+  scaled with the training mean and sd      : flagged 9 of 50
+  scaled with its own mean and sd (the leak): flagged 30 of 50;  the mean of the scaled temperatures -0.0
+  scaled with the training scaler, mean z of the temperature: -0.23
+  scaler fitted on training + batch: flagged 5 of 50 with the old detector
+  scaler fitted on training + batch and the detector refitted in that space: flagged 10 of 50
+a batch of 50 faulty readings:
+  scaled with the training mean and sd      : flagged 50 of 50
+  scaled with its own mean and sd (the leak): flagged 28 of 50; mean of the scaled batch [-0. -0.]  sd [1. 1.]
+  sd of the faulty batch [16.61  1.43] against the training sd [10.54  0.83]
+
+== Question 4: ten million readings with 20 features
+forest, 100 trees, psi = 256: fit on 20 000 rows 0.34 s;  scoring 200 000 rows 2.93 s -> 10^7 rows about 147 s (single process)
+forest fit on 200 000 rows (psi still 256): 1.93 s
+LOF (k = 20) fit on 20 000 rows: 4.63 s; the neighbour search is quadratic, so 10^7 rows would take about 1.2e+06 s = 13 days
+LOF (k = 20) fitted on 20 000 rows: scoring 5 000 rows 1.23 s -> 10^7 rows about 2452 s = 0.7 h
+Nystroem(100) + SGDOneClassSVM, 5 epochs on 200 000 rows: fit 9.74 s, scoring 200 000 rows 6.58 s -> 10^7 rows: fit about 487 s, scoring about 329 s
+book timing of the exact one-class SVM: slope of ln t against ln n over the last three sizes: 2.12
+   extrapolated to 10^7 rows from 5.794 s at 40 000: 7.1e+05 s = 8 days
+book timing of Nystroem + SGD: slope over the last three sizes: 1.72  (30 epochs, 100 landmarks)

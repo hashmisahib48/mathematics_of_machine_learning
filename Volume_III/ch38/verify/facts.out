@@ -1,0 +1,40 @@
+1. eps is inclusive, min_samples counts the point itself
+  distance exactly eps: [0 0]
+  3 points, min_samples=3: [0 0 0]  min_samples=4: [-1 -1 -1]
+2. DBSCAN with min_samples=1 is single linkage cut at eps
+  eps=0.1: ARI=1.000, clusters=26
+  eps=0.2: ARI=1.000, clusters=8
+  eps=0.3: ARI=1.000, clusters=6
+3. HDBSCAN: min_samples=None means min_cluster_size
+  identical: True
+  default copy: ['FutureWarning']
+  predict exists?  DBSCAN False  HDBSCAN False  OPTICS False  MeanShift True
+4. HDBSCAN scratch pipeline agrees with the library
+  all 8 configurations identical (labels, probabilities, merge heights): True
+5. HDBSCAN: dbscan_clustering is DBSCAN without border points
+  eps=0.2 m=5: core points agree (ARI 1.00); border points 2, noise DBSCAN 8, noise of the cut 10
+  eps=0.15 m=5: core points agree (ARI 1.00); border points 14, noise DBSCAN 8, noise of the cut 22
+  eps=0.3 m=8: core points agree (ARI 1.00); border points 3, noise DBSCAN 5, noise of the cut 8
+6. OPTICS: core distance, extraction rule
+  core_distances_ == distance to 5th nearest (self first): True
+  infinite reachabilities: 1  first point: 0
+  eps=0.15: matches the rule True; differs from DBSCAN in 0 points
+  eps=0.2: matches the rule True; differs from DBSCAN in 0 points
+  eps=0.3: matches the rule True; differs from DBSCAN in 0 points
+  toy: OPTICS labels [ 0  0  0  0  0 -1  1  1  1 -1]  DBSCAN [ 0  0  0  0  0  1  1  1  1 -1]
+7. MeanShift: bandwidth estimate and a from-scratch run
+  estimate_bandwidth 0.8689, formula 0.8689, k = 75
+  h=0.5: scratch 6 modes, MeanShift 6, labels equal True
+  h=0.9: scratch 1 modes, MeanShift 1, labels equal True
+  h=1.5: scratch 1 modes, MeanShift 1, labels equal True
+  seeds: all points 252  bin_seeding at h=0.9: 11
+8. Other arguments
+  sample_weight 4 on the stray, min_samples=4: [0 0 0 0 0 1 1 1 1 2]
+  precomputed distances give the same labels: True
+  one Gaussian blob: default 2 clusters (114 noise); allow_single_cluster 1 cluster (114 noise)
+  min_cluster_size=3: 33 clusters, 70 noise
+  cluster_selection_epsilon=0.05: 33 clusters, 70 noise
+  cluster_selection_epsilon=0.15: TypeError: only 0-dimensional arrays can be converted to Python scalars
+  store_centers='both': (2, 2) (2, 2)
+  OPTICS min_samples=0.05 means 12 of 252 samples; clusters 7
+  xi hierarchy: shape (7, 2) labels_ clusters 4

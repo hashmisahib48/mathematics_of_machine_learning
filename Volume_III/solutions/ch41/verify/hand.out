@@ -1,0 +1,20 @@
+== 41A.1  silhouette of p = 3
+a = 1.5  b(cluster 2) = 3.3333  b(cluster 3) = 7.5000  b = 3.3333  s = 0.5500
+silhouette_samples: 0.55
+slip: own cluster averaged over 3 (self included): a = 1.0000, s = 0.7000
+slip: nearest neighbour instead of mean distance: b = 2.0, s = 0.2500
+distances of p to cluster 2: [2.0, 3.0, 5.0]  to cluster 3: [7.0, 8.0]
+
+== 41A.2  Rand and adjusted Rand
+cell pairs C(n_ij,2): [[6, 0], [0, 6]]  class pairs 20  cluster pairs 20  C(10,2) = 45
+P11 P10 P01 P00 = 12 8 8 17  sum 45
+RI = 29/45 = 0.6444   E = 8.8889   max = 20.0   ARI = 0.2800
+pair form: 2(P11 P00 - P10 P01) / [...] = 0.2800
+sklearn: RI 0.6444  ARI 0.2800
+slip: RI taken as the answer: 0.6444, which looks good although ARI is 0.28; expected RI of independent labellings with these sizes is 0.5062
+
+== 41A.3  CH and DB
+overall mean 5.0  cluster means [2.0, 8.0]  SST 58.0  SSW 4.0  SSB 54.0  sum 58.0
+CH = (54/1)/(4/4) = 54.0   sklearn 54.0
+S_k = [0.6667 0.6667]  centre distance 6.0  ratio = 0.2222   DB = 0.2222   sklearn 0.2222
+slip: divide SSW by n = 6 instead of n-K = 4: CH = 81.0

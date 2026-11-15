@@ -1,0 +1,12 @@
+49A.1  mean 10.0  squared deviations [ 64.  36.  16.   4. 400.]  sum 520.0  var 104.0  sd 10.1980
+standard : [0.1961 2.9417]
+min, max, range 2.0 30.0 28.0  minmax : [0.3571 1.3571]  clipped: [0.3571 1.    ]
+quartiles 4.0 6.0 8.0  IQR 4.0  robust : [1.5 8.5]
+scikit-learn agrees
+without the 30: sd 2.2361, range 6, IQR 3
+40 in units of the training spread: standard 2.942, minmax 1.357, robust 8.500
+with ddof=1: sd 11.4018 -> standard scores [0.1754 2.6312]
+49A.2  lambda 0  psi [-7.5    -1.5     0.      0.6931  1.3863]  scipy [-7.5    -1.5     0.      0.6931  1.3863]
+49A.2  lambda 2  psi [-1.3863 -0.6931  0.      1.5     7.5   ]  scipy [-1.3863 -0.6931  0.      1.5     7.5   ]
+terms: (1-x)^(2-lam) at x=-3, lam=0: 16 ; at x=-1: 4
+mirror: psi(x;2) = -psi(-x;0): True

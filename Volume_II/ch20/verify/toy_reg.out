@@ -1,0 +1,7 @@
+x0=3.6  k=2 mean neighbours [4 3] d=[0.4 0.6]  prediction 6.5000
+x0=3.6  k=2 1/d  neighbours [4 3] d=[0.4 0.6]  prediction 6.6000
+x0=3.6  k=3 mean neighbours [4 3 5] d=[0.4 0.6 1.4]  prediction 7.6667
+x0=6.0  k=2 mean neighbours [5 4] d=[1. 2.]  prediction 8.5000
+x0=6.0  k=2 1/d  neighbours [5 4] d=[1. 2.]  prediction 9.0000
+x0=6.0  k=3 mean neighbours [5 4 3] d=[1. 2. 3.]  prediction 7.6667
+least squares: 7.02 and 11.10

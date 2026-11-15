@@ -1,0 +1,7 @@
+splitter                 mean     sd  gap to new
+KFold, shuffled         0.884  0.030      +0.275
+StratifiedKFold         0.895  0.024      +0.286
+GroupKFold              0.609  0.078      +0.001
+StratifiedGroupKFold    0.619  0.099      +0.010
+LeaveOneGroupOut        0.609  0.092      +0.001
+new patients (truth)    0.609  0.058

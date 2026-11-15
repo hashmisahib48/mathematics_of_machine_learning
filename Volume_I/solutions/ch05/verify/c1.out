@@ -1,0 +1,13 @@
+function                         eig(H)  share of directions    GD from 0.01 away
+x^2 + y^2 (minimum)             [2. 2.]                0.000             1.87e-16
+x^2 - y^2 (saddle)            [-2.  2.]                0.470              1.4e+10
+x^4 + y^4 (flat minimum)        [0. 0.]                0.000              0.00996
+x^3 + y^2 (no minimum)          [0. 2.]                0.102              0.00781
+(share of directions: fraction of 1000 random steps of length 0.1 that lower f; GD: median distance to the origin after 300 steps)
+
+the curve of the problem figure, f(w) = sin(2w) + 0.15 w^2
+ f'(0) = 2.000, f''(0) = 0.300   (the marked point is on a slope, not on a flat spot)
+ stationary w = -2.553   f = +1.901   f'' = -3.40   maximum
+ stationary w = -0.731   f = -0.914   f'' = +4.28   minimum
+ stationary w = +0.849   f = +1.100   f'' = -3.67   maximum
+ stationary w = +2.189   f = -0.226   f'' = +4.08   minimum

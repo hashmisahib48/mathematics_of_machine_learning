@@ -1,0 +1,6 @@
+best bandwidth 3.0
+mean ln f: train -47.55  test -57.9
+mixture of 10:  test -57.1
+pixel range of 500 samples -8.2 26.5
+lowest scores -78.9 -72.9
+their digits  [6 9 8 8 5 1 9 3 8 5]

@@ -1,0 +1,10 @@
+train (133, 13) test (45, 13) [59 71 48]
+feature s.d. 0.12 to 323.6
+majority class            train 0.3985  test 0.4000  cv 0.3986
+5-NN, raw                 train 0.8195  test 0.6667  cv 0.7214
+5-NN, scaled              train 0.9774  test 0.9333  cv 0.9405
+5-NN 1/d, scaled          train 1.0000  test 0.9333  cv 0.9330
+nearest centroid, raw     train 0.7519  test 0.6667  cv 0.7444
+nearest centroid, scaled  train 0.9624  test 0.9778  cv 0.9627
+NCA (2) + 5-NN, scaled    train 1.0000  test 1.0000  cv 0.9698
+k by cross-validation: 22, cv 0.9624, test 0.9778

@@ -1,0 +1,12 @@
+Q2  best five-fold accuracy 0.9906, reached by 2 cells; best_index_ = 56
+  cell 56  log2 C =  7  log2 gamma = -11  mean 0.9906  fold sd 0.0088  neighbours (9 cells) mean 0.9820 min 0.9672  test 0.9510
+  cell 64  log2 C =  9  log2 gamma = -13  mean 0.9906  fold sd 0.0088  neighbours (6 cells) mean 0.9828 min 0.9672  test 0.9441
+  one patient of 426 = 0.0023
+  rank_test_score of the two cells: [1, 1]
+
+Q4
+  defaults: five-fold 0.9859 (cross_val_score, stratified)   test 0.9580
+  grid: best_score_ 0.9906 (of M = 72)   test 0.9510   (136 of 143 test patients)
+  difference of the five-fold scores 0.0047 = 2.0 patients of 426
+  nested, five outer folds: [1.0, 0.9882, 0.9765, 0.9882, 0.9529]  mean 0.9812
+  standard error of the test accuracy on 143 patients: 0.0180

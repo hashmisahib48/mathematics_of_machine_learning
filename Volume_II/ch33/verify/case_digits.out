@@ -1,0 +1,8 @@
+model                          problems    rows  fit (s)  test acc
+LogisticRegression (softmax)          1    1347    0.244    0.9689
+OvR(LogisticRegression)              10   13470    1.751    0.9689
+OvO(LogisticRegression)              45   12123    1.119    0.9822
+LinearSVC (OvR inside)               10   13470    0.403    0.9511
+OvO(LinearSVC)                       45   12123    0.147    0.9756
+SVC rbf (OvO inside)                 45   12123    0.053    0.9822
+OvR(SVC rbf)                         10   13470    0.131    0.9800

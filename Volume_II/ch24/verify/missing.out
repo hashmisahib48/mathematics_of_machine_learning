@@ -1,0 +1,4 @@
+NaN seen in training: missing_go_to_left = 0  threshold 3.5
+  predict NaN -> [1]
+no NaN in training: left child n = 4  right child n = 2  missing_go_to_left = 1
+  predict NaN -> [0]

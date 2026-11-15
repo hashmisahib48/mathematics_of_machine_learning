@@ -1,0 +1,10 @@
+mean, std (ddof=0) : 5.0 2.2361
+std with n - 1     : 2.582
+z by hand          : [-1.3416 -0.4472  0.4472  1.3416]
+mean_, scale_      : [5.] [2.2361]
+transform equals   : True
+inverse_transform  : [2. 4. 6. 8.]
+
+value 10, stored mean and std : [2.2361]
+value 10, scaler saw it too   : [1.4142]
+constant column: var_, scale_ = [0.] [1.]

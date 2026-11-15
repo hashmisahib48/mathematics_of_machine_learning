@@ -1,0 +1,8 @@
+largest difference of the predictions: 7.1e-15
+intercepts: 20.3058 and 20.3058
+LinearRegression coef_ : [ 0.07538  0.86413 -0.78401]
+y_loadings_ x sd(y)    : [ 0.07538  0.86413 -0.78401]
+squared norms of scores: [4206.87  151.6   254.77]
+largest t_i . t_j, i != j: 7.3e-14
+corr(t1, t2) = 1.5e-17
+t_k . (y - mean) / t_k . t_k: [ 0.07538  0.86413 -0.78401]

@@ -1,0 +1,3 @@
+true demand at 0 h, 24 h: [2.003 2.003]
+constant  f(0) = 1.680  f(24) = 2.271  jump = 0.591
+periodic  f(0) = 2.098  f(24) = 2.098  jump = 0.000

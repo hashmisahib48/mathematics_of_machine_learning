@@ -1,0 +1,8 @@
+cut-off 11.143  n, p = (71, 4)
+empirical  caught  2 of 12, false alarms  0 of 59, relative error 0.624
+MinCovDet  caught 12 of 12, false alarms  2 of 59, relative error 0.116
+support: 38 raw, 55 reweighted; injected in raw support: 0
+location, clean     [  13.7    3.     5.5 1115.7]
+location, empirical [  13.6    2.6    5.8 1028.9]
+location, MinCovDet [  13.7    3.     5.4 1108.3]
+dist_ equals mahalanobis: True

@@ -1,0 +1,6 @@
+rising truth               RMSE to the truth, mean of 60 data sets: free 0.824  constrained 0.452  constrained better in 60 of 60;  falling steps (free) 50.0
+truth that falls after 6   RMSE to the truth, mean of 60 data sets: free 0.829  constrained 1.385  constrained better in 0 of 60;  falling steps (free) 52.1
+noise sd 2.5 -> a perfect model has RMSE 2.5 against new noisy y; RMSE above is against the noiseless truth
+book data, monotonic_cst None  falling steps: 48
+book data, monotonic_cst [1]  falling steps: 0
+figure width 4.36 in, printed 4.9 in, smallest font 8.0 pt -> printed 9.0 pt

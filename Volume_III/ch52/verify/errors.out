@@ -1,0 +1,2 @@
+ValueError: Negative values in data passed to MultinomialNB (input X).
+ValueError: Iterable over raw text documents expected, string object received.

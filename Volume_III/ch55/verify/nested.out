@@ -1,0 +1,4 @@
+labels are coin flips: true accuracy of any rule is 0.5
+best_cv  mean 0.6371  sd 0.0314
+nested   mean 0.5006  sd 0.0903
+fresh    mean 0.5003  sd 0.0070

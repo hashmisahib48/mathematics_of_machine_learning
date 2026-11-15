@@ -1,0 +1,5 @@
+max |eigenvalue difference|: 2.0e-13
+max |score difference|, raw: 71.738
+sign of each column relative to PCA: [-1 -1 -1 -1 -1]
+max |score difference| after the flip: 5.7e-13
+max difference with the sign rule applied: 5.7e-13

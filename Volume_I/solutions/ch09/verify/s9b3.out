@@ -1,0 +1,8 @@
+X'X (centred) = [[10.0, 10.0], [10.0, 10.0]]
+singular values of centred X: [4.47213595e+00 3.79738417e-16]
+MyOLS('normal'): LinAlgError: Singular matrix
+MyOLS('qr'    ): w = [-9.61578694e+14  9.61578694e+14]  b = 1.25
+MyOLS('svd'   ): w = [0.85 0.85]  b = 0.9
+LinearRegression  : w = [0.85 0.85]  b = 0.9  rank_ = 1
+sum of the weights: 1.7  (one-feature slope of Chapter 9: 1.7)
+predictions equal to the one-feature fit: True

@@ -1,0 +1,10 @@
+n =   500: fit with a fixed kernel   0.017 s    likelihood with gradient   0.051 s    K needs     2.0 MB
+n =  1000: fit with a fixed kernel   0.105 s    likelihood with gradient   0.253 s    K needs     8.0 MB
+n =  2000: fit with a fixed kernel   0.435 s    likelihood with gradient   0.852 s    K needs    32.0 MB
+n =  4000: fit with a fixed kernel   2.863 s    likelihood with gradient     nan s    K needs   128.0 MB
+log-log slope between n=2000 and 4000: 2.72   between 500 and 4000: 2.46
+n = 20000: K needs 3.2 GB (one copy); with the gradient array for 2 hyperparameters 9.6 GB
+cubic scaling from n=2000: factor 1000: fit 435 s = 7.2 min;  one likelihood with gradient 852 s;  50 evaluations 11.8 h
+cubic scaling from n=4000 (factor 125): fit 358 s
+cost of the subsample route: fit on 2000 (optimiser, ~50 evaluations): 43 s;  then one factorisation of all 20000: 7.2 min
+min font size: 8.5

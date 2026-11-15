@@ -1,0 +1,6 @@
+NMF: test error  346.6  5-NN accuracy 0.8933
+PCA: test error  291.7  5-NN accuracy 0.9800
+5-NN on the 64 pixels: 0.98
+NMF parts: share of zero pixels 0.735  pixels above 10% of the peak, per part: [ 8  3 13 16 12 10 18 11 10 16  9  8  6  6 11  3]
+PCA components: share of negative weights 0.461
+NMF scores: share of exact zeros 0.289  parts active per image: 11.4

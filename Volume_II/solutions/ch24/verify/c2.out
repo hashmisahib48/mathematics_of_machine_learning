@@ -1,0 +1,11 @@
+test accuracy per seed: [0.9021, 0.9161, 0.9021, 0.9231, 0.9161, 0.9231, 0.9231, 0.9161, 0.9091, 0.9021]
+test errors per seed  : [14, 12, 14, 11, 12, 11, 11, 12, 13, 14]  (of 143)
+range 0.9021 - 0.9231 = 3 patients = 0.0210; mean 0.9133, sd 0.0088
+binomial standard error of one accuracy on 143 patients: 0.0235; of a difference of two independent ones: 0.0333
+colleague's tree: seed 3 (0.9231); competitor's: seed 0 (0.9021)
+patients right only for hers: 4, only for his: 1, disagreement between the two trees 5 patients
+exact McNemar (binomial) p-value: 0.375
+200 splits: mean accuracy seed 3 0.9242, seed 0 0.9258
+200 splits: difference mean -0.0016, sd 0.0136, standard error 0.0010; seed 3 better in 73 splits, worse in 88, equal in 39
+difference observed on the book's split: 0.0210 = 1.54 sd of the 200 differences
+figure width 4.75 in, printed 4.9 in, smallest font 8.6 pt -> printed 8.9 pt

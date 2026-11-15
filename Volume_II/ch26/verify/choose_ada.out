@@ -1,0 +1,9 @@
+eta 1.0: best 0.9305 at  19 rounds; at 10, 50, 300: 0.916 0.886 0.891
+eta 0.3: best 0.9007 at  67 rounds; at 10, 50, 300: 0.841 0.881 0.881
+eta 0.1: best 0.8957 at 254 rounds; at 10, 50, 300: 0.831 0.871 0.891
+base depth 1: train 0.960  validation 0.886
+base depth 2: train 1.000  validation 0.881
+base depth 3: train 1.000  validation 0.905
+base depth 4: train 1.000  validation 0.885
+base depth 6: train 1.000  validation 0.905
+base depth 8: train 1.000  validation 0.880

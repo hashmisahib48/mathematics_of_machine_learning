@@ -1,0 +1,6 @@
+max |mean difference|: 2.7e-10
+log marginal likelihood: -5.974356 -5.974356
+x = 3.025: std alpha 0.1846, std White 0.2722, variance difference 0.040000
+x = 4.034: std alpha 0.2737, std White 0.3390, variance difference 0.040000
+largest |var_White - var_alpha - 0.04|: 1.6e-10
+alpha model, std of a NEW reading at x = 3.025: 0.2722

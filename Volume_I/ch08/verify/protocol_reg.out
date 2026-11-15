@@ -1,0 +1,6 @@
+mean baseline  CV R2 = -0.007  (sd 0.008)
+bmi only       CV R2 =  0.382  (sd 0.071)
+bmi, bp, s5    CV R2 =  0.504  (sd 0.051)
+all ten        CV R2 =  0.512  (sd 0.055)
+chosen: all ten
+test R2 = 0.359   RMSE = 56.4

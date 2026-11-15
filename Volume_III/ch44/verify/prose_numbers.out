@@ -1,0 +1,26 @@
+1 eigenvalues_/explained_variance_: [1346. 1346.] n-1 = 1346
+2 Isomap vs ClassicalMDS on dist_matrix_: max |diff| = 9.6e-14
+2b path_method D vs FW: max |diff| = 2.1e-14
+3 LLE: Z^T Z = I: True  column sums: 2.4e-07
+3 LLE: smallest eigenvalues of M: [-0.00e+00  2.00e-08  3.30e-07  1.89e-06]
+3 LLE: reconstruction_error_ = 3.513344e-07  sum of eigenvalues 2 and 3 = 3.513344e-07
+3 LLE: tr(Z^T M Z) = 3.513344e-07
+4 Laplacian: diagonal of the affinity matrix: [1. 1. 1.]
+4 Laplacian: smallest generalised eigenvalues: [-0.        0.0018    0.005486  0.012637]
+4 Laplacian: Z^T D Z =
+ [[1. 0.]
+ [0. 1.]]
+4 Laplacian: n_neighbors_ (default n/10) for n = 600: 60
+4 Laplacian: affinity values: [0.  0.5 1. ]
+4 Laplacian: gamma_ of rbf = 0.015625 = 1/64 = 0.015625
+5 Isomap n_neighbors=2 on 300 digits: ['The number of connected components of the neighbors graph is 10 > 1. Comple']
+5 Isomap.transform of the test images: (450, 2)
+6 MDS init='classical_mds', n_init=4: ['Explicit initial positions passed: performing only one init of the MDS instead of 4']
+7 trustworthiness: ours 0.835269  scikit-learn 0.835269
+8 MDS metric_mds=True: stress_ = 10586.6879 after 271 iterations
+8 MDS metric_mds=False: stress_ = 0.2891 after 74 iterations
+9 t-SNE n=500 KL: exact 0.4238  barnes_hut 0.4963
+9 t-SNE n_iter_ = 999  learning_rate_ = 50.0
+10 hessian with m = 5: for method='hessian', n_neighbors must be greater than [n_components *
+11 PCA of the swiss roll, variance shares: [0.426 0.302 0.272]
+12 digits SMACOF Stress-1 = 0.3465  iterations 158

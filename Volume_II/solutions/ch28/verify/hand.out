@@ -1,0 +1,25 @@
+== 28A.1  x = 3, 5, 6, 8, 9, 12, 14, 20; B = 4
+q=0.25: n*q = 2.0  integer: True  -> mean of x[2], x[3] (1-based) = 5.5
+q=0.5: n*q = 4.0  integer: True  -> mean of x[4], x[5] (1-based) = 8.5
+q=0.75: n*q = 6.0  integer: True  -> mean of x[6], x[7] (1-based) = 13.0
+thresholds: [ 5.5  8.5 13. ]  bins (count of thresholds below x): [0 0 1 1 2 2 3 3]
+bin sizes: [2 2 2 2]
+numpy default (linear) percentiles instead: [ 5.75  8.5  12.5 ]
+equal-width: width 4.25  edges [ 7.25 11.5  15.75]  bins [0 0 0 1 1 2 2 3]  sizes [3 2 2 1]
+
+== 28A.2  G = (3,-1,-4,2), H = (2,2,2,2), lambda = 1
+G = 0.0  H = 8.0
+GL [ 3.  2. -2.] HL [2. 4. 6.] GR [-3. -2.  2.] HR [6. 4. 2.]
+GL^2/(HL+lam): [3.     0.8    0.5714]
+GR^2/(HR+lam): [1.2857 0.8    1.3333]
+gain: [4.2857 1.6    1.9048]  best after bin 0
+exact: [4.285714285714286, 1.6, 1.9047619047619047]
+leaf values: -1.0 0.42857142857142855
+same cuts, lambda = 0: [6.     2.     2.6667]
+
+== 28A.3  histogram subtraction
+G larger: [ 1.5 -1.   0.5  0. ]  H larger: [0.9 0.8 1.  0.8]  totals: 1.0 3.5
+parent totals: 1.0 5.0  smaller totals: 0.0 1.5
+leaf value larger child, lambda = 1: -0.2222222222222222
+leaf value smaller child, lambda = 1: -0.0  parent as one leaf: -0.16666666666666666
+gain of the split (parent histogram ... as leaves): 0.05555555555555555

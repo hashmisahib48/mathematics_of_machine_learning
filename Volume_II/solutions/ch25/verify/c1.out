@@ -1,0 +1,12 @@
+importances, one copy : [0.28, 0.72]  test accuracy 0.576
+importances, two copies: [0.143, 0.14, 0.717]  test accuracy 0.576
+signal total with two copies: 0.283 (one copy: 0.280)
+P(class 1) is 0.2, 0.5, 0.8 for s = 0, 1, 2; the best possible accuracy is 0.700; share of class 1: 0.515
+features searched per split: 1 (of 2 columns) and 1 (of 3 columns)
+questions asked about s, its copy, u (300 trees): [489, 516, 34511]  -> shares [0.014, 0.015, 0.972]
+questions asked about s, u with one copy: [1495, 34413]
+permutation importance of s                    0.0237 +- 0.0163
+permutation importance of copy                 0.0076 +- 0.0143
+permutation importance of s and copy together  0.0869 +- 0.0148
+permutation importance of u                    -0.0295 +- 0.0191
+figure width 4.68 in, printed 4.9 in, smallest font 8.6 pt -> printed 9.0 pt

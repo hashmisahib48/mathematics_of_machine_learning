@@ -1,0 +1,12 @@
+smooth  three terms: -0.5 y^T S^-1 y = -0.528   -0.5 ln|S| = 3.593   -(n/2) ln 2 pi = -5.514
+smooth  std at 3.5 = 0.0861   y^T S^-1 y =    1.06   ln|S| = -7.187   LML = -2.449
+zigzag  three terms: -0.5 y^T S^-1 y = -61.456   -0.5 ln|S| = 3.593   -(n/2) ln 2 pi = -5.514
+zigzag  std at 3.5 = 0.0861   y^T S^-1 y =  122.91   ln|S| = -7.187   LML = -63.376
+std curves identical: True
+smooth  best length-scale on the grid (amplitude 1, noise 0.01): 3.37  LML there 0.21;  LML at 1.5 -2.43
+zigzag  best length-scale on the grid (amplitude 1, noise 0.01): 0.20  LML there -6.61;  LML at 1.5 -63.76
+smooth  leave-one-out standardised residuals: [0.0, 0.04, 0.02, 0.17, -0.03, 0.1]   rms 0.08
+zigzag  leave-one-out standardised residuals: [6.42, -8.76, 10.28, -10.28, 8.76, -6.42]   rms 8.63
+std at 3.5 with ell = 0.2: 0.9981
+correlation of neighbours at distance 1, ell = 1.5: 0.8007
+min font size: 8.5

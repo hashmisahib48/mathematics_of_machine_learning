@@ -1,0 +1,25 @@
+== 20A.1  x = 1,2,4,5,7,8; classes 0,0,1,0,1,1; query 4.6
+sorted points: [5. 4. 7. 2. 8. 1.]  distances: [0.4 0.6 2.4 2.6 3.4 3.6]  classes: [0 1 1 0 1 0]  1/d: [2.5    1.6667 0.4167 0.3846 0.2941 0.2778]
+k = 1  votes (class 0, class 1) = [1 0]  class: 0 
+k = 2  votes (class 0, class 1) = [1 1]  class: 0  tie
+k = 3  votes (class 0, class 1) = [1 2]  class: 1 
+k = 4  votes (class 0, class 1) = [2 2]  class: 0  tie
+k = 5  votes (class 0, class 1) = [2 3]  class: 1 
+k=3 weights: [2.5    1.6667 0.4167]  score class 0: 2.499999999999998  class 1: 2.0833333333333344  share class 0: 0.5454545454545451
+
+== 20A.2  query origin, A=(3,3), B=(4,0)
+q = 1  A: 6.0  B: 4.0
+q = 2  A: 4.242640687119285  B: 4.0
+q = inf  A: 3.0  B: 4.0
+q=2 squared distances: A 18.0  B 16.0
+q = 4  A: 3.5676  B: 4.0000
+q = 8  A: 3.2715  B: 4.0000
+q = 16  A: 3.1328  B: 4.0000
+q = 32  A: 3.0657  B: 4.0000
+equal distance at q = 2.4094208396532095
+
+== 20A.3  x = 1,2,4,7; y = 2,3,7,9; query 3.5
+sorted x: [4. 2. 1. 7.]  d: [0.5 1.5 2.5 3.5]  y: [7. 3. 2. 9.]  1/d: [2.     0.6667 0.4    0.2857]
+k = 2  uniform: 5.0  weights [2.     0.6667]  sum w 2.6666666666666665  sum w*y 16.0  weighted: 6.0
+k = 3  uniform: 4.0  weights [2.     0.6667 0.4   ]  sum w 3.0666666666666664  sum w*y 16.8  weighted: 5.478260869565218
+k=4 uniform: 5.25  (k = n gives the overall mean)

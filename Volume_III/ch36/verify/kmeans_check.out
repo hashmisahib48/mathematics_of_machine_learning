@@ -1,0 +1,7 @@
+seed 0: inertia 1278.7608 = 1278.7608, iterations 6
+seed 1: inertia 1277.9285 = 1277.9285, iterations 5
+seed 2: inertia 1282.4635 = 1282.4635, iterations 5
+seed 3: inertia 1282.4635 = 1282.4635, iterations 6
+seed 4: inertia 1279.9662 = 1279.9662, iterations 6
+mean of 100 runs: scratch 1291.774, scikit-learn 1279.552
+all assertions passed

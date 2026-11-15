@@ -1,0 +1,22 @@
+uniform on (1e-5, 1): P(x > 0.1) = 0.9
+loguniform: share above 0.1: 0.2  per decade 0.2
+M=  1: E max of M normals -0.004  bound 0.000
+M=  4: E max of M normals 1.029  bound 1.665
+M= 16: E max of M normals 1.772  bound 2.355
+M= 72: E max of M normals 2.385  bound 2.925
+M=300: E max of M normals 2.877  bound 3.378
+halving: 81 x 2430 = 196830  rungs 5 x 2430 = 12150  ratio 16.2
+grid sizes, 5 values each: p=3 125  p=5 3125  p=7 78125  fits with K=5: 15625
+nested fits: 5 x (72 x 5 + 1) = 1805
+one patient in 426 = 0.00235  0.9906 -> correct 422.0  0.9883 -> 421.0
+threshold 0.98: q = 0.140, Eq. 56.3-3 gives n = 20, observed 95th percentile 21, median 5
+threshold 0.985: q = 0.050, Eq. 56.3-3 gives n = 59, observed 95th percentile 54, median 13
+12 re-splits: means [0.9779 0.974  0.9714]  sd of fresh 0.0101  sd of inner CV 0.0059
+best_score_ above fresh in 9 of 12; nested above fresh in 5
+gaps: inner-fresh 0.0065  nested-fresh 0.0025
+math.log(81, 3) = 4.0  math.log(243, 3) = 4.999999999999999
+243 candidates: required 5  candidates per rung [243, 81, 27, 9, 3]
+top-10 cells: log2 C + log2 gamma = [-6, -6, -6, -4, -4, -4, -4, -4, -2, -2]  scores [0.9906, 0.9906, 0.9883, 0.9859, 0.9836, 0.9836, 0.9812, 0.9812, 0.9812, 0.9812]
+cells with accuracy >= 0.98: 10  of 72;  below 0.90: 32
+keys of cv_results_ with one scorer, no train scores: 15
+standard error of an accuracy of 0.95 on 143 rows: 0.0182

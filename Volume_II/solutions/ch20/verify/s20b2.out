@@ -1,0 +1,7 @@
+most frequent training class: 1  share 0.502
+  r  accuracy  no neighbour  mean neighbours  per unit area
+ 0.1   0.8133            28              1.0           31.8
+      empty queries: true classes [13 15]  accuracy on them 0.536
+ 0.2   0.9200             7              4.4           34.9
+ 0.4   0.9867             0             16.9           33.6
+ 0.8   0.8933             0             56.3           28.0

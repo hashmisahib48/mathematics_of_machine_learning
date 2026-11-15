@@ -1,0 +1,14 @@
+seed  0  best_score_ 0.9906  nested 0.9835  fresh 0.9510
+seed  1  best_score_ 0.9789  nested 0.9813  fresh 0.9720
+seed  2  best_score_ 0.9742  nested 0.9694  fresh 0.9720
+seed  3  best_score_ 0.9695  nested 0.9742  fresh 0.9650
+seed  4  best_score_ 0.9813  nested 0.9789  fresh 0.9650
+seed  5  best_score_ 0.9789  nested 0.9765  fresh 0.9790
+seed  6  best_score_ 0.9741  nested 0.9671  fresh 0.9930
+seed  7  best_score_ 0.9789  nested 0.9694  fresh 0.9720
+seed  8  best_score_ 0.9788  nested 0.9718  fresh 0.9720
+seed  9  best_score_ 0.9766  nested 0.9695  fresh 0.9720
+seed 10  best_score_ 0.9695  nested 0.9672  fresh 0.9790
+seed 11  best_score_ 0.9836  nested 0.9789  fresh 0.9650
+means       [0.9779 0.974  0.9714]
+best_score_ minus fresh: 0.0065  nested minus fresh: 0.0025

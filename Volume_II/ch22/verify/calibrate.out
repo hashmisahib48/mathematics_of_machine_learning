@@ -1,0 +1,8 @@
+predict_proba on SVC(): False
+accuracy, SVC             : 0.958
+accuracy, calibrated SVC  : 0.951
+log loss, calibrated SVC  : 0.1117
+Platt A, B (P = 1/(1+exp(A f + B))): -4.17 0.31
+P(f = -1) = 0.011
+P(f =  0) = 0.423
+P(f =  1) = 0.979

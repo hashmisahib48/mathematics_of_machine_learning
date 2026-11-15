@@ -1,0 +1,12 @@
+policies 50000, claims 3294, exposure 27451 years, policies with a claim 6.2%
+constant       deviance 0.6448   D2 -0.0001
+OLS predictions <= 0 on the test set: 746
+OLS, clipped   deviance 0.6113   D2 0.0520
+Poisson GLM    deviance 0.5941   D2 0.0787
+training claims: observed 2486, fitted 2486.0
+base frequency exp(b) = 0.062
+young       exp(w) = 2.312   true 2.226
+old         exp(w) = 1.357   true 1.350
+power_mid   exp(w) = 1.468   true 1.492
+power_high  exp(w) = 2.340   true 2.460
+density     exp(w) = 1.655   true 1.649

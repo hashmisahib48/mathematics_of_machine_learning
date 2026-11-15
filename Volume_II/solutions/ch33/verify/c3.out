@@ -1,0 +1,12 @@
+one-versus-rest problems       : 5000
+one-versus-one problems        : 12497500
+output code, code_size=1.5 bits: 7500
+rows in all (n samples): OvR 5000 n; OvO 4999 n; ECOC 7500 n
+squared-row cost relative to OvR: OvO 0.0004  ECOC 1.5
+predict calls per sample: OvR 5000  OvO 12497500  ECOC 7500
+ 7500 bits: mean Hamming distance   3750.0, smallest  3517, pairs 12497500, bits the nearest-word rule can always correct  1758 (0.234 of the bits)
+        binomial prediction: mean 3750, sd 43.3
+  750 bits: mean Hamming distance    375.0, smallest   307, pairs 12497500, bits the nearest-word rule can always correct   153 (0.204 of the bits)
+        binomial prediction: mean 375, sd 13.7
+   75 bits: mean Hamming distance     37.5, smallest    16, pairs 12497500, bits the nearest-word rule can always correct     7 (0.093 of the bits)
+        binomial prediction: mean 38, sd 4.3

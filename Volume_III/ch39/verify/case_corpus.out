@@ -1,0 +1,16 @@
+table (80, 107) non-zero 626 count 681
+K=2: ARI 0.490, 0.965 of counts in the blocks
+K=3: ARI 0.706, 0.949 of counts in the blocks
+K=4: ARI 1.000, 0.910 of counts in the blocks
+K=5: ARI 1.000, 0.897 of counts in the blocks
+K=6: ARI 0.924, 0.815 of counts in the blocks
+k-means on the rows: ARI 1.0
+bicluster 0: 20 docs, 27 words: eclipse, distant, orbits
+bicluster 1: 20 docs, 29 words: golden, onion, stir
+bicluster 2: 20 docs, 27 words: unbeaten, defender, trophy
+bicluster 3: 20 docs, 24 words: rose, quarterly, bond
+consensus score: 0.927
+star -> bicluster 0 counts [0, 4, 6, 0]
+team -> bicluster 2 counts [0, 7, 3, 3]
+market -> bicluster 3 counts [5, 0, 0, 4]
+season -> bicluster 1 counts [3, 3, 0, 6]

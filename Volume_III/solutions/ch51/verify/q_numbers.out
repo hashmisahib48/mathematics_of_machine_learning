@@ -1,0 +1,34 @@
+=== Question 1: high earners leave the income blank
+blank share 0.201   true mean 43272   mean of seen 35749 (17.4% low)
+mean of the blank incomes 73141   mean-filled column: mean 35749  sd 16095  (true sd 28399, ratio of variances 0.321)
+MCAR for comparison: mean of seen 43260
+share of the top 1% of incomes that are blank: MNAR 0.99   MCAR 0.20
+
+=== Question 2: small errors, spoiled analysis (Eq. 51.3-1)
+12 patterns of 20% MCAR blanks in the training table (331 patients), bmi column; mean fill RMSE on its blanks 0.95 sd
+fill          var ratio  corr ratio (s5) R2 of y on bmi alone
+complete          1.000            1.000                0.391
+mean              0.815            0.884                0.314
+knn               0.893            1.021                0.354
+iterative         0.888            1.072                0.382
+posterior         1.031            1.003                0.329
+theory: variance 1-q = 0.80, correlation sqrt(1-q) = 0.894, with q = 0.2 (actual blank share of bmi 0.211)
+
+=== Question 3: imputing before the folds are cut
+iterative  CV R2 inside the pipeline 0.4655   imputed before the folds 0.4648   difference -0.0007 +- 0.0006 (12 patterns, 30% blanks)
+KNN k=5    CV R2 inside the pipeline 0.4373   imputed before the folds 0.4389   difference +0.0017 +- 0.0017 (12 patterns, 30% blanks)
+mean       CV R2 inside the pipeline 0.4252   imputed before the folds 0.4255   difference +0.0003 +- 0.0002 (12 patterns, 30% blanks)
+column means used (bmi): training only 0.00231   training+test 0.00236
+
+=== Question 4: native NaN against an imputer (book's case study, case.json)
+MCAR  20% blanks: native NaN 0.260   mean fill 0.314   iterative 0.331   mean+indicator 0.307
+MAR   20% blanks: native NaN 0.269   mean fill 0.307   iterative 0.330   mean+indicator 0.296
+MNAR  20% blanks: native NaN 0.294   mean fill 0.316   iterative 0.294   mean+indicator 0.324
+mean fill + linear                 test R2 -0.000
+mean fill + indicator + linear     test R2 0.821
+HistGradientBoosting, native NaN   test R2 0.813
+
+loss from the holes against the same model on the complete table (complete: linear 0.359, booster 0.318)
+MCAR  linear + mean fill loses 0.045   native-NaN booster loses 0.058
+MAR   linear + mean fill loses 0.052   native-NaN booster loses 0.049
+MNAR  linear + mean fill loses 0.043   native-NaN booster loses 0.024

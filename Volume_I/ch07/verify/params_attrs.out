@@ -1,0 +1,11 @@
+LogisticRegression(C=10.0, max_iter=500)
+predict before fit: NotFittedError
+fit returns the model itself: True
+coef_ shape   : (3, 4)
+intercept_    : (3,)
+classes_      : [0 1 2]
+n_features_in_: 4
+feature_names_in_: ['sepal length (cm)' 'sepal width (cm)'] ...
+fit rejects C=-1: InvalidParameterError
+clone: C = 10.0  fitted: False
+set_params(C=0.1): coef_ still there: True

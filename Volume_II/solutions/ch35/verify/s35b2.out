@@ -1,0 +1,8 @@
+sd of the columns: [ 5.29 62.57 51.28]
+                            |w1|: Chins, Situps, Jumps
+raw, scale=False            [0.0625 0.9364 0.3453]
+raw, scale=True             [0.6133 0.747  0.2567]
+Situps x 100, scale=False   [7.0e-04 1.0e+00 3.7e-03]
+Situps x 100, scale=True    [0.6133 0.747  0.2567]
+by hand, Situps x 100, unscaled:     [7.0e-04 1.0e+00 3.7e-03]
+by hand, Situps x 100, standardised: [0.6133 0.747  0.2567]

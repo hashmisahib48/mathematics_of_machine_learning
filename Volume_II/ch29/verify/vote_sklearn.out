@@ -1,0 +1,12 @@
+line  test accuracy 0.8410
+near  test accuracy 0.8950
+tree  test accuracy 0.8820
+hard     vote  test accuracy 0.8850
+soft     vote  test accuracy 0.8840
+weighted vote  test accuracy 0.8860
+classes_ [0 1]  members ['line', 'near', 'tree']
+transform shapes: hard (1000, 3)  soft (1000, 6)  soft, not flat (3, 1000, 2)
+soft probabilities of test sample 0: [[0.313 0.687]]
+stack  test accuracy 0.889
+stack_method_ ['predict_proba', 'predict_proba', 'predict_proba']
+level-1 matrix (1000, 3)  final LogisticRegression  weights [[1.72  3.076 1.376]]  intercept [-3.124]

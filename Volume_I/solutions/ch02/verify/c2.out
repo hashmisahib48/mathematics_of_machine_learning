@@ -1,0 +1,10 @@
+cond(X)   cond(X^T X)   error normal equations   error QR   digits left: normal, QR
+  1e+00      1.0e+00              3.7e-16        2.9e-16       15.4  15.5
+  1e+01      1.0e+02              9.3e-15        4.1e-16       14.0  15.4
+  1e+02      1.0e+04              4.3e-13        9.7e-16       12.4  15.0
+  1e+03      1.0e+06              6.7e-11        7.8e-15       10.2  14.1
+  1e+04      1.0e+08              6.2e-09        8.1e-14        8.2  13.1
+  1e+05      1.0e+10              5.8e-07        7.4e-13        6.2  12.1
+  1e+06      1.0e+12              6.0e-05        7.9e-12        4.2  11.1
+  1e+07      1.0e+14              7.0e-03        5.7e-11        2.2  10.2
+at cond(X) = 1e4: cond(X^T X) = 1.0e+08; digits lost out of 16: normal equations 7.8, QR 2.9

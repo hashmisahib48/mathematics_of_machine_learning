@@ -1,0 +1,13 @@
+A = 0.9737, B = 0.9474, difference = 0.0263 (one flower = 1/38)
+s_A = 0.0260, s_B = 0.0362
+independent test parts: s_diff = 0.0446, difference / s_diff = 0.59
+test samples for the difference to be 2 s_diff: 438 (iris has 150 flowers)
+sign test, A right and B wrong on 1 flower, B right and A wrong on 0: p = 1.00
+sign test with 5 against 1: p = 0.219 ; with 9 against 2: p = 0.065
+
+model A: C = 1.0, model B: C = 0.3 (the same pipeline), 200 splits of 38 flowers
+A mean 0.9539 sd 0.0297 ; B mean 0.9476 sd 0.0360
+A - B per split: mean 0.0063, sd 0.0213, min -0.0526, max 0.1053
+splits with A better: 49, equal: 136, B better: 15
+splits where A - B = +1/38 exactly: 36
+standard error of the mean difference (200 overlapping splits, optimistic): 0.0015

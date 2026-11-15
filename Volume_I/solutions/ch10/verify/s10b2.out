@@ -1,0 +1,8 @@
+correlation of bmi and its copy: 0.99995
+least squares: bmi   -381.7  copy    974.3  sum   592.7  test R2 0.359
+ridge, 0.05  : bmi    297.6  copy    298.5  sum   596.1  test R2 0.357
+
+smallest eigenvalue of Xc'Xc: 3.77e-05
+its eigenvector on (bmi, copy): [-0.707  0.707]
+filter factor at alpha = 0.05: 0.0008
+second smallest: 0.0070, factor 0.123

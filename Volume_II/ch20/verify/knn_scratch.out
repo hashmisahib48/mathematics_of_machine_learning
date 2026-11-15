@@ -1,0 +1,2 @@
+uniform  predict, predict_proba, kneighbors agree; class counts [10 36 57]
+distance predict, predict_proba, kneighbors agree; class counts [10 36 57]

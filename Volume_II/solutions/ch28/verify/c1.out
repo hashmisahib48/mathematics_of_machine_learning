@@ -1,0 +1,24 @@
+   n  leaves  floor(n/20)   leaves with min_samples_leaf=5  floor(n/5)
+  30      1           1                    5              6
+  36      1           1                    5              7
+  39      1           1                    6              7
+  40      2           2                    6              8
+  41      2           2                    6              8
+  50      2           2                    7             10
+  59      2           2                    9             11
+  60      2           3                    9             12
+  80      3           4                   11             16
+ 120      5           6                   19             24
+ 150      6           7                   25             30
+n = 39: 100 trees, number of different predictions 1, mean of y 15.5256, prediction range 15.5256 to 15.5256
+n = 40: 100 trees, number of different predictions 24, mean of y 15.3222, prediction range 7.8794 to 22.7650
+
+First split of 40 rows: left sizes allowed with min_samples_leaf = 20: [20]
+
+150 rows: five-fold R2 (mean of 5 data sets, 5 folds each)
+defaults                               R2 = 0.793  (data sets 0.750 to 0.815)
+min_samples_leaf=5                     R2 = 0.786  (data sets 0.754 to 0.836)
+msl=5, 8 leaves                        R2 = 0.807  (data sets 0.775 to 0.842)
+msl=5, 8 leaves, l2=1                  R2 = 0.810  (data sets 0.788 to 0.842)
+msl=5, 8 leaves, lr=0.05, 300 trees    R2 = 0.813  (data sets 0.784 to 0.844)
+msl=10, 4 leaves, lr=0.1               R2 = 0.815  (data sets 0.787 to 0.842)

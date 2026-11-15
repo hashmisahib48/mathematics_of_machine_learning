@@ -1,0 +1,7 @@
+gamma   IsolationForest    LOF          EllipticEnvelope
+        flagged  offset_  flagged offset_  flagged offset_
+auto        39   -0.500      26   -1.500       -        -
+0.02         7   -0.676       7   -4.043       7 -165.664
+0.05        16   -0.594      16   -2.149      16  -45.913
+0.1         32   -0.520      32   -1.414      32  -37.648
+5th percentile of score_samples: -0.594 = offset_: -0.594

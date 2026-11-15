@@ -1,0 +1,16 @@
+images: (1797, 64)  pixel range 0.0 to 16.0
+inertia 1165188.9  iterations 17
+ARI 0.666  silhouette 0.183
+cluster  size  majority digit  share of that digit
+      0   178               0                0.99
+      1   223               1                0.45
+      2   208               7                0.84
+      3    87               1                0.62
+      4   178               3                0.87
+      5   182               6                0.97
+      6   169               4                0.98
+      7   150               5                0.91
+      8   247               9                0.56
+      9   175               2                0.85
+the 174 eights, by cluster: [0, 100, 5, 6, 2, 2, 0, 4, 52, 3]
+digits in cluster 1: [  0 100   8   7   2   0   3   2 100   1]

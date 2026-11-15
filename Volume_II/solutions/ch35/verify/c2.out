@@ -1,0 +1,19 @@
+pure noise: 60 samples, 100 features, sd of y 1.022; predicting the mean in cross-validation gives RMSE 1.039
+ A  leaky CV RMSE  honest CV RMSE
+ 1        0.631          1.138
+ 2        0.488          1.221
+ 3        0.350          1.345
+ 4        0.273          1.394
+ 5        0.206          1.431
+ 6        0.160          1.456
+ 7        0.116          1.467
+ 8        0.077          1.471
+ 9        0.050          1.473
+10        0.030          1.474
+spectra, A = 10: leaky 0.266 honest 1.421
+training RMSE of PLSRegression(10) on the noise: 0.024, training R2 0.9995
+in-sample correlation of the scores with y, k = 1..10: [ 0.8    0.409 -0.307 -0.195 -0.162 -0.124 -0.09   0.081 -0.048  0.034]
+a single random direction: typical |corr| with y ~ 1/sqrt(n) = 0.129; best of 100 random directions: 0.335
+held-out 12 samples, scores from all 60: RMSE 0.024
+held-out 12 samples, whole fit on the first 48: RMSE 1.856
+figure width 3.57 in, printed 3.6 in, smallest font 9.0 pt -> printed 9.1 pt

@@ -1,0 +1,5 @@
+predict (0.5)  caught 50  missed 3  alarms  3  cost 0.2308
+fixed 1/11     caught 52  missed 1  alarms 11  cost 0.1469
+tuned cost     caught 51  missed 2  alarms  6  cost 0.1818
+tuned recall   caught 53  missed 0  alarms 12  cost 0.0839
+best_threshold_ 0.202 best_score_ -0.0797 recall rule 0.0808

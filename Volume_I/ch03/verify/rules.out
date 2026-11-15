@@ -1,0 +1,24 @@
+h = 1.0    (f(1+h) - f(1)) / h = 3.0000
+h = 0.1    (f(1+h) - f(1)) / h = 2.1000
+h = 0.01   (f(1+h) - f(1)) / h = 2.0100
+h = 0.001  (f(1+h) - f(1)) / h = 2.0010
+
+name       by the rule   by numbers   at x
+power         0.312500     0.312500   0.5
+sum           4.000000     4.000000   0.5
+product       2.473082     2.473082   0.5
+quotient      0.480000     0.480000   0.5
+chain       187.500000   187.500000   0.5
+sigmoid       0.221713     0.221713   0.7
+softplus      0.668188     0.668188   0.7
+abs           1.000000     1.000000   0.7
+
+sigmoid and its slope
+z = -6  sigma = 0.0025  slope = 0.0025
+z = -2  sigma = 0.1192  slope = 0.1050
+z = +0  sigma = 0.5000  slope = 0.2500
+z = +2  sigma = 0.8808  slope = 0.1050
+z = +6  sigma = 0.9975  slope = 0.0025
+
+abs at 0, slope from the left:  -1.0
+abs at 0, slope from the right: 1.0

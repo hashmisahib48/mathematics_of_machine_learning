@@ -1,0 +1,7 @@
+true class         : 2
+raw binary probs   : [0.0006 0.1064 0.9893]  sum 1.0963
+normalised (33.3-3): [0.0005 0.097  0.9024]
+OvR predict_proba  : [0.0005 0.097  0.9024]
+max difference     : 0.0
+softmax proba      : [0.     0.0062 0.9938]
+training accuracy  : OvR 0.9467, softmax 0.9733

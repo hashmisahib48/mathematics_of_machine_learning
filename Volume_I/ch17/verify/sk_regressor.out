@@ -1,0 +1,9 @@
+targets   model             slope  intercept
+clean     OLS (exact)       1.700     0.900
+clean     squared_error     1.703     0.891
+clean     huber, eps = 1    1.702     0.892
+clean     epsilon_insens.   1.782     0.604
+y5 = 20   OLS (exact)       3.700    -3.100
+y5 = 20   squared_error     3.701    -3.089
+y5 = 20   huber, eps = 1    1.979     0.379
+y5 = 20   epsilon_insens.   1.782     0.604

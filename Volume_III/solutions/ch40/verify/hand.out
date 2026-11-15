@@ -1,0 +1,27 @@
+40A.1  weights 0.4 and 0.6, means 0 and 3, standard deviation 1
+  x = 2: z = (2, -1)  exp(-z^2/2) = (0.135335, 0.606531)
+        N1 = 0.05399, N2 = 0.24197; pi N = 0.021596, 0.145182; sum 0.166779; gamma = (0.1295, 0.8705)
+  x = 1: z = (1, -2)  exp(-z^2/2) = (0.606531, 0.135335)
+        N1 = 0.24197, N2 = 0.05399; pi N = 0.096788, 0.032395; sum 0.129183; gamma = (0.7492, 0.2508)
+
+40A.2  x = 1, 2, 6, 7; gamma_1 = 0.9, 0.8, 0.2, 0.1
+  N_k = [2. 2.]  pi = [0.5 0.5]
+  sum gamma x = [ 4.4 11.6]  mu = [2.2 5.8]
+  component 1: gamma (x - mu)^2 = [1.296, 0.032, 2.888, 2.304]  sum 6.52  variance 3.26
+  component 2: gamma (x - mu)^2 = [2.304, 2.888, 0.032, 1.296]  sum 6.52  variance 3.26
+  check: N1 mu1 + N2 mu2 = 16.0  = sum of x = 16.0
+
+40A.3  n = 500, p = 4, K = 3
+  ln n = 6.2146
+  full      covariance numbers 30  q = 2 + 12 + 30 = 44   -2 ll = 6020   BIC = 6020 + 44 x 6.2146 = 6293.4   AIC = 6020 + 88 = 6108
+  diag      covariance numbers 12  q = 2 + 12 + 12 = 26   -2 ll = 6080   BIC = 6080 + 26 x 6.2146 = 6241.6   AIC = 6080 + 52 = 6132
+  spherical covariance numbers  3  q = 2 + 12 + 3 = 17   -2 ll = 6210   BIC = 6210 + 17 x 6.2146 = 6315.6   AIC = 6210 + 34 = 6244
+
+extras for the notes and the discussion of 40A.1 to 40A.3
+  40A.1 with equal weights, x = 2: gamma_1 = 0.1824; x = 1: gamma_1 = 0.8176
+  40A.1 gamma_1 = 0.5 at x = 3/2 + ln(0.4/0.6)/3 = 1.3648; check gamma_1 there: 0.5000
+  40A.2 variance of component 1 about the overall mean 4 instead of mu_1: 6.500
+  40A.2 check, gamma_i1 + gamma_i2 for every sample = [1.0, 1.0, 1.0, 1.0]
+  40A.3 BIC full - diag = 51.9, AIC full - diag = -24.0; -2 ll gain of full over diag = 60 for 18 more parameters
+        charge of 18 parameters: BIC 111.9, AIC 36
+        diag - spherical: -2 ll gain 130 for 9 more parameters; charge BIC 55.9, AIC 18

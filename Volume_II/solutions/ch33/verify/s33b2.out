@@ -1,0 +1,6 @@
+SVC against wrapper      : 10 of 200000
+wrapper against break_ties: 0
+SVC against break_ties    : 10
+first point: [-4.432  0.073]  SVC 0  wrapper 1
+pair scores of the wrapper (0,1),(0,2),(1,2): [-0.013, 0.025, -0.272]
+wrapper F (33.3-7): [0.9959 1.0686 0.934 ]

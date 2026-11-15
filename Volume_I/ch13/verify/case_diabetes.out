@@ -1,0 +1,13 @@
+clean-fit training RMSE = 52.7
+trained on     R2 (test)   MAE (test)
+OLS, clean y      0.359       45.1
+OLS             0.049       57.0
+Huber           0.306       47.5
+RANSAC          0.313       47.0
+Theil-Sen       0.150       52.5
+Quantile        0.311       47.3
+RANSAC defaults: R2 = -0.521
+Huber scale_ = 43.8
+Huber flagged 114 samples; 33 of them wrecked
+RANSAC kept 277 samples; 0 of them wrecked
+Theil-Sen breakdown_ = 0.059 -> tolerates 19 bad targets

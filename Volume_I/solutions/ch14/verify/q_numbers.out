@@ -1,0 +1,38 @@
+== Q1  log y regression against the gamma GLM
+exp(E ln y)/E y for a gamma variable of shape 1.2: exp(psi(k))/k = 0.6242
+ratio y/mu =  10.0: gamma unit deviance 13.395, squared log error 5.302
+ratio y/mu =   0.1: gamma unit deviance 2.805, squared log error 5.302
+200 data sets of 70 points (shape 1.2): prediction / true mean at x = 2: gamma GLM mean 0.996, exp of log-OLS mean 0.633
+predicted total / observed total: gamma GLM 1.002, exp of log-OLS 0.641
+the chapter's own output: policies with zero cost: 93.8%
+
+== Q2  alpha = 1 and the unit of the feature
+unit 10^4 cycles (x 10)   alpha = 1: coef_ = 0.0430 -> per block of 10^5 cycles 0.4304 ; D2 = 0.9618
+unit 10^5 cycles (x 1)    alpha = 1: coef_ = 0.3588 -> per block of 10^5 cycles 0.3588 ; D2 = 0.9369
+unit 10^6 cycles (x 0.1)  alpha = 1: coef_ = 0.2264 -> per block of 10^5 cycles 0.0226 ; D2 = 0.1020
+alpha = 0: per block 0.4313, D2 0.9618
+standardised feature, alpha = 1: per block 0.3091 (coef 0.4371 per sd), D2 0.8901
+
+== Q3  exposure
+true: intercept 0.2, weight 0.5
+rate target + weight = area : b 0.2068 w 0.4974
+raw counts, no exposure     : b 1.8128 w 0.4953
+raw counts + ln(area) as a feature: b 0.1652 w 0.4974, weight of ln(area) 1.0231
+offset model (Newton):      b 0.206820 w 0.497360 ; difference from the weighted fit 2.2e-10
+area range 0.10 to 10.00; the largest and smallest area carry the weights 10.00 and 0.10
+
+== Q4  overdispersion: Var = 3 mean
+true weight 0.6; mean estimate 0.5980; sd of the estimate over 200 data sets 0.0230; mean Poisson standard error 0.0144; ratio 1.60 (sqrt 3 = 1.73)
+Pearson chi2/(n - p): mean 3.02, range 2.70 to 3.32
+share of data sets in which the nominal 95% interval of the weight holds the true value: 0.75
+one data set: fitted total 7806, observed total 7806
+
+== Q5  deviances of different powers
+power 0.0: d(4, 2) =   4.0000   d(40, 20) =  400.0000   ratio 100  (10^(2-p) = 100)
+power 1.0: d(4, 2) =   1.5452   d(40, 20) =   15.4518   ratio 10  (10^(2-p) = 10)
+power 1.5: d(4, 2) =   0.9706   d(40, 20) =    3.0692   ratio 3.162  (10^(2-p) = 3.162)
+power 2.0: d(4, 2) =   0.6137   d(40, 20) =    0.6137   ratio 1  (10^(2-p) = 1)
+power 3.0: d(4, 2) =   0.2500   d(40, 20) =    0.0250   ratio 0.1  (10^(2-p) = 0.1)
+model of power 1.0: deviance in its own power 2.0452, in power 1: 2.0452, in power 1.5: 1.0182, in power 2: 0.5586
+model of power 1.5: deviance in its own power 1.0181, in power 1: 2.0455, in power 1.5: 1.0181, in power 2: 0.5583
+model of power 2.0: deviance in its own power 0.5582, in power 1: 2.0468, in power 1.5: 1.0183, in power 2: 0.5582

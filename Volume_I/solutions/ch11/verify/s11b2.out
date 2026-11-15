@@ -1,0 +1,10 @@
+raw
+  scores [17. 15.] -> feature 1
+  coef_ [1.7 0. ]  by hand 1.7  b = 0.9
+lights x 10
+  scores [ 17. 150.] -> feature 2
+  coef_ [0.   0.15]  by hand 0.15  b = 1.5
+standardised
+  scores [12.021 10.607] -> feature 1
+  coef_ [2.4042 0.    ]  by hand 2.4042  b = 6.0
+correlations with the time: 0.9815 0.866

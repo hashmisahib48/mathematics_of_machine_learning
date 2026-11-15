@@ -1,0 +1,2 @@
+weights=uniform  max |difference| = 0.0e+00
+weights=distance max |difference| = 6.2e-17

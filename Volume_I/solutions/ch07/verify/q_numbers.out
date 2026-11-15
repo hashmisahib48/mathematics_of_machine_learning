@@ -1,0 +1,33 @@
+== Q1  a constructor that does work
+after set_params(alpha=3): alpha = 3.0  alpha2 = 2.0  (should be 6)
+clone(alpha=5): alpha = 5.0  alpha2 = 10.0
+clone(Copier(2.5)) raises RuntimeError: Cannot clone object Copier(alpha=2.5), as the constructor ei ...
+set_params(alpha=-1) on Checker accepted silently; alpha = -1.0
+Checker(alpha=-1) raises at construction: alpha must be >= 0
+LogisticRegression(C=-1.0) is accepted by the constructor
+
+== Q2  predict_proba or decision_function
+scores of Example 7.5-1: [-4.728  0.643  4.085]  order: [0, 1, 2]
+softmax: [1.000e-04 3.100e-02 9.689e-01]  order: [0, 1, 2]
+binary score 10: P = expit = np.float64(0.9999546021312976)  1 - P = 4.540e-05
+binary score 20: P = expit = np.float64(0.9999999979388463)  1 - P = 2.061e-09
+binary score 40: P = expit = np.float64(1.0)  1 - P = 0.000e+00
+binary score 45: P = expit = np.float64(1.0)  1 - P = 0.000e+00
+scores 40 and 45 give equal probabilities: True
+tie in float64 from score: 37
+iris: argmax agree for all 150: True
+hasattr LinearSVC predict_proba: False  decision_function: True
+
+== Q3  statistics from the wrong rows
+training mean, sd: 5.0 2.2361  z(10) with training numbers: 2.2361
+with 10 included: mean 6.0  sd 2.8284  z(10) = 1.4142
+test part {10}: own mean/sd -> sd = 0.0  z = 0 whatever the value (scale_ is set to 1):
+   StandardScaler fitted on [[10]] gives z = [0.]
+   StandardScaler fitted on [[100]] gives z = [0.]
+test part {10, 12}: correct z = [2.2361 3.1305]  own statistics z = [-1.  1.]
+
+== Q4  one error in 38
+a = 0.9737  s = 0.026  one flower = 1/38 = 0.0263  ratio 1.01
+interval a +- s: 0.9477 0.9997    a +- 2s: 0.9217 1.0256
+m = 152  s = 0.013  ratio 2.0
+m for s = 0.0005 (third decimal): 102493

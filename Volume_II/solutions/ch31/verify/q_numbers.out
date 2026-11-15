@@ -1,0 +1,42 @@
+== Q1  identity activations
+parts (two hidden layers of 4, identity): largest |p - 0.5| over the eight parts 0.0001  loss 0.6932  ln 2 = 0.6931
+four identity weight matrices collapse into one of shape (10, 1) ; B @ W + b agrees with predict to 8.9e-16
+test R2 of that network 0.3594   least squares 0.3594
+largest difference between the collapsed weights and the least-squares coefficients: 8.3e-06
+
+== Q2  symmetry: equal weights in the output layer, random hidden weights
+equal output weights, random hidden: spread of the 4 output weights after 60 updates 1.9619  weights [1.255, 0.729, 0.998, -0.707]
+equal hidden units, equal output weights: spread of the hidden weight columns 0.0  output weights [0.718, 0.718, 0.718, 0.718]
+three classes, the three output columns start equal: distance between columns 0 and 1 after 60 updates 1.966
+
+== Q3  one feature in thousands (two moons, 300 samples, 16 hidden units)
+both features on the same scale    unscaled: test accuracy over 5 seeds mean 0.816  min 0.800  max 0.827
+both features on the same scale    standardised: test accuracy over 5 seeds mean 0.813  min 0.800  max 0.840
+x1 in thousands (x 1000)           unscaled: test accuracy over 5 seeds mean 0.792  min 0.787  max 0.813
+x1 in thousands (x 1000)           standardised: test accuracy over 5 seeds mean 0.813  min 0.800  max 0.840
+/home/claude/mlbook2/sol/ch31/code/../../../ch31/code/mlp_scratch.py:23: RuntimeWarning: divide by zero encountered in log
+  J = -np.log((P * Y).sum(axis=1)).mean() + a * pen / (2 * n)
+first-layer gradient at the start, row norms: x1 (thousands) 764.752  x2 0.21552  ratio 3548.0
+net input at the start: std of the x1 part 288.7  std of the x2 part 0.245
+fraction of hidden outputs that are 0 (ReLU off) at the start: 0.438
+
+== Q4  adam: training loss falls, validation accuracy flat (the setting of Problem 31C.3)
+epoch  10: training loss 0.320  validation loss 0.451  validation accuracy 0.794
+epoch  25: training loss 0.283  validation loss 0.554  validation accuracy 0.788
+epoch  50: training loss 0.267  validation loss 0.551  validation accuracy 0.791
+epoch 100: training loss 0.244  validation loss 0.650  validation accuracy 0.794
+epoch 200: training loss 0.173  validation loss 0.925  validation accuracy 0.765
+epoch 300: training loss 0.114  validation loss 1.498  validation accuracy 0.726
+minimum validation loss at epoch 10 0.451 ; largest validation accuracy 0.8 at epoch 11
+
+== Q5  diabetes: why a network does not beat least squares
+least squares test R2 0.359   ridge(alpha=1) 0.357
+weights of (16,):  193  training rows: 331   weights per row: 0.58
+MLPRegressor(hidden_layer_sizes=(16,), lbfgs, alpha=0.1): test R2 over 10 seeds mean -0.241  min -0.440  max 0.078
+MLPRegressor(hidden_layer_sizes=(16,), lbfgs, alpha=10.0): test R2 over 10 seeds mean 0.348  min 0.339  max 0.361
+
+== Q6  features learned without labels: a few labels, many unlabelled digits
+   50 labelled digits (4 draws): pixels 0.863   RBM features 0.832   difference -0.031
+  100 labelled digits (5 draws): pixels 0.907   RBM features 0.866   difference -0.041
+  300 labelled digits (5 draws): pixels 0.944   RBM features 0.903   difference -0.040
+ 1347 labelled digits (5 draws): pixels 0.972   RBM features 0.954   difference -0.017

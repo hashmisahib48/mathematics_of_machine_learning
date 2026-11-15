@@ -1,0 +1,8 @@
+rung 0:  81 candidates x   30 rows = 2430
+rung 1:  27 candidates x   90 rows = 2430
+rung 2:   9 candidates x  270 rows = 2430
+rung 3:   3 candidates x  810 rows = 2430
+rung 4:   1 candidates x 2430 rows = 2430
+total 12150  full grid 196830
+sklearn candidates [81, 27, 9, 3, 1]
+sklearn resources  [30, 90, 270, 810, 2430]

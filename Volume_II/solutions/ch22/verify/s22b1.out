@@ -1,0 +1,7 @@
+data  gamma     value  test acc  SV  mean g*d2  classes
+raw   scale  6.34e-07   0.9161  113       0.60  [0 1]
+raw   auto   3.33e-02   0.6294  426   31316.00  [1]
+std   scale  3.33e-02   0.9580  104       2.00  [0 1]
+std   auto   3.33e-02   0.9580  104       2.00  [0 1]
+two widest columns, share of the variances: 0.9912
+benign share of the test set: 0.6294

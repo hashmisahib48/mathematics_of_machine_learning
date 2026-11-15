@@ -1,0 +1,10 @@
+h_ii: [0.6 0.3 0.2 0.3 0.6]
+LOO errors: [ 1.     -0.4286  0.     -1.      1.5   ]
+by refitting: [ 1.     -0.4286  0.     -1.      1.5   ]
+LOO MSE: 0.8867
+TP FN FP TN: 4 1 2 3
+accuracy 0.7  precision 0.6667  recall 0.8
+F1: 0.7273   sklearn: 0.7273
+P: [0.6652 0.2447 0.09  ]  log loss: 1.4076
+gradient P - Y: [ 0.6652 -0.7553  0.09  ]
+sklearn log_loss: 1.4076

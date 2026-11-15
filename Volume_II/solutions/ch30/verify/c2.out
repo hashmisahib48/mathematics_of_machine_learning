@@ -1,0 +1,17 @@
+nine readings: log marginal likelihood and errors against the true |x| (alpha = 0.01, normalize_y=True)
+RBF         leave-one-out rmse 0.300
+RBF         LML  -7.458  rmse |x|<=3 0.059  near kink 0.090  |x|>3 0.510  value at 0: 0.150  at 4: 2.937  kernel_ 1.08**2 * RBF(length_scale=1.15)
+Matern 1/2  leave-one-out rmse 0.512
+Matern 1/2  LML -10.260  rmse |x|<=3 0.030  near kink 0.048  |x|>3 0.842  value at 0: 0.066  at 4: 2.573  kernel_ 1.08**2 * Matern(length_scale=2.56, nu=0.5)
+Matern 3/2  leave-one-out rmse 0.262
+Matern 3/2  LML  -7.436  rmse |x|<=3 0.048  near kink 0.069  |x|>3 0.382  value at 0: 0.111  at 4: 3.266  kernel_ 1.61**2 * Matern(length_scale=3.23, nu=1.5)
+Matern 5/2  leave-one-out rmse 0.259
+Matern 5/2  LML  -6.905  rmse |x|<=3 0.055  near kink 0.081  |x|>3 0.370  value at 0: 0.144  at 4: 3.275  kernel_ 1.49**2 * Matern(length_scale=2.37, nu=2.5)
+
+LML(RBF) - LML(Matern 1/2) for n readings on [-3, 3], mean and range over 5 noise seeds
+n =   9:    2.4   range 1.8 to 3.3
+n =  17:    7.8   range 6.2 to 9.5
+n =  33:   17.1   range 15.8 to 17.8
+n =  65:   26.6   range 25.0 to 28.5
+n = 129:   33.4   range 31.4 to 35.4
+min font size: 8.5

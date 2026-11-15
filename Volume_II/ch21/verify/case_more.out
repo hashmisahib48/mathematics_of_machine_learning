@@ -1,0 +1,5 @@
+diabetes, bmi x 100, scaler=False: test R2 0.176
+diabetes, bmi x 100, scaler=True : test R2 0.352
+friedman1, ridge        test R2 0.745
+friedman1, RBF kernel   test R2 0.889
+  chosen: {'alpha': 0.001, 'gamma': 0.01}

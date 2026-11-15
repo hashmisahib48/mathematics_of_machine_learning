@@ -1,0 +1,5 @@
+policies with zero cost: 93.8%
+power   D2 at 1.5   observed cost   predicted cost
+  1.1      0.0620         1219942          1234858
+  1.5      0.0619         1219942          1235757
+  1.9      0.0618         1219942          1238002

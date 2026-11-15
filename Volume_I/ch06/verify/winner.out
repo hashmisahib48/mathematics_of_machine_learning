@@ -1,0 +1,4 @@
+mean test accuracy of the 200 rules: 0.500
+best test accuracy (the chosen rule): 0.740
+accuracy of the chosen rule on fresh data: 0.501
+over 500 repetitions: best test 0.693, fresh 0.500

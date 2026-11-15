@@ -1,0 +1,15 @@
+C=100 gamma=100: train 1.000 test 0.633 support vectors 60 of 60, intercept b = 0.008
+distance to the nearest other training sample: median 0.161, mean 0.187; range of one bump 1/sqrt(gamma) = 0.100
+kernel value between a sample and its nearest neighbour: median 0.0825
+test samples: largest kernel value to any training sample: median 0.070; share below 0.1: 0.53, below 0.5: 0.85
+those far test samples: predicted classes (array([0, 1]), array([ 5, 27]))  |f - b| max 0.108
+test accuracy on near samples (kmax >= 0.1): 0.857   on far samples: 0.438
+alternatives (C, gamma): test accuracy, support vectors
+  C = 100  gamma = 100    train 1.000  test 0.633  SV 60
+  C = 100  gamma = 1      train 0.983  test 0.800  SV 12
+  C = 1    gamma = 1      train 0.900  test 0.850  SV 28
+  C = 1    gamma = scale  train 0.917  test 0.850  SV 28
+  C = 10   gamma = 0.5    train 0.933  test 0.867  SV 19
+  C = 1    gamma = 10     train 0.983  test 0.833  SV 44
+gamma = 'scale' is 0.7663
+figure width 4.98 in, printed 4.9 in, smallest font 8.6 pt -> printed 8.5 pt

@@ -1,0 +1,11 @@
+plain fit        0.589
+draw, seed 0     0.821
+draw, seed 1     0.769
+draw, seed 2     0.782
+draw, seed 3     0.806
+draw, seed 4     0.833
+mean of draws    0.802
+average of draws 0.616
+spread: plain 0.907  draw 0 0.973
+one draw / plain   = 1.363  (sqrt 2 = 1.414)
+average / plain    = 1.046  (sqrt 1.2 = 1.095)

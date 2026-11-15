@@ -1,0 +1,4 @@
+logistic mean 0.9761  sd of 50 scores 0.0150  sd of 10 repeats 0.0034
+SVC      mean 0.9807  sd of 50 scores 0.0146  sd of 10 repeats 0.0051
+forest   mean 0.9617  sd of 50 scores 0.0209  sd of 10 repeats 0.0041
+SVC minus logistic: mean 0.0047, SVC better in 19, equal in 22, worse in 9 of 50 folds

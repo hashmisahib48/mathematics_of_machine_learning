@@ -1,0 +1,21 @@
+
+== Q3  ten forests that differ only in random_state (friedman1, 1000 rows)
+one forest of 100 trees: test R2 0.8429
+one forest of 1000 trees: test R2 0.8426
+stack of ten forests: test R2 0.8474  weights [ 0.322 -0.268 -0.034  0.163  0.593 -0.016  0.176  0.126 -0.137  0.188]  sum 1.114  alpha 10.0
+mean correlation of the errors of two forests: 0.9828
+simple average of the ten: test R2 0.8421
+
+== Q6  ranking committees on 143 test patients
+standard error of an accuracy of 0.958: 0.0168;  one patient = 0.0070 = 0.42 standard errors
+hard   errors 6
+soft   errors 6
+stack  errors 6
+hard vs soft: patients where only hard errs 0, only soft errs 0; exact McNemar p = 1.000
+hard vs stack: patients where only hard errs 0, only stack errs 0; exact McNemar p = 1.000
+soft vs stack: patients where only soft errs 0, only stack errs 0; exact McNemar p = 1.000
+hard   10 folds: mean 0.9813
+soft   10 folds: mean 0.9836
+stack  10 folds: mean 0.9848
+paired difference soft - hard: mean 0.0023, standard error 0.0029
+paired difference stack - hard: mean 0.0035, standard error 0.0025

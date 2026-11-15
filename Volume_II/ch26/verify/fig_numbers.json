@@ -1,0 +1,90 @@
+{
+ "toy": {
+  "alpha": [
+   1.6094,
+   2.1972,
+   1.2528
+  ],
+  "F_at_x": [
+   -2.554,
+   -2.554,
+   -2.554,
+   0.665,
+   -1.841,
+   2.554
+  ]
+ },
+ "plane": {
+  "err1": 0.125,
+  "err2": 0.1429,
+  "err3": 0.2333,
+  "train20": 1.0,
+  "max_w_share": [
+   0.025,
+   0.1,
+   0.058
+  ]
+ },
+ "sine": {
+  "tree_r2_test": 0.782,
+  "ada_r2_test": 0.799,
+  "tree_r2_train": 0.876,
+  "ada_r2_train": 0.922,
+  "kept": 46
+ },
+ "gallery": {
+  "1": {
+   "train": 0.8358,
+   "test": 0.7475
+  },
+  "3": {
+   "train": 0.9055,
+   "test": 0.8485
+  },
+  "10": {
+   "train": 0.9005,
+   "test": 0.8485
+  },
+  "100": {
+   "train": 0.9602,
+   "test": 0.9091
+  }
+ },
+ "case": {
+  "lr_test": 0.958,
+  "top": [
+   [
+    "worst texture",
+    0.1192
+   ],
+   [
+    "mean concave points",
+    0.0709
+   ],
+   [
+    "radius error",
+    0.0678
+   ],
+   [
+    "fractal dimension error",
+    0.0645
+   ],
+   [
+    "worst perimeter",
+    0.0604
+   ],
+   [
+    "perimeter error",
+    0.0551
+   ],
+   [
+    "compactness error",
+    0.0538
+   ],
+   [
+    "worst area",
+    0.0521
+   ]
+  ]
+ }
+}

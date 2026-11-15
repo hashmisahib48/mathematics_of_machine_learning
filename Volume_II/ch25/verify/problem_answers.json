@@ -1,0 +1,130 @@
+{
+ "25A.1": {
+  "counts": [
+   1,
+   3,
+   0,
+   0,
+   2,
+   0,
+   1,
+   1
+  ],
+  "out_of_bag": [
+   3,
+   4,
+   6
+  ],
+  "distinct": 5,
+  "p_out": 0.3436,
+  "expected_distinct": 5.251
+ },
+ "25A.2": {
+  "B10": 4.14,
+  "floor": 3.6,
+  "B_for_10pct": 15,
+  "var_at_that_B": 3.96,
+  "ratio_at_that_B": 1.1
+ },
+ "25A.3": {
+  "mean": [
+   0.5833,
+   0.4333
+  ],
+  "soft": [
+   1,
+   0
+  ],
+  "votes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0
+   ]
+  ],
+  "hard": [
+   0,
+   1
+  ]
+ },
+ "25A.4": {
+  "root_gini": 0.5,
+  "dec": {
+   "2.5": 0.1667,
+   "4.0": 0.5,
+   "8.0": 0.1667,
+   "5.0": 0.5
+  },
+  "p_perfect": 0.5714
+ },
+ "25B.1": {
+  "oob_score_": 0.9531,
+  "manual": 0.9531,
+  "equal": true,
+  "n_no_oob": 0,
+  "mean_distinct": 269.24,
+  "0.632n": 269.2
+ },
+ "25B.2": {
+  "stump": {
+   "single": 0.7475,
+   "bagged": 0.7475
+  },
+  "depth 3": {
+   "single": 0.8485,
+   "bagged": 0.8485
+  },
+  "full": {
+   "single": 0.8889,
+   "bagged": 0.9293
+  }
+ },
+ "25B.3": {
+  "results": {
+   "None": {
+    "recall": 0.064,
+    "precision": 0.833,
+    "accuracy": 0.926
+   },
+   "balanced": {
+    "recall": 0.551,
+    "precision": 0.347,
+    "accuracy": 0.884
+   },
+   "balanced_subsample": {
+    "recall": 0.231,
+    "precision": 0.462,
+    "accuracy": 0.919
+   }
+  },
+  "minority_share_test": 0.078,
+  "n_minority_test": 78
+ },
+ "25C.2": {
+  "oob_mean_100plus": 0.0375,
+  "test_mean_100plus": 0.051,
+  "err_B1": 0.1189,
+  "err_min": 0.042,
+  "B_at_min": 5,
+  "err_B300": 0.0559,
+  "n_test": 143
+ },
+ "25C.1": {
+  "one_copy": [
+   0.28,
+   0.72
+  ],
+  "two_copies": [
+   0.143,
+   0.14,
+   0.717
+  ],
+  "test_one": 0.576,
+  "test_two": 0.576
+ }
+}

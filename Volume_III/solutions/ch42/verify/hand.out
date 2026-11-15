@@ -1,0 +1,33 @@
+== 42A.1  PCA of four points
+mean [5.0, 3.0]  centred rows [[1.0, -1.0], [-2.0, -1.0], [0.0, 0.0], [1.0, 2.0]]
+sums of squares and products: Sxx = 6, Sxy = 3, Syy = 6
+S = [[2.0, 1.0], [1.0, 2.0]]
+trace 4.0  det 3.0  eigenvalues [3.0, 1.0]  (trace +- sqrt(trace^2/4 - det)): 3 1
+(S - 3I) w = 0 -> w = (1, 1)/sqrt2 =  [0.7071, 0.7071]  eigh: [0.7071, 0.7071]
+scores on PC1: [0.0, -2.1213, 0.0, 2.1213]  sum of squares 9.0000 = (n-1) lambda1 = 9.0000
+scores on PC2: [-1.4142, 0.7071, 0.0, 0.7071]  sum of squares 3.0000 = (n-1) lambda2 = 3.0000
+explained ratio 0.7500 ; sklearn: [0.75, 0.25]  scores [-0.0, -2.1213, -0.0, 2.1213]
+
+== 42A.2  how many components
+total 10.0  ratios [0.42, 0.24, 0.16, 0.11, 0.07]  cumulative [0.42, 0.66, 0.82, 0.93, 1.0]
+f = 0.80: first k with cumulative share > f is k = 3 (0.8200)
+f = 0.90: first k with cumulative share > f is k = 4 (0.9300)
+f = 0.95: first k with cumulative share > f is k = 5 (1.0000)
+sklearn on random data with these variances: ratios [0.42, 0.24, 0.15, 0.11, 0.07]  components for 0.8, 0.9, 0.95: [3, 4, 5]
+0.9: k = 3 gives 0.82 < 0.9, k = 4 gives 0.93 > 0.9 ; 0.95: k = 4 gives 0.93 < 0.95, so k = 5
+
+== 42A.3  error from the singular values
+sigma^2 [100.0, 36.0, 9.0, 1.0]  eigenvalues [1.0, 0.36, 0.09, 0.01]
+error of two components: sigma3^2 + sigma4^2 = 10 ; (n-1)(l3 + l4) = 10
+error per sample: 0.0990 ; total variance 1.46 ; kept by two components 0.9315 ; discarded 0.0685
+per sample with divisor n-1 = 100: 0.10
+slip: using sigma_j^2 / n instead of n-1 changes the eigenvalues to [0.9901, 0.3564, 0.0891, 0.0099] but the ratio is the same: 0.9315
+check on a matrix with these singular values: Frobenius error of rank 2 = 10.0
+
+== 42A.4  another fish
+centred G [-2.0, 0.0]  w1 = [0.8944, 0.4472]  w2 = [-0.4472, 0.8944]
+scores -1.7889 0.8944 ; reconstruction [28.4, 5.2] ; squared error 0.8000 ; z2^2 = 0.8000 ; norm check 3.2000 + 0.8000 = 4.0000
+sklearn: [[-1.7889]] [[28.4, 5.2]]  components_ [[0.8944, 0.4472]]
+sklearn 2 comps: scores [[-1.7889, 0.8944]]  components_[1] [-0.4472, 0.8944]
+reconstruction error of the five fish for comparison: 0.2, 0.2, 0, 1.8, 1.8 ; mean 0.8
+slip: forgetting to centre: projection of (28, 6) on w1 gives 27.7272 instead of -1.7889

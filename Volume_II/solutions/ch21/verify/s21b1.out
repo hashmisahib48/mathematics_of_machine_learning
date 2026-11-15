@@ -1,0 +1,5 @@
+largest difference of the predictions: 8.9e-15
+warning: Singular matrix in solving dual problem
+eigenvalues of K: 19 negative, smallest -1.9481, largest 16.8579
+K + I: 4 negative, smallest -0.9481, condition 334.8
+eigenvalues of K in (-1, 0): 15

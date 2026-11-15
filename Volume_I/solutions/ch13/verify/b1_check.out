@@ -1,0 +1,5 @@
+J at MyHuber        32.4581988897  (w = 2.40370)
+J at HuberRegressor 32.4581989045  (w = 2.40343)
+J at Nelder-Mead    32.4581988897  (w = 2.40370)
+MyHuber  dJ/dw = 3.55e-09
+sklearn  dJ/dw = -3.61e-04

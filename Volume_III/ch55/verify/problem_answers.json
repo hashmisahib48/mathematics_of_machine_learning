@@ -1,0 +1,68 @@
+{
+ "55A.1": {
+  "class_counts_per_fold_[n0,n1]": [
+   [
+    3,
+    1
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "fold_sizes": [
+   4,
+   4,
+   3,
+   3
+  ]
+ },
+ "55A.2": {
+  "folds_[groups_0-based, rows]": [
+   [
+    [
+     0,
+     5
+    ],
+    9
+   ],
+   [
+    [
+     1,
+     3
+    ],
+    8
+   ],
+   [
+    [
+     2,
+     4,
+     6
+    ],
+    8
+   ]
+  ]
+ },
+ "55B.1": {
+  "mean": 0.9772,
+  "sd_50_scores": 0.0148,
+  "sd_10_repeat_means": 0.0045,
+  "min_repeat_mean": 0.9701,
+  "max_repeat_mean": 0.9842
+ },
+ "55B.2": {
+  "n_splits": 1,
+  "predefined_score": 0.958,
+  "holdout_score": 0.958,
+  "train_rows": 426,
+  "test_rows": 143
+ }
+}

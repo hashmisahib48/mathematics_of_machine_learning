@@ -1,0 +1,14 @@
+alpha=2.0: multi-task [1.8 2.4] formula [1.8 2.4]
+   separate lassos [1. 2.]
+alpha=3.5: multi-task [0.9 1.2] formula [0.9 1.2]
+   separate lassos [0.  0.5]
+
+coef_ of MultiTaskLasso, shape (3, 3)
+            Chins  Situps  Jumps
+  Weight   [ 0.    -0.259  0.   ]
+  Waist    [ 0.    -0.339  0.   ]
+  Pulse    [0.    0.118 0.   ]
+separate lassos, same alpha
+  Weight   [ 0.    -0.093  0.   ]
+  Waist    [ 0.    -0.246  0.   ]
+  Pulse    [0. 0. 0.]

@@ -1,0 +1,16 @@
+scale of y: max |f(s y) - s f(y)| = 3.552713678800501e-15
+drop sample 1 (inside): w, b = 1.3333 2.3333
+drop sample 2 (support vector): w, b = 1.25 2.75
+drop sample 5 (support vector): w, b = 0.6667 3.3333
+C = 0.1, dual_coef_ without weights: [[-0.1  -0.05  0.05  0.1 ]]  with weight 3 on sample 5: [[-0.1 -0.1 -0.1  0.3]] support_ [0 1 2 4]
+eps = 0: SVR w, b, sum|r| = 1.5 1.5 2.0  QuantileRegressor [2.] 0.0 2.0
+density integral: 1.0  flat height 0.5
+diabetes y: sd 79.08; raw SVR(C=1) test R2 0.138
+  equals C = 0.0126, eps = 0.0013 on the standardised y: max diff 1.8e-07
+NuSVR nu = 0.0 -> The 'nu' parameter of NuSVR must be a float in the range (0.0, 1.0]. G
+NuSVR nu = 1.0 accepted
+NuSVR nu = 1.5 -> The 'nu' parameter of NuSVR must be a float in the range (0.0, 1.0]. G
+LinearSVR(dual=False): Unsupported set of arguments: The combination of penalty='l2' and loss='eps
+SVR coef [ 2.     -0.9868  0.4921] 2.9984
+SGD coef [ 2.     -0.9874  0.4917] 2.9989
+Laplace variance C = 2: 0.5

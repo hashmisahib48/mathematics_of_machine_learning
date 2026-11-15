@@ -1,0 +1,17 @@
+model                           5-fold    test
+one stump                       0.8968  0.8881
+full tree                       0.9248  0.9021
+AdaBoost, 50 stumps             0.9555  0.9441
+AdaBoost, 200 stumps            0.9577  0.9441
+AdaBoost, 50 trees of depth 3   0.9742  0.9580
+logistic regression             0.9742  0.9580
+stumps  train    test
+     1  0.9296  0.8881
+     5  0.9671  0.9301
+    10  0.9742  0.9441
+    25  0.9977  0.9371
+    50  1.0000  0.9441
+   100  1.0000  0.9301
+   200  1.0000  0.9441
+AdaBoost  largest probability 0.8009  log loss 0.4386
+logistic  largest probability 1.0000  log loss 0.0858

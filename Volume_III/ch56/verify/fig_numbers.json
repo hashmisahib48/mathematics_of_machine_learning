@@ -1,0 +1,34 @@
+{
+ "grid_best_cell": [
+  7,
+  -11
+ ],
+ "distinct_values_0": 3,
+ "distinct_values_1": 9,
+ "random_median_cv": {
+  "9": 0.9836,
+  "25": 0.9859,
+  "64": 0.9883,
+  "192": 0.9883
+ },
+ "random_median_test": {
+  "9": 0.958,
+  "25": 0.958,
+  "64": 0.958,
+  "192": 0.958
+ },
+ "winner_means": [
+  0.9779,
+  0.974,
+  0.9714
+ ],
+ "halving_costs": [
+  1440,
+  1440,
+  1440,
+  1440,
+  1600
+ ],
+ "halving_total": 7360,
+ "grid_total": 30672
+}

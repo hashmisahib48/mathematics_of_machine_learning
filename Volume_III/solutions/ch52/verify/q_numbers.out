@@ -1,0 +1,37 @@
+=== Question 1: idf = ln(n/df) against the library's ln((1+n)/(1+df)) + 1
+n = 48, df(the) = 45, df=1 words: 134
+the:   library 1.0632   textbook 0.0645   ratio 16.5
+df=1:  library 4.1987   textbook 3.8712
+df=n:  library 1.0000   textbook 0.0000
+library  unit row of the sentence: weight of 'the' 0.208, largest content weight 0.410 (pan)
+textbook unit row of the sentence: weight of 'the' 0.015, largest content weight 0.453 (pan)
+three messages ['the cat', 'the dog', 'the'] df [1, 1, 3] -> textbook idf [1.099, 1.099, 0.0] -> row 3 (message 'the') weights [0.0, 0.0, 0.0]  library: [0.0, 0.0, 1.0]
+
+=== Question 2: collisions for a vocabulary of one million words
+         m      m/V words with a neighbour   words without own bucket
+2^20            1.0                0.6147         355464  (0.3555 of V)
+2^22            4.2                0.2121         110274  (0.1103 of V)
+2^24           16.8                0.0579          29219  (0.0292 of V)
+2^26           67.1                0.0148           7414  (0.0074 of V)
+2^28          268.4                0.0037           1860  (0.0019 of V)
+coefficients of a linear model per class with m = 2^24: 134217728 bytes (float64)
+small corpus: V = 216 words, m = 2^12 = 4096 -> m/V = 19.0, share with a neighbour 0.051
+mean error of the cosine between the 1128 pairs of messages (unit-length count rows):
+   m =    8   unsigned +0.3860   signed -0.0476
+   m =   64   unsigned +0.0797   signed -0.0090
+   m = 1024   unsigned +0.0022   signed -0.0015
+
+=== Question 3: a message with no known word
+'zebra quantum xylophone'  non-zero cells 0  row length 0.000  predicted astronomy  probabilities [0.236, 0.212, 0.293, 0.259]
+'the'                      non-zero cells 1  row length 1.000  predicted football   probabilities [0.067, 0.539, 0.252, 0.143]
+'zebra quantum garlic'     non-zero cells 1  row length 1.000  predicted cooking    probabilities [0.679, 0.09, 0.123, 0.108]
+'garlic'                   non-zero cells 1  row length 1.000  predicted cooking    probabilities [0.679, 0.09, 0.123, 0.108]
+intercepts of the classifier [-0.052, -0.157, 0.167, 0.042]  softmax of the intercepts [0.236, 0.212, 0.293, 0.259]
+naive Bayes on 'zebra quantum xylophone': probabilities [0.25, 0.25, 0.25, 0.25] (the priors)
+share of tokens in the vocabulary: {'zebra quantum xylophone': 0.0, 'the': 1.0, 'zebra quantum garlic': 0.33}
+
+=== Question 4: when is min_df = 2 right? (data made in code from the four topics of the corpus)
+     n   min_df=1   min_df=2   min_df=5 words kept (1, 2)
+    48     0.9958     0.9333     0.4708          304, 100
+   400     0.9995     0.9995     0.9995         1286, 336
+  4000     1.0000     1.0000     1.0000         4749, 3679

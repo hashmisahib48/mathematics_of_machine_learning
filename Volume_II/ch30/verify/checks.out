@@ -1,0 +1,41 @@
+RBF                          formula ok: True
+Matern 0.5                   formula ok: True
+Matern 1.5                   formula ok: True
+Matern 2.5                   formula ok: True
+Matern 0.8 (Bessel)          formula ok: True
+Matern inf = RBF             formula ok: True
+RationalQuadratic            formula ok: True
+ExpSineSquared               formula ok: True
+DotProduct                   formula ok: True
+Constant                     formula ok: True
+White(X,Y): [0. 0.]  White(X): [[0.3, 0.0], [0.0, 0.3]]
+theta is log of hyperparameters: [ 0.6931  0.4055 -2.3026] [2.  1.5 0.1]
+hyperparameter names: ['k1__k1__constant_value', 'k1__k2__length_scale', 'k2__noise_level']
+exponentiation: True
+default GPR kernel: 0.707**2 * RBF(length_scale=0.207) | alpha default 1e-10
+alpha vs WhiteKernel: same mean True | std differ by sqrt(var+0.04): True
+  LML equal: True
+alpha array equals scalar: True
+far prediction, y~100: normalize_y False 0.000  True 100.042 | train mean 100.042
+normalize_y stores y_train_ mean/std: -0.0 1.0
+unfitted prior mean/std: [0. 0. 0.] [1.41421356 1.41421356 1.41421356]
+two targets: predict shape (40, 2) | equals separate fits: True
+RBF with one length-scale per feature: 0.5352614285189903 expected 0.5352614285189903
+Example 30.6-1 at x*=0: mean 1.0938  var 0.0908
+LML gradient analytic [-1.64075  3.6592 ] numeric [-1.64075  3.6592 ]
+DotProduct GP = ridge on [x, sigma_0]: True
+GP mean = KernelRidge (gamma = 1/(2 l^2)): True | dual_coef_ = alpha_: True
+weight-space variance = function-space variance: True | means: True
+posterior std independent of y: True
+GPC default kernel_: 1**2 * RBF(length_scale=1) | fixed (no optimisation): True
+GPC optimised kernel_: 1.5**2 * RBF(length_scale=2.21) LML -4.7284
+GPC defaults: 100 one_vs_rest False
+one_vs_rest predict_proba ok; kernel_ type CompoundKernel | sum [1. 1.]
+one_vs_one -> ValueError one_vs_one multi-class mode does not support predicting probability estimates. Use one_vs_
+latent mean [-0.6706 -0.373   0.5054  0.3485] var [0.8926 0.8497 0.8092 2.1199]
+predict_proba[:,1] [0.36234 0.42166 0.60615 0.56218] quadrature [0.36237 0.42168 0.60612 0.56217]
+n =   250: fit with fixed kernel 0.003 s, K needs 0.5 MB
+n =   500: fit with fixed kernel 0.027 s, K needs 2.0 MB
+n =  1000: fit with fixed kernel 0.117 s, K needs 8.0 MB
+n =  2000: fit with fixed kernel 0.374 s, K needs 32.0 MB
+n = 20000: K needs 3.2 GB

@@ -1,0 +1,49 @@
+sample: mean 71.48 sd 13.60 min 42.6 max 95.3
+
+-- kernels in one dimension, h = 1 (numerical integrals)
+gaussian      area 1.0000  K(0) 0.3989  sd 1.0000  R(K) 0.2821
+tophat        area 1.0000  K(0) 0.5000  sd 0.5773  R(K) 0.5000
+epanechnikov  area 1.0000  K(0) 0.7500  sd 0.4472  R(K) 0.6000
+exponential   area 1.0000  K(0) 0.5000  sd 1.4142  R(K) 0.2500
+linear        area 1.0000  K(0) 1.0000  sd 0.4082  R(K) 0.6667
+cosine        area 1.0000  K(0) 0.7854  sd 0.4352  R(K) 0.6169
+
+-- same smoothing, different kernels: h times sd of the kernel
+gaussian 2.5 x 1.0 = 2.500 ; epanechnikov 5.75 x 0.4472 = 2.571
+
+-- AMISE bandwidth for the true mixture
+R(f'') = 2.124e-05   h_AMISE (n = 200) = 2.314
+true sd 13.636;  1.0592 s n^(-1/5) = 5.006
+Scott factor 0.3466  Silverman factor 0.3671  (p = 1, n = 200)
+raw Scott factor as h: test mean ln f = -4.098
+
+-- rate exponent 4/(p+4) and sample size for equal error
+p =  1  exponent 0.800  n for the error of n = 100 at p = 1: 100
+p =  2  exponent 0.667  n for the error of n = 100 at p = 1: 251
+p =  5  exponent 0.444  n for the error of n = 100 at p = 1: 3.98e+03
+p = 10  exponent 0.286  n for the error of n = 100 at p = 1: 3.98e+05
+p = 20  exponent 0.167  n for the error of n = 100 at p = 1: 3.98e+09
+
+-- leave-one-out from the full sum (Gaussian, h = 2.5)
+0 -3.083499 -3.083499
+1 -3.088979 -3.088979
+2 -3.864368 -3.864368
+sum of LOO ln f -744.459; training sum -737.119
+h = 0.500  training mean ln f = -3.5547
+h = 0.050  training mean ln f = -2.7546
+h = 0.005  training mean ln f = -0.8915
+
+-- compact kernels leave gaps
+test points with density 0: 1 of 5000  range of those points: 101.1 101.1
+
+-- tolerance, 40 000 samples, 2 000 queries
+atol 0 rtol 0.01: max abs err 1.74e-04  max rel err 4.57e-03  bound holds True  time 0.64s vs 2.81s
+atol 0.0001 rtol 0.0: max abs err 4.59e-05  max rel err 9.68e-02  bound holds True  time 0.65s vs 2.81s
+atol 0 rtol 0.1: max abs err 1.80e-03  max rel err 4.45e-02  bound holds True  time 0.46s vs 2.81s
+
+-- sampling inflates the variance
+own sampler (3 lines) variance 191.32
+sample var 184.98 + h^2 6.25 = 191.23;  drawn 191.07
+
+-- Gaussian KDE is a mixture with n components
+-4.061270 -4.061270

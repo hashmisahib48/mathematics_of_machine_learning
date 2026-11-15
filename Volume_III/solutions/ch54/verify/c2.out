@@ -1,0 +1,7 @@
+blank cells: 151 of 2000 (training 113, test 38)
+mean of km: all rows 59.578, training rows 59.006, test rows 61.295; standard deviation of km 46.63
+all-rows mean = weighted mean of the two parts: 59.578 (weights 1387 and 462 non-blank values, test share 0.250)
+the filler of the training blanks moves by 0.572 thousand km = 0.012 sd; each filler contains 0.250 of the test mean
+the test blanks are filled with 59.578 instead of the training mean 59.006: difference 0.572
+test RMSE of a ridge on age and km: filled first 4.9332, imputer in the pipeline 4.9328 (difference 0.0004)
+5-fold RMSE: filled first 5.0922, in the pipeline 5.0922 (difference 0.0000)

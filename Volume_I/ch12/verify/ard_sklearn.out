@@ -1,0 +1,15 @@
+threshold_lambda = 10000   n_iter_ = 27
+  kept: 24 of 30   exact zeros: 6
+  weights of the 4: [ 2.885 -2.028  1.414  0.945]
+  lambda_ of the 4: [0.12 0.24 0.5  1.1 ]
+  min lambda_ of the other 26: 46.2
+  noise sd: 1.018   test R2: 0.9402
+threshold_lambda = 100   n_iter_ = 8
+  kept: 4 of 30   exact zeros: 26
+  weights of the 4: [ 2.889 -2.033  1.405  0.945]
+  lambda_ of the 4: [0.12 0.24 0.5  1.1 ]
+  min lambda_ of the other 26: 103.4
+  noise sd: 1.037   test R2: 0.9412
+true weights     : [ 3.  -2.   1.5  1. ]
+BayesianRidge    : [ 2.743 -1.998  1.321  0.912]
+BayesianRidge  noise sd: 1.097   test R2: 0.9214

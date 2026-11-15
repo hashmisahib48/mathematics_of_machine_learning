@@ -1,0 +1,6 @@
+case     solver                  J  weights   interc zeros
+L2       lbfgs            12.7275  2.0e-08  1.1e-07     0
+L1       saga             13.4317  1.9e-13  6.0e-13     3
+elastic  saga             12.9815  3.0e-12  4.0e-13     2
+none     newton-cholesky 122.2016  1.6e-15  1.8e-15     0
+L1       liblinear        13.4317  3.3e-12  4.2e-03     3

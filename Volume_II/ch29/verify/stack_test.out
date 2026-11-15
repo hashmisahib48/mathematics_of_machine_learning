@@ -1,0 +1,5 @@
+methods: True ['predict_proba', 'decision_function', 'predict_proba', 'predict_proba']
+transform      max |difference| 0.0e+00
+predict_proba  max |difference| 0.0e+00
+stacking test accuracy 0.958
+voting agrees with NumPy; hard and soft differ on 1 of 143 patients

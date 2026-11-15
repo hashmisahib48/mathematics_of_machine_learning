@@ -1,0 +1,6 @@
+LinearRegression.score : 0.963333
+MyOLS('normal').score : 0.963333   equal: True
+MyOLS('qr'    ).score : 0.963333   equal: True
+MyOLS('svd'   ).score : 0.963333   equal: True
+new data on the line   : R2 =   1.0000   sklearn:   1.0000
+new data shifted by +10: R2 = -50.9031   sklearn: -50.9031

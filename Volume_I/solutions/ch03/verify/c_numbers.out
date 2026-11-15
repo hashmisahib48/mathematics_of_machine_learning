@@ -1,0 +1,25 @@
+== 3C.1  minimise f(z) = 0.5 (z - 0.3)^2 + 0.5 |z|, minimum at z = 0
+np.sign(0.0) = 0.0   np.sign(-2.0), np.sign(2.0) = -1.0 1.0
+optimality: 0 in (z - m) + lam*[-1, 1] at z = 0  <=>  |m| <= lam : True   subgradient used: 0.6
+soft-threshold of 0.3 at 0.5 = 0.0
+fixed step 0.1  z after 50, 100, 400 steps: +0.07949 +0.02194 -0.00025   f = 0.04520   range of last 10 z: -0.0164 .. +0.0740
+step 0.5/t      z after 50, 100, 400 steps: +0.00683 -0.00098 +0.00001   f = 0.04500   range of last 10 z: -0.0003 .. +0.0008
+f(0) = 0.045
+share of exact zeros among 10^6 normal draws: 0.0
+
+== 3C.2  saturation
+z =  0: sigma = 0.500000  slope = 2.500e-01
+z =  2: sigma = 0.880797  slope = 1.050e-01
+z =  6: sigma = 0.997527  slope = 2.467e-03
+z = 10: sigma = 0.999955  slope = 4.540e-05
+wrong prediction z = 10, y = 0: p - y = 0.9999546021312976  slope dp/dz = 4.5395807735907655e-05
+  squared error (p-y)^2: dL/dz = 2 (p-y) slope = 9.078749372597685e-05
+  log loss:               dL/dz = p - y        = 0.9999546021312976   ratio = 11014.232920114002
+correct prediction z = 10, y = 1: squared: -4.121745838467386e-09   log loss: -4.5397868702390376e-05
+log      eta = 0.5: w reaches 0 after 22 steps (w = -0.089)
+squared  eta = 0.5: w reaches 0 after 22063 steps (w = -0.010)
+squared, step    1: w = 9.999955
+squared, step   10: w = 9.999546
+squared, step  100: w = 9.995450
+squared, step 1000: w = 9.953545
+prediction (e^10 - 1)/(2 eta) = 22025.465794806718

@@ -1,0 +1,6 @@
+train (267, 30)  test (108, 30)
+                     raw AUC  AUC    AP  caught  false alarms
+IsolationForest        0.965 0.965 0.748    1.00     0.12
+LocalOutlierFactor     0.927 0.978 0.884    0.94     0.06
+OneClassSVM            0.955 0.977 0.864    1.00     0.16
+EllipticEnvelope       0.936 0.936 0.649    0.72     0.10

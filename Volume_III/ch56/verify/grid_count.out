@@ -1,0 +1,6 @@
+list of two dicts  candidates  24  fits 121
+one dict           candidates  40  fits 201
+linear candidates in the one dict: 20  distinct values of C: 4
+draws for P = 0.95 when q = 0.05: 59, check 0.9515
+distinct of 6 draws from lists: 6
+loguniform draws: [44.3, 139.8, 64.3]

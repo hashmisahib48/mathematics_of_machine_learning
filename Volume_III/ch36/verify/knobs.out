@@ -1,0 +1,19 @@
+number of runs when n_init='auto':
+  k-means++  KMeans  1   MiniBatchKMeans  1
+  random     KMeans 10   MiniBatchKMeans  3
+  array      KMeans  1   MiniBatchKMeans  1
+  callable   KMeans 10   MiniBatchKMeans  3
+tol (relative to the mean feature variance), same start:
+  mean variance: 1.0
+  tol=0.1     iterations  5  inertia 1281.9847
+  tol=0.01    iterations  7  inertia 1280.1582
+  tol=0.0001  iterations  9  inertia 1279.7311
+  tol=1e-08   iterations  9  inertia 1279.7311
+  tol=0       iterations  9  inertia 1279.7311
+max_iter, same start (no warning is raised):
+  max_iter=1    inertia 1718.2788
+  max_iter=2    inertia 1487.9235
+  max_iter=3    inertia 1311.9447
+  max_iter=300  inertia 1279.7311
+weights equal repetition: True True
+duplicates, K=3 on 2 distinct points: ['ConvergenceWarning']

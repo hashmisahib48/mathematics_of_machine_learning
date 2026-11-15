@@ -1,0 +1,6 @@
+subclusters: fit 13  six partial_fit calls 13  same centres: True
+global step is Ward on the centres: True
+predict(X) equals labels_: True
+threshold 0.3: 104 subclusters
+threshold 0.8: 22 subclusters
+threshold 1.5: 5 subclusters

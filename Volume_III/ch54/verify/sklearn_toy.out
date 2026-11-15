@@ -1,0 +1,6 @@
+output    csr_matrix (500, 210) True
+names     ['cat__colour_black' 'cat__city_C0200' 'num__age' 'num__km']
+same object: True
+RMSE, alpha 1 and 100: 3.106 4.036
+frozen step kept by clone: True
+transformers_ in the pipeline, in its clone: True False

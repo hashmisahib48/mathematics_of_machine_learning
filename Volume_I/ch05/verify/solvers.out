@@ -1,0 +1,19 @@
+Ridge: auto, cholesky, lbfgs, lsqr, sag, saga, sparse_cg, svd
+LogisticRegression: lbfgs, liblinear, newton-cg, newton-cholesky,
+    sag, saga
+PoissonRegressor: lbfgs, newton-cholesky
+QuantileRegressor: highs, highs-ds, highs-ipm, interior-point,
+    revised simplex
+MLPClassifier: adam, lbfgs, sgd
+Ridge auto, dense     -> cholesky
+Ridge auto, sparse    -> sparse_cg
+Ridge auto, positive  -> lbfgs
+
+LogisticRegression: penalty accepted by each solver
+solver                 L2       L1  elastic     none
+lbfgs                 yes       no       no      yes
+liblinear             yes      yes       no       no
+newton-cg             yes       no       no      yes
+newton-cholesky       yes       no       no      yes
+sag                   yes       no       no      yes
+saga                  yes      yes      yes      yes

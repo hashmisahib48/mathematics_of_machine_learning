@@ -1,0 +1,4 @@
+train 426  test 143
+majority class   CV accuracy 0.627   CV F1 0.771
+scaled logistic  CV accuracy 0.974   CV F1 0.980
+test accuracy 0.958   F1 0.967

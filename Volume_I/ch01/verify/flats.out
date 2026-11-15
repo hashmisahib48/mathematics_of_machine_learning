@@ -1,0 +1,6 @@
+n = 6   p = 2   y shape = (6,)
+x_32 = 2.0   (Python counts from 0)
+y_hat = [ 90. 115. 130. 155. 170. 195.]
+r     = [5. 5. 0. 5. 0. 5.]
+sum of squared residuals = 100.0
+mean squared loss, Eq. 1.4-3 = 16.67

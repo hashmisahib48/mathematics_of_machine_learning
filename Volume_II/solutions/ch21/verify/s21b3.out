@@ -1,0 +1,6 @@
+rbf           inside 0.072  beyond 3.477  f(8) = 0.027 (truth 4.989)
+linear        inside 0.660  beyond 1.197  f(8) = 3.373 (truth 4.989)
+              slope 0.422 (true 0.5): rms error 0.551 beyond 6
+rbf + linear  inside 0.050  beyond 1.034  f(8) = 3.464 (truth 4.989)
+              slope 0.432 (true 0.5): rms error 0.478 beyond 6
+sin x alone beyond 6, rms: 0.690

@@ -1,0 +1,10 @@
+ k  held-out x    w      b   line error  mean error
+ 1        1    1.900  0.100    1.000      -3.750
+ 2        2    1.657  1.114   -0.429      -2.500
+ 3        3    1.700  0.900    0.000       0.000
+ 4        4    1.800  0.800   -1.000       1.250
+ 5        5    1.400  1.500    1.500       5.000
+CV MSE, line: 0.8867   mean: 9.375
+training MSE of the line: 0.22
+LinearRegression -> mean of scores -0.8867
+DummyRegressor -> mean of scores -9.375

@@ -1,0 +1,8 @@
+brute-force 5-NN: squared distances need n*p = 5.0e+07 multiplications (and as many subtractions and additions)
+  plus a selection of the 5 smallest of n numbers: about n = 1e+06 comparisons
+logistic regression: w^T x + b needs p = 50 multiplications
+  ratio: 1000000; memory read per query: 400 MB of float64 against 400 bytes of weights
+measured: one NumPy brute-force query (float32), best of 5: 229 ms (the machine, not the count, sets the figure)
+measured: LogisticRegression.predict for one row 134 microseconds, almost all of it call overhead
+measured: the dot product itself 1.26 microseconds
+a 1 ms budget at 10^9 multiplications per second allows 1e+06 multiplications: k-NN needs 50 times that

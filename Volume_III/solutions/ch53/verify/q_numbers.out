@@ -1,0 +1,25 @@
+== Q1: the five columns of the filter and of RFE
+filter  columns [2, 7, 20, 22, 27]  mean |r| between them 0.880  max 0.994  CV on these columns 0.9484
+RFE     columns [7, 20, 21, 23, 27]  mean |r| between them 0.647  max 0.983  CV on these columns 0.9836
+filter names: ['mean perimeter', 'mean concave points', 'worst radius', 'worst perimeter', 'worst concave points']
+RFE names   : ['mean concave points', 'worst radius', 'worst texture', 'worst area', 'worst concave points']
+ranks by F of the RFE columns: [2, 4, 17, 8, 1]
+pairs |r|>0.9 among the 5 best by F: 4 of 10
+F of the best 5: [797.0, 704.5, 685.8, 656.8, 543.4]
+weights of the filter's five in a joint fit: [-2.02, -1.2, -1.77, -2.17, 0.26]
+
+== Q2: SelectFdr, 40 columns kept; wrong ones as a function of m (10 per cent of columns shifted)
+m=  200: kept   19.9  wrong  0.86  mean share wrong 0.041  (alpha*m0/m = 0.045)
+m= 2000: kept  197.9  wrong  8.81  mean share wrong 0.044  (alpha*m0/m = 0.045)
+bound on the expected number wrong among 40 kept: 0.05*40 = 2.0  with 10 per cent shifted: 0.045*40 = 1.7999999999999998
+
+== Q4: 50 000 columns, 200 rows
+filter cost n*p = 10000000
+RFE step=1 to 10 columns, fits: 49991
+RFE step=0.1 (int(0.1*p) = 5000 per round), fits: 11
+forward selection to 10 columns, fits: 2499775
+f_classif on 200 x 50000 noise: 1.69 s; best F 24.5; smallest p 1.6e-06; columns with p<0.05: 2539 (expected 2500)
+largest |r| expected for pure noise: sqrt(2 ln m / n) = 0.329
+largest |r| in the first 2000 columns: 0.25  sqrt(2 ln 2000/200) = 0.276
+RFE p=1000 to 10, step=1: fits counted 991; formula ceil(990/step_int)+1 = 991
+RFE p=1000 to 10, step=0.1: fits counted 11; formula ceil(990/step_int)+1 = 11

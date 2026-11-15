@@ -1,0 +1,148 @@
+{
+ "49A.1": {
+  "train": [
+   2.0,
+   4.0,
+   6.0,
+   8.0,
+   30.0
+  ],
+  "new": [
+   12.0,
+   40.0
+  ],
+  "mean": 10.0,
+  "sd": 10.198,
+  "min": 2,
+  "max": 30,
+  "median": 6.0,
+  "iqr": 4.0,
+  "standard": [
+   0.1961,
+   2.9417
+  ],
+  "minmax": [
+   0.3571,
+   1.3571
+  ],
+  "minmax_clip": [
+   0.3571,
+   1.0
+  ],
+  "robust": [
+   1.5,
+   8.5
+  ]
+ },
+ "49A.2": {
+  "x": [
+   -3.0,
+   -1.0,
+   0.0,
+   1.0,
+   3.0
+  ],
+  "lambda0": [
+   -7.5,
+   -1.5,
+   0.0,
+   0.6931,
+   1.3863
+  ],
+  "lambda2": [
+   -1.3863,
+   -0.6931,
+   0.0,
+   1.5,
+   7.5
+  ],
+  "mirror_ok": true
+ },
+ "49B.1": {
+  "nonzero_fraction": {
+   "raw": 0.5107,
+   "MaxAbsScaler": 0.5107,
+   "StandardScaler(with_mean=False)": 0.5107,
+   "RobustScaler(with_centering=False)": 0.5107,
+   "StandardScaler, dense": 0.9531
+  },
+  "errors": {
+   "StandardScaler()": "ValueError",
+   "MinMaxScaler()": "TypeError"
+  },
+  "all_zero_columns": 3,
+  "scale_of_zero_column": 1.0,
+  "shape": [
+   1797,
+   64
+  ]
+ },
+ "49B.2": {
+  "mean_abs_skew": {
+   "raw": 1.736,
+   "yeo_johnson": 0.076,
+   "quantile_normal": 0.267
+  },
+  "max_abs_skew_raw": 5.433,
+  "most_skewed": "area error",
+  "lambda_most_skewed": -0.484,
+  "skew_after_yj_of_it": 0.069,
+  "n_features_raw_skew_above_1": 22,
+  "n_features_yj_skew_above_0.5": 0,
+  "max_abs_skew_yj": 0.234,
+  "max_abs_skew_qn": 1.292
+ },
+ "49C.1": {
+  "full_data_honest_leaky": {
+   "Standard": [
+    0.9736,
+    0.9736
+   ],
+   "Quantile": [
+    0.9772,
+    0.9772
+   ],
+   "Power": [
+    0.9789,
+    0.9789
+   ]
+  },
+  "subsets_of_50": {
+   "Standard": {
+    "mean": 0.003,
+    "sd": 0.0095,
+    "min": -0.02,
+    "max": 0.02,
+    "n_nonzero": 5
+   },
+   "Quantile": {
+    "mean": -0.02,
+    "sd": 0.0237,
+    "min": -0.08,
+    "max": 0.02,
+    "n_nonzero": 13
+   },
+   "Power": {
+    "mean": 0.001,
+    "sd": 0.0134,
+    "min": -0.02,
+    "max": 0.04,
+    "n_nonzero": 6
+   }
+  }
+ },
+ "49C.2": {
+  "training_predictions_identical": true,
+  "share_of_grid_points_that_differ": 0.0175,
+  "thresholds_x": [
+   1.0433,
+   1.2517,
+   3.1511
+  ],
+  "thresholds_exp_logx": [
+   1.0433,
+   1.2479,
+   3.0277
+  ]
+ }
+}

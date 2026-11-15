@@ -1,0 +1,6 @@
+shapes: (6, 15) (6, 15)  agree: True
+  size 0: 1 products, 1 without repeats
+  size 1: 4 products, 4 without repeats
+  size 2: 10 products, 6 without repeats
+  size 3: 20 products, 4 without repeats
+without the restriction: 35 columns

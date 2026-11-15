@@ -1,0 +1,122 @@
+{
+ "58A.1": {
+  "t_star": 0.05,
+  "log_odds": -2.9444,
+  "say_yes_p004": false,
+  "say_yes_p006": true,
+  "cost_yes_004": 0.96,
+  "cost_no_004": 0.76,
+  "cost_yes_006": 0.94,
+  "cost_no_006": 1.14
+ },
+ "58A.2": {
+  "baseline": 0.75,
+  "enumerated_mean_over_40320": 0.4688,
+  "formula": 0.4688,
+  "importance": 0.2812
+ },
+ "58A.3": {
+  "PD_1": 2.5,
+  "PD_2": 5.0,
+  "PD_4": 10.0,
+  "ICE_slopes": [
+   4.0,
+   1.0,
+   2.0,
+   3.0
+  ],
+  "mean_x2": 0.5
+ },
+ "58B.1": {
+  "0.95": {
+   "threshold": 0.4654,
+   "recall": 0.956,
+   "false_alarms": 2,
+   "missed": 7
+  },
+  "0.98": {
+   "threshold": 0.247,
+   "recall": 0.9811,
+   "false_alarms": 9,
+   "missed": 3
+  },
+  "0.99": {
+   "threshold": 0.0817,
+   "recall": 0.9937,
+   "false_alarms": 31,
+   "missed": 1
+  }
+ },
+ "58B.2": {
+  "1": {
+   "mean": 0.0638,
+   "sd": 0.0296
+  },
+  "4": {
+   "mean": 0.0681,
+   "sd": 0.0172
+  },
+  "16": {
+   "mean": 0.0692,
+   "sd": 0.0055
+  }
+ },
+ "58C.1": {
+  "forest_bins": {
+   "observed": [
+    0.0253,
+    0.0,
+    0.5714,
+    0.3333,
+    1.0
+   ],
+   "predicted": [
+    0.0272,
+    0.3038,
+    0.5007,
+    0.6483,
+    0.9713
+   ]
+  },
+  "logistic_bins": {
+   "observed": [
+    0.0233,
+    0.0,
+    0.2,
+    0.6667,
+    1.0
+   ],
+   "predicted": [
+    0.0177,
+    0.2201,
+    0.4888,
+    0.6421,
+    0.9887
+   ]
+  },
+  "forest_scores_below_0.05": 65,
+  "forest_scores_above_0.95": 35,
+  "forest_min_nonzero": 0.005
+ },
+ "58C.2": {
+  "train_acc": 0.955,
+  "pd_min": 0.2477,
+  "pd_max": 0.6352,
+  "ice_pos_x2_mean_first_last": [
+   0.044,
+   0.965
+  ],
+  "ice_neg_x2_mean_first_last": [
+   0.919,
+   0.097
+  ]
+ },
+ "test_cut_warning": {
+  "cv_threshold": 0.202,
+  "cv_threshold_test_cost": 0.1818,
+  "t_star_test_cost": 0.1469,
+  "hindsight_threshold": 0.0901,
+  "hindsight_test_cost": 0.0769,
+  "n_thresholds_giving_min": 1
+ }
+}

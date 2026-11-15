@@ -1,0 +1,11 @@
+joint table: Cov = 0.15  rho = 0.60
+covariance matrix:
+ [[2.5  4.25]
+ [4.25 7.5 ]]
+correlation = 0.9815   r^2 = 0.9633
+sample covariance:
+ [[3.98 2.99]
+ [2.99 4.99]]
+eigenvalues of Sigma: [1.4586 7.5414]
+1-sd half-axes: [1.2077 2.7462]
+Var(a^T x) = a^T Sigma a: 15.0   sample: 14.95

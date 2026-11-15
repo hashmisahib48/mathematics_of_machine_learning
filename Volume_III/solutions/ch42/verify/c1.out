@@ -1,0 +1,37 @@
+constant pixels in the training images: [0, 24, 32, 39]
+test images with a non-zero grey value in one of them: 2 of 450 ; their values: [1.0]
+solver chosen by auto: covariance_eigh
+eigenvalues 56 to 64: ['9.99e-03', '6.70e-03', '1.36e-03', '1.21e-03', '8.61e-05', '5.79e-16', '0.00e+00', '0.00e+00', '0.00e+00']
+explained_variance_ below eps^2 (scale clipped to eps): 3  negative: 0
+scale sqrt(lambda): PC1 13.37, PC20 3.27, PC40 1.566, PC60 0.0093, and for the four zero components the clip value eps = 2.22e-16
+weight 1/scale of PC60 relative to PC1: 1441 ; of a zero component relative to PC1: 6.0e+16
+share of the variance in components 41-60: 0.0118 ; share of the squared distances in the whitened space (20 of the 60 components): 0.333
+share of the whitened variance in the first 20 components: 0.333 (they hold 0.895 of the raw variance)
+largest |whitened test score| with 64 components (default solver): 3.08e+15 ; with 60: 239.3
+with svd_solver='full': largest 1.04e+15, 5-NN test accuracy 0.9000
+median |whitened test score| on the four last components (default solver): ['4.5e-07', '0.0e+00', '2.9e+02', '5.6e+02']
+whitened scores on the four zero components: largest |score| per column ['1.6e+07', '0.0e+00', '3.1e+15', '2.8e+15']
+  k  plain  whitened  whitened with sqrt(lambda + 1)
+  2  0.6178   0.6156   0.6156
+  5  0.9133   0.9178   0.9178
+ 10  0.9667   0.9600   0.9600
+ 15  0.9756   0.9822   0.9822
+ 20  0.9756   0.9644   0.9644
+ 30  0.9800   0.9644   0.9711
+ 40  0.9800   0.9489   0.9600
+ 50  0.9800   0.9489   0.9600
+ 55  0.9800   0.9489   0.9600
+ 60  0.9800   0.9444   0.9600
+ 61  0.9800   0.9444   0.9600
+ 64  0.9800   0.1756   0.9600
+
+fixes at 64 components:
+  scale sqrt(lambda +  0.1): 0.9578
+  scale sqrt(lambda +  1.0): 0.9600
+  scale sqrt(lambda + 10.0): 0.9733
+  drop the 4 constant pixels, PCA(60, whiten=True): 0.9444
+  PCA(0.95, whiten=True) keeps 28 components: 0.9711
+  PCA(0.99, whiten=True) keeps 41 components: 0.9578
+  no whitening, 64 components: 0.9800
+
+figure width 4.48 in, printed 5.0 in, smallest font 8.0 pt -> printed 8.9 pt

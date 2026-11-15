@@ -1,0 +1,7 @@
+unpenalised: b = -5.7703  w = 1.2823 per hour  p(6 h) = 0.8725
+hours   : w = 0.86781 per hour  = 0.8678 per hour   b = -3.9051   p(6 h) = 0.7861   penalty w^2/2 = 0.376545   log loss of the training set = 2.6582
+minutes : w = 0.02137 per minute  = 1.2820 per hour   b = -5.7691   p(6 h) = 0.8725   penalty w^2/2 = 0.000228   log loss of the training set = 2.5030
+ratio of the squared weights (the penalty) for the same slope per hour: 60^2 = 3600
+hours    after StandardScaler: p(6 h) = 0.6771   weight of the scaled feature = 1.1309   scale_ = 2.291
+minutes  after StandardScaler: p(6 h) = 0.6771   weight of the scaled feature = 1.1309   scale_ = 137.477
+smallest text 8.0

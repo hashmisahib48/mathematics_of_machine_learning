@@ -1,0 +1,32 @@
+F0 8.0 MSE 17.666666666666668
+
+round 1: r = [-5. -3. -4.  2.  6.  4.], SSE of r = 106.0
+  split 1.5: left mean -5.0000 right mean 1.0000 SSE 76.0000
+  split 2.5: left mean -4.0000 right mean 2.0000 SSE 58.0000
+  split 3.5: left mean -4.0000 right mean 4.0000 SSE 10.0000
+  split 4.5: left mean -2.5000 right mean 5.0000 SSE 31.0000
+  split 5.5: left mean -0.8000 right mean 4.0000 SSE 86.8000
+  h = [-4. -4. -4.  4.  4.  4.]  F = [ 6.  6.  6. 10. 10. 10.]  MSE 5.6667
+  residual sums in the leaves after the step: -6.0 6.0
+
+round 2: r = [-3. -1. -2.  0.  4.  2.], SSE of r = 34.0
+  split 1.5: left mean -3.0000 right mean 0.6000 SSE 23.2000
+  split 2.5: left mean -2.0000 right mean 1.0000 SSE 22.0000
+  split 3.5: left mean -2.0000 right mean 2.0000 SSE 10.0000
+  split 4.5: left mean -1.5000 right mean 3.0000 SSE 7.0000
+  split 5.5: left mean -0.4000 right mean 2.0000 SSE 29.2000
+  h = [-1.5 -1.5 -1.5 -1.5  3.   3. ]  F = [ 5.25  5.25  5.25  9.25 11.5  11.5 ]  MSE 2.2917
+  residual sums in the leaves after the step: -3.0 3.0
+
+prediction at 3.8 after 0, 1, 2 trees: 8, 10, 9.25
+
+absolute error
+F0 7.5 r [-4.5 -2.5 -3.5  2.5  6.5  4.5] left -3.5 right 4.5
+with y5 = 114: right median 4.5 right mean 37.8333  (before: 4.5 )
+
+loans: left n 4 repaid 0.0  right n 6 repaid 5.0
+plain mean of r in the leaves: -0.5 0.3333333333333333
+sum r over all samples: 0.0
+gamma -2.0 -> F1 = -1.0  p = 0.2689
+gamma 1.3333 -> F1 = 0.6666666666666666  p = 0.6608
+sum |e| before 24.0 after 12.0

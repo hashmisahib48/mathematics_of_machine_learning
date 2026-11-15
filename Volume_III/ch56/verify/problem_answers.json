@@ -1,0 +1,97 @@
+{
+ "56A.1": {
+  "n_required": 5,
+  "n_possible": 5,
+  "r0": 22,
+  "candidates": [
+   100,
+   34,
+   12,
+   4,
+   2
+  ],
+  "rows": [
+   22,
+   66,
+   198,
+   594,
+   1782
+  ],
+  "total_rows": 12760,
+  "full_grid_rows": 180000,
+  "sklearn_candidates": [
+   100,
+   34,
+   12,
+   4,
+   2
+  ],
+  "sklearn_rows": [
+   22,
+   66,
+   198,
+   594,
+   1782
+  ]
+ },
+ "56A.2": {
+  "n_for_P0.99_q0.02": 228,
+  "P_with_60_draws_q0.02": 0.7024,
+  "n_for_P0.99_q0.05": 90,
+  "n_for_P0.99_q0.10": 44,
+  "check_P_at_228": 0.99
+ },
+ "56B.1": {
+  "argmax_C": 0.31622776601683794,
+  "argmax_cv": 0.9836,
+  "argmax_test": 0.965,
+  "one_se_C": 0.1,
+  "one_se_cv": 0.979,
+  "one_se_test": 0.958,
+  "best_score_available_with_callable": false
+ },
+ "56B.2": {
+  "candidates": [
+   36,
+   12,
+   4,
+   2
+  ],
+  "n_estimators": [
+   3,
+   9,
+   27,
+   81
+  ],
+  "trees_fitted_per_fold": 486,
+  "full_grid_trees_per_fold": 2916,
+  "best_score": 0.9554,
+  "best_params": {
+   "max_depth": 8,
+   "max_features": 1.0,
+   "min_samples_leaf": 3,
+   "n_estimators": 81
+  },
+  "test": 0.9371,
+  "best_estimator_n_estimators": 81
+ },
+ "56C.1": null,
+ "56C.2": {
+  "decade_shares_uniform_1e-4..1e2": [
+   0.0,
+   0.0,
+   0.001,
+   0.01,
+   0.094,
+   0.895
+  ],
+  "decade_shares_loguniform": [
+   0.167,
+   0.167,
+   0.165,
+   0.17,
+   0.165,
+   0.165
+  ]
+ }
+}

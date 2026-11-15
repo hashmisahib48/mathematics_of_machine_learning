@@ -1,0 +1,29 @@
+== Q1  linear in the weights
+weights (b, w1, w2): [ 1.4 -0.8  1. ]  for 2y: [ 2.8 -1.6  2. ]  ratio: [2. 2. 2.]
+cond of Phi'Phi: 7377.64973156626
+exponential a*exp(c x) fitted to y: a, c = [1.5359 0.5389]  function evaluations: 13
+exponential a*exp(c x) fitted to 2y: a, c = [3.0718 0.5389]  function evaluations: 25
+sum of squares, quadratic model as a function of w2 (others at optimum): min at 0.9999999999999871  SSE there 1.5999999999999994  at w2 +/- 0.5: [np.float64(246.35000000000002), np.float64(246.35000000000008)]
+
+== Q2  StandardScaler after PolynomialFeatures (30 yearly values 1990-2019, as Listing 15.5)
+column of ones: mean 1.0  scale_ 1.0  after scaling: [0.]
+degree 2: cond scaled-after 1.037e+03  scaled-before 1.341e+00  corr(x, x^2) after scaling = 0.999998
+          rank_ 2 (scaler after) against 2 (scaler before)
+degree 3: cond scaled-after 8.743e+05  scaled-before 6.033e+00  corr(x, x^2) after scaling = 0.999998
+          rank_ 3 (scaler after) against 3 (scaler before)
+degree 4: cond scaled-after 6.576e+08  scaled-before 9.340e+00  corr(x, x^2) after scaling = 0.999998
+          rank_ 3 (scaler after) against 4 (scaler before)
+number of columns for p = 50, d = 3: 23426 - the scaler does not change it
+
+== Q3  extrapolation of a cubic spline beyond speed 5
+constant  at 5, 6, 7, 8: [22. 22. 22. 22.]  R2 on data 1.0
+linear    at 5, 6, 7, 8: [22.     28.3333 34.6667 41.    ]  R2 on data 1.0
+continue  at 5, 6, 7, 8: [22. 27. 28. 23.]  R2 on data 1.0
+straight line at 6, 8: [25.6 36. ]  parabola at 6, 8: [32.6 59. ]
+slope of the fitted parabola at 5: 9.200000000000015  of the line: 5.200000000000002
+
+== Q4  banded normal equations and a distant outlier
+columns 39  max non-zeros per row of Phi: 4  non-zero share of Phi'Phi: 0.172  bandwidth: 3
+flops, dense solve ~ m^3 = 59319  banded ~ m*b^2 = 351
+largest change of the fit on [0, 5] after adding the outlier at 9.9 (+20):  spline 9.86e-05   degree-12 polynomial 0.017
+largest change on [9, 10]:  spline 1.75   polynomial 1.89

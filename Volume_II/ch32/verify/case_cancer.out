@@ -1,0 +1,14 @@
+log loss                    raw     sigmoid    isotonic temperature
+GaussianNB               1.2210      0.2771      0.6829      0.2342
+LinearSVC                     -      0.1021      0.1019      0.1000
+SVC                           -      0.1117      0.1362      0.1175
+RandomForest             0.3702      0.1503      0.3513      0.3609
+AdaBoost                 0.4386      0.1159      0.1113      0.1103
+LogisticRegression       0.0858      0.0897      0.1116      0.0855
+accuracy                    raw     sigmoid    isotonic temperature
+GaussianNB               0.9231      0.9231      0.9301      0.9231
+LinearSVC                     -      0.9580      0.9580      0.9510
+SVC                           -      0.9510      0.9441      0.9580
+RandomForest             0.9441      0.9441      0.9441      0.9441
+AdaBoost                 0.9441      0.9441      0.9510      0.9441
+LogisticRegression       0.9580      0.9580      0.9580      0.9580

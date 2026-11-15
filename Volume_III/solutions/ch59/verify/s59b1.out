@@ -1,0 +1,7 @@
+districts 40  rows 2250  rows per district: min 20  mean 56.2  max 324
+target encoding  1 column : MAE 35.84
+one-hot         40 columns: MAE 35.92
+folds, target : [36.29 37.08 36.96 36.08 32.78]
+folds, one-hot: [37.99 38.57 36.19 35.53 31.33]
+difference per fold: [ 1.71  1.49 -0.77 -0.55 -1.46]  mean 0.08
+sd of the target-encoding folds 1.76

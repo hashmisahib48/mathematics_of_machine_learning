@@ -1,0 +1,10 @@
+columns, degree 3: 5456 5456  without the bias: 5455
+degree 2: 496  degree 3 interaction_only: 4526  degree 2 interaction_only: 466  cubic splines, 5 knots, one per feature: 210
+ratio columns / samples: 27.3
+rank of the centred column matrix: 199  (n - 1 = 199 )
+warnings raised by LinearRegression.fit: 0
+LinearRegression  rank_ 199  train R2 1.0000  test R2 0.1541  largest |weight| 5.60e-02
+minimum-norm solution of pinv agrees with lstsq: True
+RidgeCV  alpha 100  train R2 0.9991  test R2 0.1529
+LassoCV  alpha 0.0766  non-zero weights 41  train R2 0.9508  test R2 0.9343
+plain linear model on the 30 features: test R2 0.0684

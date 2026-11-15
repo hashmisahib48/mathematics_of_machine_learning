@@ -1,0 +1,11 @@
+most negative (towards malignant):
+  radius error           -1.213  odds x 0.30
+  worst texture          -1.107  odds x 0.33
+  mean concave points    -1.106  odds x 0.33
+  worst radius           -0.995  odds x 0.37
+most positive (towards benign):
+  compactness error       0.705  odds x 2.02
+  fractal dimension error  0.555  odds x 1.74
+  symmetry error          0.471  odds x 1.60
+  mean fractal dimension  0.405  odds x 1.50
+L1, C = 0.1: nonzero weights 7  test accuracy 0.9371

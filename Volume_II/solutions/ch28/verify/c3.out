@@ -1,0 +1,14 @@
+book:  n [1000, 3000, 10000, 30000]  ratio [2.0, 5.3, 14.0, 31.7]
+
+rerun on this computer, one thread, best of 2 (defaults of both, 100 trees):
+      n   GBC s   HGBC s (no early stop)  ratio   HGBC defaults: s  trees   test acc GBC / HGBC
+   1000    0.73     0.24                   3.0                 0.20    100     0.9070 / 0.9110
+   3000    1.40     0.33                   4.2                 0.41    100     0.9583 / 0.9650
+  10000    5.42     0.35                  15.3                 0.35    100     0.9425 / 0.9618
+  30000   HGBC with defaults: 0.66 s, 100 trees (early stopping True);  without: 0.83 s, 100 trees
+ 100000   HGBC with defaults: 3.15 s, 100 trees (early stopping True);  without: 2.39 s, 100 trees
+
+log-log slope of GBC time 1.11, of HGBC time 0.34  -> ratio grows like n^0.77
+ratio 100 would be reached at about n = 132,060 rows;  predicted ratio at 100000 rows: 82
+predicted GBC time at 100000 rows: 76 s;  HGBC measured 1.6 s
+figure width 4.39 in, printed 4.9 in, smallest font 8.0 pt -> printed 8.9 pt

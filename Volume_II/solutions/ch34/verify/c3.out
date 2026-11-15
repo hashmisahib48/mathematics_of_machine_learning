@@ -1,0 +1,6 @@
+best possible on 6000 new samples: 0.830
+labels from the top    mean over 100 draws: logistic 0.726  spreading 0.717  self-training 0.660   (spreading, transductive 0.716)  spreading better than logistic in 46 draws
+labels from the random mean over 100 draws: logistic 0.758  spreading 0.715  self-training 0.748   (spreading, transductive 0.720)  spreading better than logistic in 20 draws
+figure draw: logistic 0.765  spreading 0.795 (transductive on the 300: 0.800); labelled x2 values [4.46 3.4  3.24 3.63 3.57 3.19]; sd of x2 over the cloud 1.56
+logistic coefficients on the six labels: [[1.   0.02]]  intercept 1.13
+figure width 4.57 in, printed 4.9 in, smallest font 8.8 pt -> printed 9.4 pt

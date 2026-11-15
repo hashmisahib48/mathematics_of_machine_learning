@@ -1,0 +1,8 @@
+root impurity: entropy 0.9531, Gini 0.4679
+depth 1: nodes 3 and 3, same classes True, same fractions True
+   test accuracy: entropy 0.8881, Gini 0.8881
+depth 2: nodes 7 and 7, same classes True, same fractions True
+   test accuracy: entropy 0.8881, Gini 0.8881
+depth 3: nodes 13 and 13, same classes True, same fractions True
+   test accuracy: entropy 0.9231, Gini 0.9161
+root question: feature 22 <= 106.10 (entropy), 22 <= 106.10 (Gini)

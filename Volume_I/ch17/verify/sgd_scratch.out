@@ -1,0 +1,6 @@
+fixed order, 3 epochs: largest |w - w_sk| over 9 settings
+  3.2e-14  (assertion passed)
+shuffled, 20 epochs: the random orders differ
+  scratch      test accuracy 0.9510
+  scikit-learn test accuracy 0.9650
+  largest |w - w_sk| = 0.684

@@ -1,0 +1,12 @@
+Eq. 45.3-5 for p = 400, k = 10:  sd of q = sqrt((2 + (s-3) Sum x^4/|x|^4)/k)
+vector          Sum x^4/|x|^4   Gaussian (s=3)  formula / simulation     sparse s=20: formula / simulation   share of q = 0
+flat                0.0025            0.4472 / 0.4475               0.4519 / 0.4438       0.0000
+spiky (1 entry)     1.0000            0.4472 / 0.4418               1.3784 / 1.3899       0.5988
+2 spikes            0.5000            0.4472 / 0.4466               1.0247 / 1.0330       0.3610
+probability that the column of the single spike has all 10 entries zero: (1 - 1/s)^k = 0.5987
+mean of q in every case: {'flat': (1.0, 0.993), 'spiky (1 entry)': (1.0, 1.007), '2 spikes': (1.0, 1.007)}
+k needed for sd(q) <= 0.2 (Eq. 45.3-5): Gaussian 50;  sparse, flat 52;  sparse, spiky 475;  sparse, 2 spikes 263
+cost of one projected sample is proportional to k p / s: Gaussian k = 50: 50.0 p;  sparse k = 475: 23.75 p;  sparse k = 52 (flat vectors): 2.60 p
+s = 3 (Achlioptas): spiky sd 0.4472, same as Gaussian 0.4472;   s = 20 costs 1/20 of the multiplications
+check with SparseRandomProjection(density = 1/20), spiky vector, 3000 matrices: sd 1.372, share of zeros 0.590
+figure width 5.40 in, printed 4.9 in, smallest font 8.8 pt -> printed 8.0 pt

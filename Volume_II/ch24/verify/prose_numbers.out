@@ -1,0 +1,38 @@
+== impurity measures, parent (4,4), splits A and B
+misclass  parent 0.5000  A 0.2500  B 0.2500  decrease A 0.2500  B 0.2500
+gini      parent 0.5000  A 0.3750  B 0.3333  decrease A 0.1250  B 0.1667
+entropy   parent 1.0000  A 0.8113  B 0.6887  decrease A 0.1887  B 0.3113
+max gini, entropy, misclass at p=1/2: 0.5 1.0 0.5
+K=3 equal: gini 0.6667 entropy 1.585
+== breast cancer, gini versus entropy, full trees
+gini depth 5 leaves 18 test 0.9021
+entropy depth 6 leaves 15 test 0.9161
+test accuracy of full tree over 10 seeds: min 0.9021 max 0.9231
+== class_weight on an imbalanced sample
+None root value [0.892 0.108]  leaves 4
+balanced root value [0.5 0.5]  leaves 4
+== monotonic constraint
+monotonic_cst None  non-decreasing: False
+monotonic_cst [1]  non-decreasing: True
+== random splitter
+best depth 5 leaves 18 test 0.9021
+random depth 7 leaves 26 test 0.9231
+== the right node of the loan tree: best income split
+  income <=  38.0: weighted gini 0.2667
+  income <=  44.0: weighted gini 0.2500
+  income <=  51.5: weighted gini 0.2222
+  income <=  58.5: weighted gini 0.2500
+  income <=  68.5: weighted gini 0.2667
+== cost-complexity of the three loan trees at alpha = 0.2
+3 leaves  R(T) = 0.0  R_alpha = 0.6
+2 leaves  R(T) = 0.1667  R_alpha = 0.5667
+1 leaves  R(T) = 0.5  R_alpha = 0.7
+== scaling invariance on breast cancer
+same test predictions after standardising: True  same node count: True
+depth/leaves raw 5 18  scaled 5 18
+== depth of unlimited trees on the moons of Listing 24.7
+training set: depth 8 leaves 21
+folds: [8, 10, 8, 9, 10]
+== exclusive-or of Figure 24.11-1: gains inside the two halves
+root impurity 0.4978  best first question x1, x2: 0.0078 0.013
+best second question in the left half: 0.2131  in the right half: 0.1725

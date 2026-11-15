@@ -1,0 +1,24 @@
+== the problem's outlier at (7.5, -3), class 0, on the wrong side
+without  priors [0.5 0.5]  mean0 [ 0.098 -0.045]  mean1 [2.894 1.453]  Sigma11 1.132  Sigma12 0.403  Sigma22 0.671
+         w [2.13  0.953]  b -3.858  angle of w 24.1 deg  boundary at x2=0.75: x1 = 1.475
+with     priors [0.506 0.494]  mean0 [ 0.278 -0.117]  mean1 [2.894 1.453]  Sigma11 1.778  Sigma12 0.134  Sigma22 0.768
+         w [1.334 1.81 ]  b -3.350  angle of w 53.6 deg  boundary at x2=0.75: x1 = 1.493
+LDA                  angle  24.1 ->  53.6 deg (turn  29.5)   boundary at x2=0.75: 1.475 -> 1.493
+LDA, MinCovDet       angle  43.2 ->  49.3 deg (turn   6.1)   boundary at x2=0.75: 1.453 -> 1.501
+logistic regression  angle  27.3 ->  55.5 deg (turn  28.2)   boundary at x2=0.75: 1.453 -> 1.528
+
+== a far point on the correct side, (-7.5, 3), class 0
+LDA                  angle  24.1 ->  46.1 deg (turn  22.0)
+LDA, MinCovDet       angle  43.2 ->  37.3 deg (turn  -5.9)
+logistic regression  angle  27.3 ->  27.3 deg (turn   0.0)
+
+turn of the normal vector (degrees) against the distance factor t of the outlier (t = 1 is the problem's point):
+t                         [0, 0.25, 0.5, 1, 1.5, 2, 3, 4]
+LDA                       [0.0, 4.9, 13.9, 29.5, 37.0, 40.4, 42.9, 43.8]
+LDA, MinCovDet            [0.0, 4.9, 3.1, 6.1, 9.0, 11.9, 17.5, 22.8]
+logistic regression       [0.0, 3.8, 13.7, 28.2, 34.2, 36.8, 39.0, 39.8]
+same for the point on the correct side:
+LDA                       [0.0, 1.5, 7.9, 22.0, 30.5, 35.1, 39.2, 40.9]
+LDA, MinCovDet            [0.0, 0.7, -3.4, -5.9, -8.8, -11.7, -17.4, -22.7]
+logistic regression       [0.0, -0.1, -0.0, 0.0, 0.0, 0.0, 0.0, -0.0]
+figure width 5.18 in, printed 4.9 in, smallest font 8.0 pt -> printed 7.6 pt

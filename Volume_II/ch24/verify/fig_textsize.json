@@ -1,0 +1,86 @@
+{
+ "f240.png": {
+  "fig_in": 5.17,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 8.0
+ },
+ "f241.png": {
+  "fig_in": 3.5,
+  "printed_in": 3.75,
+  "min_font_design": 8.5,
+  "min_font_printed": 9.1
+ },
+ "f242.png": {
+  "fig_in": 5.17,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 8.0
+ },
+ "f243.png": {
+  "fig_in": 5.18,
+  "printed_in": 4.9,
+  "min_font_design": 8.2,
+  "min_font_printed": 7.8
+ },
+ "f244.png": {
+  "fig_in": 5.04,
+  "printed_in": 4.69,
+  "min_font_design": 8.5,
+  "min_font_printed": 7.9
+ },
+ "f245.png": {
+  "fig_in": 5.18,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 8.0
+ },
+ "f246.png": {
+  "fig_in": 5.18,
+  "printed_in": 4.9,
+  "min_font_design": 8.4,
+  "min_font_printed": 7.9
+ },
+ "f247.png": {
+  "fig_in": 3.02,
+  "printed_in": 3.75,
+  "min_font_design": 8.0,
+  "min_font_printed": 9.9
+ },
+ "f2410a.png": {
+  "fig_in": 4.98,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 8.4
+ },
+ "f2410b.png": {
+  "fig_in": 4.98,
+  "printed_in": 4.69,
+  "min_font_design": 8.3,
+  "min_font_printed": 7.8
+ },
+ "f2410c.png": {
+  "fig_in": 5.18,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 8.0
+ },
+ "f2411.png": {
+  "fig_in": 4.91,
+  "printed_in": 4.69,
+  "min_font_design": 8.2,
+  "min_font_printed": 7.8
+ },
+ "f2412a.png": {
+  "fig_in": 4.98,
+  "printed_in": 4.69,
+  "min_font_design": 8.2,
+  "min_font_printed": 7.7
+ },
+ "f2412b.png": {
+  "fig_in": 4.26,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 9.8
+ }
+}

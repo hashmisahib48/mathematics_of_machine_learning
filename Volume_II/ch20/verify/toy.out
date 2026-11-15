@@ -1,0 +1,15 @@
+point  class  d^2    d
+  5    1        1  1.0000
+  1    0        5  2.2361
+  2    0        9  3.0000
+  3    0       10  3.1623
+  6    1       13  3.6056
+  7    1       16  4.0000
+  8    1       18  4.2426
+  4    0       20  4.4721
+
+3 nearest: [5 1 2]  votes (apricot, plum): [2 1]
+weights 1/d: [1.     0.4472 0.3333]
+weighted score (apricot, plum): [0.7805 1.    ]
+uniform -> apricot   distance-weighted -> plum
+1-NN -> plum

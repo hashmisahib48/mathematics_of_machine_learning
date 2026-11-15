@@ -1,0 +1,37 @@
+== Q1  conditional independence
+two features driven by the class only: overall correlation 0.503  within class 0: -0.002  within class 1: 0.015
+digits, horizontally adjacent pixels: mean correlation over all images 0.321 (53 pairs); inside one digit class, averaged over the ten classes 0.280
+pairs of pixels at distance 4 columns inside classes: -0.021
+
+== Q2  zero counts (the six messages)
+words: ['free', 'lunch', 'meeting', 'now', 'prize', 'report', 'win']
+N ham : [0. 2. 3. 1. 0. 2. 0.] 8.0 
+N spam: [3. 0. 0. 3. 2. 0. 2.] 10.0
+alpha = 0: log scores of 'free meeting now': [-inf -inf]  -> joint scores [0. 0.]  (0/0)
+alpha = 0.001: theta(free|ham) = 0.00012  theta(meeting|spam) = 0.00010  P(spam) = 0.6056
+alpha = 0.01: theta(free|ham) = 0.00124  theta(meeting|spam) = 0.00099  P(spam) = 0.6053
+alpha = 1.0: theta(free|ham) = 0.06667  theta(meeting|spam) = 0.05882  P(spam) = 0.5788
+alpha = 1: theta(free|ham) = 0.0667 = 1/15; a word seen 3 times in ham: 0.2667  ln ratio 1/15 : 4/15 = 1.3863
+
+== Q3  fraud 0.1 per cent
+fraud cases: 96 of 100000
+fit_prior=True                   flagged      1  caught   1 of 96  false alarms      0  precision 1.000
+fit_prior=False (equal priors)   flagged  14090  caught  82 of 96  false alarms  14008  precision 0.006
+priors = (0.99, 0.01)            flagged     80  caught  12 of 96  false alarms     68  precision 0.150
+priors = (0.9, 0.1)              flagged   1835  caught  51 of 96  false alarms   1784  precision 0.028
+largest predicted fraud probability with the true prior: 0.521  samples above 0.5: 1
+with equal priors the posterior odds are multiplied by 999: 999
+
+== Q4  naive Bayes against logistic regression on the digits
+GaussianNB (default)           accuracy 0.8356  mean probability of the winning class 0.987
+GaussianNB(var_smoothing=0.1)  accuracy 0.9133  mean probability of the winning class 0.986
+MultinomialNB                  accuracy 0.9044  mean probability of the winning class 0.996
+logistic (scaled)              accuracy 0.9689  mean probability of the winning class 0.954
+test accuracy against training size (mean of 30 random subsets; GaussianNB var_smoothing 0.1 | logistic):
+  n =    20: 0.588 | 0.621   (8 subsets with all ten digits)
+  n =    30: 0.647 | 0.673   (15 subsets with all ten digits)
+  n =    50: 0.767 | 0.779   (29 subsets with all ten digits)
+  n =   100: 0.862 | 0.880   (30 subsets with all ten digits)
+  n =   200: 0.899 | 0.923   (30 subsets with all ten digits)
+  n =   400: 0.911 | 0.947   (30 subsets with all ten digits)
+  n =  1347: 0.913 | 0.969   (1 subsets with all ten digits)

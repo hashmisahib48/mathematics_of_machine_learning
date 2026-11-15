@@ -1,0 +1,6 @@
+samples per half: 20 20
+knobs of the line: 11
+DummyRegressor   train   0.000  test  -0.477
+LinearRegression train   0.840  test   0.228
+means of y: 36.75 -24.29
+-gap / var(y_te) = -0.477

@@ -1,0 +1,50 @@
+{
+ "p_35A1.png": {
+  "fig_in": 1.91,
+  "printed_px": 209,
+  "min_font_design": 9.0,
+  "min_font_printed": 10.2
+ },
+ "p_35A2.png": {
+  "fig_in": 2.48,
+  "printed_px": 209,
+  "min_font_design": 9.0,
+  "min_font_printed": 7.9
+ },
+ "p_35A3.png": {
+  "fig_in": 2.36,
+  "printed_px": 209,
+  "min_font_design": 9.0,
+  "min_font_printed": 8.3
+ },
+ "p_35B1.png": {
+  "fig_in": 2.36,
+  "printed_px": 209,
+  "min_font_design": 8.8,
+  "min_font_printed": 8.1
+ },
+ "p_35B2.png": {
+  "fig_in": 2.36,
+  "printed_px": 209,
+  "min_font_design": 8.6,
+  "min_font_printed": 7.9
+ },
+ "p_35B3.png": {
+  "fig_in": 2.45,
+  "printed_px": 209,
+  "min_font_design": 9.5,
+  "min_font_printed": 8.4
+ },
+ "p_35C1.png": {
+  "fig_in": 2.54,
+  "printed_px": 209,
+  "min_font_design": 9.5,
+  "min_font_printed": 8.1
+ },
+ "p_35C2.png": {
+  "fig_in": 2.36,
+  "printed_px": 209,
+  "min_font_design": 9.0,
+  "min_font_printed": 8.3
+ }
+}

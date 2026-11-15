@@ -1,0 +1,15 @@
+1. diagonal ignored: max |difference| = 0.0
+2. embedding = D^-1/2 V: max error per column [0. 0.]
+   first column constant: True ; row norms not 1: [0.0203 0.0203 0.0339]
+3. affinity_matrix_ values: [0.5 1. ]  symmetric: True  diagonal all 1: True
+   entries per row (self included) min/median/max: 10 11 16
+4. toy labels: [0, 0, 0, 1, 1, 1]
+   has predict: False ; AffinityPropagation has predict: True
+5. median of all 9 entries: -1.0 ; of the 6 off-diagonal: -4.0
+   100 ring points: median all -0.8359 off-diagonal -0.851
+6. co-clustering rebuilt in NumPy: same rows True , same columns True ; n_sv for K=2,3,4,5: [2, 3, 3, 4]
+   singular values of the normalised matrix: [1.     0.6222 0.2037 0.1881]
+7. rows_ shape (9, 60) columns_ shape (9, 60) ; consensus score 1.0
+   a perfect match gives 1.0
+8. undamped r(1,2) in rounds 1 to 6: [5.0, 0.0, 5.0, 0.0, 5.0, 0.0]
+9. mean distance to the 10th neighbour (self first, so 9th other): 0.16  1/(2 s^2) = 19.6

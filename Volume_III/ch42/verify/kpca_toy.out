@@ -1,0 +1,7 @@
+K row 1   [16.  4.  4. 16.] 
+Kc row 1  [ 2.25 -2.25 -2.25  2.25]
+eigenvalues of Kc [9. 0. 0. 0.]
+scores sqrt(lam) * a: [ 1.5 -1.5 -1.5  1.5]
+KernelPCA scores    : [-1.5  1.5  1.5 -1.5] [9.]
+new point by hand -2.5  KernelPCA 2.5
+same up to sign: True True

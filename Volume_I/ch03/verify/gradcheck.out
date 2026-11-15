@@ -1,0 +1,11 @@
+least squares   relative error = 1.0e-10  OK
+ridge           relative error = 1.3e-10  OK
+wrong gradient  relative error = 3.3e-01  <-- BUG
+
+step h    forward error  central error  (exp at x = 1)
+1e-2        1.36e-02       4.53e-05
+1e-4        1.36e-04       4.53e-09
+1e-6        1.36e-06       1.63e-10
+1e-8        6.60e-09       6.60e-09
+1e-10       1.55e-06       6.73e-07
+1e-12       4.32e-04       2.10e-04

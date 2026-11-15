@@ -1,0 +1,9 @@
+grid minimum, squared loss : 21.67
+grid minimum, absolute loss: 4.0
+mean, median of y : 21.667 4.5
+MSE at the mean   : 1248.89
+MAE at the median : 18.667
+flat bottom of MAE: 4.0 to 5.0
+MAE at 4, 4.5, 5  : [18.667, 18.667, 18.667]
+slope at c = 4.5   : 0.0
+without 100       : 6.0 4.0

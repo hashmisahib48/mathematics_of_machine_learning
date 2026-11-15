@@ -1,0 +1,8 @@
+n = 780  strays: 80
+k-means    k=4 noise=  0 ARI=0.579 [269, 165, 219, 127]
+DBSCAN 30  k=9 noise=154 ARI=0.719 [120, 121, 191, 160, 8, 6, 7, 6, 7]
+DBSCAN 60  k=3 noise= 68 ARI=0.819 [243, 203, 266]
+HDBSCAN    k=4 noise= 56 ARI=0.934 [208, 275, 121, 120]
+MS h=296   k=4 noise=  0 ARI=0.731 [290, 264, 216, 10]
+HDBSCAN strength, mean per cluster: [0.66, 0.68, 0.72, 0.74]
+medoids: [[607, 292], [207, 805], [-3, -3], [111, -1]]

@@ -1,0 +1,3 @@
+smooth=auto: transform 7.1e-15, fit_trans 1.1e-14
+smooth=5.0: transform 7.1e-15, fit_trans 1.1e-14
+unseen city: 21.192 = mean 21.192

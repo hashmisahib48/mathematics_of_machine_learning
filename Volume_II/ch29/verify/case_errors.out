@@ -1,0 +1,15 @@
+patients misclassified by at least one member: 13  by all four: 2
+shared errors (diagonal: errors of the member)
+[[6 5 3 3]
+ [5 7 4 4]
+ [3 4 8 5]
+ [3 4 5 7]]
+correlation of the error indicators, lr/svc/rf/knn:
+[[1.   0.76 0.4  0.44]
+ [0.76 1.   0.51 0.55]
+ [0.4  0.51 1.   0.65]
+ [0.44 0.55 0.65 1.  ]]
+members right per patient, 0..4: [  2   3   3   5 130]
+2-2 ties among the 143 patients: 3  truly malignant: 2  (a tie goes to class 0 = malignant)
+tied patients decided correctly by soft vote: 2 of 3
+tied patients decided correctly by stack: 2 of 3

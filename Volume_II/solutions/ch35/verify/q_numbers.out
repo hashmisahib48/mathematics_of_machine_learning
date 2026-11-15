@@ -1,0 +1,43 @@
+== Q1  first direction of three rules on the 60 spectra (scaled channels)
+PCA            train: sd  9.236 corr  0.202   new: sd  8.833 corr -0.001
+PLS            train: sd  8.515 corr  0.239   new: sd  8.410 corr  0.041
+least squares  train: sd  0.143 corr  1.000   new: sd  0.157 corr  0.882
+sd of y on the training data 2.668
+
+== Q2  correlation of the k-th score with y, and the share of variance of Z in it
+ k  PCA: var share   corr^2 with y | PLS: corr^2 with y
+ 1         0.839         0.041 |           0.057
+ 2         0.118         0.008 |           0.270
+ 3         0.022         0.034 |           0.373
+ 4         0.011         0.104 |           0.152
+ 5         0.005         0.660 |           0.031
+ 6         0.001         0.068 |           0.044
+ 7         0.000         0.000 |           0.041
+ 8         0.000         0.001 |           0.015
+ 9         0.000         0.000 |           0.006
+10         0.000         0.001 |           0.004
+11         0.000         0.001 |           0.002
+12         0.000         0.001 |           0.001
+13         0.000         0.001 |           0.001
+14         0.000         0.001 |           0.001
+15         0.000         0.003 |           0.000
+sum of corr^2 (training R^2) for k = 1..6, 7..15, PCA: 0.915 0.009   PLS: 0.928 0.072
+correlation of PCA scores 1..4 with y: [0.202, 0.09, 0.186, -0.323]
+PLS scores 1..4: [0.239, 0.519, -0.611, -0.39]
+cumulative explained variance of the first 4 PCA components of the scaled spectra: 0.991
+
+== Q3  cross-validated RMSE, 5 folds, for A = 5 ... 15
+ A   PLS    PCA+OLS
+ 5  0.939    1.040
+ 7  1.125    0.861
+ 9  1.351    0.865
+11  1.454    0.876
+13  1.481    0.883
+15  1.494    0.898
+
+== Q4  CCA on pure noise, n = 25, three targets
+p =  3: first canonical correlation in the sample 0.494, on 25 new samples -0.094 (mean of 20 draws)
+p = 10: first canonical correlation in the sample 0.782, on 25 new samples -0.050 (mean of 20 draws)
+p = 20: first canonical correlation in the sample 0.984, on 25 new samples +0.016 (mean of 20 draws)
+p = 24: first canonical correlation in the sample 1.000, on 25 new samples +0.009 (mean of 20 draws)
+p = 30: first canonical correlation in the sample 1.000, on 25 new samples +0.059 (mean of 20 draws)

@@ -1,0 +1,5 @@
+tin angles: [26.57, 45.0, 63.43]  limits 26.57 63.43
+second ray at 90 deg: smallest entry of W is >= 0 for angles up to 26.56 deg
+smallest entry at 0 deg: 2.000, at 26.57 deg: 0.000, at 40 deg: -1.356
+grid of 8100 pairs of rays: 2916 give a non-negative W; the rule 'first ray <= 26.57, second >= 63.43' predicts 2916, and the two sets agree: True
+figure width 5.03 in, printed 4.9 in, smallest font 7.8 pt -> printed 7.6 pt

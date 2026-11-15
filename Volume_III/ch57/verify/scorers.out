@@ -1,0 +1,7 @@
+58 scorer names; cross_validate keys:
+  ['test_auc', 'test_cost', 'test_f2_malignant', 'test_nll']
+auc           mean   0.9954
+f2_malignant  mean   0.9514
+nll           mean  -0.0794
+cost          mean  -0.2154
+cost scorer: -0.2308 = -cost: -0.2308

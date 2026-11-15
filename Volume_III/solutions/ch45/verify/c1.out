@@ -1,0 +1,24 @@
+n = 1347, p = 64
+  eps 0.500: JL dimension 345  (5.4 times p)
+  eps 0.300: JL dimension 800  (12.5 times p)
+  eps 0.100: JL dimension 6176  (96.5 times p)
+  eps 0.900: JL dimension 177  (2.8 times p)
+  eps 0.990: JL dimension 172  (2.7 times p)
+  eps 0.999: JL dimension 172  (2.7 times p)
+minimum of 4 ln n / (eps^2/2 - eps^3/3) over 0 < eps < 1, reached at eps -> 1: 172.9
+auto, eps = 0.5 -> ValueError: eps=0.500000 and n_samples=1347 lead to a target dimension of 345 which is larger than the original space with n_features=64
+auto, eps = 0.1 -> ValueError: eps=0.100000 and n_samples=1347 lead to a target dimension of 6176 which is larger than the original space with n_features=64
+explicit k = 6176 -> DataDimensionalityWarning: The number of components is higher than the number of features: n_features < n_components (64 < 6176).The dimensionality
+a 6176-column table: 66.6 MB against 0.69 MB for the pixels; rank of Z = 60, rank of the pixel table = 60
+k = 6176: q has mean 1.000 and sd 0.017 over 3000 pairs (sqrt(2/k) = 0.018)
+5-NN test accuracy of the pixels: 0.9800
+  k =    2: 0.304 +- 0.039   (3% of p, 31.0% of raw accuracy)
+  k =    4: 0.494 +- 0.070   (6% of p, 50.4% of raw accuracy)
+  k =    8: 0.762 +- 0.034   (12% of p, 77.8% of raw accuracy)
+  k =   16: 0.916 +- 0.013   (25% of p, 93.5% of raw accuracy)
+  k =   32: 0.961 +- 0.008   (50% of p, 98.1% of raw accuracy)
+  k =   64: 0.978 +- 0.006   (100% of p, 99.8% of raw accuracy)
+  k =  128: 0.978 +- 0.003   (200% of p, 99.8% of raw accuracy)
+  k =  512: 0.981 +- 0.001   (800% of p, 100.1% of raw accuracy)
+  k = 6176: 0.981 +- 0.001   (9650% of p, 100.1% of raw accuracy)
+figure width 5.37 in, printed 4.9 in, smallest font 8.2 pt -> printed 7.5 pt

@@ -1,0 +1,9 @@
+p_ij for A = 1 (row i, column j):
+ [[0.     0.9526 0.0474 0.    ]
+ [0.4999 0.     0.4999 0.0002]
+ [0.0453 0.9094 0.     0.0453]
+ [0.     0.0067 0.9933 0.    ]]
+p_i = [0.9526 0.4999 0.0453 0.9933]  f = 2.4911
+gradient: formula [[0.091965]]  finite difference 0.091965
+fitted A = [[2.]]  f = 2.5
+random data: f 7.696993 vs 7.696993  max |gradient difference| 4.3e-15

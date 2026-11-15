@@ -1,0 +1,8 @@
+malignant rows: train 159 of 426  test 53 of 143
+test: caught 50 missed 3 false alarms 3 recall 0.9434 precision 0.9434
+CV threshold 0.50: recall 0.9434  false alarms 2
+CV threshold 0.20: recall 0.9874  false alarms 14
+CV threshold 0.10: recall 0.9874  false alarms 28
+CV threshold 0.05: recall 0.9937  false alarms 40
+largest CV threshold with recall >= 0.99: 0.0817  recall 0.9937  false alarm rate 0.1161
+CV scores below 0.05: 228  above 0.95: 132  between: 66

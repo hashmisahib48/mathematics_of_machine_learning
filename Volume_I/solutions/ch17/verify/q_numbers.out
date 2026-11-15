@@ -1,0 +1,31 @@
+== Q1  which samples count
+tiles, final perceptron line (2,1,-3): margins [8. 1. 7. 2.]  mistakes z<=0: 0  inside margin z<=1: 1
+tiles that caused an update, in order: [1, 2, 4, 2, 4]
+cancer, perceptron 200 epochs: updates in epochs 1..5 [23, 14, 15, 9, 16]  last 4  distinct samples ever used 57 of 426
+cancer, hinge SGD alpha=1e-3: n = 426  z<=0: 4  z<=1: 11  z>1: 415
+
+== Q2  decay at every step or once per epoch (Example 17.7-2: eta 0.1, alpha 1)
+every step: [0.2106 0.1187] -0.1  once, factor 1 - 4*eta*alpha = 0.6 at the end: [0.18 0.12] -0.1
+per-step factor 0.9; product over 4 steps: 0.6561  vs 1 - 4*0.1 = 0.6
+cancer scale: n = 426  eta 0.01 alpha 1e-3: per step 0.99999  per epoch (1-eta*alpha)^n = 0.99575  wrongly applied once per epoch: 0.99999
+
+== Q3  one feature a thousand times larger
+factor 1 hinge: max|w| = 14.2, n_iter_ = 33 | squared_hinge: max|w| = 1.71e+13, n_iter_ = 23
+factor 1000 hinge: max|w| = 1.07e+03, n_iter_ = 57 | squared_hinge: max|w| = 1.08e+15, n_iter_ = 18
+first optimal step 10.0  margin gain eta*(|x|^2+1) with |x|^2 ~ 1e6: 1e+07 ; with scaled |x|^2 ~ 30: 310.0
+mean squared norm of a scaled sample: 30.0  with the first column x1000: 1e+06
+
+== Q4  easy points and three losses
+six: boundary ridge 3.500  logistic 3.495  hinge (LinearSVC) 3.500   ridge accuracy 1.000
+nine: boundary ridge 4.267  logistic 3.498  hinge (LinearSVC) 3.500   ridge accuracy 0.889
+force at z = 3: ridge 2(z-1) = 4.0  log loss |L'| = 0.0474  hinge 0
+
+== Q5  a stream that changes character
+plain                                      batches to recover (5 seeds): [2, 2, 2, 2, 2]
+average=True                               batches to recover (5 seeds): [60, 51, 53, 45, 43]
+average=True, restart after 3 bad batches  batches to recover (5 seeds): [4, 4, 4, 4, 4]
+updates before the change: 30 batches x 20 = 600
+
+== Q6  ridge or logistic on the breast-cancer training half (5-fold, as Section 17.13)
+RidgeClassifierCV    0.9577 +- 0.0160
+LogisticRegression   0.9812 +- 0.0120

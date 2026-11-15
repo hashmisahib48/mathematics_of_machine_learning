@@ -1,0 +1,3 @@
+whiten False agrees with PCA; max |dZ| = 1.3e-13
+whiten True agrees with PCA; max |dZ| = 1.5e-14
+variance ratio [0.1491 0.1357 0.1204]

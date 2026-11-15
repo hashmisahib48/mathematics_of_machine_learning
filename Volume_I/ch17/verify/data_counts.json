@@ -1,0 +1,1 @@
+{"n": 569, "p": 30, "benign": 357, "malignant": 212, "train": 426, "test": 143, "test_majority": 0.6294, "train_benign_frac": 0.6268}

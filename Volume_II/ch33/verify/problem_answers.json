@@ -1,0 +1,120 @@
+{
+ "33A.1": {
+  "n": 1100,
+  "K": 6,
+  "ovr_problems": 6,
+  "ovo_problems": 15,
+  "ovr_rows": 6600,
+  "ovo_rows": 5500,
+  "ovo_rows_formula": 5500,
+  "ovr_cost_sq": 7260000,
+  "ovo_cost_sq": 2430000
+ },
+ "33A.2": {
+  "votes": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "c": [
+   -0.2,
+   0.5,
+   -0.3
+  ],
+  "F": [
+   0.9444,
+   1.1111,
+   0.9231
+  ],
+  "pred": 1
+ },
+ "33A.3": {
+  "dist": [
+   2.417,
+   3.611,
+   2.332,
+   3.2
+  ],
+  "nearest": "C",
+  "sign_disagreements": [
+   2,
+   4,
+   2,
+   4
+  ],
+  "min_hamming": 4,
+  "correctable": 1
+ },
+ "33A.4": {
+  "hamming": 0.2,
+  "subset": 0.4,
+  "f1_per_label": [
+   0.8,
+   1.0,
+   0.6667
+  ],
+  "f1_micro": 0.8,
+  "errors": 3
+ },
+ "33B.1": {
+  "flower": 100,
+  "raw": [
+   0.0006,
+   0.1064,
+   0.9893
+  ],
+  "sum": 1.0963,
+  "normalised": [
+   0.0005,
+   0.097,
+   0.9024
+  ],
+  "predict_proba_ovr": [
+   0.0005,
+   0.097,
+   0.9024
+  ],
+  "diff": 0.0,
+  "native": [
+   0.0,
+   0.0062,
+   0.9938
+  ],
+  "acc_ovr": 0.9467,
+  "acc_native": 0.9733
+ },
+ "33B.2": {
+  "differ": 10,
+  "wrapper_vs_break_ties": 0,
+  "example_point": [
+   -4.432,
+   0.073
+  ],
+  "svc_pred": 0,
+  "wrapper_pred": 1,
+  "scores_example": [
+   0.9959,
+   1.0686,
+   0.934
+  ]
+ },
+ "33B.3": {
+  "identical": true,
+  "subset_chain": 0.9975,
+  "subset_indep": 0.9215,
+  "beach_acc_chain": 0.9975,
+  "beach_acc_indep": 0.922,
+  "link2_coef": [
+   [
+    1.0,
+    51.7,
+    105.3
+   ]
+  ]
+ },
+ "33C.3": {
+  "OvR": 5000,
+  "OvO": 12497500,
+  "ECOC 1.5": 7500
+ }
+}

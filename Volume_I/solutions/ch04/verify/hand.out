@@ -1,0 +1,25 @@
+== 4A.1  3 red, 2 blue, two draws without replacement
+ordered pairs: 20  both red: 6  P = 0.3
+P(R1) = 0.6  P(R2|R1) = 0.5  P(R1,R2) = 0.3
+P(B1) = 0.4  P(R2|B1) = 0.75  P(R2,B1) = 0.30000000000000004
+P(R2) = 0.6000000000000001
+by listing all 20 ordered pairs P(R2) = 0.6
+
+== 4A.2  2 % prevalence, sensitivity 0.95, false-positive rate 0.10
+0.95*0.02 = 0.019  0.10*0.98 = 0.098  P(+) = 0.117
+P(D|+) = 0.16239316239316237
+per 1000: affected 20.0  unaffected 980.0  TP 19.0  FP 98.0  positives 117.0
+19/117 = 0.1623931623931624  negatives: 883  missed: 1.0000000000000009  P(D|-) = 0.001132502831257079
+
+== 4A.3  points (1,2) (2,1) (3,4) (4,3)
+means: 2.5 2.5  dx: [-1.5 -0.5  0.5  1.5]  dy: [-0.5 -1.5  1.5  0.5]
+dx*dy: [0.75 0.75 0.75 0.75]  dx^2: [2.25 0.25 0.25 2.25]  dy^2: [0.25 2.25 2.25 0.25]
+Sxy, Sxx, Syy = 3.0 5.0 5.0
+cov = 1.0  var x = 1.6666666666666667  var y = 1.6666666666666667  r = 0.6  np.cov: 1.0  corrcoef: 0.6000000000000001
+covariance with divisor n: 0.75  (the correlation does not depend on the divisor)
+
+== 4A.4  heights N(170, 8^2)
+z = 1.25  Phi(z) = 0.8943502263331446  P(X>180) = 0.10564977366685535  sf: 0.10564977366685535
+z_0.9 = 1.2815515655446004  height = 180.2524125243568  ppf with loc, scale: 180.2524125243568
+check: P(X <= 180.25) = 0.8999470655225741
+mixed divisors (Sxy/n over the variances with n-1): r = 0.44999999999999996   Var with divisor n: 1.25

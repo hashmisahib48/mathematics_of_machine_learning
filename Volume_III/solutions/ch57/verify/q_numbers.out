@@ -1,0 +1,37 @@
+== Q1  fraud detector, 99 % accuracy, 0.5 % fraud, 10000 transactions
+rule 'no fraud': accuracy 0.995  errors 50
+detector A: TP 0 FN 50 FP 50 TN 9900  accuracy 0.9900  recall 0.000  precision 0.0000  MCC -0.0050  F1 0.0000
+detector B: TP 40 FN 10 FP 90 TN 9860  accuracy 0.9900  recall 0.800  precision 0.3077  MCC 0.4925  F1 0.4444
+detector C: TP 25 FN 25 FP 75 TN 9875  accuracy 0.9900  recall 0.500  precision 0.2500  MCC 0.3491  F1 0.3333
+a false alarm costs 1, a missed fraud costs 100: cost of 'no fraud' 5000  detector B 1090
+
+== Q2  prevalence, AP and AUC (screen of Section 57.1, d = 2, threshold 1.5)
+TPR 0.6915 FPR 0.0668 LR+ 10.350  exact AUC 0.9214
+pi  0.50: precision at t=1.5 0.9119   simulated AUC 0.9221  AP 0.9223  chance AP 0.5
+pi  0.05: precision at t=1.5 0.3526   simulated AUC 0.9222  AP 0.5416  chance AP 0.05
+pi  0.01: precision at t=1.5 0.0947   simulated AUC 0.9225  AP 0.2745  chance AP 0.01
+
+== Q3  Example 57.5-3, three averages
+per-class F1: [0.8696 0.4706 0.7059]  recall: [0.9091 0.4    0.75  ]  precision: [0.8333 0.5714 0.6667]  support [22 10  8]
+micro 0.75
+macro 0.682
+weighted 0.7371
+accuracy 0.75
+second matrix [[24, 1, 1], [3, 1, 1], [1, 0, 8]] n 40
+micro 0.825
+macro 0.6722
+weighted 0.803
+class B: F1 0.2857 recall 0.2000
+
+== Q4  log loss against AUC (breast cancer, malignant = 1)
+prior        log loss 0.6593  AUC 0.5000  accuracy 0.6294
+naive Bayes  log loss 1.2281  AUC 0.9677  accuracy 0.9231
+logistic     log loss 0.0858  AUC 0.9952  accuracy 0.9580
+logistic scores, logit multiplied by a factor (an increasing transformation, AUC is unchanged):
+  factor 0.2: log loss 0.2644  AUC 0.9952  Brier 0.0665
+  factor 0.5: log loss 0.1203  AUC 0.9952  Brier 0.0311
+  factor 1.0: log loss 0.0858  AUC 0.9952  Brier 0.0267
+  factor 2.0: log loss 0.1034  AUC 0.9952  Brier 0.0286
+  factor 5.0: log loss 0.2073  AUC 0.9952  Brier 0.0318
+naive Bayes logit range -48.5 to 690.8; its probabilities below 0.001 or above 0.999: 135 of 143
+test prevalence 0.3706

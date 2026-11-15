@@ -1,0 +1,51 @@
+{
+ "57A.1": {
+  "precision": 0.6,
+  "recall": 0.75,
+  "F1": 0.6667,
+  "F2": 0.7143,
+  "MCC": 0.6556,
+  "accuracy": 0.97
+ },
+ "57A.2": {
+  "AUC": 0.6667,
+  "AP": 0.7556,
+  "pairs_won_of_9": 6
+ },
+ "57A.3": {
+  "PPV_prevalence_1%": 0.1538,
+  "PPV_prevalence_10%": 0.6667,
+  "PPV_prevalence_50%": 0.9474,
+  "LR+": 18.0
+ },
+ "57B.1": {
+  "best_feature": "worst perimeter",
+  "AUC_best": 0.9755,
+  "n_features_with_AUC_below_0.5": 3,
+  "n_features_with_AUC_above_0.9": 11,
+  "AUC_of_worst_feature_as_given": 0.4449,
+  "smallest_distance_from_0.5": 0.0116
+ },
+ "57B.2": {
+  "F2_malignant_logistic": 0.967,
+  "F2_malignant_forest": 0.9558
+ },
+ "57B.3": {
+  "epsilon": [
+   0,
+   0.005,
+   0.01,
+   0.02,
+   0.05
+  ],
+  "log_loss": [
+   0.3702,
+   0.1574,
+   0.1548,
+   0.156,
+   0.1702
+  ],
+  "n_exact_0_or_1": 64,
+  "n_wrong_at_exact_0_or_1": 1
+ }
+}

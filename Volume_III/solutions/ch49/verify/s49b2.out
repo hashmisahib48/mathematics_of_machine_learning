@@ -1,0 +1,16 @@
+raw          mean|skew|  1.736  max|skew|  5.433  n(|skew|>1) 22
+Yeo-Johnson  mean|skew|  0.076  max|skew|  0.234  n(|skew|>1)  0
+quantile     mean|skew|  0.267  max|skew|  1.292  n(|skew|>1)  6
+
+most skewed: area error, skew 5.433
+  lambda -0.484, after Yeo-Johnson 0.069
+Yeo-Johnson: any feature above 0.5 in |skew|? False
+
+still above 1 after the quantile map:
+  mean concavity        -1.236  13 rows = 0 -> -5.199
+  mean concave points   -1.289  13 rows = 0 -> -5.199
+  concavity error       -1.286  13 rows = 0 -> -5.199
+  concave points error  -1.292  13 rows = 0 -> -5.199
+  worst concavity       -1.283  13 rows = 0 -> -5.199
+  worst concave points  -1.253  13 rows = 0 -> -5.199
+skew of worst concave points without those rows: 0.456

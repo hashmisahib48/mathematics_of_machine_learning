@@ -1,0 +1,5 @@
+PCA                 non-zeros [13 13 13] explained 0.665 corr 0.00
+SparsePCA alpha=0.5 non-zeros [11 11  7] explained 0.663 corr 0.35
+SparsePCA alpha=2   non-zeros [10 10  4] explained 0.640 corr 0.24
+SparsePCA alpha=5   non-zeros [8 3 2] explained 0.560 corr 0.20
+MiniBatch alpha=5   non-zeros [3 3 7] explained 0.523 corr 0.54

@@ -1,0 +1,44 @@
+== Q1  raw against standardised wine
+variance share of proline in the raw data: 0.9977
+silhouette            raw space  standardised space
+raw labels               0.571               0.108
+standardised labels      0.194               0.285
+cultivars                0.200               0.280
+ARI against cultivars: raw 0.371  standardised 0.897
+stability (K = 3): raw 0.933  standardised 0.943
+ARI between the two clusterings: 0.354
+
+== Q2  how much does one customer cost in ARI?
+ARI of the eight customers: 0.5455  homogeneity 0.7402  completeness 0.7704
+silhouette of the segments in the feature space: 0.423 ; of the clusters: 0.538
+silhouette of each customer under the segments: [0.63, 0.49, 0.48, -0.28, 0.47, 0.41, 0.59, 0.59]
+each customer copied  1 times (n =   8),  1 customers in the wrong cluster: ARI 0.5455
+each customer copied  5 times (n =  40),  5 customers in the wrong cluster: ARI 0.6448
+each customer copied 10 times (n =  80), 10 customers in the wrong cluster: ARI 0.6532
+each customer copied 50 times (n = 400), 50 customers in the wrong cluster: ARI 0.6595
+a K = 2 clustering [A B C D | E F G H] against the segments: ARI 0.3077
+
+== Q3  the ceiling of the Rand index
+classes [50, 50, 50] : limit 1 - sum C(n_i,2)/C(n,2) = 0.6711 ; RI of 150 singleton clusters = 0.6711
+classes [75, 75] : limit 1 - sum C(n_i,2)/C(n,2) = 0.5034 ; RI of 150 singleton clusters = 0.5034
+   2 random clusters: mean RI 0.500 (3 classes of 50)  0.500 (2 classes of 75)
+   8 random clusters: mean RI 0.629 (3 classes of 50)  0.503 (2 classes of 75)
+  32 random clusters: mean RI 0.660 (3 classes of 50)  0.503 (2 classes of 75)
+ 150 random clusters: mean RI 0.669 (3 classes of 50)  0.503 (2 classes of 75)
+1000 random clusters: mean RI 0.671 (3 classes of 50)  0.503 (2 classes of 75)
+
+== Q4  choosing K on the four blobs
+ K  stability  silhouette      CH
+ 2     1.000       0.477    393.9
+ 3     0.605       0.493    456.3
+ 4     0.994       0.611    937.9
+ 5     0.856       0.533    812.4
+ 6     0.734       0.455    730.2
+ 7     0.622       0.388    693.2
+ 8     0.683       0.325    675.3
+wine, standardised:
+ 2     0.782       0.268     69.5
+ 3     0.943       0.285     70.9
+ 4     0.786       0.246     55.7
+ 5     0.672       0.203     46.9
+ 6     0.580       0.196     41.8

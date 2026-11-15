@@ -1,0 +1,15 @@
+LogisticRegression, lbfgs, tol = 1e-4
+  raw    max_iter  100: n_iter_  100  ConvergenceWarning True
+  raw    max_iter 5000: n_iter_ 2539  ConvergenceWarning False
+  scaled max_iter  100: n_iter_   19  ConvergenceWarning False
+  scaled max_iter 5000: n_iter_   19  ConvergenceWarning False
+scaled data, effect of tol:
+  tol 1e-01: n_iter_   1  max|w - w_ref| 1.2e+00
+  tol 1e-02: n_iter_   5  max|w - w_ref| 7.4e-01
+  tol 1e-04: n_iter_  19  max|w - w_ref| 1.6e-02
+  tol 1e-06: n_iter_  33  max|w - w_ref| 1.4e-04
+Lasso(alpha=0.01) on diabetes, max_iter = 1000
+  tol 1e-02: n_iter_ 60
+  tol 1e-04: n_iter_ 231
+  tol 1e-06: n_iter_ 499
+  tol 1e-08: n_iter_ 766

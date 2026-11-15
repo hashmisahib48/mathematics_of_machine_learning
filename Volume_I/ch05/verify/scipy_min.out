@@ -1,0 +1,5 @@
+scikit-learn: J = 37.758946  n_iter_ 49
+CG         J = 37.758946  nit  78  nfev 133  max|dw| 1.1e-06
+BFGS       J = 37.758946  nit  47  nfev  52  max|dw| 1.1e-06
+L-BFGS-B   J = 37.758946  nit  38  nfev  43  max|dw| 2.8e-05
+Newton-CG  J = 37.758946  nit  13  nfev  14  max|dw| 1.1e-06

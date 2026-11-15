@@ -1,0 +1,5 @@
+10 {'ridge one-hot': 1.9, 'ridge target': 1.94, 'hgb one-hot': 1.38, 'hgb ordinal': 1.38, 'hgb target': 1.38} baseline 9.3 2s
+50 {'ridge one-hot': 1.88, 'ridge target': 2.18, 'hgb one-hot': 1.5, 'hgb ordinal': 1.53, 'hgb target': 1.83} baseline 9.3 5s
+200 {'ridge one-hot': 1.93, 'ridge target': 2.65, 'hgb one-hot': 2.38, 'hgb ordinal': 2.15, 'hgb target': 2.24} baseline 9.32 11s
+800 {'ridge one-hot': 2.18, 'ridge target': 3.2, 'hgb one-hot': 2.91, 'hgb ordinal': 2.96, 'hgb target': 2.88} baseline 9.25 23s
+2000 {'ridge one-hot': 2.46, 'ridge target': 3.35, 'hgb one-hot': 3.09, 'hgb ordinal': 3.53, 'hgb target': 3.1} baseline 9.27 325s

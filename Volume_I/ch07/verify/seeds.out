@@ -1,0 +1,6 @@
+seed 7 twice identical : True
+seed 7 and 8 identical : False
+test accuracy over 200 splits:
+  mean 0.9539  sd 0.0297
+  min  0.8684  max 1.0000
+binomial sd sqrt(a(1-a)/m): 0.034

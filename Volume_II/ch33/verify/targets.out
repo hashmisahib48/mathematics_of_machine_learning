@@ -1,0 +1,7 @@
+two labels          binary
+three classes       multiclass
+0/1 label matrix    multilabel-indicator
+two class columns   multiclass-multioutput
+two real columns    continuous-multioutput
+one real column     continuous
+Linnerud targets    multiclass-multioutput

@@ -1,0 +1,26 @@
+== Q1  baselines and the dependence on the question (breast cancer, 5-fold on the 426 training rows)
+constant         0.6268
+scaled logistic  0.9742
+wine, k-means K=3: raw ARI 0.371, standardised ARI 0.897
+
+== Q2  peeking at the test rows: 50 equally good candidates, n = 143 test rows
+true accuracy of every candidate 0.950; mean test accuracy of the best of 50: 0.9856 (sd 0.0059)
+a fresh test set of 143 rows for the chosen one: mean 0.9499
+optimism 0.0356 = 5.1 patients
+same with 5 candidates: 0.9701
+
+== Q3  log price or price: ridge and boosting, five-fold out-of-fold predictions on the training part
+ridge          RMSE   57.7  MAE  41.3  median rel. err 0.155  mean pred 231.2 (mean price 231.1)  bias 0.0%
+ridge, log     RMSE   69.4  MAE  39.5  median rel. err 0.133  mean pred 228.6 (mean price 231.1)  bias -1.1%
+boosting       RMSE   54.0  MAE  37.4  median rel. err 0.136  mean pred 232.1 (mean price 231.1)  bias 0.4%
+boosting, log  RMSE   52.5  MAE  35.8  median rel. err 0.126  mean pred 227.5 (mean price 231.1)  bias -1.6%
+ridge, log: smearing factor 1.022 -> RMSE 70.9, bias 1.1%
+ridge, log: share of the squared error from the dearest 10% of houses: 0.68; raw ridge: 0.44
+
+== Q4  wine: silhouette against ARI, and a stability check
+k-means: silhouette 0.561 ARI 0.895
+HDBSCAN: noise 59 of 178, silhouette on the kept 0.677, ARI 0.438
+k-means silhouette on the same kept wines 0.677
+ARI of the HDBSCAN clusters with the cultivars on the kept wines only: 0.900
+cluster sizes of HDBSCAN: [38, 45, 36]  cultivar sizes: [59, 71, 48]
+k-means stability: mean ARI between fits on two bootstrap resamples 0.921 (min 0.802)

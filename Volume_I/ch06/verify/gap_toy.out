@@ -1,0 +1,4 @@
+line   train 0.220  test 0.343  gap 0.123
+lookup train 0.000  test 1.500  gap 1.500
+line   test predictions: [ 4.98  7.02 10.25 11.1 ]
+lookup test predictions: [ 4.  7. 10. 10.]

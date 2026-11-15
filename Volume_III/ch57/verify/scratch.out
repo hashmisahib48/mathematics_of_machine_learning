@@ -1,0 +1,3 @@
+continuous  AUC 0.9952  AP 0.9927  thresholds 143
+rounded     AUC 0.9950  AP 0.9921  thresholds 116
+roc_curve keeps 11 of them

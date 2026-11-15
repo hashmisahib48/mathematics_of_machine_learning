@@ -1,0 +1,13 @@
+== 58B.1  marginal price of recall on the training rows
+  0.95 -> 0.98: 4 more tumours found for 7 more false alarms: 1.75 false alarms per extra tumour; equivalent t = 1/(1+1.75) = 0.3636
+  0.98 -> 0.99: 2 more tumours found for 22 more false alarms: 11.00 false alarms per extra tumour; equivalent t = 1/(1+11.00) = 0.0833
+  from 0.5 (150 found, 2 alarms) to 0.99: 8 more tumours for 29 more false alarms
+
+== the same three thresholds on the 143 test rows (model fitted on all training rows)
+  threshold 0.4654: caught 51 of 53, missed 2, false alarms 3
+  threshold 0.2470: caught 51 of 53, missed 2, false alarms 5
+  threshold 0.0817: caught 53 of 53, missed 0, false alarms 12
+
+== the lowest malignant scores decide the 0.99 threshold (training, out-of-fold)
+  four smallest P(malignant) among the malignant: [0.0005, 0.0817, 0.208, 0.247]
+  benign patients with a score at least 0.0817: 31  at least 0.0904: 31

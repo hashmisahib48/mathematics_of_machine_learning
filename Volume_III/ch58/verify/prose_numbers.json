@@ -1,0 +1,98 @@
+{
+ "default_scoring": "balanced_accuracy",
+ "has_cv_results_without_store": false,
+ "default_tuned_threshold": 0.6162,
+ "default_tuned_score": 0.9766,
+ "no_pos_label_flagged_malignant": 45,
+ "t_star_10": 0.0909,
+ "logit_t_star_10": -2.3026,
+ "logit_t_star_19": -2.9444,
+ "five_rows_library_importance": [
+  0.314,
+  0.0
+ ],
+ "thresholds_knob": {
+  "5": [
+   0.25,
+   -0.115
+  ],
+  "20": [
+   0.1579,
+   -0.0961
+  ],
+  "100": [
+   0.202,
+   -0.0797
+  ],
+  "1000": [
+   0.1882,
+   -0.0797
+  ]
+ },
+ "pd_auto_recursion_log_odds": [
+  -3.321,
+  -3.321,
+  -2.689,
+  2.333,
+  2.333
+ ],
+ "pd_brute_log_odds": [
+  -2.729,
+  -2.729,
+  -2.287,
+  1.005,
+  1.005
+ ],
+ "pd_brute_proba": [
+  0.353,
+  0.353,
+  0.362,
+  0.467,
+  0.467
+ ],
+ "pd_grid": [
+  0.0205,
+  0.0711,
+  0.1216,
+  0.1721,
+  0.2227
+ ],
+ "grid_ends_mquantiles": [
+  0.02052,
+  0.22267
+ ],
+ "grid_ends_np_percentile": [
+  0.02227,
+  0.22038
+ ],
+ "gb_test_acc": 0.958,
+ "impurity_top3": [
+  [
+   "worst perimeter",
+   0.495
+  ],
+  [
+   "worst concave points",
+   0.162
+  ],
+  [
+   "worst radius",
+   0.131
+  ]
+ ],
+ "repeats_sd": {
+  "1": [
+   0.0638,
+   0.0296
+  ],
+  "5": [
+   0.0674,
+   0.0136
+  ],
+  "30": [
+   0.0676,
+   0.0044
+  ]
+ },
+ "corr_mean_radius_perimeter": 0.997
+}

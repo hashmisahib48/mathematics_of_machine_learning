@@ -1,0 +1,33 @@
+== 7A.1  matrix B in CSR
+data   : [5, 6, 8, 1, 3]
+indices: [0, 3, 2, 1, 4]
+indptr : [0, 2, 3, 5]
+entries per row: [2, 1, 2]  running total: [0, 2, 3, 5]
+row 2 owns k = [3, 4]  data [1, 3]  columns [1, 4]
+row 2 read back: [0, 1, 0, 0, 3]  stored 5 of 15 = 0.3333333333333333
+
+== 7A.2  standardise 0, 2, 2, 8
+mean: 3.0  deviations: [-3. -1. -1.  5.]  squares: [ 9.  1.  1. 25.]  sum: 36.0
+variance (n): 9.0  sd: 3.0
+z: [-1.     -0.3333 -0.3333  1.6667]  sum z: 2.220446049250313e-16  sum z^2: 4.0
+z of 12: 3.0
+with n-1: z = [-0.866  -0.2887 -0.2887  1.4434]  z(12) = 2.598076211353316
+variance (n-1): 12.0  sd (n-1): 3.4641016151377544  ratio sqrt(n/(n-1)): 1.1547005383792515
+StandardScaler: mean_ [3.]  scale_ [3.]  z [-1.     -0.3333 -0.3333  1.6667]  z(12) [3.]
+
+== 7A.3  softmax of (2, 0, -1)
+exp: [7.3891 1.     0.3679]  sum: 8.756935540102093
+P: [0.8438 0.1142 0.042 ]  sum P: 1.0  argmax: 0
+scores + 5: [7. 5. 4.]  exp: [1096.6332  148.4132   54.5982]  sum: 1299.6444675641794  P: [0.8438 0.1142 0.042 ]
+e^5 = 148.4131591025766  ratio of sums: 148.4131591025766
+scipy: [0.8438 0.1142 0.042 ] [0.8438 0.1142 0.042 ]
+shifted by max: scores [ 0. -2. -3.]  exp [1.     0.1353 0.0498]  sum 1.1851223516044767
+
+== 7A.4  sizes of the two parts
+n=150 f=0.2: f*n = 30.0  ceil = 30  train = 120  | train_test_split gives 120 and 30
+n=150 f=0.25: f*n = 37.5  ceil = 38  train = 112  | train_test_split gives 112 and 38
+n=442 f=0.25: f*n = 110.5  ceil = 111  train = 331  | train_test_split gives 331 and 111
+Python round(110.5) = 110  round(37.5) = 38  (half to even)
+
+== 7B.3  plain Python
+math.exp(1000) raises OverflowError: math range error

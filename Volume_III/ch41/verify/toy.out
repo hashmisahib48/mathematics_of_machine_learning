@@ -1,0 +1,5 @@
+pairs P11, P10, P01, P00: 5 2 3 18
+Rand 0.8214  ARI 0.5455  FM 0.6682
+H(c) 1.0822  H(u) 1.0397  MI 0.8010  NMI 0.7550
+homogeneity 0.7402  completeness 0.7704  V 0.7550
+silhouette: [0.618 0.567 0.567 0.282 0.516 0.587 0.565 0.605]  mean 0.5384

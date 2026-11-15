@@ -1,0 +1,7 @@
+== scaler outside and inside the folds (wine, 5 folds)
+leaky : [1.    0.972 0.972 0.971 1.   ]  mean 0.9832
+pipe  : [1.    0.972 0.972 0.971 1.   ]  mean 0.9832
+
+== the same mistake with a step that uses the labels
+leaky : [0.833 0.917 0.833 0.833 0.917]  mean 0.867
+pipe  : [0.5   0.5   0.417 0.583 0.5  ]  mean 0.5

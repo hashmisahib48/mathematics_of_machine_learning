@@ -1,0 +1,7 @@
+skewness of y: 0.438  range: 25.0 346.0
+      target    RMSE      R2    bias
+        none   56.39  0.3594    3.72
+         log   58.05  0.3211   -8.55
+ Yeo-Johnson   56.93  0.3471   -4.86
+     Box-Cox   56.93  0.3471   -4.87
+lambda (Yeo-Johnson): [0.288]

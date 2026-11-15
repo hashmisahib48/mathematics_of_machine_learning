@@ -1,0 +1,4 @@
+max_depth=1: 3 nodes, test accuracy 0.8881 vs 0.8881; same predictions: True
+max_depth=2: 7 nodes, test accuracy 0.8881 vs 0.8881; same predictions: True
+max_depth=3: 15 nodes, test accuracy 0.9161 vs 0.9161; same predictions: True
+max_depth=None: 35 nodes, test accuracy 0.9091 vs 0.9021; same predictions: False

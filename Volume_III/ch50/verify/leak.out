@@ -1,0 +1,3 @@
+fit.transform  corr(Z,y) 0.579  train R2 0.335  test R2 -0.344
+fit_transform  corr(Z,y) -0.004  train R2 0.000  test R2 -0.000
+d t_a / d y_a = 0.4444  formula 0.4444

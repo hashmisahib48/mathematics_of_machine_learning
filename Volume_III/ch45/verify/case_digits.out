@@ -1,0 +1,9 @@
+gamma = 0.1105  train (1347, 64)  test (450, 64)
+LinearSVC on the pixels      test accuracy 0.9689  fit 0.025 s
+SVC, RBF (exact)             test accuracy 0.9867  fit 0.029 s
+RBFSampler(50) + LinearSVC   test accuracy 0.9467  fit 0.127 s
+Nystroem(50) + LinearSVC     test accuracy 0.9644  fit 0.053 s
+RBFSampler(200) + LinearSVC  test accuracy 0.9911  fit 0.165 s
+Nystroem(200) + LinearSVC    test accuracy 0.9844  fit 0.236 s
+RBFSampler(800) + LinearSVC  test accuracy 0.9911  fit 0.942 s
+Nystroem(800) + LinearSVC    test accuracy 0.9867  fit 2.539 s

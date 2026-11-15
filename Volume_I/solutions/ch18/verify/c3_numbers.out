@@ -1,0 +1,11 @@
+training sizes [30 30  8]  p = 12
+class 0: n_k = 30  rank of its covariance = 12  (at most n_k - 1 = 29, p = 12)
+class 1: n_k = 30  rank of its covariance = 12  (at most n_k - 1 = 29, p = 12)
+class 2: n_k =  8  rank of its covariance = 7  (at most n_k - 1 = 7, p = 12)
+pooled covariance: rank 12  (n - K = 65 )  smallest eigenvalue 0.3664
+LDA, solver svd              fits   test accuracy 0.692   train accuracy 0.941
+LDA, lsqr, shrinkage auto    fits   test accuracy 0.717   train accuracy 0.912
+QDA, plain                   fails  LinAlgError: The covariance matrix of class 2 is not full rank. When using `solver='svd'` the number of samples in each class should be more than the number of features, but class 2 has 8 samples and 12 features. Try using `solver='eigen'` and setting the parameter `shrinkage` for regularization.
+QDA, reg_param=0.1           fails  LinAlgError: The covariance matrix of class 2 is not full rank. When using `solver='svd'` the number of samples in each class should be more than the number of features, but class 2 has 8 samples and 12 features. Try using `solver='eigen'` and setting the parameter `shrinkage` for regularization.
+QDA, reg_param=1.0           fails  LinAlgError: The covariance matrix of class 2 is not full rank. When using `solver='svd'` the number of samples in each class should be more than the number of features, but class 2 has 8 samples and 12 features. Try using `solver='eigen'` and setting the parameter `shrinkage` for regularization.
+QDA, eigen, shrinkage auto   fits   test accuracy 0.675   train accuracy 1.000

@@ -1,0 +1,8 @@
+Gram matrices: (150, 150) (50, 150)
+max |f_rbf - f_pre| = 5.3e-15
+same support vectors: True 66
+max |dual_coef_ diff| = 0.0e+00
+intercepts: [0.08772123] [0.08772123]
+accuracy: 0.92 0.92
+same predictions: True
+wrong input: X has 2 features, but SVC is expecting 150

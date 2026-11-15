@@ -1,0 +1,9 @@
+   n   method        error   test ll
+  30   Empirical       9.54    -61.47
+  30   LedoitWolf      6.20    -39.34
+  30   OAS             6.25    -39.35
+  30   GraphLassoCV    5.09    -38.63
+ 480   Empirical       0.62    -37.13
+ 480   LedoitWolf      0.63    -37.11
+ 480   OAS             0.63    -37.11
+ 480   GraphLassoCV    0.41    -37.00

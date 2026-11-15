@@ -1,0 +1,69 @@
+== 17A.1  order 3, 1, 4, 2
+epoch 1  tile 3  z =   +0.0  update   w = [3. 4.]  b = +1.0
+epoch 1  tile 1  z =  +25.0  keep     w = [3. 4.]  b = +1.0
+epoch 1  tile 4  z =   -5.0  update   w = [3. 3.]  b = +0.0
+epoch 1  tile 2  z =   -3.0  update   w = [2. 3.]  b = -1.0
+epoch 2  tile 3  z =  +17.0  keep     w = [2. 3.]  b = -1.0
+epoch 2  tile 1  z =  +16.0  keep     w = [2. 3.]  b = -1.0
+epoch 2  tile 4  z =   -2.0  update   w = [2. 2.]  b = -2.0
+epoch 2  tile 2  z =   -0.0  update   w = [1. 2.]  b = -3.0
+epoch 3  tile 3  z =   +8.0  keep     w = [1. 2.]  b = -3.0
+epoch 3  tile 1  z =   +7.0  keep     w = [1. 2.]  b = -3.0
+epoch 3  tile 4  z =   +1.0  keep     w = [1. 2.]  b = -3.0
+epoch 3  tile 2  z =   +2.0  keep     w = [1. 2.]  b = -3.0
+final w = [1. 2.]  b = -3.0  updates = 5
+
+== 17A.2  two lines, alpha = 0.1, rho = 0
+(a) f = [ 8. -1.  7. -2.]  z = [8. 1. 7. 2.]  hinge = [0. 0. 0. 0.]  mean hinge = 0.0  |w|^2 = 5.0  penalty = 0.25  J = 0.25
+(b) f = [ 0.9 -0.9  0.9 -0.9]  z = [0.9 0.9 0.9 0.9]  hinge = [0.1 0.1 0.1 0.1]  mean hinge = 0.10000000000000009  |w|^2 = 0.18  penalty = 0.009  J = 0.109
+
+== 17A.3  two log-loss steps, eta = 0.5
+tile 1: f = 0.0000  z = 0.0000  e^z = 1.0000  L' = -0.5000  step = -eta*L'*y*x = [1.   0.75]  step b = 0.2500
+   w = [1.   0.75]  b = 0.25
+tile 2: f = 1.2500  z = -1.2500  e^z = 0.2865  L' = -0.7773  step = -eta*L'*y*x = [-0.3886 -0.    ]  step b = -0.3886
+   w = [0.6114 0.75  ]  b = -0.1386
+
+== 17A.4  optimal schedule, alpha = 1e-4
+eta_1 = alpha^(-1/4) = 10.0  alpha^(-3/4) = 1000.0  t0 = 999.0  1/(alpha*eta1) - 1 = 999.0
+eta_1 = 1/(alpha (t + t0)) = 10.0000   (alpha t + alpha^(1/4) - alpha = 0.100000)
+eta_1000 = 1/(alpha (t + t0)) = 5.0025   (alpha t + alpha^(1/4) - alpha = 0.199900)
+eta_100000 = 1/(alpha (t + t0)) = 0.0990   (alpha t + alpha^(1/4) - alpha = 10.099900)
+t at which eta falls to 1: 9001.0  to 0.1: 99000.99999999999
+
+== 17C.1  Perceptron(shuffle=False) on the four tiles: the stopping rule of Section 17.5
+epoch  mistakes  sum of losses  best so far  counter
+    1         3            8.0          8.0        0
+    2         2            2.0          2.0        0
+    3         0            0.0          0.0        0
+    4         0            0.0          0.0        1
+    5         0            0.0          0.0        2
+    6         0            0.0          0.0        3
+    7         0            0.0          0.0        4
+    8         0            0.0          0.0        5
+simulated n_iter = 8
+n_iter_no_change = 1: scikit-learn n_iter_ = 4
+n_iter_no_change = 2: scikit-learn n_iter_ = 5
+n_iter_no_change = 3: scikit-learn n_iter_ = 6
+n_iter_no_change = 5: scikit-learn n_iter_ = 8
+n_iter_no_change = 8: scikit-learn n_iter_ = 11
+tol=None, max_iter=3: 3
+
+== extras quoted in the notes
+17A.2 widths 2/|w|: (a) 0.894  (b) 4.714
+17A.2 J_a = 5 alpha/2, J_b = 0.1 + 0.18 alpha/2 are equal at alpha = 0.0415
+   alpha = 0.01: J_a = 0.0250  J_b = 0.1009
+   alpha = 0.0415: J_a = 0.1038  J_b = 0.1037
+   alpha = 0.1: J_a = 0.2500  J_b = 0.1090
+17A.1 if z = 0 were not counted as a mistake: w = [0. 0.] b = 0.0 updates 0  (the first sample is never updated, nothing moves)
+17A.1 final margins: [7. 2. 8. 1.]  Example 17.7-1 final margins: [8. 1. 7. 2.]
+17A.3 sigma(-1.25) = 1/(1+e^-1.25) = 0.7773  1/(1+e^1.25)= 0.2227
+17A.3 losses before/after: 0.6931 0.7047 0.5054
+
+== 17A.4 read back from scikit-learn: one-hot samples, no penalty, update t moves only weight t by eta_t
+scikit-learn eta_1 = 10.0000
+scikit-learn eta_1000 = 5.0025
+scikit-learn eta_100000 = 0.0990
+
+== 17A.3 read back from scikit-learn (one partial_fit on tiles 1 and 2) and 17B.1 norms
+scikit-learn: w = [0.6114 0.75  ]  b = [-0.1386]
+norm of the iterate at t = 1, 10, 100, 569, 1138, 1707: [60.23 57.33 63.72 32.38 18.9  14.79]  max 70.09 at t = 70  mean of the norms 29.48

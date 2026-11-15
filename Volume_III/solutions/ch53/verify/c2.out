@@ -1,0 +1,19 @@
+selection on the full training rows: [6, 7, 20, 21, 27]
+columns kept in all 40 resamples: [21, 27] ['worst texture', 'worst concave points']
+columns kept at least once: 11  kept in at least 80 per cent: 4
+size of the selected set: mean 5.30, min 4, max 8
+the five columns of Section 53.9:
+  column  6 mean concavity         kept in 19 of 40  (0.475)
+  column  7 mean concave points    kept in 39 of 40  (0.975)
+  column 20 worst radius           kept in 39 of 40  (0.975)
+  column 21 worst texture          kept in 40 of 40  (1.000)
+  column 27 worst concave points   kept in 40 of 40  (1.000)
+exact copy of the full-sample set in 6 of 40 resamples
+mean Jaccard overlap of two resampled sets: 0.713 (min 0.375)
+columns kept sometimes (0 < share < 0.8), strongest four: [(6, 0.475), (22, 0.4), (24, 0.2), (28, 0.175)]
+  column  6: largest |r| with an always-kept column is 0.874 (column 27)
+  column 22: largest |r| with an always-kept column is 0.820 (column 27)
+  column 24: largest |r| with an always-kept column is 0.540 (column 27)
+  column 28: largest |r| with an always-kept column is 0.477 (column 27)
+worst radius (20) and worst perimeter (22): r = 0.994; resamples with 20 dropped: 1, of which 22 kept: 1; with 20 kept, 22 kept in 15 of 39
+mean concavity (6) and mean concave points (7): r = 0.928

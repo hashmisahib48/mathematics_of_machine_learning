@@ -1,0 +1,5 @@
+kernel_: 8.79**2 * RBF(length_scale=0.642)
+log marginal likelihood: -28.271
+GP classifier        train acc 0.970  test acc 0.890  test log loss 0.248
+logistic regression  train acc 0.810  test acc 0.880  test log loss 0.318
+P(class 1) at (6, 6): GP 0.5  logistic 0.0

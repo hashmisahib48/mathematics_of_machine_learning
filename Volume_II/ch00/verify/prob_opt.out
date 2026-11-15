@@ -1,0 +1,9 @@
+P(B) = 0.26  P(A|B) = 0.6923
+conditional mean and variance: 3.0 2.0
+by sampling: 3.05 1.98
+constrained minimum: [0.6 0.8] 16.0
+q(0) = 0.0000
+q(2) = 14.6667
+q(4) = 16.0000
+q(6) = 15.4286
+gap at w = 0, lambda = 2: 10.3333

@@ -1,0 +1,108 @@
+{
+ "29A.1": {
+  "M5": 0.94208,
+  "M3": 0.896,
+  "M1": 0.8,
+  "pmf": [
+   0.0003,
+   0.0064,
+   0.0512,
+   0.2048,
+   0.4096,
+   0.3277
+  ]
+ },
+ "29A.2": {
+  "hard_votes_for_1": 2,
+  "soft": 0.4,
+  "soft_w": 0.26,
+  "member_log_loss": [
+   0.5108,
+   0.5978,
+   2.9957
+  ],
+  "mean_member_log_loss": 1.3681,
+  "soft_log_loss": 0.9163
+ },
+ "29A.3": {
+  "mean": 7.0,
+  "mse_of_average": 1.0,
+  "mean_member_mse": 7.0,
+  "spread": 6.0
+ },
+ "29A.4": {
+  "stack_method_": [
+   "predict_proba",
+   "decision_function",
+   "predict_proba"
+  ],
+  "width": 9,
+  "width_passthrough": 22,
+  "fits_of_the_three_members": 24,
+  "fits_with_final": 25,
+  "n_features": 13,
+  "classes": 3
+ },
+ "29B.2": {
+  "errors_4": 6,
+  "errors_5": 5,
+  "differ": 1,
+  "gb_errors": 6
+ },
+ "29B.1": {
+  "simulation": {
+   "0.1": 0.7941,
+   "0.3": 0.7447
+  },
+  "formula": {
+   "0.1": 0.794,
+   "0.3": 0.7443
+  },
+  "independent": 0.8369
+ },
+ "29B.3": {
+  "LR": {
+   "cv": 0.9766,
+   "test": 0.965
+  },
+  "LR, C=0.01": {
+   "cv": 0.9461,
+   "test": 0.958
+  },
+  "tree": {
+   "cv": 0.9648,
+   "test": 0.9441
+  },
+  "forest": {
+   "cv": 0.9765,
+   "test": 0.958
+  }
+ },
+ "29C.1": {
+  "knn_values_of_P_true": [
+   0.0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1.0
+  ],
+  "knn_patients_with_P_true_0": 2,
+  "lr_patients_P_true_below_0.1": 1,
+  "knn_logloss": 0.5812,
+  "lr_logloss": 0.0858,
+  "clip_cost_each": 0.2415
+ },
+ "29C.2": {
+  "in_sample": [
+   0.7933,
+   1.0,
+   1.0
+  ],
+  "out_of_fold": [
+   0.7667,
+   0.79,
+   0.6667
+  ]
+ }
+}

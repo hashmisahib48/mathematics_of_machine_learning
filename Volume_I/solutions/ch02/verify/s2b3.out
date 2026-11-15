@@ -1,0 +1,9 @@
+shape: (8, 8)  rank: 6
+singular values: [48.308 24.956  8.021  6.029  3.534  0.616  0.     0.   ]
+||A||_F = 55.4076  sqrt(sum s^2) = 55.4076
+ k  rel. error   Eq. 2.10-5 (from sigma)
+ 1     0.4897         0.4897   True
+ 2     0.1923         0.1923   True
+ 3     0.1266         0.1266   True
+ 4     0.0648         0.0648   True
+energy kept by k = 1..4: [0.7601 0.963  0.984  0.9958]

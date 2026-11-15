@@ -1,0 +1,30 @@
+== Q1  multipliers lambda_j of Eq. 32.3-3
+dose block, doses 2-5: f = 3.2500  lambda_j = [1.75 1.5  2.25 0.  ]
+start low, end high (4, 1, 6): f = 3.6667  lambda_j = [ 0.3333 -2.3333  0.    ]
+PAVA on (4, 1, 6): [2.5 2.5 6. ]
+PAVA on (1, 5)   : [1. 5.]
+PAVA on (5, 3)   : [4. 4.]
+leading part (4, 1) mean: 2.5  block mean: 3.6667
+
+== Q2  a calibrated forecaster with AUC 0.5
+share of events in the test set: 0.4986;  rate*(1-rate) = 0.2500
+constant forecast    Brier 0.2500  log loss 0.6931  AUC 0.5000
+logistic regression  Brier 0.1398  log loss 0.4305  AUC 0.8817
+true probability     Brier 0.1390  log loss 0.4280  AUC 0.8831
+ln 2 = 0.6931
+isotonic calibration of the constant forecast gives: [0.4986]
+
+== Q3  Platt shift against temperature on an imbalanced problem
+share of events 0.1179;  test cases with true P > 1/2: 452 of 7000
+true probability > 1/2   predicted positives  452, recall 0.373, accuracy 0.9057
+LinearSVC, f > 0         predicted positives  391, recall 0.331, accuracy 0.9047
+calibrated, sigmoid      predicted positives  433, recall 0.353, accuracy 0.9039
+   first fold: A = -3.494, B = -0.414;  P = 1/2 where f = -B/A = -0.119
+calibrated, temperature  predicted positives  392, recall 0.333, accuracy 0.9049
+
+== Q4  gradient boosting, calibration sets of 300 and 30000 cases
+raw gradient boosting: log loss 0.4481  Brier 0.1457
+calibration set 300 (20 draws): sigmoid 0.4509/0.1465; isotonic 0.6976/0.1495; temperature 0.4498/0.1461   (log loss/Brier)
+   exact 0 or 1 among the 10 000 isotonic forecasts: 1978
+calibration set 30000 (1 draws): sigmoid 0.4481/0.1458; isotonic 0.4542/0.1457; temperature 0.4480/0.1458   (log loss/Brier)
+   exact 0 or 1 among the 10 000 isotonic forecasts: 144

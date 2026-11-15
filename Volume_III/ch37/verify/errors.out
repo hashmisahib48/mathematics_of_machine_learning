@@ -1,0 +1,5 @@
+both n_clusters and threshold: ValueError: Exactly one of n_clusters and distance_threshold has to be set, and the other needs to be None.
+affinity=: TypeError: AgglomerativeClustering.__init__() got an unexpected keyword argument 'affinity'
+ward with manhattan: ValueError: manhattan was provided as metric. Ward can only work with euclidean distances (i.e. 'euclidean' and 'l2').
+cosine with a zero row: ValueError: Cosine affinity cannot be used when X contains zero vectors
+full tree off with threshold: ValueError: compute_full_tree must be True if distance_threshold is set.

@@ -1,0 +1,8 @@
+finches single   ok [4 1 2]
+finches complete ok [3 2 2]
+finches average  ok [3 2 2]
+finches ward     ok [3 2 2]
+wine    single   ok [174   3   1]
+wine    complete ok [69 58 51]
+wine    average  ok [174   3   1]
+wine    ward     ok [64 58 56]

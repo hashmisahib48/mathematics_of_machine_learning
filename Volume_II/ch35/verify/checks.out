@@ -1,0 +1,47 @@
+1. NIPALS of nipals_toy.py: n_iter_ = [7]  x_weights_ = [0.8944 0.4473]
+   SVD of X^T Y: u1 = [-0.8944 -0.4472]  sigma = [6.3246 3.1623]
+2. n = 50, p = 5, A = 4: max |coef_ PLS - OLS| = 3.2e-01
+2. n = 50, p = 5, A = 5: max |coef_ PLS - OLS| = 1.7e-14
+3. covariance of the score with y: Xty direction 1606.5400, largest of 100000 random 1601.4289, norm of X^T y 1606.5400
+4. 1-D target: coef_ shape (1, 5)  predict shape (50,)  x_std ddof=1: True
+   transform uses x_rotations_:  True ; x_weights_ would differ by 0.649
+5. scores orthogonal: t1.t2 = -1.8e-15  prediction = T q^T: True
+6. PLSCanonical, one target: `n_components` upper bound is 1. Got 2 instead. Reduce `n_components`.
+   PLSSVD has predict: False  transform: True
+7. canonical correlations, sqrt of eigenvalues: [0.7956 0.2006 0.0726]
+   CCA scores correlation: [0.7956, 0.2006, 0.0726]
+   PLSSVD x_weights_ = SVD of X^T Y: True  singular values/(n-1): [1.128  0.0752 0.0333]
+   PLSCanonical vs PLSSVD x weights, cosine per component: [1.0, 0.9984, 0.9984]
+   PLSRegression vs PLSSVD x weights, cosine per component: [1.0, 0.9641, 0.9641]
+8. first canonical correlation 0.796; 500 row permutations of Y: mean 0.572, 95th percentile 0.784; 21 of 500 reach it
+   held-out first-pair correlation (5 folds, pooled): 0.519
+9. n_components = 60 (n = 60, p = 100): fitted; []
+   n_components = 61: `n_components` upper bound is 60. Got 61 instead. Reduce `n_components`.
+   rank of centred spectra: 59
+
+10. scale=False on the spectra (A = 6)
+    scale=True   CV RMSE 0.89  test RMSE 0.89
+    scale=False  CV RMSE 0.89  test RMSE 0.88
+11. first canonical correlation of pure noise, n = 25, L = 3
+    p =  3: mean 0.509  min 0.236
+    p = 10: mean 0.783  min 0.605
+    p = 20: mean 0.981  min 0.913
+    p = 24: mean 1.000  min 1.000
+    p = 30: mean 1.000  min 1.000
+12. Linnerud, A = 1: one PLS2 against three PLS1 (5-fold R2)
+    PLS2 : [-0.106  0.065 -0.204]
+    PLS1 : [-0.123  0.083 -0.262]
+13. predict exists: {'PLSRegression': True, 'PLSCanonical': True, 'CCA': True, 'PLSSVD': False}  x_scores_ after fit: False True
+14. P^T W for the spectra, A = 4 (upper triangular, unit diagonal):
+[[ 1.     -0.4131 -0.      0.    ]
+ [ 0.      1.      1.5247  0.    ]
+ [ 0.     -0.      1.     -0.3592]
+ [-0.     -0.     -0.      1.    ]]
+    largest entry below the diagonal: 8.5e-17
+15. PLS1 and conjugate gradients (scaled spectra, A = 1..6)
+    A = 1: max |B_PLS - B_CG| = 5.2e-18
+    A = 2: max |B_PLS - B_CG| = 5.6e-17
+    A = 3: max |B_PLS - B_CG| = 3.1e-16
+    A = 4: max |B_PLS - B_CG| = 9.4e-15
+    A = 5: max |B_PLS - B_CG| = 7.7e-13
+    A = 6: max |B_PLS - B_CG| = 7.0e-10

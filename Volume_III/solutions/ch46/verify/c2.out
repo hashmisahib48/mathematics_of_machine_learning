@@ -1,0 +1,28 @@
+== the largest squared distance of a training sample under the empirical covariance (divisor n)
+cut-offs: chi2_4 11.143, chi2_20 34.170
+   n  extreme sample (n-1 equal points, one apart), p = 1:  d^2   n-1   (n-1)^2/n
+   5                                                   4.000      4      3.200
+  13                                                  12.000     12     11.077
+  14                                                  13.000     13     12.071
+  30                                                  29.000     29     28.033
+  71                                                  70.000     70     69.014
+smallest n with n-1 > chi2_4 cut-off: 13;  with (n-1)^2/n > cut-off: 14
+heavy-tailed data (t with 2 df), n = 30, p = 20, 300 draws: the largest d^2 ever seen 29.00  (bound n-1 = 29 < cut-off 34.17: no sample can be flagged)
+
+== MinCovDet on clean normal data: share of samples above the 97.5 per cent point
+   p   h (n=60)  p/h    share flagged n = 60     h (n=30)  p/h   share flagged n = 30
+   2        32   0.06            0.053               17   0.12            0.102
+   4        33   0.12            0.109               18   0.22            0.218
+   6        34   0.18            0.157               19   0.32            0.313
+   8        35   0.23            0.214               20   0.40            0.298
+  10        36   0.28            0.294               21   0.48            0.293
+  13        37   0.35            0.339               22   0.59            0.264
+  16        39   0.41            0.317               24   0.67            0.200
+  20        41   0.49            0.299               26   0.77            0.133
+nominal share 0.025
+
+== the wine of Problem 46B.3 with all 13 features (59 clean wines and 12 intruders, as in mcd_wine.py)
+4 features  h = 38, p/h = 0.11; caught 12 of 12, false alarms  2 of 59;  raw support: 38 samples, 0 intruders;  eigenvalue ratio smallest/largest: raw support 8.19e-07, the 59 clean wines 1.27e-06
+13 features h = 43, p/h = 0.30; caught 12 of 12, false alarms 13 of 59;  raw support: 43 samples, 0 intruders;  eigenvalue ratio smallest/largest: raw support 3.21e-08, the 59 clean wines 4.41e-08
+Marchenko-Pastur edges (1 -+ sqrt(p/h))^2 for p = 13, h = 43: 0.20 2.40;  for p = 20, h = 26: 0.015 3.52
+figure width 5.37 in, printed 4.9 in, smallest font 8.8 pt -> printed 8.0 pt

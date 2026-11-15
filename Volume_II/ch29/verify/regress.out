@@ -1,0 +1,9 @@
+ols            test R2 0.3594  RMSE 56.4
+forest         test R2 0.3067  RMSE 58.7
+boost          test R2 0.2148  RMSE 62.4
+average        test R2 0.3195  RMSE 58.1
+stack          test R2 0.3304  RMSE 57.7
+stack weights [0.514 0.374 0.161]  intercept -7.4  alpha 10.0
+stack, w >= 0  test R2 0.3304  RMSE 57.7
+positive stack weights [0.514 0.374 0.161]  sum 1.049
+MSE of the average 3378.4 = mean member MSE 3506.7 - spread 128.3

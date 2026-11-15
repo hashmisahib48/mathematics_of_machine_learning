@@ -1,0 +1,12 @@
+M =   4 cells: best_score_ minus fresh accuracy: mean +0.0053  se 0.0044  (positive in 8 of 12 splits)
+M =  25 cells: best_score_ minus fresh accuracy: mean +0.0065  se 0.0042  (positive in 9 of 12 splits)
+M = 100 cells: best_score_ minus fresh accuracy: mean +0.0076  se 0.0037  (positive in 10 of 12 splits)
+
+book's 25-cell run, twelve re-splits (ch56/verify/winner.json):
+  inner - fresh : mean +0.0065  sd 0.0145  se 0.0042  positive in 9
+  nested - fresh: mean +0.0025  sd 0.0147  se 0.0042  positive in 5   t = 0.59
+  inner - fresh t = 1.54
+  one test patient of 143 = 0.0070 ;  sd of the fresh accuracy over splits 0.0101
+  nested folds train on 4/5 of 426 = 341 rows, the final model on 426
+
+figure width 4.37 in, printed 4.9 in, smallest font 8.3 pt -> printed 9.3 pt

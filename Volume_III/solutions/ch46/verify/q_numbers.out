@@ -1,0 +1,28 @@
+== Q1  divisor n or n - 1
+factor n/(n-1): n = 5: 1.2500, n = 30: 1.0345, n = 480: 1.0021
+test log-likelihood of the stocks, divisor n: -62.61, divisor n-1: -61.57
+squared error against the truth (mean of 300 draws), divisor n: 9.69, divisor n-1: 10.34
+smallest eigenvalue of S: 0.054 (n), 0.055 (n-1); true 0.438;  largest 21.32 / 22.06; true 15.99
+sum of the 30 squared distances: 600.00 (divisor n; n p = 600), 580.00 (divisor n-1); largest 25.56 vs 24.71
+Ledoit-Wolf intensity 0.390; its error 4.83; error of the shrunk estimate from the n-1 matrix: 4.87
+
+== Q2  why the largest eigenvalue is too large and the smallest too small
+stocks, 300 draws of 30 days: lambda_max(S)/lambda_1 mean 1.210 (min 0.739, max 2.013);  lambda_min(S)/lambda_p mean 0.148 (min 0.020, max 0.373)
+one draw (seed 0): lambda_max(S) 21.3, true 16.0; lambda_min(S) 0.054, true 0.438
+fraction of draws with the largest too large: 0.820, with the smallest too small: 1.000
+true covariance I (p = 20, n = 30): mean smallest 0.044, mean largest 2.90; Marchenko-Pastur edges (1 -+ sqrt(p/n))^2 = 0.034, 3.30
+trace: mean over the 300 draws of tr S / tr Sigma = 0.967 ( (n-1)/n = 0.967 )
+Rayleigh quotient of the true top eigenvector, mean over draws: 0.972 of lambda_1
+
+== Q3  55 edges against 18
+alpha_ 0.169, edges 55, true 18, false 37, missed 0
+partial correlations of the found edges: true edges mean 0.333, false edges mean 0.064 (max 0.216)
+of the 18 strongest found edges, 16 are true
+one-standard-error rule: alpha 0.399 (against 0.169): edges 22, true 17, false 5
+with 150 days: alpha_ 0.065, edges 77, true 18, false 59
+
+== Q4  intruders and clean wines
+empirical  caught  2 of 12, false alarms 0 of 59: precision 1.000 recall 0.167 F1 0.286; AUC of d^2 0.955; largest d^2 of an intruder 16.6, of a clean wine 8.8
+MinCovDet  caught 12 of 12, false alarms 2 of 59: precision 0.857 recall 1.000 F1 0.923; AUC of d^2 1.000; largest d^2 of an intruder 327.4, of a clean wine 15.8
+empirical covariance with a threshold set just above its largest clean distance (8.8): intruders above it: 4 of 12
+expected false alarms at the 97.5% point: 1.48 of 59;  the MinCovDet detector is the better one if a false alarm costs less than (12-2)/(2-0) = 5 times a miss

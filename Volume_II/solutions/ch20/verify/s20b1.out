@@ -1,0 +1,3 @@
+uniform   largest |difference| = 0.0e+00
+distance  largest |difference| = 0.0e+00
+on training rows the prediction is the own target: True

@@ -1,0 +1,20 @@
+linkage     ARI    sizes of the three clusters
+single     0.564   [98 50  2]
+complete   0.642   [72 50 28]
+average    0.759   [64 50 36]
+ward       0.731   [64 50 36]
+
+average: species (rows) x clusters (columns)
+[[ 0 50  0]
+ [50  0  0]
+ [14  0 36]]
+
+ward: species (rows) x clusters (columns)
+[[ 0 50  0]
+ [49  0  1]
+ [15  0 35]]
+
+single: species (rows) x clusters (columns)
+[[ 0 50  0]
+ [50  0  0]
+ [48  0  2]]

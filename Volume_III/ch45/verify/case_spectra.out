@@ -1,0 +1,6 @@
+5-NN accuracy and fit+predict time (brute force)
+  raw                p = 10000  accuracy 0.960  0.119 s
+  Gaussian, k = 10   p =    10  accuracy 0.960  0.009 s
+  Gaussian, k = 30   p =    30  accuracy 0.964  0.008 s
+  Gaussian, k = 100  p =   100  accuracy 0.960  0.012 s
+  sparse, k = 30     p =    30  accuracy 0.960  0.007 s

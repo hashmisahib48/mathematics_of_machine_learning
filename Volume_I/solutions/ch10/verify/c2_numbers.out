@@ -1,0 +1,22 @@
+delivery data, one feature: leave-one-out error against alpha
+  alpha =   0.000   LOO = 0.8867
+  alpha =   0.001   LOO = 0.8867
+  alpha =   0.010   LOO = 0.8865
+  alpha =   0.100   LOO = 0.8874
+  alpha =   0.300   LOO = 0.9044
+  alpha =   1.000   LOO = 1.0773
+  alpha =   3.000   LOO = 1.9237
+  alpha =  10.000   LOO = 4.3560
+LinearRegression with LeaveOneOut: 0.8867
+RidgeCV on a grid 1e-6 ... 10: alpha_ = 0.01  mean cv_results_: [0.8867 0.8867 0.8867 0.8867 0.8865 0.8874 1.0773 4.356 ]
+condition number of Xc'Xc (one column): 1, leverages at alpha = 0: [0.6 0.3 0.2 0.3 0.6]
+slope: least squares 1.7000000000000004  ridge alpha = 0.1: 1.6832
+
+diabetes training part (Section 10.12): leave-one-out curve of RidgeCV
+minimum at alpha = 0.0501, index 17 of 40;  LOO MSE there 2951.3
+  alpha =  0.0010  LOO MSE = 2967.1
+  alpha =  0.0100  LOO MSE = 2959.2
+  alpha =  0.0501  LOO MSE = 2951.3
+  alpha =  0.3162  LOO MSE = 3050.7
+  alpha =  1.0000  LOO MSE = 3452.3
+  alpha = 10.0000  LOO MSE = 5236.0

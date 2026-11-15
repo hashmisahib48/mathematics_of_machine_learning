@@ -1,0 +1,19 @@
+1. graph used by the knn kernel (n_neighbors=7)
+   diagonal ones: 1347 of 1347  row sums: {7}
+   symmetric: False  share of mutual edges: 0.607
+   T = row-normalised A (max difference): 0.0
+   points that nobody has among their neighbours: 35
+   S = A0 / sqrt(c_i c_j), c = column sums of A minus I: 5.551115123125783e-17  S symmetric: False
+   rbf: S = W0/sqrt(d_i d_j), W0 = W minus I: 4.440892098500626e-16
+2. ten wrong labels among 100: does soft clamping repair them?
+   propagation          wrong labels repaired  0  right labels lost 0  accuracy on unlabelled 0.880
+   spreading alpha=0.2  wrong labels repaired  0  right labels lost 0  accuracy on unlabelled 0.781
+   spreading alpha=0.8  wrong labels repaired  0  right labels lost 0  accuracy on unlabelled 0.819
+   spreading alpha=0.99 wrong labels repaired  2  right labels lost 1  accuracy on unlabelled 0.846
+3. the base estimator needs predict_proba
+   AttributeError This 'SVC' has no attribute 'predict_proba'
+   InvalidParameterError The 'estimator' parameter of SelfTrainingClassifier must be an object implementing 'fit'. 
+   SVC(probability=True) warns: ['FutureWarning']
+4. scaling the pixels before the graph (30 labels, 5 draws)
+   raw           test accuracy 0.903 +- 0.033
+   standardised  test accuracy 0.892 +- 0.015

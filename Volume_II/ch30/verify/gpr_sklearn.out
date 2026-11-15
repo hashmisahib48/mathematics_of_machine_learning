@@ -1,0 +1,12 @@
+kernel_ : 0.858**2 * RBF(length_scale=1.37)
+theta   : [-0.3057  0.3127] (logs)
+LML     : -5.8873
+x =   0.0   mean = -0.301   std = 0.434
+x =   4.0   mean =  1.260   std = 0.189
+x =   4.5   mean =  0.888   std = 0.152
+x =   7.0   mean = -0.460   std = 0.246
+x =   9.0   mean =  0.531   std = 0.522
+x =  12.0   mean =  0.013   std = 0.858
+alpha_  : [-1.646  2.446  0.1    2.694 -3.312  1.283]
+L_ shape: (6, 6)   R2 on training data: 0.9989
+sample_y shape: (6, 3)

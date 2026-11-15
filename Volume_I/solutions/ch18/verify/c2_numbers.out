@@ -1,0 +1,10 @@
+prior-weighted sum of the rows mu_k - xbar: norm 0.0
+rank of the K x p matrix of rows mu_k - xbar: 2
+S_b is (1000, 1000)  rank 2  eigenvalues, 4 largest: [31.4761 27.0714  0.      0.    ]
+rank of the two difference vectors mu_1 - mu_0, mu_2 - mu_0: 2
+
+solver svd: transform shape (60, 2)  scalings_ (1000, 2)  ratios [0.6771 0.3229]
+solver eigen, shrinkage 0.5: scalings_ (1000, 1000)  transform (60, 2)
+explained_variance_ratio_ has 2 entries: [0.2664 0.2345]
+n_components=3: ValueError - n_components cannot be larger than min(n_features, n_classes - 1).
+two classes: transform shape (60, 1)

@@ -1,0 +1,109 @@
+{
+ "bounded_qp_vs_clip": 2.335087234683897e-08,
+ "prefix_min_slack": -2.7755575615628914e-17,
+ "blocks_random": 12,
+ "weighted_mean_kept": 8.526512829121202e-14,
+ "transform_invariance": 0.0,
+ "spearman_zero": [
+  0.0,
+  true,
+  1,
+  [
+   "UserWarning"
+  ]
+ ],
+ "edge_rule": [
+  [
+   0.5,
+   0.0,
+   1.0
+  ],
+  [
+   0.2,
+   0.4,
+   0.6
+  ]
+ ],
+ "platt_on_prob_NB": {
+  "sklearn_AB": [
+   -3.7116508199841722,
+   1.8803892742232515
+  ],
+  "mine_on_probability": [
+   -3.7116509274277227,
+   1.8803893026759424
+  ],
+  "mine_on_logit": [
+   -0.39062748886310195,
+   0.01443166002492087
+  ]
+ },
+ "auc_linsvc": {
+  "raw": 0.881653952166985,
+  "sigmoid": 0.881653952166985,
+  "sigmoid_distinct": 10000,
+  "sigmoid_zero_one": 0,
+  "isotonic": 0.8809542066809802,
+  "isotonic_distinct": 107,
+  "isotonic_zero_one": 71,
+  "temperature": 0.881653952166985,
+  "temperature_distinct": 10000,
+  "temperature_zero_one": 0
+ },
+ "constant": {
+  "prob": 0.4945,
+  "brier": 0.25001485,
+  "unc": 0.24999804000000003,
+  "auc": 0.5,
+  "logloss": 0.6931768829781336
+ },
+ "wine_ovr": {
+  "max_diff": 0.0,
+  "row_sum_min": 0.780816184742187,
+  "row_sum_max": 1.1024826384116404,
+  "argmax_agree_sigmoid": 1.0
+ },
+ "wine_temperature": {
+  "argmax_agree": 1.0,
+  "beta": 45.588927978554715
+ },
+ "ensemble_mean_diff": 0.0,
+ "ens_false_base_is_full_fit": 0.0,
+ "fits_ensemble_True": 5,
+ "fits_ensemble_False": 6,
+ "prefit": "InvalidParameterError: The 'cv' parameter of CalibratedClassifierCV must be an int in the range [2, inf), an object implementing 'split' and 'get_n_splits', an iterable or None. Got 'prefit' instead.",
+ "logloss_zero": 18.021826694558577,
+ "neg_log_eps": 36.04365338911715,
+ "brier3_worst": 2.0,
+ "brier2_worst": 1.0,
+ "rf_multiples_of_0.01": true,
+ "rf_extreme_share_test": 0.0523,
+ "dose_sse": {
+  "isotonic": 9.25,
+  "line": 18.86904761904762,
+  "line_a_b": [
+   1.928571428571428,
+   0.48809523809523797
+  ]
+ },
+ "auc_nb": {
+  "raw": 0.8780064435705175,
+  "sigmoid": 0.8780064435705175,
+  "sigmoid_distinct": 10000,
+  "isotonic": 0.8777567416128542,
+  "isotonic_distinct": 115,
+  "temperature": 0.8780064435705175,
+  "temperature_distinct": 10000,
+  "distinct_raw": 10000
+ },
+ "rf_cancer": {
+  "exact_0_or_1": 64,
+  "confidently_wrong": 1,
+  "ln_1e-12": -27.631021115928547,
+  "logloss": 0.3702249879316495
+ },
+ "nb_cancer": {
+  "wrong_by_more_than_1-1e-6": 5,
+  "logloss": 1.2210327633699927
+ }
+}

@@ -1,0 +1,11 @@
+== the diabetes data as they are
+diabetes: evidence ratio 0.03017 (CV mse there 2996.8); CV ratio on the grid 0.0681 (CV mse 2989.9); excess 0.2 per cent; noise sd 53.5
+relative range of the CV error over ratios 0.003 to 0.3: 0.032
+
+== the same data, with the columns bmi, bp and s5 multiplied by 0.01 (units 100 times larger)
+rescaled: evidence ratio 0.005686 (CV mse there 4152.6); CV ratio on the grid 1e-06 (CV mse 3023.3); excess 37.4 per cent; noise sd 63.2
+weights of bmi, bp, s5 in least squares: original [593. 303. 703.]  rescaled [59340. 30289. 70310.]
+rescaled, then standardised: evidence ratio 12.86 (CV mse there 2997.2); CV ratio on the grid 31.6 (CV mse 2990.5); excess 0.2 per cent; noise sd 53.5
+original, standardised: evidence ratio 12.86 (CV mse there 2997.2); CV ratio on the grid 31.6 (CV mse 2990.5); excess 0.2 per cent; noise sd 53.5
+test mse on the 111 held-out patients: evidence ratio 3605, CV ratio 3179
+figure width 4.88 in, printed 4.9 in, smallest font 8.5 pt -> printed 8.5 pt

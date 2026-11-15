@@ -1,0 +1,10 @@
+counts (60, 177)  tokens 1089
+max_iter  10: perplexity  139.57, ARI 0.724
+max_iter 100: perplexity  100.57, ARI 1.000
+topic 0: butter garlic sauce bread hot roast
+topic 1: match penalty team cup midfield keeper
+topic 2: star moon planet comet near telescope
+topic 3: investors bank bonds rate shares rates
+priors: 0.25 0.25
+topic mix of mixed document 18 : [0.51 0.01 0.01 0.47]
+pseudo-counts per topic: [321.3 349.2 286.3 309.2]

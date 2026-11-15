@@ -1,0 +1,9 @@
+58 scoring names in this release
+r2                           mean     0.482
+neg_mean_squared_error       mean -2993.081
+neg_root_mean_squared_error  mean   -54.692
+neg_mean_absolute_error      mean   -44.276
+MSE per fold, sign flipped: [2779.9 3028.8 3237.7 3008.7 2910.2]
+sqrt of the mean MSE: 54.709
+make_scorer gives the same : True
+['test_neg_root_mean_squared_error', 'test_r2']

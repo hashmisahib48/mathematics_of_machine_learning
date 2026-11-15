@@ -1,0 +1,8 @@
+expected accuracy of a model fitted to 60 samples: 0.7537
+K=  2 mean 0.7432 bias -0.0106 sd over data sets 0.0763
+K=  3 mean 0.7473 bias -0.0064 sd over data sets 0.0740
+K=  5 mean 0.7502 bias -0.0036 sd over data sets 0.0750
+K= 10 mean 0.7503 bias -0.0034 sd over data sets 0.0757
+K= 20 mean 0.7548 bias +0.0011 sd over data sets 0.0755
+5-fold, sd over 20 partitions of one data set: 0.0384
+seconds 28.5

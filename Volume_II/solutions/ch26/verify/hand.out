@@ -1,0 +1,32 @@
+== 26A.1  five samples, stump wrong on samples 2 and 5
+eps = 0.4000   exp(alpha) = 1.5000   alpha = 0.4055
+unnormalised: [0.2, 0.3, 0.2, 0.2, 0.3]  Z = 1.2
+new weights : [0.1667, 0.25, 0.1667, 0.1667, 0.25]  sum = 1.0
+error of the same stump under the new weights: 0.5
+
+== 26A.2  K = 3, six samples, three wrong, eps = 1/2
+eta=1.0: alpha=0.6931 factor=2.0000 raw wrong=0.3333 raw right=0.1667 Z=1.5000 -> 0.2222 0.1111  share of mistakes 0.6667
+eta=0.5: alpha=0.3466 factor=1.4142 raw wrong=0.2357 raw right=0.1667 Z=1.2071 -> 0.1953 0.1381  share of mistakes 0.5858
+random guessing on 3 classes is wrong with prob 1-1/K = 0.6667
+
+== 26A.3  a vote
+sum alpha h = -0.1000  sum alpha = 2.1000  f = -0.0952  P(+1) = 0.4762  P(-1) = 0.5238
+largest possible |f| = 2 ->  P between 0.1192 and 0.8808
+
+== 26A.4  AdaBoost.R2, linear loss
+abs errors [0.0, 1.0, 1.0, 3.0]  D = 3.0  L = [0.0, 0.3333, 0.3333, 1.0]
+eps_bar = 0.4167  beta = 0.7143  alpha = 0.3365
+factors beta^(1-L): [0.7143, 0.7991, 0.7991, 1.0]
+w*factor          : [0.1786, 0.1998, 0.1998, 0.25]  sum = 0.8281
+new weights       : [0.2156, 0.2412, 0.2412, 0.3019]  sum = 1.0
+square      L = [0.0, 0.1111, 0.1111, 1.0]  eps_bar = 0.3056
+exponential L = [0.0, 0.2835, 0.2835, 0.6321]  eps_bar = 0.2998
+
+== 26C.1  alpha for eps = 0.2, 0.5, 0.8 (two classes) and 0.7 (three classes)
+eps=0.2: alpha = +1.3863
+eps=0.5: alpha = +0.0000
+eps=0.8: alpha = -1.3863
+K=3, eps=0.7: alpha = -0.1542  (1-1/K = 0.6667)
+
+== 26B.2  side remark: a fully grown tree depends on its random_state (ties between equally good splits)
+test accuracy of DecisionTreeClassifier(random_state=s), s = 0..7: [0.9021, 0.9161, 0.9021, 0.9231, 0.9161, 0.9231, 0.9231, 0.9161]

@@ -1,0 +1,8 @@
+logistic F2 per fold [1.     0.9873 0.9494 0.9748 0.9236]
+         mean 0.9670  sd 0.0307
+         pooled TP 153 FN 6 FP 2; F2 without pos_label 0.9895
+forest   F2 per fold [0.9938 0.9615 0.9627 0.9177 0.9434]
+         mean 0.9558  sd 0.0280
+         pooled TP 152 FN 7 FP 7; F2 without pos_label 0.9738
+per-fold difference [ 0.0062  0.0257 -0.0134  0.0571 -0.0198]
+mean 0.0112  sd 0.0313  logistic better in 3 folds of 5

@@ -1,0 +1,7 @@
+candidates per rung: [36, 12, 4, 2]
+trees per rung     : [3, 9, 27, 81]
+required 4, possible 4 rungs
+Eq. 56.3-4: n_k = [36, 12, 4, 2]  r_k = [3, 9, 27, 81]
+trees per fold: 486 against 36 * 81 = 2916 (saving 6.0)
+winner: {'max_depth': 8, 'max_features': 1.0, 'min_samples_leaf': 3, 'n_estimators': 81}
+five-fold 0.9554 (last rung)  test 0.9371

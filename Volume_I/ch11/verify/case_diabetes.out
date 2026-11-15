@@ -1,0 +1,11 @@
+alpha_ = 0.0787   alpha_max = 2.4045
+one-s.e. alpha = 0.3919
+default path: alpha_ = 0.0048  last grid point: True
+eps=1e-4: alpha_ = 0.00053
+
+model                test R2   features kept
+OLS                    0.359   10
+LassoCV                0.356   6
+LassoCV, 1 s.e.        0.335   4
+ElasticNetCV, 0.5      0.367   10
+lasso + OLS refit      0.351   6

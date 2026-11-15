@@ -1,0 +1,16 @@
+=== 51A.1  nan-Euclidean distances from row a
+a-b: shared columns [1]  sum of squares 4  x p/|S| = 3/1  -> 12.0000  -> distance 3.464
+a-c: shared columns [1, 3]  sum of squares 10  x p/|S| = 3/2  -> 15.0000  -> distance 3.873
+a-d: shared columns [3]  sum of squares 1  x p/|S| = 3/1  -> 3.0000  -> distance 1.732
+sklearn: [0.0, 3.464, 3.873, 1.732]
+donors for column 2 in order: ['d', 'b', 'c'] [np.float64(6.0), np.float64(5.0), np.float64(3.0)]
+k=1 fill = 6.000   (KNNImputer: 6.000)
+k=2 fill = 5.500   (KNNImputer: 5.500)
+distance-weighted k=2: 5.667
+without the p/|S| factor the distances would be: [2.0, 3.162, 1.0]
+
+=== 51A.2  variance after a mean fill
+mean 5  sum of squares 20  s_o^2 = 20/4 = 5
+filled column [2.0, 4.0, 6.0, 8.0, 5.0, 5.0]  mean 5  sum of squares 20  variance 20/6 = 3.3333
+ratio 0.6667   n_o/n = 0.6667   with divisor 5 for the seen values and 5 for the filled: 6.6667 / 4.0000
+q = 0.3333; correlation factor sqrt(1-q) = 0.8165

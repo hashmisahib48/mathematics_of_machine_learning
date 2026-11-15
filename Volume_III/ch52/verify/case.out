@@ -1,0 +1,9 @@
+counts + NB      accuracy 0.9458 (sd 0.054)  words 216
+tf-idf + NB      accuracy 0.9875 (sd 0.030)  words 216
+tf-idf + LR      accuracy 0.9875 (sd 0.030)  words 216
+stop words + LR  accuracy 0.9958 (sd 0.018)  words 181
+cooking    garlic, butter, salt, sauce, roast
+football   match, striker, scored, cup, team
+astronomy  star, galaxy, comet, moon, light
+finance    bank, profit, rate, shares, investors
+['football', 'cooking', 'astronomy', 'finance']

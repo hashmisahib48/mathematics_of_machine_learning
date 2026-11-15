@@ -1,0 +1,7 @@
+alpha   0.01: largest prediction difference 1.4e-14
+alpha      1: largest prediction difference 7.1e-15
+alpha    100: largest prediction difference 1.4e-14
+w + c u = [-0.136378 -0.040362  0.027969]
+ridge y2 = [-0.136378 -0.040362  0.027969]  max difference 2.8e-17
+logistic      predictions differ in  153 of 2000; subset accuracy chain 0.9975, independent 0.9215
+tree depth 2  predictions differ in    1 of 2000; subset accuracy chain 0.9970, independent 0.9965

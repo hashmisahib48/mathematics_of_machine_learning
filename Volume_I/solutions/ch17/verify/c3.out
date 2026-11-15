@@ -1,0 +1,23 @@
+== the nine points of Figure 17.6-1: ridge line f = w x + b, margins and losses
+w = 0.1220  b = -0.5203  boundary = 4.267
+x   : [ 1.  2.  3.  4.  5.  6. 12. 14. 16.]
+f   : [-0.398 -0.276 -0.154 -0.033  0.089  0.211  0.943  1.187  1.431]
+z   : [ 0.398  0.276  0.154 -0.033  0.089  0.211  0.943  1.187  1.431]
+(1-z)^2: [0.362 0.524 0.715 1.066 0.829 0.622 0.003 0.035 0.186]
+hinge  : [0.602 0.724 0.846 1.033 0.911 0.789 0.057 0.    0.   ]
+sum of (1-z)^2 over the three easy points: 0.224  over the six old points: 4.118
+six points alone: ridge line w = 0.5143 b = -1.8000
+squared loss of the six points with the line of the six:  1.371   with the line of the nine: 4.118
+
+== boundary against the number m of easy points (12, 14, ..., 12 + 2(m-1))
+m = 0  ridge 3.500  logistic 3.495  hinge 3.500   ridge correct 6 of 6
+m = 1  ridge 4.018  logistic 3.495  hinge 3.500   ridge correct 6 of 7
+m = 2  ridge 4.210  logistic 3.504  hinge 3.500   ridge correct 7 of 8
+m = 3  ridge 4.267  logistic 3.498  hinge 3.500   ridge correct 8 of 9
+m = 4  ridge 4.221  logistic 3.505  hinge 3.500   ridge correct 9 of 10
+m = 5  ridge 4.080  logistic 3.499  hinge 3.500   ridge correct 10 of 11
+m = 6  ridge 3.843  logistic 3.493  hinge 3.500   ridge correct 12 of 12
+m = 7  ridge 3.510  logistic 3.487  hinge 3.500   ridge correct 13 of 13
+m = 8  ridge 3.077  logistic 3.490  hinge 3.500   ridge correct 14 of 14
+ridge first misclassifies at m = 1
+figure width 5.08 in, printed 4.9 in, smallest font 8.3 pt -> printed 8.0 pt

@@ -1,0 +1,66 @@
+{
+ "err_fro_attr": 736.8455132938398,
+ "err_fro_norm": 736.8455132938398,
+ "kl_attr": 358.7743875976226,
+ "kl_sqrt2D": 358.7743875976234,
+ "dup_H_maxdiff": 5.7011293908004745e-08,
+ "dup_H_scale": 7.6438242972740715,
+ "kkt_max_on_positive": 9.261594158260777e-08,
+ "kkt_min_on_zero": 1.111907438898779,
+ "kkt_G_scale": 15.0,
+ "mu_zero_stays_zero": true,
+ "cd_zero_revives": true,
+ "default_n_components_": 64,
+ "msg_negative": "Negative values in data passed to NMF initialization.",
+ "msg_cd_kl": "Invalid beta_loss parameter: solver 'cd' does not handle beta_loss = 'kullback-leibler'",
+ "warn_nndsvd_mu": [
+  "UserWarning"
+ ],
+ "mb_err": 784.1498097344812,
+ "mb_n_iter": 100,
+ "reg_aW_aH_err_Hzero_alive_iter": [
+  [
+   0,
+   0,
+   736.8,
+   0.597,
+   10,
+   497
+  ],
+  [
+   0,
+   0.01,
+   848.8,
+   0.677,
+   7,
+   157
+  ],
+  [
+   0,
+   0.1,
+   928.4,
+   0.753,
+   5,
+   1000
+  ],
+  [
+   0,
+   1.0,
+   985.2,
+   0.767,
+   4,
+   1000
+  ],
+  [
+   0.001,
+   0.001,
+   773.1,
+   0.634,
+   9,
+   284
+  ]
+ ],
+ "base_H_max": 292.45520993228337,
+ "aW_only_n_iter": 151,
+ "aW_only_H_max": 18.191561851277317
+}

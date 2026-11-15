@@ -1,0 +1,9 @@
+J(w) = 55 w^2 -187 w +160.05
+J' = 0 at w = 1.7000
+J'' = 110   J at the minimum = 1.10
+residuals: [2. 2. 3. 3. 5.]   J = 51.0
+gradient: [ -30. -104.]   numeric: [ -30. -104.]
+length of gradient = 108.24
+uphill         change of J per unit step  +108.246
+downhill       change of J per unit step  -108.235
+along contour  change of J per unit step    +0.000

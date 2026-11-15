@@ -1,0 +1,20 @@
+km: w = 1.7000 min per unit, b = 0.9000, R2 = 0.9633, predictions agree: True
+m : w = 0.0017 min per unit, b = 0.9000, R2 = 0.9633, predictions agree: True
+w(m) * 1000 = 1.7
+
+Diabetes data in natural units (load_diabetes(scaled=False)): weights and weights x standard deviation
+          std   w (raw)   w * std
+age     13.09     -0.04     -0.48
+sex      0.50    -22.86    -11.41
+bmi      4.41      5.60     24.73
+bp      13.82      1.12     15.43
+s1      34.57     -1.09    -37.68
+s2      30.38      0.75     22.68
+s3      12.92      0.37      4.81
+s4       1.29      6.53      8.42
+s5       0.52     68.48     35.73
+s6      11.48      0.28      3.22
+order by |w|      : ['s5', 'sex', 's4', 'bmi', 'bp', 's1', 's2', 's3', 's6', 'age']
+order by |w * std|: ['s1', 's5', 'bmi', 's2', 'bp', 'sex', 's4', 's3', 's6', 'age']
+standardised-fit weights equal w * std: True
+predictions identical to the scaled data set of the book: True

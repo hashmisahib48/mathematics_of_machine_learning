@@ -1,0 +1,8 @@
+least squares        cv 0.512  test R2 0.359  RMSE 56.4
+default boosting     cv 0.471  test R2 0.215  RMSE 62.4
+early stopping       cv 0.466  test R2 0.274  RMSE 60.0
+  trees kept by early stopping: 64
+grid search: depth 1, rate 0.03, 200 trees, subsample 0.5
+tuned squared        cv 0.506  test R2 0.293  RMSE 59.2
+tuned huber          cv 0.504  test R2 0.295  RMSE 59.2
+largest importances: {'bmi': 0.411, 's5': 0.331, 'bp': 0.092}

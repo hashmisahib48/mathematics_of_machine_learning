@@ -1,0 +1,8 @@
+atoms (32, 64)  largest norm 1.0
+default omp: non-zeros per patch 6.0
+noisy image rmse 0.2951
+omp, 1 atoms per patch: rmse 0.1170
+omp, 2 atoms per patch: rmse 0.1183
+omp, 4 atoms per patch: rmse 0.1296
+omp, 8 atoms per patch: rmse 0.1464
+Gaussian blur, sigma 1:  rmse 0.1373

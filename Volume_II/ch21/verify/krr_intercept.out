@@ -1,0 +1,3 @@
+raw target            RMSE inside  2.334   outside 29.478
+centred target        RMSE inside  0.136   outside  0.572
+kernel plus constant  RMSE inside  0.134   outside  0.559

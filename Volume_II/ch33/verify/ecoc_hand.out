@@ -1,0 +1,9 @@
+Hamming distances between code words:
+ [[0 4 4 4]
+ [4 0 4 4]
+ [4 4 0 4]
+ [4 4 4 0]]
+signs of the scores: [ 1  1 -1 -1  1 -1]
+Euclidean distances : [3.077 1.507 3.778 3.327]
+nearest code word   : B
+scores that agree in sign with code B: 5 of 6

@@ -1,0 +1,9 @@
+alpha (seeds 3, 7, 8): [0.4 0.2 0.2]
+w = [0.8 0.4]  b = -5.0
+|w|^2 = 0.8  sum alpha = 0.8
+margin 2/|w| = 2.2361
+f(x), seeds 1-8: [-2.2 -2.2 -1.  -1.4  3.   2.2  1.   1. ]
+all y f(x) >= 1: True
+SVC support_ + 1: [3 7 8]
+SVC dual_coef_  : [-0.4  0.2  0.2]
+SVC coef_, b    : [0.8 0.4] [-5.]

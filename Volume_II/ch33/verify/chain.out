@@ -1,0 +1,6 @@
+                        outdoor    beach   subset
+independent              0.9964   0.9139   0.9113
+chain outdoor, beach     0.9964   0.9954   0.9938
+chain beach, outdoor     0.9801   0.9139   0.9106
+chain with cv=5          0.9964   0.9925   0.9909
+link 2 weights on x1, x2, outdoor: [[-1.8 37.9 86.9]]

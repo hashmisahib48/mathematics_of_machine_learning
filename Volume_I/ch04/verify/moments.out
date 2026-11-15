@@ -1,0 +1,4 @@
+die: E = 3.5000  Var = 2.9167  sd = 1.7078
+E[2X+1] = 8.0   Var[2X+1] = 11.6667
+two dice: E = 7.0  Var = 5.8333
+binomial(5, 0.3): mean 1.50  var 1.05

@@ -1,0 +1,9 @@
+columns of the degree-3 polynomial in 20 features: C(23, 3) = 1771
+DUAL (KernelRidge, RBF)   K: n x n = 2.50e+09 entries = 20.0 GB
+   building K  n^2 p = 5.00e+10   Cholesky n^3/3 = 4.17e+13   one prediction: n p = 1.0e+06
+PRIMAL (Ridge on 1771 columns)   Phi: n x m = 8.86e+07 entries = 0.71 GB
+   Phi^T Phi  n m^2 = 1.57e+11   solve m^3/3 = 1.85e+09   Phi^T Phi stored: 25 MB   one prediction: m = 1771
+ratio of operations dual/primal: 263 ; ratio of memory (K against Phi): 28
+measured: one Cholesky solve with n = 3000 takes 1.19 s; scaled by (n/3000)^3 = 4630 to n = 50 000: about 5528 s (machine dependent)
+measured: PolynomialFeatures(3) on 50 000 rows: 1771 columns, 6.6 s; Ridge fit on them: 19.1 s (machine dependent)
+training R^2 of the polynomial ridge on this made-up target: 0.941

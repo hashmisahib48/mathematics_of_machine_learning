@@ -1,0 +1,19 @@
+fraction of the 60 bootstrap fits in which each feature is non-zero (alpha = 0.0787):
+  sex  1.00  (60 of 60)
+  bmi  1.00  (60 of 60)
+  bp   1.00  (60 of 60)
+  s5   1.00  (60 of 60)
+  s3   0.98  (59 of 60)
+  s1   0.70  (42 of 60)
+  age  0.57  (34 of 60)
+  s6   0.50  (30 of 60)
+  s2   0.32  (19 of 60)
+  s4   0.27  (16 of 60)
+binomial standard error of a frequency f with B = 60: sqrt(f(1-f)/B) at f = 0.5: 0.065, at f = 0.7: 0.059
+share of distinct patients in a bootstrap sample of n = 331: 0.633
+size of the selected set: min 6, max 9, mean 7.33
+s1 and s2: both 6, only s1 36, only s2 13, neither 5
+correlation of the weights of s1 and s2 over the fits: -0.536 ; correlation of the two columns in the data: 0.889
+fit on the original training set selects: ['sex', 'bmi', 'bp', 's1', 's3', 's5']
+selected in at least 90 per cent of the fits: ['sex', 'bmi', 'bp', 's3', 's5']
+figure width 4.97 in, printed 4.9 in, smallest font 8.5 pt -> printed 8.4 pt

@@ -1,0 +1,12 @@
+median of all 8100 similarities -19.549  (4005 pairs, each counted twice, plus 90 zeros)
+pairs inside a group: 1305 of 4005 = 32.6 %; mean squared distance inside 3.07, between 75.39
+pairs closer than |median| (squared distance < 19.55): inside a group 100.0 %, between groups 25.0 %
+largest squared distance inside a group 16.63, smallest between groups 0.35
+p =  -19.549: 6 exemplars, ARI 0.562, mean similarity of a sample to its exemplar -0.89
+p = -120.000: 3 exemplars, ARI 1.000, mean similarity of a sample to its exemplar -1.58
+  net similarity at p = -19.549:  with the 6-exemplar set -192.3,  with the 3-exemplar set -196.3
+  net similarity at p = -120.000:  with the 6-exemplar set -795.1,  with the 3-exemplar set -497.7
+exactly 3 exemplars (grid of 71 values, -0.1 to -316) for p from -158.5 to -31.6 on the grid
+middle of the plateau on a log axis p = -70.8: 3 exemplars, ARI 1.000
+median of the similarities of each sample to its nearest 29 neighbours (a group has 30 points): 2.20
+figure width 4.70 in, printed 4.6 in, smallest font 8.0 pt -> printed 7.8 pt

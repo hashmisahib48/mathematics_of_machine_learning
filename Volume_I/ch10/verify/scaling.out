@@ -1,0 +1,5 @@
+LinearRegression           6 km:  11.100   6000 m:  11.100
+Ridge(alpha=10)            6 km:   8.550   6000 m:  11.100
+scaler + Ridge(alpha=10)   6 km:   7.700   6000 m:   7.700
+
+slope kept: 0.5000 of OLS (km), 0.999999 of OLS (m)

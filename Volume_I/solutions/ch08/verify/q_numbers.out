@@ -1,0 +1,26 @@
+== Q1  two models whose means differ by 0.01 (training part, 331 patients, 5 folds)
+all ten  : [0.434 0.486 0.514 0.563 0.565]  mean 0.5122  sd 0.0552
+bmi,bp,s5: [0.457 0.464 0.482 0.558 0.559]  mean 0.5041  sd 0.0507
+difference per fold: [-0.0235  0.0219  0.0324  0.0048  0.0053]  mean 0.0082  sd 0.0212
+standard error of the mean score: 0.0247 ; of the mean difference: 0.0095
+folds in which all ten is better: 4 of 5
+mean score of all ten for 10 shuffles: [0.522 0.514 0.497 0.5   0.521 0.513 0.495 0.486 0.534 0.499]  range 0.048
+20 x 5-fold, paired: mean difference 0.0157 ; per repeat min 0.0043 max 0.0249 ; better in 70 of 100 folds
+
+== Q2  a courier: errors of 2 minutes and one wild record
+100 errors of size 2: MAE 2.000 RMSE 2.000 MSE 4.000
+one error of 100:    MAE 2.980 RMSE 10.196 MSE 103.960
+share of the squared error due to that one record: 0.962 ; of the absolute error: 0.336
+
+== Q3  rare disease, 99 per cent accuracy
+flags nobody                 TP   0 FP   0 FN 100 TN 9900  accuracy 0.9900  recall 0.00  precision nan
+finds half, 50 false alarms  TP  50 FP  50 FN  50 TN 9850  accuracy 0.9900  recall 0.50  precision 0.50
+finds all, 100 false alarms  TP 100 FP 100 FN   0 TN 9800  accuracy 0.9900  recall 1.00  precision 0.50
+finds 90, 10 false alarms    TP  90 FP  10 FN  10 TN 9890  accuracy 0.9980  recall 0.90  precision 0.90
+
+== Q4  the mean baseline and a negative R2
+training mean 151.9215, mean of the test targets 152.7658, n_test 111
+SST 551049.9  SSE 551129.0  SSE - SST = 79.1 ; n (ybar - c)^2 = 79.1
+R2 = -0.00014 ; -n(ybar - c)^2 / SST = -0.00014 ; sklearn -0.00014
+fold 1: training mean 156.54, test mean 134.64, n 89, R2 = -0.0984 ; formula -0.0984
+DummyRegressor in the fold: -0.0984

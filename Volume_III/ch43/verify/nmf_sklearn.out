@@ -1,0 +1,7 @@
+k = 10             iter    err_   train    test    H=0    W=0
+cd, Frobenius       497   736.8   736.8   432.1  0.597  0.263
+cd, nndsvd start    383   740.3   740.3   434.7  0.620  0.259
+cd, random start    216   736.8   736.8   431.9  0.597  0.265
+mu, Frobenius        90   773.8   773.8   450.5  0.062  0.000
+mu, KL              140   362.9   817.6   473.7  0.456  0.000
+PCA, 10 components                649.1   381.5

@@ -1,0 +1,5 @@
+least squares              train   0.555  test   0.359  RMSE  56.4
+MLP default, raw y         train  -2.888  test  -3.697  RMSE 152.7
+MLP (16,), alpha 0.1       train   0.854  test  -0.456  RMSE  85.0
+grid search: {'alpha': 10, 'hidden_layer_sizes': (16,)}
+cv R2 0.532  test R2 0.348

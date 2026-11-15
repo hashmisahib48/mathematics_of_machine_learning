@@ -1,0 +1,44 @@
+== 33A.1  K = 6, class sizes 400 300 200 100 50 50
+n = 1100  OvR problems 6  rows each 1100  rows in all 6600
+OvO problems: 15  rows of each: [700, 600, 500, 450, 450, 500, 400, 350, 350, 300, 250, 250, 150, 150, 100]
+OvO rows in all: 5500  (K-1) n = 5500
+by class: each class is in K-1 = 5 pairs, so rows = 5500
+squared-rows cost: OvR 7260000  OvO 2430000  ratio 0.3347  2(K-1)/K^2 = 0.2778
+squares of the rows: [490000, 360000, 250000, 202500, 202500, 250000, 160000, 122500, 122500, 90000, 62500, 62500, 22500, 22500, 10000]
+equal classes would give OvO/OvR = 0.2778
+
+== 33A.2  f01 = 0.8, f12 = 0.3, f02 = -0.6
+pair (0,1): f = +0.8 -> vote for class 1
+pair (1,2): f = +0.3 -> vote for class 2
+pair (0,2): f = -0.6 -> vote for class 0
+votes: [1. 1. 1.]  c: [-0.2  0.5 -0.3]
+3(|c|+1): [3.6 4.5 3.9]  c/(3(|c|+1)): [-0.0556  0.1111 -0.0769]
+F: [0.9444 1.1111 0.9231]  class 1
+c sums to -0.0 (every pair adds +f and -f)
+
+== 33A.3  code book of Example 33.5-3, s = (-0.9 0.5 0.8 0.7 -0.3 0.6)
+A terms [3.61 0.25 0.04 0.09 1.69 0.16]  sum 5.84  distance 2.417
+B terms [3.61 0.25 3.24 2.89 0.49 2.56]  sum 13.04  distance 3.611
+C terms [0.01 2.25 0.04 0.09 0.49 2.56]  sum 5.44  distance 2.332
+D terms [0.01 2.25 3.24 2.89 1.69 0.16]  sum 10.24  distance 3.2
+signs of s: [-1  1  1  1 -1  1]
+sign disagreements: [np.int64(2), np.int64(4), np.int64(2), np.int64(4)]
+Hamming matrix:
+ [[0 4 4 4]
+ [4 0 4 4]
+ [4 4 0 4]
+ [4 4 4 0]]
+smallest distance 4  corrects 1
+wrong signs of s against C: [2 6]  against A: [1 5]
+
+== row sums of the table of Problem 33A.1 (upper triangle, class j against later classes k)
+1 [700, 600, 500, 450, 450]  sum 2700  squares sum 1505000
+2 [500, 400, 350, 350]  sum 1600  squares sum 655000
+3 [300, 250, 250]  sum 800  squares sum 215000
+4 [150, 150]  sum 300  squares sum 45000
+5 [100]  sum 100  squares sum 10000
+6 []  sum 0  squares sum 0
+total rows 5500  total squares 2430000
+
+== slip in 33A.2: signs of the confidences reversed
+c' = [ 0.2 -0.5  0.3]  F' = [1.0556 0.8889 1.0769]  class 2

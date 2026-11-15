@@ -1,0 +1,5 @@
+best alpha 0.0138  5-fold 0.939
+pruned tree: leaves 5  depth 3  train 0.9554  test 0.9021
+worst perimeter      0.8362
+worst concave points 0.1212
+worst radius         0.0425

@@ -1,0 +1,31 @@
+== 8A.1  y = 2, 5, 7, 10; predictions 3, 4, 7, 12
+residuals: [-1.  1.  0. -2.]  |r|: [1. 1. 0. 2.]  r^2: [1. 1. 0. 4.]  mean of y: 6.0  (y-ybar)^2: [16.  1.  1. 16.]
+SSE = 6.0  SST = 34.0  sum|r| = 4.0
+MSE = 1.5  RMSE = 1.224744871391589  MAE = 1.0
+R2 = 0.8235294117647058  second form: 1 - MSE/(SST/n) = 0.8235294117647058
+sklearn: 1.5 1.224744871391589 1.0 0.8235294117647058
+slip: SST about the mean of the predictions 6.5 = 35.0  R2 = 0.8286
+RMSE >= MAE: True
+share of SSE from the two larger residuals: 0.8333333333333334  of SAE: 0.75
+
+== 8A.2  1000 patients, 50 diseased, 60 flagged, 40 of the flagged diseased
+TP FP FN TN: 40 20 10 930  sum 1000
+accuracy 0.97  precision 0.6666666666666666  recall 0.8
+F1 = 0.7272727272727272  = 2TP/(2TP+FP+FN) = 0.7272727272727273
+sklearn: [[930, 20], [10, 40]] 0.6666666666666666 0.8 0.7273
+flags nobody: accuracy 0.95  recall 0.0  precision (0/0): 0.0  TN = 950  FN = 50
+
+== 8A.3  leave one out for 2, 4, 9
+hold out 2: training mean 6.5, error -4.5, square 20.25
+hold out 4: training mean 5.5, error -1.5, square 2.25
+hold out 9: training mean 3.0, error 6.0, square 36.0
+sum of squares 58.5  LOO MSE = 19.5  mean 5.0  squares [ 9.  1. 16.]  training MSE = 8.666666666666666  ratio 2.25
+factor (n/(n-1))^2 for n = 10: 1.2346
+error = n/(n-1) * (y_i - ybar): [-4.5 -1.5  6. ]   (n/(n-1))^2 = 2.25
+sklearn LeaveOneOut: 19.5  per sample [20.25  2.25 36.  ]
+
+== 8A.4  counting samples
+test: 30.0 -> 30  train: 120  per class in test: 10  in train: 40
+sklearn: test 30 [10, 10, 10]  train 120 [40, 40, 40]
+KFold(5) on 120: fit uses 96  scores 24
+103 = 5 * 20 + 3  fold sizes: [21, 21, 21, 20, 20]

@@ -1,0 +1,25 @@
+SS total of the 7 finches: 190.8571
+sum of Delta over the 6 Ward merges: 190.8571
+Ward heights: [ 1.     3.109  4.243  4.472 11.18  14.424]
+Ward Delta: [  0.5     4.833   9.     10.     62.5   104.024]
+gap ratio 11.18 / 4.472: 2.5
+single ['ABCD', 'E', 'FG']
+complete ['ABC', 'DE', 'FG']
+average ['ABC', 'DE', 'FG']
+ward ['ABC', 'DE', 'FG']
+Delta(BC,A) = 4.8333
+Delta(BC,D) = 30.8333
+Delta(BC,E) = 73.5000
+Delta(A,D) = 8.5000
+Delta(A,E) = 32.5000
+Delta(D,E) = 10.0000
+SS(BC), SS(ABC): 0.5 5.3333
+ABC-DE min, max, mean: 4.123 11.0 7.798
+swiss roll t range: [1.5 pi, 4.5 pi] = 4.71 14.14
+A-E Ward heights: [ 1.      3.1091  4.4721 11.922 ]  Delta: [ 0.5     4.8333 10.     71.0667]
+A-E SS total: 86.4  sum of Delta: 86.4
+A-E: SS(ABC), SS(DE): 5.3333 10.0
+Delta(ABC,D) = 26.1667  Delta(ABC,E) = 70.1667  Delta(ABC,DE) = 71.0667
+average: d(A,BC) 2.6992 d(D,BC) 6.8023 d(E,BC) 10.5000
+average: d(ABC,D) 5.9093 d(ABC,E) 9.6874  d(ABC,DE) 7.7983
+average: sum of the six distances 46.790  mean 7.7983

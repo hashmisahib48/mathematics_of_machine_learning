@@ -1,0 +1,6 @@
+eps=0.1: DBSCAN 26, single 26 clusters, ARI 1.000, noise 0
+   clusters of one sample 16, largest cluster 80
+eps=0.2: DBSCAN 8, single 8 clusters, ARI 1.000, noise 0
+   clusters of one sample 4, largest cluster 122
+eps=0.3: DBSCAN 6, single 6 clusters, ARI 1.000, noise 0
+   clusters of one sample 3, largest cluster 125

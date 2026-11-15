@@ -1,0 +1,32 @@
+== Q1  absolute error: leaf values
+lemonade: median 7.5  residuals [-4.5, -2.5, -3.5, 2.5, 6.5, 4.5]  signs [-1.0, -1.0, -1.0, 1.0, 1.0, 1.0]  leaf medians -3.5 4.5
+diabetes training targets: median 139.0, std 79.1, min 25, max 346
+leaf values = sign  : train MAE  64.06  test MAE  55.88  test R2  0.0441   largest |F - median| 9.0
+leaf values = median: train MAE  34.96  test MAE  46.62  test R2  0.2758   largest |F - median| 165.6
+largest possible shift with leaf values of +-1, 100 trees, eta 0.1:  10.0
+
+== Q2  learning rate, Friedman data, depth 3, 1000 trees
+ eta   best test MSE  trees  train MSE there  trees within 5% of best  fit time (s)
+ 1.00      6.743        6       1.867              2             0.72
+ 0.30      3.571      144       0.005            973             1.27
+ 0.10      3.202      160       0.160            915             1.40
+ 0.03      3.097      452       0.226            729             1.33
+noise variance of the targets = 1.0 (the test MSE cannot go below it)
+
+== Q3  bias and variance by simulation (40 training sets of 200, 500 fixed test points, Friedman function without noise)
+model                            bias^2  variance  sum
+one stump                         15.85     1.90   17.75
+one tree, depth 3                  6.76     4.97   11.73
+one full tree                      3.59     9.05   12.64
+forest of 50 full trees            4.04     1.31    5.35
+boosting, 100 stumps               3.97     0.71    4.68
+boosting, 100 trees of depth 3     1.86     1.35    3.21
+
+== Q4  probabilities of boosting, breast cancer (the split of Section 27.12)
+logistic regression            accuracy 0.9580  log loss 0.0858
+boosting, defaults             accuracy 0.9580  log loss 0.1953
+boosting: wrong patients 6 ; their share of the total log loss 0.88; mean probability given to the true class by the wrong ones 0.0704; by the right ones 0.9795
+probabilities of the right patients above 0.99 or below 0.01: 0.89
+test log loss at 1, 10, 31, 100 trees:  [0.5836, 0.2684, 0.1584, 0.1953]  minimum 0.1584 at 31 trees
+boosting calibrated (sigmoid ): accuracy 0.9510  log loss 0.1486
+boosting calibrated (isotonic): accuracy 0.9580  log loss 0.1361

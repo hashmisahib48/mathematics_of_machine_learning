@@ -1,0 +1,9 @@
+breast cancer, SVC: frozen scaler 0.9754, refitted per fold 0.9771
+per fold, frozen   : [0.9649, 0.9737, 0.9737, 0.9912, 0.9735]
+per fold, refitted : [0.9737, 0.9737, 0.9737, 0.9912, 0.9735]
+largest per-fold difference: 0.0088 (one row of a fold of 113 is 0.0088)
+scaler numbers fitted on all rows against the training part of a fold: mean shift 0.016 sd, largest 0.049 sd; sd differs by 2.4 per cent on average
+the test part of a fold is 20 per cent of the rows
+
+the same trick with a selector that reads the labels (60 rows, 2000 noise columns, 30 data sets)
+frozen selector 0.872 +- 0.046   selector refitted per fold 0.515 +- 0.082   (chance 0.5)

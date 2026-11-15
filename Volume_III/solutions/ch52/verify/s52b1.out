@@ -1,0 +1,4 @@
+range   shape     nnz  share   CSR bytes  dense bytes  ratio
+(1, 1) (48, 216)  419  4.04%      5224        82944   15.9
+(1, 2) (48, 575)  838  3.04%     10252       220800   21.5
+dtype int64  index dtype int32

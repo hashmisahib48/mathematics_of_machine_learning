@@ -1,0 +1,10 @@
+the figure of the problem: best 0.72, mean of the 20 0.503, models above 0.60: 2
+P(one model scores >= 0.72) = 0.00130 ; P(at least one of 20 does) = 0.0257
+P(best of 20 >= 0.60) = 0.8819 ; P(single model >= 0.60) = 0.1013
+sd of one score sqrt(.25/50) = 0.0707
+20000 repetitions: best of 20 on the same test part: mean 0.631 (5th to 95th percentile 0.58 to 0.70)
+the winner scored on 50 fresh samples: mean 0.500 (5th to 95th percentile 0.38 to 0.62)
+best of 20 reaches 0.62 or more in 70.5 per cent of repetitions; a fresh score does in 6.0 per cent
+test part of   50 samples: mean of the best of 20 = 0.631
+test part of  200 samples: mean of the best of 20 = 0.566
+test part of 1000 samples: mean of the best of 20 = 0.530

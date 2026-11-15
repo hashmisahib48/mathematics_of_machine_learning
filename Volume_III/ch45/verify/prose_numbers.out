@@ -1,0 +1,32 @@
+-- Eq. 45.3-5, k >= 4 ln n / (eps^2/2 - eps^3/3)
+n =     1000 eps 0.1: formula    5920.93  jl 5920
+n =     1000 eps 0.5: formula     331.57  jl 331
+n =  1000000 eps 0.1: formula   11841.87  jl 11841
+n =  1000000 eps 0.5: formula     663.14  jl 663
+growth: eps 0.1 -> 0.05 multiplies k by 3.863 ; n 10^3 -> 10^6 by 2.0
+
+-- Chernoff bound of Eq. 45.3-3 against the exact tails
+k =  30 eps 0.5: P(q>=1+eps) 3.86e-02  P(q<=1-eps) 1.03e-02  bound 2.87e-01
+k = 100 eps 0.3: P(q>=1+eps) 2.35e-02  P(q<=1-eps) 9.85e-03  bound 1.65e-01
+k = 300 eps 0.2: P(q>=1+eps) 9.91e-03  P(q<=1-eps) 4.56e-03  bound 7.43e-02
+
+-- Eq. 45.3-7: variance of the squared length
+flat  s =  3: variance 0.189 (formula 0.200), mean 1.004
+flat  s = 10: variance 0.204 (formula 0.207), mean 0.992
+spiky s =  3: variance 0.200 (formula 0.200), mean 1.009
+spiky s = 10: variance 0.908 (formula 0.900), mean 0.997
+
+-- Eq. 45.4-5: variance of one random feature product
+d = 0.0: k 1.0000 mean 1.0004 variance 0.5002 formula 0.5000
+d = 0.5: k 0.8825 mean 0.8810 variance 0.5235 formula 0.5245
+d = 1.0: k 0.6065 mean 0.6068 variance 0.6974 formula 0.6998
+d = 2.0: k 0.1353 mean 0.1342 variance 0.9797 formula 0.9819
+
+-- Nystroem: exact for rank <= m, error is PSD
+rank-3 linear kernel, m = 3: max |K - ZZ^T| = 6.2e-15
+digits, m = 40: min eigenvalue of K - ZZ^T -2.8e-14; error on landmark block 2.9e-15; max diagonal error 0.545
+
+-- relative Frobenius error of the Gram matrix, digits, n = 1347 train
+D =  10: RBFSampler 0.6621 (x sqrt(D) = 2.094)  Nystroem 0.2560
+D = 100: RBFSampler 0.2181 (x sqrt(D) = 2.181)  Nystroem 0.0359
+D = 800: RBFSampler 0.0780 (x sqrt(D) = 2.206)  Nystroem 0.0029

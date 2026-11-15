@@ -1,0 +1,49 @@
+== Q1  deleting or robust
+OLS fit b=-3.10 w=3.70 residuals [ 2.4 -0.3 -2.  -4.7  4.6]
+delete the point with the largest |residual| (point 4): slope 4.37 intercept -3.77, predicts 22.46 at 6 km
+delete point 5: predicts 9.90 at 6 km
+Huber predicts 11.99 at 6 km, flags points [4 5]
+diabetes: Huber flags 114 of 331, of which wrecked 33, clean 81 (27.2 per cent of the clean records)
+OLS after deleting the flagged: test MAE 47.1; Huber: 47.5; OLS on all damaged: 57.0
+leverage data, OLS    slope -0.11
+leverage data, Huber  slope 0.61
+leverage data, median slope 0.64
+leverage data, bad points deleted: slope 0.75 (true 0.8)
+
+== Q2  the cliff
+eps 1.35 slope 1.914 scale 0.613 flagged 2
+eps 1.40 slope 2.403 scale 1.291 flagged 2
+eps 1.41 slope 3.169 scale 2.367 flagged 2
+eps 1.42 slope 3.725 scale 3.188 flagged 1
+eps 1.45 slope 3.700 scale 3.259 flagged 0
+eps 1.000  CV median error 7.24  test MAE 7.17
+eps 1.160  CV median error 7.17  test MAE 7.16
+eps 1.346  CV median error 7.22  test MAE 7.12
+eps 1.561  CV median error 7.11  test MAE 7.10
+eps 1.811  CV median error 7.21  test MAE 7.14
+eps 2.102  CV median error 7.57  test MAE 7.20
+eps 2.438  CV median error 8.04  test MAE 7.34
+eps 2.828  CV median error 15.25  test MAE 12.04
+eps 3.281  CV median error 19.06  test MAE 13.52
+eps 3.807  CV median error 19.16  test MAE 13.54
+eps 4.416  CV median error 19.16  test MAE 13.54
+eps 5.124  CV median error 19.16  test MAE 13.54
+eps 5.944  CV median error 19.16  test MAE 13.54
+eps 6.896  CV median error 19.16  test MAE 13.54
+eps 8.000  CV median error 19.16  test MAE 13.54
+eps within 5 per cent of the best CV error: 1.0 to 1.811  best 1.561
+
+== Q3  sensitivity of the median fit
+LAD  b=1.500 w=1.500   OLS b=-3.100 w=3.700
+line values at the points: [3.  4.5 6.  7.5 9. ]  passes through points [1 3]
+y5 = 20 -> 200                           LAD (1.500, 1.500)   OLS (-75.100, 39.700)
+y5 = 20 -> 8                             LAD (1.750, 1.250)   OLS (1.700, 1.300)
+y2 = 4 -> 4.3 (stays below the line)     LAD (1.500, 1.500)   OLS (-2.950, 3.670)
+y2 = 4 -> 5 (crosses the line)           LAD (1.000, 2.000)   OLS (-2.600, 3.600)
+y3 = 6 -> 6.3 (on the line)              LAD (1.350, 1.650)   OLS (-3.040, 3.700)
+OLS slope change per unit change of y_i: (x_i - xbar)/Sxx = [-0.2 -0.1  0.   0.1  0.2]
+
+== Q4  scale of the threshold
+minutes  Huber(1.35) slope/f = 1.914 flagged [4 5] | RANSAC t=2 inliers [1 2 3 4] slope/f = 1.400 | RANSAC default slope/f = 1.400
+seconds  Huber(1.35) slope/f = 1.914 flagged [4 5] | RANSAC t=2 inliers [3 5] slope/f = 7.000 | RANSAC default slope/f = 1.400
+default RANSAC threshold (MAD of y) = 2.0 min

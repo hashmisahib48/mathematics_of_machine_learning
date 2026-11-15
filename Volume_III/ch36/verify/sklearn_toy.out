@@ -1,0 +1,9 @@
+centres: [[2.0, 2.0], [3.0, 7.75]]
+labels : [1 0 0 1 0 0 1 1]  inertia: 24.75  iterations: 3
+predict: [1 0]
+distances to the depots:
+ [[4.     2.0156]
+ [2.     5.8363]]
+score(new) = -8.0625  (minus the inertia of new)
+feature names: ['kmeans0' 'kmeans1']
+default n_init: auto  inertia: 24.75

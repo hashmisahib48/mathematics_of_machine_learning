@@ -1,0 +1,6 @@
+shapes: (5, 1) (5,)
+coef_: [1.7]  intercept_: 0.9
+predict 6 km: [11.1]
+score (R^2): 0.9633
+pipeline predict 6 km: [10.25]
+step names: ['standardscaler', 'ridge']

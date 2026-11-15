@@ -1,0 +1,3 @@
+normal matches scikit-learn: [ 1.9247 -0.9816  0.5375  2.9905] 3.8703
+qr     matches scikit-learn: [ 1.9247 -0.9816  0.5375  2.9905] 3.8703
+svd    matches scikit-learn: [ 1.9247 -0.9816  0.5375  2.9905] 3.8703

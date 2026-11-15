@@ -1,0 +1,4 @@
+alpha = 0                        : 7.7e-11
+alpha = 3                        : 1.0e-10
+alpha = 3, penalty term left out : 1.8e-02
+largest entry of the left-out term 3 W/n: 0.0176

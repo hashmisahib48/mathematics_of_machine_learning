@@ -1,0 +1,6 @@
+model            chosen  cv RMSE   train    test
+mean                                2.65    3.02
+OLS                                 0.00    1.46
+RidgeCV                             0.67    0.95
+PCA + OLS             6     0.86    0.77    0.89
+PLSRegression         6     0.89    0.71    0.89

@@ -1,0 +1,13 @@
+model       b      w   predict(6)
+OLS        -3.100  3.700   19.100
+Huber       0.506  1.913   11.987
+RANSAC      1.500  1.400    9.900
+Theil-Sen   0.863  1.655   10.794
+Quantile    1.500  1.500   10.500
+Huber scale_    = 0.6127
+Huber outliers_ = [False False False  True  True]
+RANSAC inliers  = [ True  True  True  True False]
+RANSAC trials   = 5
+Theil-Sen subsets = 10
+Theil-Sen breakdown_ = 0.234
+Quantile, default alpha: [0.] 6.0

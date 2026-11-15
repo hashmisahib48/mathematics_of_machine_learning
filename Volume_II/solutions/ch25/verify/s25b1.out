@@ -1,0 +1,6 @@
+oob_score_ of scikit-learn: 0.9531
+recomputed by hand:         0.9531
+equal to the last digit: True
+samples without an out-of-bag tree: 0  (expected 4.7e-08)
+out-of-bag trees per sample: mean 18.40 (0.368 * 50 = 18.40), min 8
+distinct samples per tree: mean 269.2   0.632 n = 269.2   n = 426

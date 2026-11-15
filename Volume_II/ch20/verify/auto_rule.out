@@ -1,0 +1,10 @@
+n = 1000, k = 5 unless stated; algorithm='auto'
+3 features           -> kd_tree
+15 features          -> kd_tree
+16 features          -> brute
+k = 499              -> kd_tree
+k = 500              -> brute
+chebyshev            -> kd_tree
+cosine               -> brute
+haversine            -> ball_tree
+weighted minkowski   -> ball_tree

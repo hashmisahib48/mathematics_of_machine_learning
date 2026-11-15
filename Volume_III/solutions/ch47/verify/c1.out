@@ -1,0 +1,24 @@
+species, n, mean, sd of standardised petal length:
+  setosa       50  -1.305  0.098
+  versicolor   50   0.285  0.264
+  virginica    50   1.020  0.311
+  setosa      sd 0.098   versicolor+virginica sd 0.467   ratio 4.78
+rounding step of the data: 0.1 cm = 0.057 scaled units; distinct values of the setosa group: 9 of 50  range -1.568 -1.056
+
+leave-one-out mean ln f over each group, best fixed h:
+  setosa group       best h 0.06  score -0.265
+  other two species  best h 0.22  score -1.102
+  all 150            best h 0.09  score -0.856
+  h = 0.11: setosa -0.342  others -1.122  all -0.862
+  h = 0.43: setosa -1.228  others -1.148  all -1.174
+Eq. 47.4-3 with a normal reference: h = 1.0592 sd m^(-1/5)
+  setosa  m =  50 sd 0.098 -> h = 0.047
+  others  m = 100 sd 0.467 -> h = 0.197
+
+adaptive (Abramson, pilot h = 0.2): best h0 = 0.09  all -0.837  setosa -0.268  others -1.122
+  local bandwidths: setosa 0.078 (range 0.074 to 0.105), others 0.101 (range 0.080 to 0.253)
+gain of the adaptive estimator over the best fixed h: 0.018 nats per iris
+figure width 4.67 in, printed 4.9 in, smallest font 7.8 pt -> printed 8.2 pt
+highest density: h = 0.11 0.93, h = 0.43 0.41, adaptive 1.18
+h = 0.11: the setosa bump (z < -0.9) has area 0.332, peak 0.93; dip between the groups (min over -0.9<z<0.0) 0.001
+h = 0.43: the setosa bump (z < -0.9) has area 0.248, peak 0.30; dip between the groups (min over -0.9<z<0.0) 0.138

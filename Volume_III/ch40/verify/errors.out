@@ -1,0 +1,7 @@
+1. ConvergenceWarning - Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+2. ValueError - Fitting the mixture model failed because some components have ill-defined empirical covariance (for instance caused by singleton or collapsed samples). Try to decrease the number of components, increase reg_covar, or scale the input data.
+3. ValueError - Expected n_samples >= n_components but got n_components = 3, n_samples = 2
+4. component labels depend on the seed:
+   seed 0  means of height (cm) [177. 132. 164.]
+   seed 1  means of height (cm) [164. 132. 177.]
+   seed 2  means of height (cm) [164. 132. 177.]

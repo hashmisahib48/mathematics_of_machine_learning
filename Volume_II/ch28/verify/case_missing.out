@@ -1,0 +1,9 @@
+5-fold accuracy / test accuracy; columns:
+  1 HGB, NaN as is
+  2 HGB, median fill
+  3 LogReg, median
+  4 LogReg, median+flags
+
+complete           0.977/0.951  0.977/0.951  0.974/0.958  0.974/0.958  (NaN 0.00)
+15% at random      0.967/0.916  0.965/0.916  0.965/0.958  0.953/0.930  (NaN 0.15)
+skipped if benign  0.991/0.951  0.967/0.958  0.960/0.965  0.995/0.986  (NaN 0.11)

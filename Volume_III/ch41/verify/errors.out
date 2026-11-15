@@ -1,0 +1,11 @@
+k-means ids: [2 2 2 2 0 0 1 1]
+accuracy 0.0  ARI 0.5455
+homogeneity(truth, clusters)   0.7402
+homogeneity(clusters, truth)   0.7704 = completeness 0.7704
+silhouette_score ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+silhouette_score ValueError: Number of labels is 8. Valid values are 2 to n_samples - 1 (inclusive)
+calinski_harabasz_score ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+calinski_harabasz_score ValueError: Number of labels is 8. Valid values are 2 to n_samples - 1 (inclusive)
+davies_bouldin_score ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+davies_bouldin_score ValueError: Number of labels is 8. Valid values are 2 to n_samples - 1 (inclusive)
+FutureWarning: Function entropy is deprecated; `entropy` is deprecated in 1.8 and will be removed in 1.10.

@@ -1,0 +1,4 @@
+linear | SVs: 54 | max |f - f_svc| = 4.4e-05
+   b: 0.2099 vs 0.20989 | steps: 478 vs 196
+rbf | SVs: 38 | max |f - f_svc| = 1.5e-05
+   b: 0.03949 vs 0.03949 | steps: 136 vs 117

@@ -1,0 +1,15 @@
+AdditiveChi2Sampler steps 1: 64 ->  64 features, relative Gram error 0.1588
+AdditiveChi2Sampler steps 2: 64 -> 192 features, relative Gram error 0.0798
+AdditiveChi2Sampler steps 3: 64 -> 320 features, relative Gram error 0.0367
+SkewedChi2Sampler D =   100: relative Gram error 0.2723
+SkewedChi2Sampler D =  1000: relative Gram error 0.0927
+SkewedChi2Sampler D = 10000: relative Gram error 0.0368
+PolynomialCountSketch D =   64: relative Gram error 0.2410
+PolynomialCountSketch D =  640: relative Gram error 0.0767
+PolynomialCountSketch D = 6400: relative Gram error 0.0219
+
+Nystroem(500) on 50 samples keeps 50 landmarks; warning: n_components > n_samples. This is not possible.
+RBFSampler gamma='scale': _gamma = 0.1079  1/(p var) = 0.1079
+
+n_components='auto' on the digits: eps=0.100000 and n_samples=1347 lead to a target dimension of 6176 which is larger than the original space with n_features=64
+n_components=100 > p = 64 gives DataDimensionalityWarning

@@ -1,0 +1,8 @@
+gradient boosting, exponential  test accuracy 0.9580
+AdaBoost, SAMME                 test accuracy 0.9301
+gradient boosting, log loss     test accuracy 0.9650
+same prediction on 0.958 of the test set
+predict_proba == expit(2 F): True
+probability range, exponential: 0.0001 0.9999
+probability range, AdaBoost    : 0.184 0.7805
+training mean of exp(-s F): gradient boosting 0.1041  AdaBoost 0.0005

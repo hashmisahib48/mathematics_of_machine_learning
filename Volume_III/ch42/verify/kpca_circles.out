@@ -1,0 +1,11 @@
+gamma  top 2 eigenvalues  accuracy, first component
+  0.5  [25.1  24.07]        0.475
+    2  [31.07 24.28]        1.000
+   10  [21.76 21.11]        0.788
+   50  [11.41 11.3 ]        0.273
+by hand = KernelPCA: True
+pre-image: n_components, alpha, RMS error on test points
+           2   0.01 0.2741
+           5   0.01 0.0135
+           5    0.1 0.0311
+           5    1.0 0.0650

@@ -1,0 +1,6 @@
+root impurity 0.5
+income best <= 32.0  G = 0.1667
+age    best <= 25.5  G = 0.3750
+decrease 0.3333
+right node: n = 6  Gini 0.2778
+  age <= 24.5  G = 0.0000

@@ -1,0 +1,29 @@
+== 30A.1
+K (ell=1) =
+ [[1.     0.6065 0.0111]
+ [0.6065 1.     0.1353]
+ [0.0111 0.1353 1.    ]]
+k(0,1) = exp(-1/2)  = 0.60653
+k(1,3) = exp(-4/2)  = 0.13534
+k(0,3) = exp(-9/2)  = 0.01111    correlation = 0.01111
+k(0,3), ell=2: exp(-9/8) = 0.32465
+eigenvalues of K: [0.3808 0.9953 1.6239]  all positive: True
+
+== 30A.2
+(a) mean 1.2000000000000002  var 0.36
+(b) S = 1.25  k*/S = 0.64  mean 0.96  var 0.488
+    shrink factor of the mean 0.96/1.2 = 0.8   variance reduction 0.64 ->  0.512
+(c) noise         0: mean 1.2000  var 0.3600
+(c) noise      0.25: mean 0.9600  var 0.4880
+(c) noise         1: mean 0.6000  var 0.6800
+(c) noise        10: mean 0.1091  var 0.9418
+(c) noise      1000: mean 0.0012  var 0.9994
+(c) noise     1e+06: mean 0.0000  var 1.0000
+
+== 30A.3
+S = 1 + 0.25 = 1.25   a = y/S = 1.2
+x*=0.0: k*=1.00000  mean = k* a = 1.2000  k*^2/S = 0.80000  var = 0.2000
+x*=1.0: k*=0.60653  mean = k* a = 0.7278  k*^2/S = 0.29430  var = 0.7057
+x*=3.0: k*=0.01111  mean = k* a = 0.0133  k*^2/S = 0.00010  var = 0.9999
+noise factor S/k(0,0) = 1.25
+mean at 0 / reading = 0.8   variance at 0 = 0.19999999999999996

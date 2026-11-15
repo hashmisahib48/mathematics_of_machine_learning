@@ -1,0 +1,5 @@
+mean of prices      R2 -0.003   MAE  101.9
+ridge               R2  0.823   MAE   41.3
+ridge, log price    R2  0.739   MAE   39.5
+hist. boosting      R2  0.843   MAE   37.4
+hist. boosting, log R2  0.852   MAE   35.8

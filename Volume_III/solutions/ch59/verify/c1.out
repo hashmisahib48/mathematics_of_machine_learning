@@ -1,0 +1,10 @@
+stays 23686, patients 6000, return rate 0.0212 (503 returns)
+protocol                      AUC       AP    base rate
+random stays                0.749    0.073       0.0212
+by patient                  0.645    0.033       0.0212
+by patient and time         0.581    0.027       0.0213
+logistic, by patient        0.756    0.061       0.0212
+test part of the time split: 1593 stays, 34 returns
+patients with at least two stays: 0.95; stays whose patient also has another stay in a different fold of the random split: ~0.99
+returns: share of returning stays whose patient has more than one return: 0.36
+figure width 4.82 in, printed 4.9 in, smallest font 8.0 pt -> printed 8.1 pt

@@ -1,0 +1,12 @@
+X_thresholds_: [1. 2. 5. 6. 7. 8.]
+y_thresholds_: [2.   3.25 3.25 5.5  5.5  7.  ]
+X_min_, X_max_: 1.0 8.0 True
+predict at [0.5, 1, 2.5, 5.5, 8, 9]
+  out_of_bounds='nan'  : [  nan 2.    3.25  4.375 7.      nan]
+  out_of_bounds='clip' : [2.    2.    3.25  4.375 7.    7.   ]
+  out_of_bounds='raise': A value (9.0) in x_new is above the interpolatio
+y_min=3, y_max=6 : [3.   3.25 3.25 3.25 3.25 5.5  5.5  6.  ]
+weight 4 on dose 5: [2.         2.28571429 2.28571429 2.28571429 2.28571429 5.5
+ 5.5        7.        ]
+auto, decreasing data: increasing_ = False
+transform = predict: True

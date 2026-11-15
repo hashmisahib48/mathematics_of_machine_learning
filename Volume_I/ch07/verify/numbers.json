@@ -1,0 +1,188 @@
+{
+ "sizes": {
+  "load_iris": [
+   150,
+   4
+  ],
+  "load_diabetes": [
+   442,
+   10
+  ],
+  "load_breast_cancer": [
+   569,
+   30
+  ],
+  "load_wine": [
+   178,
+   13
+  ],
+  "load_digits": [
+   1797,
+   64
+  ]
+ },
+ "class_counts": {
+  "iris": [
+   50,
+   50,
+   50
+  ],
+  "breast_cancer": [
+   212,
+   357
+  ],
+  "wine": [
+   59,
+   71,
+   48
+  ],
+  "digits": [
+   178,
+   182,
+   177,
+   183,
+   181,
+   182,
+   181,
+   179,
+   174,
+   180
+  ]
+ },
+ "diabetes_target": [
+  25.0,
+  346.0
+ ],
+ "diabetes_feature_names": [
+  "age",
+  "sex",
+  "bmi",
+  "bp",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6"
+ ],
+ "digits": {
+  "images": [
+   1797,
+   8,
+   8
+  ],
+  "pixel_min_max": [
+   0.0,
+   16.0
+  ]
+ },
+ "breast_cancer_target_names": [
+  "malignant",
+  "benign"
+ ],
+ "linnerud": {
+  "X": [
+   20,
+   3
+  ],
+  "y": [
+   20,
+   3
+  ]
+ },
+ "binary": {
+  "decision_function": [
+   4
+  ],
+  "predict_proba": [
+   4,
+   2
+  ]
+ },
+ "has": {
+  "LogisticRegression": {
+   "predict_proba": true,
+   "decision_function": true,
+   "transform": false,
+   "predict": true
+  },
+  "RidgeClassifier": {
+   "predict_proba": false,
+   "decision_function": true,
+   "transform": false,
+   "predict": true
+  },
+  "SVC": {
+   "predict_proba": false,
+   "decision_function": true,
+   "transform": false,
+   "predict": true
+  },
+  "SVC(probability=True)": {
+   "predict_proba": true,
+   "decision_function": true,
+   "transform": false,
+   "predict": true
+  },
+  "LinearSVC": {
+   "predict_proba": false,
+   "decision_function": true,
+   "transform": false,
+   "predict": true
+  },
+  "KMeans": {
+   "predict_proba": false,
+   "decision_function": false,
+   "transform": true,
+   "predict": true
+  },
+  "LinearRegression": {
+   "predict_proba": false,
+   "decision_function": false,
+   "transform": false,
+   "predict": true
+  },
+  "StandardScaler": {
+   "predict_proba": false,
+   "decision_function": false,
+   "transform": true,
+   "predict": false
+  }
+ },
+ "pipeline_has": {
+  "predict": true,
+  "predict_proba": true,
+  "decision_function": true,
+  "transform": false,
+  "score": true
+ },
+ "pipeline_no_clf_has_transform": true,
+ "column_y": {
+  "LinearRegression_coef_shape": [
+   1,
+   1
+  ],
+  "one_over": {
+   "38": 0.0263,
+   "112": 0.0089
+  },
+  "classifier_warning": "DataConversionWarning"
+ },
+ "bunch": {
+  "type": "Bunch",
+  "keys": [
+   "DESCR",
+   "data",
+   "data_module",
+   "feature_names",
+   "filename",
+   "frame",
+   "target",
+   "target_names"
+  ],
+  "as_frame": [
+   "DataFrame",
+   "Series"
+  ]
+ }
+}

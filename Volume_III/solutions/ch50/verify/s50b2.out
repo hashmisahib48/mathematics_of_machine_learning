@@ -1,0 +1,9 @@
+  r categories  fit,transform  fit_transform  1/sqrt(r)
+  1       1200         1.0000        -0.0399      1.000
+  2        600         0.7090        -0.0004      0.707
+  3        400         0.5791        -0.0044      0.577
+  5        240         0.4559         0.0098      0.447
+ 10        120         0.3369         0.0223      0.316
+ 30         40         0.2025         0.0438      0.183
+
+standard error of a correlation of 1200 noise pairs: 0.029

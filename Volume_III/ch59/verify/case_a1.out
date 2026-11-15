@@ -1,0 +1,8 @@
+training part (426, 30) class counts [159 267]
+majority class 0.6268 +- 0.0046  (0.624 to 0.635)
+logistic       0.9742 +- 0.0155  (0.953 to 1.000)
+SVC            0.9859 +- 0.0115  (0.976 to 1.000)
+random forest  0.9578 +- 0.0216  (0.930 to 0.988)
+hist. boosting 0.9695 +- 0.0140  (0.953 to 0.988)
+grid cells 72, best C = 128, gamma = 2^-11
+best 5-fold accuracy 0.9906

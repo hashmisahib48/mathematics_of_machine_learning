@@ -1,0 +1,11 @@
+28 sorted points of the noisy sine, alpha = 0.1; trace of K = 28 (every diagonal entry is 1)
+gamma = 0.05: lambda_1 = 22.45, lambda_2 = 4.879, lambda_5 = 1.31e-03, lambda_10 = 1.98e-11, lambda_20 = 1.25e-16
+            eigenvalues above alpha: 3; filter factor above 0.5: 3; above 0.9: 2; df = sum of filter factors = 3.08; first six filter factors [0.996, 0.98, 0.864, 0.228, 0.013, 0.001]
+            share of the trace carried by the top 3 eigenvalues: 0.999
+gamma = 0.5 : lambda_1 = 11.52, lambda_2 = 8.933, lambda_5 = 7.47e-01, lambda_10 = 5.69e-04, lambda_20 = 1.07e-14
+            eigenvalues above alpha: 6; filter factor above 0.5: 6; above 0.9: 4; df = sum of filter factors = 6.18; first six filter factors [0.991, 0.989, 0.976, 0.96, 0.882, 0.696]
+            share of the trace carried by the top 3 eigenvalues: 0.876
+gamma = 5   : lambda_1 = 6.84, lambda_2 = 5.657, lambda_5 = 2.36e+00, lambda_10 = 6.46e-01, lambda_20 = 3.61e-04
+            eigenvalues above alpha: 14; filter factor above 0.5: 14; above 0.9: 9; df = sum of filter factors = 12.63; first six filter factors [0.986, 0.983, 0.966, 0.965, 0.959, 0.957]
+            share of the trace carried by the top 3 eigenvalues: 0.547
+figure width 4.68 in, printed 4.7 in, smallest font 8.5 pt -> printed 8.5 pt

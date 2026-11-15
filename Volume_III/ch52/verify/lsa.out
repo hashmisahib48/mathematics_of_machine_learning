@@ -1,0 +1,4 @@
+documents x words: (60, 181)  non-zero share: 0.0936
+nearest document has the same topic: 0.9375
+variance explained: [0.042 0.107]
+4 means on LSA: adjusted Rand index 1.0

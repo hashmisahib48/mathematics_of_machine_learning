@@ -1,0 +1,5 @@
+gaussian     h = 2.50  cv = -3.7244  test = -3.7797
+epanechnikov h = 5.75  cv = -3.7225  test = -inf
+scott        h = 4.71  test = -3.8105
+silverman    h = 4.99  test = -3.8189
+GMM, K = 2   test = -3.7862

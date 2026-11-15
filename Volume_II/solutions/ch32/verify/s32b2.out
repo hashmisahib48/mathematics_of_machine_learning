@@ -1,0 +1,15 @@
+test cases 2000, share of events 0.1095, largest forecast 0.621
+
+uniform: 4 bins returned
+ cases per bin : [1796  185   18    1    0]
+ events per bin: [166  42  10   1   0]
+ predicted     : [0.09  0.268 0.469 0.621]
+ observed      : [0.092 0.227 0.556 1.   ]
+ std. error    : [0.007 0.031 0.117 0.   ]
+
+quantile: 5 bins returned
+ cases per bin : [400 400 400 400 400]
+ events per bin: [  7   5  28  72 107]
+ predicted     : [0.043 0.067 0.088 0.123 0.231]
+ observed      : [0.018 0.012 0.07  0.18  0.268]
+ std. error    : [0.007 0.006 0.013 0.019 0.022]

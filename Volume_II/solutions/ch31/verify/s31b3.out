@@ -1,0 +1,9 @@
+n_iter_               : 18
+epoch of the best score: 12
+best_validation_score_ : 0.85
+n_iter_ - best epoch   : 6 = n_iter_no_change + 1
+validation rows        : 20   best score x rows = 17.0
+training rows          : 80   t_ = 1440 = n_iter_ x rows: 1440
+best_loss_             : None
+validation scores of epochs 1 to 18:
+[0.5, 0.5, 0.55, 0.65, 0.65, 0.7, 0.75, 0.8, 0.8, 0.8, 0.8, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85]

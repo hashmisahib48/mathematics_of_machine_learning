@@ -1,0 +1,9 @@
+features: ['Chins', 'Situps', 'Jumps']  targets: ['Weight', 'Waist', 'Pulse']
+5-fold R2                    Weight   Waist   Pulse     all
+mean of the training part    -0.151  -0.116  -0.193  -0.153
+Ridge (native)               -0.214   0.077  -0.257  -0.132
+MultiOutputRegressor         -0.214   0.077  -0.257  -0.132
+RegressorChain               -0.214   0.077  -0.257  -0.132
+RandomForest (native)        -0.137   0.062  -0.219  -0.098
+coef_ shape: (3, 3)  largest coef difference: 1.8e-15
+chain against independent, largest prediction difference: 7.1e-15

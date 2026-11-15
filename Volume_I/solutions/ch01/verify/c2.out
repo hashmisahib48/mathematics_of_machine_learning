@@ -1,0 +1,8 @@
+ K  inertia  silhouette  stability(ARI between halves)
+ 2    407.3      0.519      0.234
+ 3     98.9      0.701      1.000
+ 4     80.6      0.622      0.771
+ 5     64.0      0.532      0.647
+ 6     49.8      0.439      0.674
+inertia never rises: True
+sizes of the 3 groups: [25, 25, 25]

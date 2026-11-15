@@ -1,0 +1,4 @@
+rows: 426 + 143  n_splits: 1
+train rows 0..425 (426)  test rows 426..568 (143)
+cross_val_score: 0.9580  hold-out: 0.9580  equal: True
+correct test rows: 137 of 143

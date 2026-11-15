@@ -1,0 +1,12 @@
+k-means: ARI 0.574, wrong 95 of 500
+[[121   0  46]
+ [ 44   0 123]
+ [  5 161   0]]
+mixture: ARI 1.000, wrong 0 of 500
+[[167   0   0]
+ [  0 167   0]
+ [  0   0 166]]
+component 0: weight 0.334 axis ratio 7.06
+component 1: weight 0.334 axis ratio 5.94
+component 2: weight 0.332 axis ratio 5.95
+singular values of A: [1.276 0.202] ratio 6.3

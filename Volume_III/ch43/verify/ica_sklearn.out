@@ -1,0 +1,16 @@
+ICA: |corr(estimate, source)|
+ [[0.065 0.996]
+ [0.995 0.08 ]]
+PCA: |corr(score, source)|
+ [[0.408 0.918]
+ [0.91  0.395]]
+mixing_ (columns match A up to sign and order)
+ [[0.931 1.077]
+ [1.962 0.656]]
+recovered scales: [1. 1.]  n_iter_ = 4
+logcosh parallel   n_iter   4  worst match 0.9952
+logcosh deflation  n_iter   5  worst match 0.9972
+exp     parallel   n_iter   4  worst match 0.9952
+exp     deflation  n_iter   5  worst match 0.9972
+cube    parallel   n_iter   3  worst match 0.9953
+cube    deflation  n_iter   6  worst match 0.9972

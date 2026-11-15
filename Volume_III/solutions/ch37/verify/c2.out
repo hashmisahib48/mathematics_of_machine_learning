@@ -1,0 +1,13 @@
+sizes: single [1, 86]  Ward [42, 45]
+five longest edges of the minimum spanning tree: [0.659, 0.561, 0.56, 0.549, 0.525]
+  the longest joins samples 44 and 68 - the singleton of single linkage is sample 68
+  singleton at [4.571, -1.321]  (group A mean [-0.12, 0.05])  distance to nearest other sample 0.659
+bridge spacing in x: 0.500; gaps in the tree between consecutive bridge samples: [0.501, 0.509, 0.507, 0.525, 0.518, 0.561]
+distance of the bridge ends to the groups: 0.032 (to A), 0.549 (to B)
+bridge edges in the 10 longest tree edges: 6
+SS_total 580.80;  SSW single partition 574.45;  SSW Ward partition 62.70
+Ward cost of the last merge = SST - SSW: single partition 6.35;  Ward partition 518.10
+cost of the singleton: 1*86/87 * 6.427 = 6.35
+Ward partition: sizes 42 45  bridge samples with group A: 2, with group B: 5
+centre distance squared of the Ward clusters 23.849, factor 42*45/87 = 21.72
+figure width 5.37 in, printed 4.9 in, smallest font 8.4 pt -> printed 7.7 pt

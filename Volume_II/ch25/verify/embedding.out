@@ -1,0 +1,4 @@
+logistic regression on (x1, x2): test 0.455
+embedding: (200, 154)  ones per row: 20 = number of trees
+leaves per tree: [8, 8, 8, 7]
+embedding + logistic regression: test 0.995

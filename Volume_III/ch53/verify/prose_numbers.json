@@ -1,0 +1,88 @@
+{
+ "r_radius_perimeter": 0.99804,
+ "r_radius_area": 0.98675,
+ "std_min_max": [
+  0.0023,
+  576.65217
+ ],
+ "f_equals_f_regression_binary": true,
+ "fmax": [
+  "worst concave points",
+  797.03161
+ ],
+ "fmin": [
+  "mean fractal dimension",
+  0.00124
+ ],
+ "F_mean_fractal_dimension": 0.00124,
+ "p_mean_fractal_dimension": 0.97193,
+ "f_crit_1_424_05": 3.86348,
+ "n_p_below_05": 26,
+ "not_significant": [
+  "mean fractal dimension",
+  "texture error",
+  "smoothness error",
+  "symmetry error"
+ ],
+ "n_p_below_1e-3": 25,
+ "chi2_raw_top3": [
+  "worst area",
+  "mean area",
+  "area error"
+ ],
+ "chi2_mm_top3": [
+  "mean concave points",
+  "mean concavity",
+  "worst concave points"
+ ],
+ "chi2_overlap_top5": 1,
+ "mi_formula_worst_perimeter": 0.48587,
+ "mi_sklearn_worst_perimeter": 0.48587,
+ "rf_threshold_counts": {
+  "mean": 8,
+  "median": 15,
+  "1.25*median": 14,
+  "0.5*mean": 14
+ },
+ "rf_mean_importance": 0.03333,
+ "diabetes_F_top3": [
+  [
+   "bmi",
+   230.65376,
+   0.58645
+  ],
+  [
+   "s5",
+   207.27119,
+   0.56588
+  ],
+  [
+   "bp",
+   106.52013,
+   0.44148
+  ]
+ ],
+ "diabetes_F_from_r": 0.0,
+ "multitest": {
+  "fpr": [
+   16.99,
+   9.49,
+   0.35128
+  ],
+  "fwe": [
+   4.62,
+   0.045,
+   0.00811
+  ],
+  "fdr": [
+   9.595,
+   0.595,
+   0.05151
+  ]
+ },
+ "expected_false_fpr": 9.0,
+ "p_any_false_fpr": 0.9999,
+ "sfs_fits_5of30": 700,
+ "sfs_fits_30": 2325,
+ "rfe_fits_30_to_5": 26
+}

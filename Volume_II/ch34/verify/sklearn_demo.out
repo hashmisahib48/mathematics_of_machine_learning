@@ -1,0 +1,10 @@
+LP n_iter_ = 114  labels = [0 0 0 1 1]
+LP P(class 1) = [0.     0.1818 0.2727 0.6364 1.    ]
+LS n_iter_ = 42  labels = [0 0 0 1 1]
+LS P(class 1) = [0.008  0.0768 0.3572 0.9432 0.9923]
+default tol: n_iter_ = 22  P(class 1) = [0.     0.181  0.272  0.6358 1.    ]
+
+labeled_iter_ : [ 0  0  1 -1  1  1  0  0]
+transduction_ : [ 0  0  0 -1  1  1  1  1]
+n_iter_ = 2  termination_condition_ = no_change
+predict_proba at 3.4 : [[0.5 0.5]]

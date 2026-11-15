@@ -1,0 +1,9 @@
+one step : alpha_ = 1.307  lambda_ = 1.543
+converged: alpha_ = 1.667  lambda_ = 1.282  n_iter_ = 4
+coef_      = [0.8667]
+intercept_ = 0.0
+sigma_     = [[0.0289]]
+scores_    = [-8.062 -6.338 -6.302 -6.302 -6.302]
+x*   = [0. 2. 6.]
+mean = [0.    1.733 5.2  ]
+sd   = [0.775 0.846 1.281]

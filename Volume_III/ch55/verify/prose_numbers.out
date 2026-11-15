@@ -1,0 +1,6 @@
+C(426,2) = 90525  C(100,3) = 161700
+MSE same patient 1.139 theory 1.143 | new patient 5.02 theory 5
+sd of the 5-fold mean over data sets 0.0763 | mean naive s/sqrt(5) 0.0475 | mean fold-score corr 0.205
+labels 0 first per-fold class counts [[2, 1], [1, 2], [1, 1], [1, 1], [1, 1]]
+labels 1 first per-fold class counts [[1, 2], [2, 1], [1, 1], [1, 1], [1, 1]]
+train sizes [90, 120, 150, 180, 210]

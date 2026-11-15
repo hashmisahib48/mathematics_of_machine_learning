@@ -1,0 +1,6 @@
+AttributeError: This 'SGDClassifier' has no attribute 'predict_proba'
+f(x)                    [ 0.91  -1.353  0.943 -1.321]
+predict_proba, class 1 [0.955 0.    0.971 0.   ]
+(clip(f, -1, 1) + 1)/2 [0.955 0.    0.971 0.   ]
+log_loss: 1/(1+exp(-f)) = [0.782 0.385 0.784 0.388]
+log_loss: predict_proba = [0.782 0.385 0.784 0.388]

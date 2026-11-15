@@ -1,0 +1,11 @@
+best var_smoothing: 0.1
+model                      train   test  5-fold
+baseline (most frequent)   0.102  0.102  0.100
+GaussianNB, default        0.848  0.836  0.834
+GaussianNB, tuned          0.933  0.913  0.922
+MultinomialNB              0.906  0.904  0.898
+ComplementNB               0.823  0.820  0.817
+BernoulliNB (binarize=8)   0.895  0.891  0.885
+CategoricalNB (17 levels)  0.966  0.913  0.906
+GaussianNB, default  mean confidence 0.987, accuracy 0.836
+MultinomialNB        mean confidence 0.996, accuracy 0.904

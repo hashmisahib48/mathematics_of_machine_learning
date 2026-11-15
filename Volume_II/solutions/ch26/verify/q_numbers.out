@@ -1,0 +1,30 @@
+== Q1  the six apples
+h1 wrong on apples [5]  eps1 = 1/6 -> 1.6094
+weighted error of h1 under the round-2 weights: 0.5 -> alpha = 0.0
+reversed h1 has error 0.8333 alpha = -1.6094 = minus 1.6094
+eps=0.2: alpha=+1.3863  e^alpha=4.0000
+eps=0.8: alpha=-1.3863  e^alpha=0.2500
+
+== Q2  bias and variance, breast cancer, training part
+model                    train   test   (halves)  disagreement
+one stump                0.9296 0.8881   0.8941    0.1266  (12.66 per cent)
+one full tree            1.0000 0.9021   0.9189    0.1035  (10.35 per cent)
+forest, 100 full trees   0.9977 0.9441   0.9364    0.0462  (4.62 per cent)
+forest, 100 stumps       0.9366 0.9231   0.9192    0.0510  (5.10 per cent)
+AdaBoost, 50 stumps      1.0000 0.9441   0.9434    0.0545  (5.45 per cent)
+AdaBoost on full trees keeps 1 round(s); test 0.9161
+
+== Q3  the weight of flipped labels, stumps, 10 repetitions
+rounds                            1      2      5     10     25     50    100    200    400
+weight of flipped samples     0.167  0.195  0.248  0.261  0.270  0.270  0.270  0.272  0.268
+... of which mistakes of h_m    0.156  0.142  0.124  0.136  0.136  0.138  0.145  0.124  0.130
+test error on clean data      0.199  0.199  0.140  0.138  0.131  0.125  0.119  0.124  0.129
+largest share over rounds: 0.276 at round 153 ; flipped samples are 0.10 of the data
+
+== Q4  accuracy against log loss, breast cancer
+logistic regression             accuracy 0.9580  AUC 0.9952  log loss 0.0858  largest p 1.0000
+AdaBoost, 200 stumps            accuracy 0.9441  AUC 0.9916  log loss 0.4386  largest p 0.8009
+AdaBoost, 50 trees of depth 3   accuracy 0.9580  AUC 0.9906  log loss 0.2596  largest p 0.8728
+  same, sigmoid-calibrated      accuracy 0.9371  AUC 0.9881  log loss 0.1262  largest p 0.9875
+  200 stumps, sigmoid-calibrated accuracy 0.9580  AUC 0.9922  log loss 0.1263  largest p 0.9983
+log loss of a classifier that is always right but sits at the largest possible AdaBoost probability 0.8808: 0.1269

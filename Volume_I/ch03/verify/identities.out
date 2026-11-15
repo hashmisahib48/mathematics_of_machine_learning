@@ -1,0 +1,13 @@
+grad of a.w     : [ 2. -1.  3.]
+  formula a     : [ 2. -1.  3.]
+grad of w'Aw    : [ 8. 12. -4.]
+  formula 2Aw   : [ 8. 12. -4.]
+grad of w'Bw    : [ 2. 12.  4.]
+  formula (B+B')w: [ 2. 12.  4.]
+
+gradient of J at (0, 1): [ -30. -104.]
+  by numbers           : [ -30. -104.]
+Hessian 2 X'X:
+ [[ 10.  30.]
+ [ 30. 110.]]
+eigenvalues: [  1.69 118.31]   ratio: 70.0

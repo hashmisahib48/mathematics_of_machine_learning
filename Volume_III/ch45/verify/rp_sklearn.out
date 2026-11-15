@@ -1,0 +1,6 @@
+train (750, 10000)  JL dims for eps 0.5, 0.3, 0.1: [ 317  735 5674]
+Gaussian  mean 0.988  sd 0.261 (theory 0.258)
+Sparse    mean 1.014  sd 0.264 (theory 0.258)
+sparse: density_ 0.01  values [-1.8257  1.8257]
+inverse_components_ (10000, 30)
+transform(inverse_transform(Z)) == Z: True

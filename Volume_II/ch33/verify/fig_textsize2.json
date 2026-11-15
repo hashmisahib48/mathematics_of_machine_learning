@@ -1,0 +1,26 @@
+{
+ "f391.png": {
+  "fig_in": 4.88,
+  "printed_in": 4.9,
+  "min_font_design": 9.5,
+  "min_font_printed": 9.5
+ },
+ "f392.png": {
+  "fig_in": 5.47,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 7.6
+ },
+ "f3101.png": {
+  "fig_in": 4.68,
+  "printed_in": 4.9,
+  "min_font_design": 8.5,
+  "min_font_printed": 8.9
+ },
+ "f3111.png": {
+  "fig_in": 6.18,
+  "printed_in": 4.9,
+  "min_font_design": 9.2,
+  "min_font_printed": 7.3
+ }
+}

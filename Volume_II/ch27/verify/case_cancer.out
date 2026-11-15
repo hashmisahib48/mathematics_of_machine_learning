@@ -1,0 +1,12 @@
+logistic regression   cv 0.9742 test 0.9580 log loss 0.0858
+one full tree         cv 0.9248 test 0.9021 log loss 3.5287
+boosting, defaults    cv 0.9648 test 0.9580 log loss 0.1953
+depth 1 (stumps)      cv 0.9508 test 0.9650 log loss 0.1467
+exponential loss      cv 0.9625 test 0.9441 log loss 0.2920
+subsample 0.5         cv 0.9625 test 0.9441 log loss 0.1615
+early stopping        cv 0.9601 test 0.9580 log loss 0.2007
+  trees kept by early stopping: 34
+largest importances:
+  worst perimeter        0.495
+  worst concave points   0.162
+  worst radius           0.132

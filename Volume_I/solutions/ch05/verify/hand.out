@@ -1,0 +1,37 @@
+== 5A.1  f = 3(w-2)^2 + 1, eta = 0.1
+ t   w_t     error w_t-2   ratio
+ 1   1.2000      -0.8000    0.400
+ 2   1.6800      -0.3200    0.400
+ 3   1.8720      -0.1280    0.400
+curvature h = 6, factor 1 - eta*h = 0.4  limit 2/h = 0.3333
+ eta 0.3: |w_60 - 2| = 3.06e-06
+ eta 0.3333: |w_60 - 2| = 1.98
+ eta 0.34: |w_60 - 2| = 21
+f at w0..w3: [13, 2.92, 1.3072, 1.0492]
+
+== 5A.2  delivery loss, eta = 0.005
+start [0. 0.] J 210.0 grad [ -60. -214.]  sum y = 30.0  sum xy = 107.0
+step 1: w = [0.3  1.07]  J = 36.0695  residuals [1.63 1.56 2.49 2.42 4.35]  r^2 [ 2.6569  2.4336  6.2001  5.8564 18.9225]  grad now [-24.9 -87.3]
+   sum r = 12.45  sum x r = 43.65  sum r^2 = 36.0695
+step 2: w = [0.4245 1.5065]  J = 7.0501  residuals [1.069  0.5625 1.056  0.5495 2.043 ]  r^2 [1.1428 0.3164 1.1151 0.302  4.1738]  grad now [-10.56 -35.55]
+   sum r = 5.28  sum x r = 17.775  sum r^2 = 7.0501
+minimum 1.10 at [0.9 1.7]
+
+== 5A.3  Newton on e^w - 2w
+ t  f'(w_{t-1})   f''(w_{t-1})   w_t        error     err_t/err_{t-1}^2
+ 1   -1.000000    1.000000   1.000000   3.069e-01    0.6387
+ 2    0.718282    2.718282   0.735759   4.261e-02    0.4526
+ 3    0.087065    2.087065   0.694042   8.951e-04    0.4930
+fourth step: w4 = 0.693147581  error 4.00e-07
+exact ln 2 = 0.693147 ; f'''/(2 f'') at ln2 = 0.5 ; f(ln2) = 0.613706
+
+== 5A.4  extremes of x + 2y on x^2 + y^2 = 5
+ lambda +0.5: (x, y) = (-1, -2)  x^2+y^2 = 5  f = -5
+ lambda -0.5: (x, y) = (1, 2)  x^2+y^2 = 5  f = 5
+ scan of the circle: min -5.0 at -1.0 -2.0  max 5.0 at 1.0 2.0
+ |grad f| = 2.2361  |grad g| at (-1,-2) = 4.4721  ratio = 0.5
+
+== 5B.1  range of eta for which momentum (mu = 0.8) has |z| = sqrt(mu) in both directions
+ need (1+mu-eta h)^2 < 4 mu for h = 1.69 and 118.31: eta between 0.00659 and 0.03033; sqrt(mu) = 0.8944
+ mu = 0.95, eta = 0.008, h = 1.69: b^2 = 3.750 vs 4mu = 3.80, factor 0.9747
+ mu = 0.95, eta = 0.008, h = 118.31: b^2 = 1.007 vs 4mu = 3.80, factor 0.9747

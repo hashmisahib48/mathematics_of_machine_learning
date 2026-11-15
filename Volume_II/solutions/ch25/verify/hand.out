@@ -1,0 +1,36 @@
+== 25A.1  bootstrap sample of n = 8
+counts c_1..c_8 = [1, 3, 0, 0, 2, 0, 1, 1]  sum 8
+out of bag: [3, 4, 6]  distinct points: 5
+(7/8)^2 = 0.765625, ^4 = 0.586182, ^8 = 0.343609
+fraction out of bag in this sample: 3/8 = 0.3750
+expected number of distinct points: 8 (1 - 0.3436) = 5.2511; limit n (1 - 1/e) = 5.0570
+simulation of 100000 samples: mean distinct 5.251
+
+== 25A.2  variance of an average, sigma^2 = 9, rho = 0.4
+rho sigma^2 = 3.60, (1 - rho) sigma^2 = 5.40
+B =   1: variance 9.0000   ratio to the limit 2.5000
+B =  10: variance 4.1400   ratio to the limit 1.1500
+B =  14: variance 3.9857   ratio to the limit 1.1071
+B =  15: variance 3.9600   ratio to the limit 1.1000
+B =  16: variance 3.9375   ratio to the limit 1.0938
+B = 100: variance 3.6540   ratio to the limit 1.0150
+limit x 1.10 = 3.9600;  smallest B with var <= that: 15 (5.4/B <= 0.36)
+check with the covariance matrix, B = 10: sum of entries / 100 = 4.1400
+
+== 25A.3  soft and hard voting
+sample 1: P = [0.9, 0.4, 0.45]  mean 0.5833 -> class 1;  votes [1, 0, 0] -> 1 for class 1 of 3 -> class 0
+sample 2: P = [0.6, 0.6, 0.1]  mean 0.4333 -> class 0;  votes [1, 1, 0] -> 2 for class 1 of 3 -> class 1
+sum of P(class 0), P(class 1) per tree is 1; the mean of class 0 for sample 1: 0.4167
+
+== 25A.4  random thresholds, x = 2 3 7 9, y = 0 0 1 1
+root Gini 0.5000
+threshold 2.5: left (1,0) right (1,2) Gini 0.0000 0.4444  weighted 0.3333  decrease 0.1667
+threshold 4.0: left (2,0) right (0,2) Gini 0.0000 0.0000  weighted 0.0000  decrease 0.5000
+threshold 8.0: left (2,1) right (0,1) Gini 0.4444 0.0000  weighted 0.3333  decrease 0.1667
+threshold 5.0: left (2,0) right (0,2) Gini 0.0000 0.0000  weighted 0.0000  decrease 0.5000
+exhaustive search: midpoints 2.5, 5.0, 8.0 -> decreases [0.1667, 0.5, 0.1667]
+scikit-learn stump threshold 5.0
+probability a uniform draw on (2, 9) lies in (3, 7): 4/7 = 0.5714
+simulation: 0.5721
+a draw in (3, 7) gives Delta = 0.5; draws in (2, 3) or (7, 9) give:  0.1667 0.1667
+expected decrease of one random threshold: 0.3571

@@ -1,0 +1,2 @@
+wine, K = 3: ARI 0.897, silhouette 0.285
+200 random labellings agree, also when renamed

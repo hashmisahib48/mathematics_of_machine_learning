@@ -1,0 +1,10 @@
+columns: 7 = 5 + 3 - 1
+knots incl. extra: [-7.5 -5.  -2.5  0.   2.5  5.   7.5 10.  12.5 15.  17.5]
+row sums: [1. 1. 1.]   non-zero: [3, 4]
+degree 0: 4 columns
+degree 1: 5 columns
+include_bias=False: 6 columns
+constant  [ 0.06   0.06  -0.917 -0.917]
+linear    [-0.658  0.06  -0.917 -0.413]
+continue  [-0.113  0.06  -0.917  0.535]
+error     ValueError: `X` contains values beyond the limits of

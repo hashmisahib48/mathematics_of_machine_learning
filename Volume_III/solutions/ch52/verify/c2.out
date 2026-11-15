@@ -1,0 +1,21 @@
+counts                   mean 0.9458  sd 0.0545   mistakes in 20 folds: 13 of 240
+counts, stop words out   mean 0.9958  sd 0.0182   mistakes in 20 folds: 1 of 240
+tf-idf                   mean 0.9875  sd 0.0298   mistakes in 20 folds: 3 of 240
+tf-idf, stop words out   mean 0.9958  sd 0.0182   mistakes in 20 folds: 1 of 240
+fold accuracies of 'counts, stop words out' and 'tf-idf, stop words out' identical: True ; mistakes identical: True
+fold accuracies of 'tf-idf' and 'tf-idf, stop words out' identical: False
+vocabulary 216 words, of which 35 are in the stop list; stop-word tokens 0.413 of all tokens (193 of 467)
+share of the total weight carried by stop words: counts 0.413   tf-idf (before unit length) 0.273   after L2: share of squared length 0.224
+mean idf of stop words (by token) 2.064, of content words 3.875
+counts + naive Bayes with stop words, log-odds of the true class over the best other class (mean over test messages):
+   correctly classified (227) stop words +0.05   content words +2.55   priors +0.00
+   misclassified (13)         stop words -2.13   content words +1.67   priors +0.00
+standard deviation over the test messages of the stop-word part 1.01, of the content part 1.00
+figure width 4.37 in, printed 4.4 in, smallest font 8.3 pt -> printed 8.4 pt
+--- stop words out; the two ingredients of tf-idf separately (mistakes in 20 folds)
+   counts                     1 mistakes, messages [4]
+   unit rows only (no idf)    1 mistakes, messages [4]
+   idf only (no unit length)  1 mistakes, messages [4]
+   both (tf-idf)              1 mistakes, messages [4]
+class counts in a training fold: [9, 9, 9, 9] (equal priors)
+message that every stop-words-out model gets wrong: 'the recipe asks for fresh pasta, cheese and black pepper' topic 0

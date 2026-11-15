@@ -1,0 +1,10 @@
+Sxx = 20   Sxy = 18   OLS w = 0.900
+precision = 25   mean = 0.720   var = 0.040   sd = 0.200
+prediction at x*:   mean    sd
+  x* =   0          0.000  1.000
+  x* =   2          1.440  1.077
+  x* =   6          4.320  1.562
+step 1: gamma=0.800 sse=2.448 alpha=1.307 lambda=1.543 w=0.8498
+step 2: gamma=0.944 sse=1.850 alpha=1.651 lambda=1.307 w=0.8657
+step 3: gamma=0.962 sse=1.823 alpha=1.666 lambda=1.283 w=0.8666
+step 4: gamma=0.963 sse=1.822 alpha=1.667 lambda=1.282 w=0.8667

@@ -1,0 +1,6 @@
+
+Q2  (logistic regression, 60 rows from one population, 50 data sets)
+  sd of the estimate over data sets: one 5-fold 0.0795   10 x 5-fold 0.0728
+  sd over partitions of one data set (5-fold): 0.0392
+  sd of the true accuracy of the fitted model over data sets: 0.0371
+  rms error against the true accuracy: one 0.0680   repeated 0.0541

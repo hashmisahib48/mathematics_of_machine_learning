@@ -1,0 +1,11 @@
+== Test 1: one column at a time (AUC of the column itself)
+  visits  0.635
+  tenure  0.602
+  spend   0.562
+  status  1.000
+== Test 2: drop the suspect column and refit: all columns 1.000, without 'status' 0.590
+== Test 3: duplicated rows (every customer entered twice), random folds against folds by customer
+  random folds 0.941   by customer 0.591   (single copy: 0.590)
+== Test 4: a column filter fitted on all rows before cross-validation (200 customers, 500 noise columns, labels unrelated)
+  filter outside the folds 0.757 (sd 0.036)   inside the pipeline 0.518 (sd 0.043)   (true value 0.5), mean of 10 tables
+figure width 4.87 in, printed 4.9 in, smallest font 8.0 pt -> printed 8.1 pt

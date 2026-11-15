@@ -1,0 +1,8 @@
+rho  simulated  formula  P(q<.5)  sd(q)  right|q<.5  right|q>.5
+0.0     0.8369   0.8369
+0.1     0.7941   0.7940   0.1008  0.145     0.3572      0.8431
+      standard error of the simulated share 0.0006
+      correlation of two voters' correctness 0.099
+0.3     0.7447   0.7443   0.2263  0.251     0.2227      0.8974
+      standard error of the simulated share 0.0007
+      correlation of two voters' correctness 0.300

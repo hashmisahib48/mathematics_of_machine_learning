@@ -1,0 +1,15 @@
+alpha_max (lasso) = 2.4045 ; mean squares of the columns: 0.0022 to 0.0025
+
+rho   grid start = amax/rho   grid end   L2 strength at end   shrink v/(v+L2)   alpha_ chosen   last point?   CV mse   test R2
+0.50        4.809               0.0048         0.0024            0.4911          0.0048         True    3332.5    0.366
+0.10       24.045               0.0240         0.0216            0.0968          0.0240         True    4953.4    0.177
+0.01      240.455               0.2405         0.2381            0.0097          0.2405         True    6087.8    0.025
+
+with eps = 1e-6 (a grid 10^6 long):
+rho 0.50: grid 4.809 ... 4.81e-06, alpha_ = 5.53e-04 (last point: False), CV mse 2990.0, test R2 0.368, non-zero 10
+rho 0.10: grid 24.045 ... 2.40e-05, alpha_ = 2.96e-04 (last point: False), CV mse 2990.0, test R2 0.368, non-zero 10
+rho 0.01: grid 240.455 ... 2.40e-04, alpha_ = 2.76e-04 (last point: False), CV mse 2990.0, test R2 0.368, non-zero 10
+
+l1_ratio=0: ValueError: Automatic alpha grid generation is not supported for l1_ratio=0. Please sup
+l1_ratio=0 with alphas=logspace(-4, 0, 30): alpha_ = 2.59e-04, CV mse 2990.0, test R2 0.367
+figure width 4.97 in, printed 4.9 in, smallest font 8.5 pt -> printed 8.4 pt

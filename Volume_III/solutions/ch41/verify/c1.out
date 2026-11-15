@@ -1,0 +1,27 @@
+variance share of proline: 0.9977 ; next largest (magnesium): 0.0021
+correlation of the 15753 pairwise distances, all 13 features against proline alone: 0.99992
+sum of squared distances carried by proline: 0.9977
+k-means on proline alone: ARI with the raw 13-feature clustering 1.000 ; silhouette 0.581 ; ARI with cultivars 0.371
+raw clustering: silhouette 0.571, ARI 0.371   standardised: silhouette 0.285, ARI 0.897
+
+proline range of each raw cluster (cluster, n, min, max):
+  cluster 0: n =  69     278 to    590
+  cluster 2: n =  62     600 to    937
+  cluster 1: n =  47     970 to   1680
+proline of each cultivar (mean, sd, min, max):
+  cultivar 1:   1116    222    680   1680
+  cultivar 2:    520    157    278    985
+  cultivar 3:    630    115    415    880
+contingency table, rows cultivars, columns raw clusters ordered by proline:
+[[ 0 13 46]
+ [50 20  1]
+ [19 29  0]]
+same for the standardised clustering:
+[[ 0  0 59]
+ [65  3  3]
+ [ 0 48  0]]
+gap between the lowest two raw clusters in proline: 590 to 600
+silhouette of the cultivars: raw space 0.200, standardised space 0.280
+flavanoids mean by cultivar: [2.98, 2.08, 0.78]
+
+figure width 4.28 in, printed 5.0 in, smallest font 7.8 pt -> printed 9.1 pt

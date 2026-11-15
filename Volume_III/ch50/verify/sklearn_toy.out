@@ -1,0 +1,8 @@
+['colour_blue', 'colour_red', 'colour_white', 'fuel_diesel', 'fuel_petrol']
+green -> [0. 0. 0. 0. 1.]
+['colour_red', 'colour_white', 'fuel_petrol']
+codes [[1.0, 1.0], [1.0, 0.0]] green [[-1.  1.]]
+encodings_ [ 9.  10.8  7.2]  mean 9.0
+fit.transform  [10.8 10.8 10.8  9.   9.   7.2  7.2  7.2]
+fit_transform  [ 9.17 10.75 11.5   7.89  9.44  6.83  7.75  8.5 ]
+bins [0. 0. 1. 1. 2. 2. 3. 3.] [ 1.   2.5  4.5  7.5 13. ]

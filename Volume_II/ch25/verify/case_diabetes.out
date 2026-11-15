@@ -1,0 +1,7 @@
+model                         5-fold  test R2  RMSE  OOB R2
+OLS                           0.4823  0.3594   56.4      -
+one tree, leaf 20             0.3386  0.1007   66.8      -
+forest, m = p                 0.4248  0.2473   61.1 0.4739
+forest, m = p/3               0.4429  0.2897   59.4 0.5091
+forest, m = p/3, leaf 5       0.4526  0.3067   58.7 0.5071
+extra trees, m = p/3, leaf 5  0.4439  0.3667   56.1      -

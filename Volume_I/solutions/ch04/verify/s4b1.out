@@ -1,0 +1,6 @@
+exact : P(N = 2) = 0.2240   P(N >= 1) = 0.9502
+check : 3^2 e^-3/2! = 0.2240   1 - e^-3 = 0.9502
+simul.: fraction 2 = 0.2246  fraction >= 1 = 0.9507
+N = 2   error +0.00058 = +0.44 se
+N >= 1  error +0.00053 = +0.77 se
+sample mean 2.997  variance 2.993

@@ -1,0 +1,7 @@
+variance kept 0.895
+converged True  iterations 13
+mean log-lik: train -54.57  test -57.1
+adjusted Rand on the test digits 0.778
+pixel range of 500 samples -15.1 26.5
+lowest scores -99.4 -77.1
+their digits  [6 2 2 3 1 8 5 2 8 0]

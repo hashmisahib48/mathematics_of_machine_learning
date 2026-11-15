@@ -1,0 +1,3 @@
+LDA svd: 1.59 s
+LDA lsqr: 0.15 s
+QDA: 3.19 s

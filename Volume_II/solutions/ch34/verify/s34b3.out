@@ -1,0 +1,8 @@
+best possible, x1 = 0: 0.8257
+ten labels alone:      0.8003
+  t  rounds  pseudo  left  stop       right  test acc
+0.60     4     381     9  no_change  0.819    0.8043
+0.80     7     355    35  no_change  0.856    0.8053
+0.90     6     325    65  no_change  0.871    0.8073
+0.95     7     269   121  no_change  0.888    0.7997
+0.99    11      96   294  no_change  0.979    0.7903

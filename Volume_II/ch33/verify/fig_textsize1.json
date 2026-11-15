@@ -1,0 +1,38 @@
+{
+ "f330.png": {
+  "fig_in": 3.97,
+  "printed_in": 4.9,
+  "min_font_design": 9.0,
+  "min_font_printed": 11.1
+ },
+ "f331.png": {
+  "fig_in": 3.49,
+  "printed_in": 4.17,
+  "min_font_design": 9.0,
+  "min_font_printed": 10.8
+ },
+ "f332.png": {
+  "fig_in": 5.02,
+  "printed_in": 4.9,
+  "min_font_design": 9.0,
+  "min_font_printed": 8.8
+ },
+ "f341.png": {
+  "fig_in": 4.6,
+  "printed_in": 4.9,
+  "min_font_design": 9.0,
+  "min_font_printed": 9.6
+ },
+ "f351.png": {
+  "fig_in": 5.35,
+  "printed_in": 4.9,
+  "min_font_design": 9.5,
+  "min_font_printed": 8.7
+ },
+ "f361.png": {
+  "fig_in": 4.98,
+  "printed_in": 4.69,
+  "min_font_design": 8.8,
+  "min_font_printed": 8.3
+ }
+}
