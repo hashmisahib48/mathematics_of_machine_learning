@@ -1,6 +1,0 @@
-updates: 1707
-largest |wbar - coef_|    : 2.8e-14
-|bbar - intercept_|       : 8.9e-15
-norm of last iterate     : 14.7938
-norm of the average      : 27.1661
-training accuracy: last 0.9807  average 0.9754

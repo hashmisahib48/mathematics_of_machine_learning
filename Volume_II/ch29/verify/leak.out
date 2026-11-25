@@ -1,5 +1,0 @@
-lr   train 0.7933  test 0.8100
-rf   train 1.0000  test 0.8133
-nn1  train 1.0000  test 0.7067
-out-of-fold  weights [1.93 2.67 0.42]  test 0.8167  log loss 0.4491
-in-sample    weights [0.75 3.04 4.56]  test 0.7067  log loss 0.7108

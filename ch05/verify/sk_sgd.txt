@@ -1,0 +1,3 @@
+SGD           test R2 0.351  w[:3] = [-2.14 -9.96 29.34]
+least squares test R2 0.359  w[:3] = [-2.08 -9.94 28.86]
+epochs used: 33

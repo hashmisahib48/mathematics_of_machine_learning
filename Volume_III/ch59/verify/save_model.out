@@ -1,3 +1,0 @@
-{'scikit-learn': '1.9.1', 'numpy': '2.5.3', 'python': '3.13.16'}
-same predictions after loading: True
-file of 5 kB holds 30 column names and the fitted pipeline

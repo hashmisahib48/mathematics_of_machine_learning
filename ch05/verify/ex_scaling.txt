@@ -1,0 +1,2 @@
+raw          eta 0.141  iterations  184  J = 0.1004
+standardized eta 0.450  iterations   45  J = 0.1004

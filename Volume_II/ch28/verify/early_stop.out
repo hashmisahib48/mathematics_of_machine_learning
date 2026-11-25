@@ -1,5 +1,0 @@
-n =  2000  early stopping on: False  trees: 500  scores: 0
-n = 12000  early stopping on: True   trees:  77  scores: 78
-log loss: start 0.6931, best 0.3114 after tree 67, last 0.3115
-stopped 10 trees after the best one (n_iter_no_change = 10)
-scoring='accuracy': trees 65, validation accuracy 0.8862

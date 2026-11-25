@@ -1,0 +1,24 @@
+11-1a knn5 0.9624 0.0261
+11-1a logistic 0.9804 0.0225
+11-1a nb 0.9708 0.0237
+11-1a tree3 0.9107 0.0441
+11-1c proline train mean 754.2 sd 323.6 first test wine proline 650.0 z -0.322
+11-1c with all data mean 746.89 sd 314.02 z -0.3086
+11-2 best {'poly__degree': 1, 'r__alpha': np.float64(31.622776601683793)} 0.5175 test R2 0.3659 MAE 44.8 RMSE 56.11 sd test 70.46
+11-2 first three test [321. 215. 127.] [235.4 244.1 164.7] abs err [85.6 29.1 37.7]
+11-2 fits 166
+11-3a non-nested best_score 0.9701 {'k__n_neighbors': 9, 'k__weights': 'uniform'}
+11-3b nested 0.9684 [0.9561 0.9825 0.9386 0.9912 0.9735]
+11-3d weighted outer mean 0.9684 unweighted 0.9684 correct 551 of 569
+11-3c outer test sizes [114, 114, 114, 114, 113] inner train approx 364 fits 355
+11-3e other divisions: non-nested 0.9701 {'k__n_neighbors': 7, 'k__weights': 'uniform'} nested 0.9649
+11-4 TP FP FN TN 6 3 5 18 acc 0.75 prec 0.6667 rec 0.5455 F1 0.6 spec 0.8571
+11-4 AUC own 0.7532 sk 0.7532 pairs 231
+11-4 th 0.2 F1 0.6207 recall 0.8182 FP 9
+11-4 th 0.3 F1 0.6154 recall 0.7273 FP 7
+11-4 th 0.4 F1 0.6364 recall 0.6364 FP 4
+11-4 th 0.5 F1 0.6 recall 0.5455 FP 3
+11-4 th 0.6 F1 0.5556 recall 0.4545 FP 2
+11-4 always no: acc 0.6562
+11-2d R2 from RMSE (rounded inputs) 0.3658
+11-4e 5-fold [0.7143 0.4286 1.     0.8333 0.8333] 0.7619 0.1899

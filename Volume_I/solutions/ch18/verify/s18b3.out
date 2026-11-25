@@ -1,9 +1,0 @@
-  prior  intercept_  missed  false alarms  accuracy  same w
- 0.3732      52.618       6             1    0.9510  True
-        intercept - ln((1-pi)/pi) = 52.099
- 0.7000      51.252       5             2    0.9510  True
-        intercept - ln((1-pi)/pi) = 52.099
- 0.9000      49.902       2             6    0.9441  True
-        intercept - ln((1-pi)/pi) = 52.099
- 0.9900      47.504       1            19    0.8601  True
-        intercept - ln((1-pi)/pi) = 52.099

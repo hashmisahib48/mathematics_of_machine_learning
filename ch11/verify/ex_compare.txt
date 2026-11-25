@@ -1,0 +1,4 @@
+k-NN, k = 7    accuracy 0.966 ± 0.016   AUC 0.987
+logistic       accuracy 0.977 ± 0.015   AUC 0.995
+naive Bayes    accuracy 0.938 ± 0.021   AUC 0.988
+tree, depth 4  accuracy 0.932 ± 0.025   AUC 0.928

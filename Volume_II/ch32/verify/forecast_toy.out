@@ -1,9 +1,0 @@
-level  n  hits  observed
-  0.9 10     7      0.70
-  0.5  6     3      0.50
-  0.1  4     1      0.25
-REL 0.0245  RES 0.0300  UNC 0.2475
-REL - RES + UNC = 0.2420
-mean (y - q)^2   = 0.2420
-brier_score_loss = 0.2420
-calibration_curve prob_true: [0.25 0.5  0.7 ]  prob_pred: [0.1 0.5 0.9]

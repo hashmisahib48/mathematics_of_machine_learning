@@ -1,9 +1,0 @@
-wins 11 ties 1 of 16  AUC = 0.71875
-t=0.9  FPR 0.00  TPR 0.25  precision 1.0000
-t=0.8  FPR 0.25  TPR 0.25  precision 0.5000
-t=0.7  FPR 0.25  TPR 0.50  precision 0.6667
-t=0.6  FPR 0.50  TPR 0.75  precision 0.6000
-t=0.4  FPR 0.50  TPR 1.00  precision 0.6667
-t=0.3  FPR 0.75  TPR 1.00  precision 0.5714
-t=0.2  FPR 1.00  TPR 1.00  precision 0.5000
-trapezoid AUC 0.71875  AP 0.7333  trapezoid PR area 0.7125

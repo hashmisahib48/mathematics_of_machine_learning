@@ -1,7 +1,0 @@
-            gain  feature thresh NaN-left  left  right
-regression, l2 = 3, NaN in x4
-  mine    19518.0171    3.0000    0.2885    1.0000   -3.9603    2.4568
-  sklearn 19518.0171    3.0000    0.2885    1.0000   -3.9603    2.4568
-classification, breast cancer
-  mine     392.8096   23.0000  873.2000    1.0000    1.1928   -2.4759
-  sklearn  392.8095   23.0000  873.2000    1.0000    1.1928   -2.4759

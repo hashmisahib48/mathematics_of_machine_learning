@@ -1,0 +1,8 @@
+k =   1: mean accuracy 0.960
+k =   3: mean accuracy 0.967
+k =   5: mean accuracy 0.973
+k =   9: mean accuracy 0.973
+k =  15: mean accuracy 0.967
+k =  25: mean accuracy 0.960
+k =  50: mean accuracy 0.913
+k = 100: mean accuracy 0.647

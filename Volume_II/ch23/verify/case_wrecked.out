@@ -1,6 +1,0 @@
-test R2 on clean patients; clean training, then 5 wrecked
-OLS         clean 0.359  wrecked mean 0.300  min 0.246  max 0.334
-ridge       clean 0.362  wrecked mean 0.331  min 0.266  max 0.368
-KRR rbf     clean 0.349  wrecked mean 0.258  min 0.213  max 0.334
-SVR linear  clean 0.360  wrecked mean 0.359  min 0.336  max 0.373
-SVR rbf     clean 0.340  wrecked mean 0.302  min 0.252  max 0.342

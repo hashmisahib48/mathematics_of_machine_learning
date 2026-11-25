@@ -1,0 +1,5 @@
+features after expansion: 65
+linear, 10 features   train R2 0.555  test R2 0.359
+quadratic, LS         train R2 0.647  test R2 0.244
+quadratic, ridge 10   train R2 0.636  test R2 0.273
+quadratic, ridge 100  train R2 0.603  test R2 0.340

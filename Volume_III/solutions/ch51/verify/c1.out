@@ -1,6 +1,0 @@
-true mean of the test value -0.021, sd 1.001, corr(v, s) = 0.804
-recorded symptoms          blank 0.498 | mean of seen 0.521 (true -0.021) | mean-filled mean 0.521 sd 0.593 | slope on s, seen rows 0.810, true 0.820
-                           regression fill on s: mean -0.018 sd 0.901   mean of the blank values: true -0.568, filled -0.562
-unrecorded impression      blank 0.501 | mean of seen 0.631 (true -0.021) | mean-filled mean 0.631 sd 0.533 | slope on s, seen rows 0.637, true 0.820
-                           regression fill on s: mean 0.306 sd 0.728   mean of the blank values: true -0.671, filled -0.018
-figure width 4.97 in, printed 4.9 in, smallest font 7.6 pt -> printed 7.5 pt

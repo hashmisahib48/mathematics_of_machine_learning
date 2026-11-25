@@ -1,9 +1,0 @@
-vocabulary: ['free', 'lunch', 'meeting', 'now', 'prize', 'report', 'win']
-MultinomialNB  P(spam) = [0.5788 0.9252]  predicts [1 1]
-ComplementNB   P(spam) = [0.5788 0.9252]  predicts [1 1]
-BernoulliNB    P(spam) = [0.6    0.9818]  predicts [1 1]
-feature_count_:
- [[0. 2. 3. 1. 0. 2. 0.]
- [3. 0. 0. 3. 2. 0. 2.]]
-class_log_prior_  = [-0.6931 -0.6931]
-joint log proba of 'free meeting now': [[-6.7379 -6.4202]]

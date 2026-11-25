@@ -1,8 +1,0 @@
-ARI against the cultivars, K = 3
-                        raw  scaled   sizes (scaled)
-single                0.005  -0.007   [174   3   1]
-complete              0.371   0.577   [69 58 51]
-average               0.293  -0.005   [174   3   1]
-ward                  0.368   0.790   [64 58 56]
-average (cosine)      0.054   0.785   [68 58 52]
-k-means               0.371   0.897

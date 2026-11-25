@@ -1,6 +1,0 @@
-
-Q3  (weekly sales, 10 series, RMSE; first 240 weeks are the data)
-  forest   TimeSeriesSplit(5, test_size=30) 11.42  KFold(5) in order 11.21  KFold(5) shuffled 3.33  next 60 weeks 12.30
-  ridge    TimeSeriesSplit(5, test_size=30) 10.52  KFold(5) in order 9.05  KFold(5) shuffled 7.40  next 60 weeks 11.80
-  training sizes of TimeSeriesSplit(5, test_size=30) on 240 rows: [90, 120, 150, 180, 210]
-  rows ever tested: 90 to 239

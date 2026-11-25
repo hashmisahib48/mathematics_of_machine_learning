@@ -1,8 +1,0 @@
-3 points 
-  mine : [1.9723 1.7241]
-  scipy: [1.9723 1.7241] 
-  equal: True  inversions: 1
-7 finches 
-  mine : [1.     2.6926 4.2426 4.4721 7.6956 8.1744]
-  scipy: [1.     2.6926 4.2426 4.4721 7.6956 8.1744] 
-  equal: True  inversions: 0

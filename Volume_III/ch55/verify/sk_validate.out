@@ -1,5 +1,0 @@
-estimator fit_time indices score_time test_r2 test_rmse train_r2 train_rmse
-test r2    [0.341 0.41  0.447 0.407 0.497]
-train r2   [0.465 0.443 0.426 0.437 0.406]
-mean of fold R2          0.4205
-R2 of pooled predictions 0.4255

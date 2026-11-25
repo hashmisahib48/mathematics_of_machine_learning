@@ -1,4 +1,0 @@
-monotonic_cst None  falling steps: 48
-monotonic_cst [1]  falling steps: 0
-additive    None R2 0.972 no_interactions R2 0.974
-interacting None R2 0.888 no_interactions R2 -0.143

@@ -1,7 +1,0 @@
-G = [[2.0, -1.0], [-1.0, 5.0]]  trace = 7.0
-reg=0.0: w = [0.6667 0.3333] reconstruction [1. 0.] squared error 1.0
-reg=0.001: w = [0.6664 0.3336] reconstruction [1.0008 0.    ] squared error 1.000001
-scikit-learn (reg=1e-3): [0.6664 0.3336]
-rank of G with 3 neighbours: 2
-regularised weights: [0.3333 0.3333 0.3333] sum 1.0
-reconstruction: [1. 1.]

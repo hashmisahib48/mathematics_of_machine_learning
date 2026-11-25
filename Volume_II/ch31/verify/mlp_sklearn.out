@@ -1,9 +1,0 @@
-logistic regression: 0.5
-accuracy 1.0  loss_ 0.0005  n_iter_ 12
-coefs_      [(2, 4), (4, 1)]
-intercepts_ [(4,), (1,)]
-n_layers_ 3  out_activation_ logistic
-P(class 1), samples 1 and 5: 0.00001 0.99995
-fits with accuracy 1 among 10 seeds (lbfgs):
-  relu  2 units:  5   3 units:  3   4 units:  7
-  tanh  2 units:  5   3 units: 10   4 units: 10

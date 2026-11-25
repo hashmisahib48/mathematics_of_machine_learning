@@ -1,9 +1,0 @@
-AUC of two normal scores d = 3.3 apart: Phi(d/sqrt2) = 0.9902
-a threshold at the median of the positives, t = d: recall 0.500  FPR 0.00048
-posterior probability of a positive is 0.5 at t = d when prevalence is pi = 1/(1+exp(d^2/2)) = 0.00430
-precision at t = d: 0.817
-cost rule (miss = 20 false alarms): posterior >= 1/21 -> t = 2.392  recall 0.818  FPR 0.00837  precision 0.297
-per 100000 people: 430 ill; default flags 215 ill + 48 well; cost rule flags 352 ill + 834 well
-simulation, n = 2000000, positives 8638: AUC 0.9902  default predict(): recall 0.504  precision 0.821 ; coef 3.264 (theory 3.300)
-cost rule on the fitted probabilities (>= 1/21): recall 0.817  false alarms per 100000 well 850  precision 0.294
-figure width 4.37 in, printed 4.9 in, smallest font 8.2 pt -> printed 9.2 pt

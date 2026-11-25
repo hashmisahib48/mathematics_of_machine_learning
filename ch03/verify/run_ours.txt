@@ -1,0 +1,5 @@
+coef_          : [3.0608, 2.597]
+intercept_     : 5.597
+n_features_in_ : 2
+predict [6, 2] : 29.156
+score (R^2)    : 0.9987

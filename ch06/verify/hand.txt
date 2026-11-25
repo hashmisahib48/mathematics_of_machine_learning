@@ -1,0 +1,11 @@
+distances A..F [2.5    1.118  2.0616 1.8028 2.0616 1.5811]
+neighbors BFD
+weights [0.894 0.632 0.555] sum v 2.082
+sum v y 39.38 yhat 18.917
+k=100 fold 1 train per class [40 40 40] predicted per class [11 19  0] accuracy 0.633
+k=100 fold 2 train per class [40 40 40] predicted per class [10 20  0] accuracy 0.667
+k=100 fold 3 train per class [40 40 40] predicted per class [10 20  0] accuracy 0.667
+k=100 fold 4 train per class [40 40 40] predicted per class [10 20  0] accuracy 0.667
+k=100 fold 5 train per class [40 40 40] predicted per class [12 18  0] accuracy 0.6
+5/6 = 0.8333
+3np for n=331, p=10: 9930

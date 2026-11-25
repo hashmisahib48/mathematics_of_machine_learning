@@ -1,3 +1,0 @@
-linear SV 50 df 9.5e-07 dbeta 2.1e-07 b 0.21989/0.21989
-rbf    SV 34 df 3.7e-07 dbeta 1.9e-06 b 0.63392/0.63392
-poly   SV 25 df 3.5e-06 dbeta 2.0e-06 b -0.02299/-0.02299

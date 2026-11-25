@@ -1,8 +1,0 @@
-optimiser: mu = 8.0000  sigma^2 = 3.6000
-           108 steps, nll = 10.2970
-formulas : mu = 8.0000  sigma^2 = 3.6000
-           nll = 10.2970
-sum of squares = 18.0
-divisor n - 1: sigma^2 = 4.5000
-nll at that value: 10.3549
-closed form n/2 (ln 2 pi s2 + 1) = 10.2970

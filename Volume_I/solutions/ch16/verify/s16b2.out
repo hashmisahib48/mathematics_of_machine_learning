@@ -1,9 +1,0 @@
-share of class 1: train 0.106  test 0.106
-class counts [894 106]  weights n/(2 n_k): [0.559 4.717]  ratio 8.434
-class_weight=None: recall 0.0566  precision 0.8571  accuracy 0.8990
-   predicted positives 7 (true 6), actual positives 106, intercept -2.560
-   mean probability of class 1: 0.103
-class_weight=balanced: recall 0.7547  precision 0.2015  accuracy 0.6570
-   predicted positives 397 (true 80), actual positives 106, intercept -0.377
-   mean probability of class 1: 0.432
-ln of the weight ratio: 2.132

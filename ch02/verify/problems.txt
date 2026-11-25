@@ -1,0 +1,24 @@
+2-1 means [5.843 3.057 3.758 1.199] sd [0.828 0.436 1.765 0.762]
+2-1 corr
+ [[ 1.    -0.118  0.872  0.818]
+ [-0.118  1.    -0.428 -0.366]
+ [ 0.872 -0.428  1.     0.963]
+ [ 0.818 -0.366  0.963  1.   ]]
+2-1 slope 0.4158 b -0.3631
+2-2 P(M) 0.3726 P(R|M) 0.7594 P(R|B) 0.0336 P(R) 0.304 P(M|R) 0.9306 direct 0.9306
+2-3 raw nearest 54 class 0 dist 10.393 range proline 278.0 1680.0 hue 0.48 1.71
+2-3 std nearest 20 class 0 dist 1.284
+2-3 leave-one-out 1-NN accuracy raw 0.77 standardized 0.955
+2-4 w formula 949.44 b 152.13 Sxx 1.0
+2-4 eta 0.5 w after 50 949.44
+2-4 eta 1.0 w after 50 0.0
+2-4 eta 1.2 w after 50 -19225034113.16
+data 2-1 xbar 3.758 ybar 1.199 Sxx 464.33 Syy 86.57 Sxy 193.05
+data 2-1 r 0.9629 slope 0.4158 b -0.3631
+data 2-2 n 569 malignant 212 benign 357 R&M 161 R&B 12 R 173
+data 2-3 wine 0 proline 1065.0 hue 1.04
+data 2-3 wine 1 proline 1050.0 hue 1.05
+data 2-3 proline mean 746.89 sd 314.91 hue mean 0.957 sd 0.229
+data 2-3 d2 raw 15.0 proline share 1.0
+data 2-3 std diffs [-0.048  0.044] d 0.065
+data 2-4 n 442 Sxx 1.0 Sxy 949.4 ybar 152.13

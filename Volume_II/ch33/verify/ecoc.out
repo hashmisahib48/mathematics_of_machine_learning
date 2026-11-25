@@ -1,8 +1,0 @@
-bits: 20  code book shape: (10, 20)
-0 --+----+--++-+-++-+-
-1 +----+------+-+-++-+
-2 +++-+--++++--+----++
-smallest Hamming distance: 6
-distances to the ten code words: [27.2 31.  25.5 27.2 29.  29.  29.5 27.5 28.9 28.8]
-nearest: 2  predict: 2  true: 2
-test accuracy: 0.9578

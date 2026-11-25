@@ -1,4 +1,0 @@
-RMSE, mean of 20 series (sd in brackets)
-                          KFold  TimeSeriesSplit    next 60 weeks
-random forest       3.22 (0.16)     10.92 (2.59)     13.20 (4.29)
-ridge               7.22 (1.46)     10.00 (2.91)     12.17 (4.83)

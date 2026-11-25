@@ -1,0 +1,11 @@
+|--- x2 <= 4.50
+|   |--- class: 0
+|--- x2 >  4.50
+|   |--- x1 <= 3.50
+|   |   |--- class: 0
+|   |--- x1 >  3.50
+|   |   |--- class: 1
+
+depth 2  leaves 3
+importances [0.4 0.6]
+regression leaves [ 6.     16.3333]

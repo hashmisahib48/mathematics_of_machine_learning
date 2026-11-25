@@ -1,0 +1,4 @@
+threshold 0.50: missed malignant 3, false alarms 3
+threshold 0.30: missed malignant 2, false alarms 5
+threshold 0.10: missed malignant 1, false alarms 10
+threshold 0.02: missed malignant 0, false alarms 22

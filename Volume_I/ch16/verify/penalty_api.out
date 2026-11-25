@@ -1,8 +1,0 @@
-L2 (default)  nonzero weights 30   |w|_2 =  3.843
-L2, C = 0.1   nonzero weights 30   |w|_2 =  1.945
-L1            nonzero weights  8   |w|_2 =  2.721
-elastic net   nonzero weights 18   |w|_2 =  1.713
-none          nonzero weights 30   |w|_2 = 14826.546
-FutureWarning: 'penalty' was deprecated in version 1.8 and will be 
-ValueError: Solver lbfgs supports only 'l2' or None penalties, got l
-ValueError: Only 'saga' solver supports elasticnet penalty, got solv

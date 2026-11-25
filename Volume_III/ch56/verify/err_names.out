@@ -1,3 +1,0 @@
-ValueError: Invalid parameter 'C' for estimator Pipeline(...)
-ImportError: HalvingGridSearchCV is experimental and the API might change without any deprecation cycle.
-ValueError: For multi-metric scoring, the parameter refit must be set to a scorer ...

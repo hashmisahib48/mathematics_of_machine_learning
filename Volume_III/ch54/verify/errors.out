@@ -1,9 +1,0 @@
-short name: ValueError: Invalid parameter 'C' for estimator
-    Pipeline(steps=[('standardscaler', StandardScaler()), [...]
-wrong order: TypeError: All intermediate steps should be
-    transformers and implement fit and transform or be the [...]
-not fitted: NotFittedError: This Pipeline instance is not fitted
-    yet. Call 'fit' with appropriate arguments before using [...]
-transform_input: ValueError: The `transform_input` parameter can
-    only be set if metadata routing is enabled. You can [...]
-columns in 6 | out 5 | remainder: drop

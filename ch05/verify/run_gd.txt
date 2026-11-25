@@ -1,0 +1,6 @@
+eta 0.10:  43 iterations, w = 5.1  b = 46.7
+eta 0.25:   2 iterations, w = 5.1  b = 46.7
+eta 0.45:  98 iterations, w = 5.1  b = 46.7
+eta 0.55: 200 iterations, w = -3.498e+16  b = 1.049e+17
+SGD, 50 epochs: w = 5.0602  b = 46.8193
+deliveries: 172 iterations, w = [3.0608, 2.597]  b = 5.597

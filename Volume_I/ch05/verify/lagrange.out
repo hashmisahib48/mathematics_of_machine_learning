@@ -1,7 +1,0 @@
-radius t   lambda   constrained w     penalised w
-     5.0     0.00   [3. 4.]   [3. 4.]
-     3.0     0.67   [1.8 2.4]   [1.8 2.4]
-     1.0     4.00   [0.6 0.8]   [0.6 0.8]
-     0.5     9.00   [0.3 0.4]   [0.3 0.4]
-closest point of the diamond: [0. 1.]
-penalty 6(|w1| + |w2|), threshold 3: [0. 1.]

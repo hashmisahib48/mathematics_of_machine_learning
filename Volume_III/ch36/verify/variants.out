@@ -1,9 +1,0 @@
-model               inertia  / lloyd  ARI vs lloyd  seconds
-KMeans lloyd     23981991.1   1.0000        1.0000     1.97
-KMeans elkan     23981991.1   1.0000        1.0000     2.12
-MiniBatch 1024   24010472.6   1.0012        1.0000     0.19
-MiniBatch 4096   23984271.4   1.0001        1.0000     2.14
-Bisecting        24044547.8   1.0026        0.9994     4.95
-mini-batch steps: 13  passes: 1
-lloyd iterations: 2  elkan iterations: 2
-bisecting: predict == labels_: True ; nearest centre == labels_: 0.9997

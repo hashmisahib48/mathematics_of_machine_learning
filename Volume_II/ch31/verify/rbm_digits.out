@@ -1,6 +1,0 @@
-logistic on pixels   train 1.0000  test 0.9622
-RBM + logistic       train 0.9807  test 0.9511
-features: (450, 100)  mean activity 0.136
-components_ (100, 64)
-intercept_visible_ (64,)  intercept_hidden_ (100,)
-pseudo-likelihood  train -17.26  test -18.11

@@ -1,9 +1,0 @@
-propagation: 2 differ, 2 labelled, 0 unlabelled
-  accuracy, unlabelled: transduction_ 0.8656, predict 0.8656
-  sample 502: label 8, predict 1, votes 3 for the label, 4 for it
-  sample 542: label 9, predict 5, votes 1 for the label, 5 for it
-spreading: 40 differ, 2 labelled, 38 unlabelled
-  accuracy, unlabelled: transduction_ 0.8603, predict 0.8709
-  sample 502: label 8, predict 1, votes 3 for the label, 4 for it
-  sample 542: label 9, predict 5, votes 2 for the label, 4 for it
-  of 38 unlabelled: predict right at 23, transduction_ at 9

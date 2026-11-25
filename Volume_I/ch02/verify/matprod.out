@@ -1,9 +1,0 @@
-M @ N = [[4.0, 6.0], [10.0, 12.0]]
-N @ M = [[2.0, 4.0], [10.0, 14.0]]
-M * N = [[2.0, 0.0], [3.0, 12.0]] (entry by entry, no product)
-M @ x = [3. 7.]   M^T = [[1.0, 3.0], [2.0, 4.0]]
-(MN)^T = N^T M^T: True
-shapes: (2, 3) @ (3, 2) -> (2, 2)
-shapes: (3, 2) @ (2, 3) -> (3, 3)
-ValueError: matmul: Input operand 1 has a mismatch in its core dimension
-R^T R is symmetric: True

@@ -1,0 +1,5 @@
+k = 1: class 0
+k = 3: class 1
+k = 5: class 1
+regression, k = 3, uniform:  19.667
+regression, k = 3, distance: 18.917

@@ -1,9 +1,0 @@
-    n | NB train  NB test  NB sd | LR train  LR test  LR sd
-   40 |    0.999    0.725  0.045 |    1.000    0.734  0.043
-   80 |    0.991    0.850  0.025 |    1.000    0.864  0.025
-  160 |    0.959    0.889  0.014 |    1.000    0.913  0.016
-  320 |    0.947    0.904  0.007 |    1.000    0.938  0.009
-  640 |    0.938    0.910  0.005 |    1.000    0.957  0.007
- 1347 |    0.933    0.913  0.000 |    0.999    0.969  0.000
-number of parameters: GaussianNB 1289  logistic regression 650
-30 images (3 per digit), 40 draws: NB 0.763 +- 0.041  LR 0.76 +- 0.039  NB better in 19 of 40 draws

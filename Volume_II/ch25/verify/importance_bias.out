@@ -1,5 +1,0 @@
-feature       values   MDI (train)   permutation (test)
-s (signal)         3         0.248   +0.116
-u (noise)       1000         0.742   -0.021
-v (noise)          2         0.010   +0.002
-train accuracy: 1.0  test accuracy: 0.61

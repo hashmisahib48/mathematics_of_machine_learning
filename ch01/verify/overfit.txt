@@ -1,0 +1,3 @@
+degree 1: training RMSE 0.435, test RMSE 0.689
+degree 3: training RMSE 0.150, test RMSE 0.295
+degree 9: training RMSE 0.080, test RMSE 0.968

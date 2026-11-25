@@ -1,6 +1,0 @@
-statistics_  [ 50. 130. 106.  28.]
-indicator    [0 1 2 3] [1 1 1 1]
-add_indicator shape (6, 8)
-KNN k=2, patient 4: [ 57.5 140.  120.   32. ]
-iterative, patient 4: [ 70. 140. 120.  32.] n_iter_ 3
-new patient, KNN: [ 52.  127.5  98.   27. ]

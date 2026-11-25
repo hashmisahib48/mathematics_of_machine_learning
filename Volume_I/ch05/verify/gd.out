@@ -1,8 +1,0 @@
-raw x           cond  70.0  eta 0.0085  steps  936  w [0.9 1.7]
-centred x       cond   2.0  eta 0.0500  steps   26  w [6.  1.7]
-standardised x  cond   1.0  eta 0.1000  steps    1  w [6.     2.4042]
-eigenvalues [  1.69 118.31]  limit 0.0169
-eta 0.0020: steps 3974
-eta 0.0100: steps 790
-eta 0.0165: steps 476
-eta 0.0172: steps None

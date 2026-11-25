@@ -1,0 +1,2 @@
+selection outside the folds: accuracy 0.85
+selection inside a pipeline: accuracy 0.48

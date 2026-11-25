@@ -1,3 +1,0 @@
-C = 1/(n alpha) = 0.1757
-optimal    max |w - w_ref| = 0.0002   b = 0.4952 (reference 0.4953)
-invscaling max |w - w_ref| = 0.2331   b = 0.4153 (reference 0.4953)

@@ -1,7 +1,0 @@
-at 300 trees: out-of-bag 0.0326, in-bag (train_score_) 0.0397, all training samples 0.0361, test 2.939; noise variance of the targets 1.0
-at  50 trees: out-of-bag 0.991, in-bag 1.178, test 3.394
-out-of-bag loss still falling at 300: smallest at tree 300; test error smallest at tree 213 (2.934), test at 100: 2.984, at 300: 2.939
-expected number of the 299 earlier trees that used a given out-of-bag sample: 149.5
-validation rule (225 / 75 split): best validation stage 85 (validation MSE 2.024); test MSE there 3.181; best test MSE of this model 3.074 at 267
-n_iter_no_change=10 (validation_fraction 0.1): keeps 70 trees, test MSE 2.863
-figure width 3.33 in, smallest font 7.5 pt -> printed at 3.7 in: 8.3 pt

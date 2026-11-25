@@ -1,5 +1,0 @@
-hand-made equals ClassifierChain: True
-chain by hand  outdoor 0.9990  beach 0.9975  subset 0.9975
-independent    outdoor 0.9990  beach 0.9220  subset 0.9215
-link 2 weights on x1, x2, y1: [  1.   51.7 105.3]
-link 2 given the true y1: beach 0.9985

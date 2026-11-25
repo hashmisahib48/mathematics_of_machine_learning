@@ -1,7 +1,0 @@
-d1,d2: difference [-3. -1.], distance 3.162, dot 20, lengths 3.162 and 6.325, cosine 1.0000
-d1,d3: difference [ 2. -2.], distance 2.828, dot 6, lengths 3.162 and 3.162, cosine 0.6000
-d2,d3: difference [ 5. -1.], distance 5.099, dot 12, lengths 6.325 and 3.162, cosine 0.6000
-angle d1,d3 and d2,d3 in degrees: 53.13 53.13
-shares of word 1 (d1, d2, d3): [0.75, 0.75, 0.25]
-after dividing each by its length, distance d1,d2: 0.0
-after dividing each by its length, distance d1,d3: 0.894   d2,d3: 0.894

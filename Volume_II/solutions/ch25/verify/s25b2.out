@@ -1,5 +1,0 @@
-train 201, test 99
-depth  one tree  bagged  mean of 100  spread  leaves
-    1    0.7475  0.7475      0.7473  0.0267     2.0
-    3    0.8485  0.8485      0.8334  0.0176     6.1
- None    0.8889  0.9293      0.8797  0.0471    15.1

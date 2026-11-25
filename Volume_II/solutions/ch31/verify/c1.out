@@ -1,7 +1,0 @@
-distance between the incoming weight vectors of the two units, after 0, 1, 2, 10, 60 updates
-  equal start : ['0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00']
-  random start: ['0.528', '0.605', '0.665', '1.254', '2.581']
-loss after 60 updates: equal start 0.3625, random start 0.3350
-weights of the equal-start network after 60 updates: W1 = [[0.6402, 0.6402], [-1.0395, -1.0395]]  W2 = [1.2951, 1.2951]
-first-step gradient of the two columns of W1: [-0.03367, 0.05818] [-0.03367, 0.05818]  identical: True
-min font size: 8.5

@@ -1,8 +1,0 @@
-leaves: 18 without noise, 16 with
-test accuracy: 0.9021 without, 0.9161 with
-noise importances: 0.0000 0.0000 0.0000 0.0000 0.0221
-total noise importance 0.0221
-node 9, column 34: 10 samples -> 9 + 1, gain 0.0042
-node 26, column 34: 130 samples -> 127 + 3, gain 0.0061
-gain of the whole tree = root impurity 0.4679
-20 other draws: mean 0.0177, min 0.0000, max 0.0535

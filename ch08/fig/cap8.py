@@ -1,0 +1,8 @@
+exec(open('sidecap.py').read().split("cap('f")[0])
+cap('f81.png', 'Figure 8.2-1', 'Prior times density of petal length for the three iris species. The largest curve gives the predicted species; the dashed lines are the boundaries.', 'f81s.png')
+cap('f82.png', 'Figure 8.4-1', 'The seven points of Example 8.4-1, contours of the two class densities and the boundary $P(A)=1/2$ (dashed). The new point $z$ falls on the side of class B.', 'f82s.png')
+cap('f83.png', 'Figure 8.7-1', 'Predicted probabilities on the cancer test set. Naive Bayes pushes almost all of them to 0 or 1; logistic regression is more measured.', 'f83s.png')
+cap('pj81.png', 'Figure P8-1', 'The pixel probabilities $\\theta_{cj}$ of a multinomial model of the digits, shown as 8 × 8 images, one for each class.', 'pj81s.png')
+cap('pj82.png', 'Figure P8-2', 'Mean radius against mean area and mean texture for the 569 tumors of the breast cancer data.', 'pj82s.png')
+cap('pj83.png', 'Figure P8-3', 'Test accuracy of the two classifiers, averaged over 50 random training sets for each size $n$.', 'pj83s.png')
+cap('pj84.png', 'Figure P8-4', 'Petal length and width of the 150 iris flowers (top) and the log joints $L_c$ of the three species for petal length alone (bottom).', 'pj84s.png')

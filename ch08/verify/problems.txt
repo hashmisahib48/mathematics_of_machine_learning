@@ -1,0 +1,31 @@
+8-1 alpha 0.01 0.9044
+8-1 alpha 0.1 0.9044
+8-1 alpha 1 0.9044
+8-1 alpha 10 0.9022
+8-1 bern binarize 0 0.8667
+8-1 bern binarize 4 0.8956
+8-1 bern binarize 8 0.8911
+8-1 bern binarize 12 0.8578
+8-1 confusion 8 -> 1 6
+8-2 corr radius-perimeter 0.9979 radius-area 0.9874
+8-2 all 30 acc 0.9385 logloss 0.6517
+8-2 10 mean acc 0.9139 logloss 0.4968
+8-2 mean without perimeter, area acc 0.9174 logloss 0.5568
+8-3 n 10 nb 0.9022 lr 0.905
+8-3 n 20 nb 0.9316 lr 0.9294
+8-3 n 40 nb 0.9388 lr 0.9534
+8-3 n 80 nb 0.9384 lr 0.9617
+8-3 n 160 nb 0.9374 lr 0.9693
+8-3 n 320 nb 0.9353 lr 0.9755
+8-1d class0 total ink 42162.0 never-inked pixels 16 theta alpha1 2.368e-05 ln -10.6508
+8-1e log joints [-1230.6 -1223.9 -1219.1 -1185.1 -1416.  -1326.8 -1338.2 -1471.6 -1251.9
+ -1181. ] max -1181.0 log10 e^max -512.9
+8-1f naive 1290 full 21450
+8-4 means [1.462 4.26  5.552] vars [0.0296 0.2164 0.2985]
+8-4a L at 4.9 [np.float64(-200.2136), np.float64(-2.1986), np.float64(-2.1251)] post [[0.     0.4816 0.5184]]
+8-4b boundary ve/vi 4.8857
+8-4b boundary se/ve 2.2451
+8-4d CV petal length 0.9467 all four 0.96
+8-3c priors 0.3726 0.6274
+8-4d [0 1 1 2]
+8-3d n 20 std nb 0.0189 lr 0.026 mean difference 0.0022

@@ -1,9 +1,0 @@
-left set: ['B' 'E' 'F' 'I' 'K']
-order   : ['B' 'I' 'E' 'F' 'K' 'D' 'G' 'A' 'J' 'L' 'H' 'C']
-test accuracy by number of leaves
-leaves  native  ordinal  one-hot
-    2    0.847    0.568    0.616
-    3    0.847    0.625    0.688
-    6    0.847    0.685    0.847
-    9    0.847    0.847    0.847
-   31    0.847    0.847    0.847

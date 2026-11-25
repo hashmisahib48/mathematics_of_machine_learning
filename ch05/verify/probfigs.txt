@@ -1,0 +1,2 @@
+5-1 ranges {'AIRFLOW': (np.float64(50.0), np.float64(80.0), np.float64(60.4)), 'WATERTEMP': (np.float64(17.0), np.float64(27.0), np.float64(21.1)), 'ACIDCONC': (np.float64(72.0), np.float64(93.0), np.float64(86.3))}
+5-3 corr GNP POP YEAR [[1.0, 0.991, 0.995], [0.991, 1.0, 0.994], [0.995, 0.994, 1.0]]

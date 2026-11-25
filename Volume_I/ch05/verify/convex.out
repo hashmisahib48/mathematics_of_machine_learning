@@ -1,8 +1,0 @@
-squared r^2   smallest gap +5.67e-12   violations      0
-absolute |r|  smallest gap +0.00e+00   violations      0
-log loss      smallest gap +5.01e-13   violations      0
-sin z         smallest gap -1.25e+00   violations  49848
-z^4 - 3 z^2   smallest gap -2.24e+00   violations  20330
-delivery eigenvalues: [  1.69 118.31]
-with 2x added:        [  0.     1.79 558.21]
-log-loss curvature s(1-s): [0.0177 0.105  0.25   0.105  0.0177]

@@ -1,4 +1,0 @@
-shape (214, 320)   rank 214
-k =  2   error 0.2317 = 0.2317   stored 1.6%
-k = 10   error 0.1588 = 0.1588   stored 7.8%
-k = 40   error 0.1029 = 0.1029   stored 31.2%

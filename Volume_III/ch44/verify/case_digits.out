@@ -1,9 +1,0 @@
-Chapter 42 pipeline: 5-fold 0.6407  test 0.6178
-ClassicalMDS vs PCA scores: max |diff| = 1.9e-13
-method           T(10)  5-fold    test
-PCA             0.8304  0.6199  0.6178
-MDS (SMACOF)    0.8935  0.7305       -
-Isomap          0.8842  0.8055  0.8067
-LLE             0.9466  0.9450  0.9156
-Laplacian       0.9456  0.9324       -
-t-SNE           0.9920  0.9844       -

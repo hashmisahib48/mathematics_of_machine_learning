@@ -1,0 +1,16 @@
+7.4-2 w 1.2140 b -4.2491 e^w 3.367 boundary 3.5000
+7.4-2 t(5) 1.8210 P 0.8607 sum p 3.0000 sum y 3
+7.4-2 from the rounded values t(5) 1.8209 P 0.8607
+7.4-2 misclassified students [3, 4]
+7.7 test tumors 143 malignant 53 benign 90 training 426
+7.7 correct: logistic 137 5-NN 136 numbers stored by logistic 31 by k-NN 12780
+7.7 largest weight radius error -1.2134 odds x 0.2972 inverse 3.365
+7.7 th 0.5 missed 3 false 3
+7.7 th 0.1 missed 1 false 10
+7.7 th 0.02 missed 0 false 22
+7.7 iris petal width weights [-3.376 -1.459  4.835] virginica vs versicolor odds x 541.1
+7.7 iris petal length weights [-3.576 -1.506  5.082] setosa vs versicolor 0.126
+7.7 flower 70 scores [[-4.167  1.985  2.182]] P [[0.001 0.45  0.549]] ratio 1.22
+7.6 options {'l1_ratio': 0.5} error: Solver lbfgs supports only 'l2' or None penalties, got elast
+7.6 options {'l1_ratio': 0.5, 'solver': 'saga'} runs
+7.6 penalty argument warns: True

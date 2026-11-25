@@ -1,0 +1,5 @@
+ccp_alpha 0.0000: leaves 18, test accuracy 0.902
+ccp_alpha 0.0138: leaves  5, test accuracy 0.902
+  worst perimeter        importance 0.836
+  worst concave points   importance 0.121
+  worst radius           importance 0.043

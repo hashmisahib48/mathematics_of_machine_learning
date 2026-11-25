@@ -1,4 +1,0 @@
-100 ill among 2000 people
-rule                      acc  bal.acc  recall  precision
-nobody is ill           0.950    0.500   0.000      0.000
-screen, score > 1.5     0.924    0.823   0.710      0.368

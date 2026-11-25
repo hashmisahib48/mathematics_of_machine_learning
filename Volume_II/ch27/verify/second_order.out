@@ -1,6 +1,0 @@
-after 1 stage(s), scikit-learn's next root: worst radius 16.795
-   squared error      worst radius     16.795
-   second-order gain  worst perimeter  105.950
-after 3 stage(s), scikit-learn's next root: worst radius 16.795
-   squared error      worst radius     16.795
-   second-order gain  worst perimeter  105.950

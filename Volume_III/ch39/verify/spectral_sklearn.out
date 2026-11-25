@@ -1,8 +1,0 @@
-toy labels          [0, 0, 0, 1, 1, 1]
-k-means ARI         -0.002
-rbf gamma=30 ARI    1.0
-10 neighbours ARI   1.0
-graph components    2
-kmeans ARI 1.0
-discretize ARI 1.0
-cluster_qr ARI 1.0

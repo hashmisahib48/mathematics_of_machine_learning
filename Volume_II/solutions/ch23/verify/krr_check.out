@@ -1,3 +1,0 @@
-as written: KernelRidge(alpha=0.1, gamma=0.5)    test RMSE 0.6991
-kernel='rbf', y not centred                      test RMSE 0.2832
-kernel='rbf', y centred                          test RMSE 0.2832

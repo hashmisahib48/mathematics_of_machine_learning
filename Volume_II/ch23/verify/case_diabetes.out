@@ -1,6 +1,0 @@
-default SVR, raw y    test R2 0.138
-default SVR, y scaled test R2 0.242
-SVR linear CV 0.517 test 0.360 SV 192 C=0.0316 epsilon=0.4
-SVR rbf    CV 0.538 test 0.340 SV 209 C=1 epsilon=0.3 gamma=0.0316
-NuSVR rbf  CV 0.538 test 0.350 SV 116 C=10 gamma=0.01 nu=0.3
-LinearSVR  CV 0.500 test 0.367 SV   0 C=0.01

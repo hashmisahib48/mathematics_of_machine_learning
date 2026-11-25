@@ -1,0 +1,37 @@
+6-1 k 1 raw 0.905 std 0.954
+6-1 k 3 raw 0.919 std 0.96
+6-1 k 5 raw 0.928 std 0.965
+6-1 k 11 raw 0.93 std 0.965
+6-1 k 21 raw 0.93 std 0.956
+6-1 confusion
+ [[47  6]
+ [ 1 89]]
+6-2 k 1 acc 0.9822 errors 8
+6-2 k 3 acc 0.9867 errors 6
+6-2 k 7 acc 0.9733 errors 12
+6-2 errors true->pred [(9, 3), (4, 9), (8, 3), (8, 1), (3, 7), (9, 3)]
+6-3 linear LOO RMSE 3.728
+6-3 knn1 LOO RMSE 4.018
+6-3 knn2 LOO RMSE 4.287
+6-3 knn3 LOO RMSE 4.175
+6-3 knn5 LOO RMSE 5.284
+6-1d means [6.5569366e+02 9.6270000e-02] sd [3.6329883e+02 1.3940000e-02] t0 [5.755e+02 9.277e-02] t1 [1.214e+03 1.037e-01]
+6-1d raw dist 638.5 area share 1.0 std dist 1.9246 area share 0.8339
+6-1e tumor 13 dist [[4.401 5.822 5.946 6.078 6.123]] classes [[1 0 1 1 0]] uniform P 0.6 dw P 0.6256 true 1
+6-2d train 1347 ops per image 258624 for 450 116380800
+6-3c neighbors [70. 75.] [15. 37.] uniform 26.0 dw 23.8 line 29.33
+6-4 q [5.1 1.6] true 1
+6-4 table [(52, [4.9, 1.5], np.int64(1), np.float64(0.2236)), (56, [4.7, 1.6], np.int64(1), np.float64(0.4)), (63, [4.7, 1.4], np.int64(1), np.float64(0.4472)), (77, [5.0, 1.7], np.int64(1), np.float64(0.1414)), (106, [4.5, 1.7], np.int64(2), np.float64(0.6083)), (119, [5.0, 1.5], np.int64(2), np.float64(0.1414)), (126, [4.8, 1.8], np.int64(2), np.float64(0.3606)), (134, [5.6, 1.4], np.int64(2), np.float64(0.5385))]
+6-4 k 3 votes ve 2 vi 1 weighted ve 11.543 vi 7.071
+6-4 k 5 votes ve 3 vi 2 weighted ve 14.043 vi 9.845
+6-4c k 1 0.94
+6-4c k 3 0.95
+6-4c k 5 0.95
+6-4c k 7 0.94
+6-4c k 11 0.94
+6-4c k 15 0.94
+6-4d LOO k3 pred [1 2 1 2 1 1 1 1] true [1 1 1 1 2 2 2 2] errors 6
+6-1f benign share 0.6274 of 569
+6-3e air flow max 80.0 x=90 neighbors [80. 80. 75.] [42. 37. 37.] knn3 38.666666666666664 line 47.7
+6-4e sd of petal length, width over 100 flowers [0.8214 0.4226] ddof1 [0.8256 0.4248]
+6-4e standardized distances [0.34  0.487 0.679 0.266 0.768 0.266 0.598 0.771] order [ 77 119  52  56 126  63 106 134] k3 classes [1 2 1]

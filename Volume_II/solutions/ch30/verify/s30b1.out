@@ -1,6 +1,0 @@
-  2000 draws: mean error 0.0122  std error 0.0060
- 20000 draws: mean error 0.0104  std error 0.0017
-  2000 draws, 30 seeds: mean error 0.0160  std error 0.0122
- 20000 draws, 30 seeds: mean error 0.0065  std error 0.0032
-smallest eigenvalue -1.19e-15; eigenvalues < 1e-12: 95
-plain Cholesky: LinAlgError, jitter needed

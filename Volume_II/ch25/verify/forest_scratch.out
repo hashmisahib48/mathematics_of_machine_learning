@@ -1,6 +1,0 @@
-largest |difference| in P(class): 0.0
-same predictions: True
-same bootstrap samples: True
-largest OOB difference: 0.0
-OOB accuracy: 0.9601  scikit-learn: 0.9601
-test accuracy: 0.9441

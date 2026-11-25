@@ -1,9 +1,0 @@
-steps          : ['standardscaler', 'logisticregression']
-test accuracy  : 0.9737
-scaler mean_   : [5.887 3.052 3.796 1.223]
-parameters     : 17 e.g. standardscaler__copy
-with C = 0.01  : 0.6842
-DataFrame (38, 4)
-     sepal length (cm)  sepal width (cm)
-114              -0.10             -0.58
-62                0.13             -1.96

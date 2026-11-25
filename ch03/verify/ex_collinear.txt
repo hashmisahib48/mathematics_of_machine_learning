@@ -1,0 +1,3 @@
+ours   : the columns of X are linearly dependent
+sklearn: rank_ = 2  coef_ = [3.000000e-06 2.596958e+00 3.061000e-03]
+same predictions? True

@@ -1,8 +1,0 @@
-grid maximum   : 0.70
-optimiser      : 0.7000   formula k/n = 0.7000
-L(0.5) = 0.000977
-L(0.6) = 0.001792
-L(0.7) = 0.002224
-L(0.8) = 0.001678
-norm.fit       : mu = 4.0000, sigma^2 = 2.0000
-formulas       : mu = 4.0000, sigma^2 = 2.0000

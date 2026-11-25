@@ -1,2 +1,0 @@
-multinomial  max log-proba difference 0.0e+00, test accuracy 0.9089
-gaussian     max log-proba difference 2.9e-06, test accuracy 0.8333

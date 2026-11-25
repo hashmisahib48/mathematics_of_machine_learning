@@ -1,0 +1,2 @@
+slope 1.0
+columns for p=3, d=2 (powers only): 6  with products: 9

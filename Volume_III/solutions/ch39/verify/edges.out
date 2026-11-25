@@ -1,3 +1,0 @@
-lower edge of the plateau: gamma = 13.02 (fails at 13.01)
-upper edge of the plateau: gamma = 939 (fails at 940)
-check: gamma = 18 and 560 (the values quoted in Section 39.10): True True

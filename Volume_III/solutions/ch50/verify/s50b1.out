@@ -1,9 +1,0 @@
-training cars: 3000   cities: 200
-cars per city: min 1  max 296
-
-  k  columns  grouped   cars   share   by hand
-  1      200        0      0   0.000      0/200
-  5      172       29     90   0.030     29/172
- 10       75      126    744   0.248    126/75
- 20       30      171   1362   0.454    171/30
- 50       10      191   1961   0.654    191/10

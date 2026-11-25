@@ -1,8 +1,0 @@
-all 30: test 0.9580, 5-fold 0.9742
-variance > 0.01 on raw   data keeps 14 of 30
-variance > 0.01 on [0,1] data keeps 27 of 30
-worst concave points   F =  797.0  p = 2.0e-99
-mean concave points    F =  704.5  p = 3.6e-92
-worst perimeter        F =  685.8  p = 1.3e-90
-p < 0.05 for 26 of 30 features
-pairs with |r| > 0.9: 21 of 435

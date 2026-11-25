@@ -1,7 +1,0 @@
-det K = 2.0
-inv K = [[1.0, -1.0], [-1.5, 2.0]]
-solve = [2. 1.]
-K inv(K) = I: True
-det S = 0.0   rank S = 1
-LinAlgError: Singular matrix
-det Q = -1.0

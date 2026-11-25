@@ -1,7 +1,0 @@
-8 invented hospitals, 40 patients x 8 visits
-  StratifiedKFold accuracy 0.895   GroupKFold 0.609   new patients 0.609
-  largest deviation of a fold's class-1 share from the whole: 0.0113 (mean over hospitals)
-  share of test rows whose patient is also in training (stratified): 1.000
-
-hospital 0: patient identified from one visit, 4-fold, 40 candidates: 0.884   (chance 0.025)
-share of variance between patients, per feature: [0.92, 0.92, 0.95, 0.93, 0.92, 0.92]

@@ -1,8 +1,0 @@
-book data set at x = 4: gamma GLM 14.34, exp(fit to ln y) 7.65, true mean 16.44
-coefficients: gamma GLM intercept 0.827 slope 0.459; log-OLS intercept 0.427 slope 0.402; truth 0.600 and 0.550
-E[ln y] = ln mu + psi(k) - ln k, with psi(1.2) = -0.2890 and ln 1.2 = 0.1823: shift -0.4714, factor exp(shift) = 0.6242
-total of the observations 394.6; predicted totals: gamma GLM 400.5, exp(log-OLS) 236.5
-smallest observations: [0.087 0.11  0.253 0.333]  ln of them: [-2.44 -2.21 -1.37 -1.1 ]  ln of the largest 3.63
-300 data sets, prediction / true mean at x = 2: gamma GLM median 0.979 (10th-90th 0.845-1.115); exp(log-OLS) median 0.622 (0.522-0.733)
-share of data sets in which the log-OLS prediction is below the true mean: 1.000; gamma GLM: 0.553
-figure width 4.38 in, printed 4.6 in, smallest font 8.0 pt -> printed 8.4 pt

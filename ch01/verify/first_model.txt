@@ -1,0 +1,4 @@
+training cases: 331  test cases: 111
+first three predictions: [241.8 250.1 165. ]
+first three targets:     [321. 215. 127.]
+test R2: 0.359

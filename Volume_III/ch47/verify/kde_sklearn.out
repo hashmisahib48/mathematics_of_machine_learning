@@ -1,5 +1,0 @@
-ln f(58) = [-3.5033]  f(58) = [0.0301]
-score(x) = -12.8698  (a sum, not a mean)
-area under f: 1.0
-scott     bandwidth_ = 0.7579
-silverman bandwidth_ = 0.8027

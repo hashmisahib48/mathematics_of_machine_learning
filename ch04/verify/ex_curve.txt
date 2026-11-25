@@ -1,0 +1,4 @@
+LinearRegression() train 0.109  test 0.708  max|w|  7097.7
+Ridge(alpha=0.001) train 0.151  test 0.303  max|w|     4.3
+Ridge(alpha=0.1)   train 0.217  test 0.428  max|w|     1.2
+Ridge(alpha=10)    train 0.387  test 0.606  max|w|     0.1

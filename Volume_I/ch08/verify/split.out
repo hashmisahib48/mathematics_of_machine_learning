@@ -1,7 +1,0 @@
-test rows : [2 8 4]
-train rows: [9 1 6 7 3 0 5]
-diabetes n = 442  train 331  test 111
-shuffle=False: test rows start at 331
-whole data: class 1 share 0.6274
-plain      test share  min 0.531  max 0.706  sd 0.0352
-stratified test share  min 0.629  max 0.629  sd 0.0

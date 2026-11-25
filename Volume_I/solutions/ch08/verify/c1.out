@@ -1,8 +1,0 @@
-training: w = 1.700, b = 0.900, SSE = 1.10, SST = 30.0, R2 = 0.9633
-new rides: predictions [11.1 12.8 14.5 16.2]  residuals [-0.1  0.2 -2.5 -2.2]
-SSE = 11.14, mean of new targets = 12.5, SST = 5.0, R2 = -1.228, RMSE = 1.669, MAE = 1.250
-standard deviation of the new targets (n): 1.118  of the training targets: 2.449
-slope of the best line through the new rides: 0.80 (training line 1.70), intercept 6.50
-constant = training mean 6.0: SSE = 174.0, RMSE = 6.60, R2 against the new mean = -33.80
-line against the training mean as baseline: 1 - SSE/SSE_base = 0.936
-constant at the new mean 12.5 (needs the new targets): RMSE = 1.118

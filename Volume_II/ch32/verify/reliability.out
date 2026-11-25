@@ -1,8 +1,0 @@
-model               log loss  Brier  min p  max p
-GaussianNB            0.5969 0.1600  0.000  1.000
-   five bins, predicted: [0.03 0.29 0.5  0.71 0.97]
-   five bins, observed : [0.16 0.41 0.5  0.58 0.85]
-AdaBoost              0.5575 0.1851  0.129  0.864
-LinearSVC             0.5131 0.1665  0.042  0.954
-LogisticRegression    0.4305 0.1398  0.000  1.000
-RandomForest          0.4662 0.1487  0.000  1.000

@@ -1,0 +1,25 @@
+4-1 alpha 0 w(all) [  157. -3447. -1828.  -696.  -344.  8432.] w(<1962) [ -205. -2428. -1774.  -664.   312.  6849.] pred1962 71215.0 actual 70551.0 pct error 0.94
+4-1 alpha 0.1 w(all) [  641.  1119. -1067.  -443.    50.  2386.] w(<1962) [   79.  1211. -1149.  -455.   730.  2025.] pred1962 71645.0 actual 70551.0 pct error 1.55
+4-1 alpha 1 w(all) [ 896. 1086. -744. -197.  789. 1062.] w(<1962) [ 728. 1082. -800. -236.  875.  995.] pred1962 71262.0 actual 70551.0 pct error 1.01
+4-1 alpha 10 w(all) [695. 751. -42. 217. 675. 697.] w(<1962) [647. 714. -75. 200. 640. 653.] pred1962 70077.0 actual 70551.0 pct error -0.67
+4-1d diagonal of A+aI (A_jj = n = 16 for StandardScaler): [(0.1, 16.1, 1.0063), (1, 17, 1.0625), (10, 26, 1.625)]
+4-2 linear LOO RMSE 3.728 train R2 0.9136
+4-2 quad LS LOO RMSE 3.922 train R2 0.957
+4-2 quad ridge 1 LOO RMSE 3.603 train R2 0.92
+4-2 quad ridge 10 LOO RMSE 3.578 train R2 0.9087
+4-3 degree 1 CV R2 0.7674 folds [0.392 0.891 0.838 0.877 0.838] coef [485.18]
+4-3 degree 2 CV R2 0.7406 folds [0.209 0.913 0.883 0.842 0.857] coef [710.05 -66.03]
+4-3 degree 3 CV R2 -1.7769 folds [-12.37    0.916   0.877   0.842   0.849] coef [563.08  20.74 -12.51]
+4-4 degree 1 nfeat 10 alpha 17.78 test R2 0.361
+4-4 degree 2 nfeat 65 alpha 100.0 test R2 0.34
+4-4 degree 3 nfeat 285 alpha 316.23 test R2 0.337
+4-2d alpha 0 w 1.0203 b -44.132 pred(70) 27.29 check [1.0203]
+4-2d alpha 100 w 0.963 b -40.6704 pred(70) 26.741 check [0.963]
+4-2d alpha 1000 w 0.6398 b -21.1359 pred(70) 23.647 check [0.6398]
+4-3d b 8.01 w [710.05 -66.03] pred 1,2,6 [np.float64(652.0), np.float64(1164.0), np.float64(1891.3)] peak 5.377 max income 4.958
+4-4 counts C(p+d,d)-1 for p=10: [10, 65, 285]
+4-4 diabetes: n 442 features ['age', 'sex', 'bmi', 'bp', 's1', 's2', 's3', 's4', 's5', 's6']
+4-3 Engel: n 235 income range 377.058368850099 4957.81302447901 food range 242.32020192074 2032.67919020832 households above 3000 francs 1
+4-3e quadratic alpha 0 pred at 1,2,6 thousand francs [ 652.  1164.  1891.3]
+4-3e quadratic alpha 1 pred at 1,2,6 thousand francs [ 650.3 1157.  1976.9]
+4-3e quadratic alpha 10 pred at 1,2,6 thousand francs [ 639.9 1112.2 2479.2]

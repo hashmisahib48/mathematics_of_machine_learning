@@ -1,9 +1,0 @@
-signs of the two columns: [ 1. -1.]
-largest |difference|: 1.2e-14
-eigenvalues_      : [837.641 444.461]
-explained_variance: [4.732 2.511]
-ratio: [177. 177.]  n - 1 = 177
-top eigenvalues of B: [837.641 444.461 257.401]  rank: 13
-sum of squared singular values of X: [837.641 444.461]
-trace of B: 2314.0 = n p = 2314
-share of the first two: 0.5541  PCA: 0.5541

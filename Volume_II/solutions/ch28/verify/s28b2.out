@@ -1,8 +1,0 @@
- k  trees  best tree  best val loss  trees after best
- 3     45         42         0.3154            3
-10     77         67         0.3114           10
-30    109         79         0.3105           30
-
-1200 validation rows; mean loss k=3: 0.3154, k=30: 0.3105
-paired difference 0.0048, standard error 0.0026
-standard error of one mean loss: 0.0156

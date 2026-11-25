@@ -1,0 +1,8 @@
+exec(open('sidecap.py').read().split("cap('f61.png'")[0])
+cap('f71.png', 'Figure 7.2-1', 'The logistic function. It maps any score $t$ into $(0,1)$, passes through 1/2 at $t=0$ with slope 1/4, and is symmetric: $\\sigma(-t)=1-\\sigma(t)$.', 'f71s.png')
+cap('f72.png', 'Figure 7.2-2', 'The cost of one observation. A confident wrong prediction costs without bound; a correct one costs almost nothing.', 'f72s.png')
+cap('f73.png', 'Figure 7.4-1', 'The six students of Example 7.4-1 and the fitted probability of passing. The boundary $P=1/2$ lies at 3.5 hours.', 'f73s.png')
+cap('f74.png', 'Figure 7.7-1', 'Test errors of the cancer model as the threshold on P(malignant) moves. Lowering it trades missed tumors for false alarms.', 'f74s.png')
+cap('pj71.png', 'Figure P7-1', 'Grade improvement against GPA for the 32 students (squares: new method, circles: traditional), with fitted probabilities at the mean TUCE score.', 'pj71s.png')
+cap('f75.png', 'Figure 7.7-2', 'Class probabilities of the iris model of Listing 7.6 as the petal width varies, the other features at their means.', 'f75s.png')
+cap('pj74.png', 'Figure P7-4', 'Petal length and width of 50 setosa, 50 versicolor and the last ten virginica flowers, with the virginica boundary of the unweighted and the balanced model.', 'pj74s.png')

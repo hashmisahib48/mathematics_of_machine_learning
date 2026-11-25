@@ -1,6 +1,0 @@
-                     flagged  offset_   new readings
-IsolationForest           39   -0.500   [ 0.118 -0.015 -0.17 ] [ 1 -1 -1]
-LocalOutlierFactor        26   -1.500   [ 0.513  0.144 -1.643] [ 1  1 -1]
-OneClassSVM               19    2.877   [ 0.255  0.072 -0.142] [ 1  1 -1]
-EllipticEnvelope          16  -45.913   [  45.821   40.741 -107.341] [ 1  1 -1]
-LOF fit_predict flags 26 ; offset_ -1.5 ; worst -LOF 5.28

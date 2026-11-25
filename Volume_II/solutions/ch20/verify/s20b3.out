@@ -1,8 +1,0 @@
-raw       test accuracy 0.6667 = 30 of 45
-standard  test accuracy 0.9333 = 42 of 45
-min-max   test accuracy 0.9556 = 43 of 45
-wines on which standard and min-max differ: [26]
-spread of the columns, raw      : 0.120 to 323.595
-spread of the columns, standard : 1.000 to 1.000
-spread of the columns, min-max  : 0.149 to 0.252
-correlation of the two sets of pairwise distances: 0.982

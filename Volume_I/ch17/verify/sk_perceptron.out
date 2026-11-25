@@ -1,6 +1,0 @@
-Perceptron    w = [2. 1.]  b = [-3.]  n_iter_ = 8  t_ = 33
-SGDClassifier w = [2. 1.]  b = [-3.]  n_iter_ = 8  t_ = 33
-identical: True
-eta0 = 0.1:   w = [0.2 0.1]  b = [-0.3]
-same decisions: True
-score on the four tiles: 1.0

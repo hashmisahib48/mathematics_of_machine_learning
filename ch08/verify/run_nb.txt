@@ -1,0 +1,6 @@
+A means [3.0, 7.0] variances [0.6667, 0.6667]
+B means [7.0, 4.0] variances [0.5, 0.5]
+log joint at (5, 5): [-8.2797, -6.7043]
+P(A), P(B): [0.1715, 0.8285]
+P(ham), P(spam): [0.2545, 0.7455]
+class: spam

@@ -1,7 +1,0 @@
-eps =  0.00  lambda_2 = 0.0000  within-triangle spread 0.0000  distance between triangles 0.5774  ratio 0.0000  | k-means: labels [1, 1, 1, 0, 0, 0] inertia 3.08e-32 iterations 1
-   rows of U (random basis of the null space): [[-0.0786, -0.4006], [-0.0786, -0.4006], [-0.0786, -0.4006], [-0.4006, 0.0786], [-0.4006, 0.0786], [-0.4006, 0.0786]]
-eps =  0.01  lambda_2 = 0.0033  within-triangle spread 0.0019  distance between triangles 0.5769  ratio 0.0033  | k-means: labels [1, 1, 1, 0, 0, 0] inertia 4.89e-06 iterations 1
-eps =  0.10  lambda_2 = 0.0314  within-triangle spread 0.0184  distance between triangles 0.5727  ratio 0.0321  | k-means: labels [1, 1, 1, 0, 0, 0] inertia 4.50e-04 iterations 2
-eps =  1.00  lambda_2 = 0.2047  within-triangle spread 0.1288  distance between triangles 0.5436  ratio 0.2370  | k-means: labels [1, 1, 1, 0, 0, 0] inertia 2.21e-02 iterations 2
-f = [2.0, 2.0, 2.0, -5.0, -5.0, -5.0]  f'Lf = 0.0
-f = [1.0, 1.0, 1.01, 3.0, 3.0, 3.0]  f'Lf = 0.0002

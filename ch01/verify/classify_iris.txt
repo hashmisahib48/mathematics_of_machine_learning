@@ -1,0 +1,4 @@
+test flowers: 38
+baseline accuracy: 0.316
+k-NN accuracy:     0.947
+k-NN errors: 2

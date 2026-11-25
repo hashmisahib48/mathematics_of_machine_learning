@@ -1,4 +1,0 @@
-default  train 1.0000  test 0.9371  log loss 0.1798  trees 100
-tuned    train 1.0000  test 0.9510  log loss 0.1497  trees 100
-best: {'l2_regularization': 1, 'max_leaf_nodes': 31, 'min_samples_leaf': 10}
-5-fold log loss of the best: 0.0776

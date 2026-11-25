@@ -1,6 +1,0 @@
-coef_        = [1.7]
-intercept_   = 0.9
-rank_        = 1
-singular_    = [3.1623]
-predict(6km) = [11.1]
-score (R2)   = 0.9633

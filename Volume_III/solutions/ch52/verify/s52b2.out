@@ -1,7 +1,0 @@
-after  9 messages: accuracy 0.6667   per class [3 2 2 2]
-after 18 messages: accuracy 0.5833   per class [4 5 4 5]
-after 27 messages: accuracy 0.6667   per class [9 6 6 6]
-after 36 messages: accuracy 1.0000   per class [9 9 9 9]
-batch fit, hashed: 1.0000
-batch fit, vocabulary: 1.0000
-stream = batch fit? True  vocabulary stored: False

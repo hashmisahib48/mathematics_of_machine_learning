@@ -1,0 +1,3 @@
+raw           accuracy 0.966
+standardized  accuracy 0.966
+parameters: 81

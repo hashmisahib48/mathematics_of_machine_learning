@@ -1,6 +1,0 @@
-power 1.0  alpha 0.0  Newton 6  L-BFGS  9  max|dw| = 8.2e-09
-power 1.0  alpha 0.1  Newton 6  L-BFGS 11  max|dw| = 6.7e-10
-power 2.0  alpha 0.0  Newton 6  L-BFGS  8  max|dw| = 3.9e-10
-power 2.0  alpha 0.1  Newton 6  L-BFGS  8  max|dw| = 7.1e-10
-power 1.5  alpha 0.0  Newton 5  L-BFGS  8  max|dw| = 2.2e-09
-power 1.5  alpha 0.1  Newton 5  L-BFGS  8  max|dw| = 2.9e-09

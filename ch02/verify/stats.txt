@@ -1,0 +1,5 @@
+means: 3.0 62.0
+variances: 2.5 65.5
+covariance: 12.75
+correlation: 0.9964
+NumPy r: 0.9964

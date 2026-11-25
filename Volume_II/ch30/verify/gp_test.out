@@ -1,5 +1,0 @@
-mean: max |difference| = 4.4e-15
-std: max |difference| = 1.8e-15
-cov: max |difference| = 7.8e-16
-lml: max |difference| = 1.4e-14
-log marginal likelihood: -5.1511

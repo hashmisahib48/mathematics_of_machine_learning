@@ -1,0 +1,3 @@
+GaussianNB     accuracy 0.836
+MultinomialNB  accuracy 0.904
+BernoulliNB    accuracy 0.891

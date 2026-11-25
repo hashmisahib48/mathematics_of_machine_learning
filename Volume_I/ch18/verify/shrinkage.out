@@ -1,6 +1,0 @@
-p = 50 features, n = 40 training samples
-svd (default)         test accuracy 0.7135
-lsqr, no shrinkage    test accuracy 0.4673
-lsqr, shrinkage 0.5   test accuracy 0.8573
-lsqr, shrinkage auto  test accuracy 0.8230
-eigen, no shrinkage: LinAlgError

@@ -1,0 +1,7 @@
+exec(open('sidecap.py').read().split("cap('f")[0])
+cap('f91.png', 'Figure 9.2-1', 'Impurity of a node with two classes (the entropy is divided by 2). All three measures vanish for a pure node and are largest for an even mixture.', 'f91s.png')
+cap('f92.png', 'Figure 9.4-1', 'The tree of Example 9.4-1 and the regions it cuts from the plane. Each box shows the number of points and the counts of the two classes.', 'f92s.png')
+cap('f93.png', 'Figure 9.7-1', 'Training and test $R^2$ of a regression tree for the diabetes data as the smallest leaf grows. The tree never matches linear regression (dashed).', 'f93s.png')
+cap('pj92.png', 'Figure P9-2', 'Annual food expenditure against income for 235 Belgian households, from Engel’s data, with the least-squares line.', 'pj92s.png')
+cap('pj91.png', 'Figure P9-1', 'Proline against flavanoids for the 178 wines of the three cultivars.', 'pj91s.png')
+cap('pj93.png', 'Figure P9-3', 'Worst perimeter against worst concave points for the 569 tumors of the breast cancer data.', 'pj93s.png')

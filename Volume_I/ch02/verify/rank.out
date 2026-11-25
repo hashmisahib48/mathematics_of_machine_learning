@@ -1,6 +1,0 @@
-rank A  = 2  shape (3, 2)
-rank A3 = 2  shape (3, 3)
-rank X  = 2   with miles: 2
-singular values: ['8.965e+00', '9.286e-01', '1.486e-16']
-rank of X^T X (3 x 3): 2
-6 x 8: rank = 6   rank of W^T W (8 x 8) = 6

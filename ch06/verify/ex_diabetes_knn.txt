@@ -1,0 +1,6 @@
+k =  1: train R2 1.000  test R2 -0.597
+k =  5: train R2 0.629  test R2 0.194
+k = 10: train R2 0.566  test R2 0.270
+k = 20: train R2 0.541  test R2 0.366
+k = 40: train R2 0.488  test R2 0.372
+k = 80: train R2 0.441  test R2 0.347

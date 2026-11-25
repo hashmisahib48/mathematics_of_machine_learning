@@ -1,0 +1,3 @@
+plain Python coef_=[3.0608 2.597 ] intercept_=5.5970 predict=[29.156]
+NumPy        coef_=[3.0608 2.597 ] intercept_=5.5970 predict=[29.156]
+scikit-learn coef_=[3.0608 2.597 ] intercept_=5.5970 predict=[29.156]

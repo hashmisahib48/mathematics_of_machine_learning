@@ -1,0 +1,6 @@
+samples, features: (442, 10)
+age   -43.26  sex  -208.67  bmi   593.41  bp    302.89  s1   -560.19
+s2    261.41  s3     -8.87  s4    135.93  s5    703.18  s6     28.35
+intercept_ : 153.07
+test R^2   : 0.359
+test RMSE  : 56.39

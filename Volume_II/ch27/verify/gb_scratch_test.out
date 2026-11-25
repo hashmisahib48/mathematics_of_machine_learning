@@ -1,5 +1,0 @@
-regressor, 100 trees:  max |difference| = 0.0
-  test R^2 0.2148
-classifier, depth 1, 100 trees: max |diff| 1.8e-15, accuracy 0.9650 and 0.9650
-classifier, depth 3,  10 trees: max |diff| 2.2e-16, accuracy 0.9371 and 0.9371
-classifier, depth 3, 100 trees: max |diff| 4.0e-01, accuracy 0.9580 and 0.9580

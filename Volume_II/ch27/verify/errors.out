@@ -1,6 +1,0 @@
-NaN in X: ValueError: Input X contains NaN. GradientBoostingClassifier does not accept missing values en
-exponential, 3 classes: ValueError: loss='exponential' is only suitable for a binary classification problem, you have n_classes=3. Please use loss='log_loss' instead.
-loss='deviance': InvalidParameterError: The 'loss' parameter of GradientBoostingClassifier must be a str among {'log_loss', 'exponential'}. Got 'deviance' instead.
-criterion given: FutureWarning
-decision_function: (569,)  one stage of staged_decision_function: (569, 1)
-yc - expit(F): (569, 569)  with F.ravel(): (569,)

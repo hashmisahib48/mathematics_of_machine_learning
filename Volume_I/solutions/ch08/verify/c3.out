@@ -1,6 +1,0 @@
-training part: 426  benign (1): 267  malignant (0): 159  share of benign: 0.6268
-benign = 1   : TP 267 FP 159 FN 0 TN 0  accuracy 0.6268  precision 0.627  recall 1.0  F1 0.7706
-malignant = 1: TP 0 FP 0 FN 159 TN 267  accuracy 0.6268  precision nan  recall 0.0  F1 0.0000
-F1 of 'always positive' with share s = 0.6268 of positives: 2s/(1+s) = 0.7706
-benign = 1   : 5-fold accuracy 0.627  F1 0.771  (F1 per fold [0.771 0.777 0.768 0.768 0.768])
-malignant = 1: 5-fold accuracy 0.627  F1 0.000  (F1 per fold [0. 0. 0. 0. 0.])

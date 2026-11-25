@@ -1,3 +1,0 @@
-two tests : joint = [0.002475 0.0081  ]  P(sick | ++) = 0.766
-joint (ham, spam) = [0.001185 0.001628]
-P(spam | message) = 0.5788

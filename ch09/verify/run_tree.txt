@@ -1,0 +1,5 @@
+root Gini 0.46875
+best root split (Gini, feature, threshold): (0.1875, 1, 4.5)
+right child split: x1 <= 3.5
+predictions for (4, 7), (7, 3): [1, 0]
+regression split x <= 3.5  leaves [6.0, 16.3333]

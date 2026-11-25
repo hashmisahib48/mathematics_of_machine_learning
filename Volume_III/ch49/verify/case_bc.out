@@ -1,9 +1,0 @@
-             scaler SVC test  SVC cv      5-NN
-               none   0.9161  0.9178    0.9161
-     StandardScaler   0.9580  0.9859    0.9510
-       MinMaxScaler   0.9441  0.9813    0.9510
-       MaxAbsScaler   0.9580  0.9790    0.9580
-       RobustScaler   0.9580  0.9836    0.9580
-   PowerTransformer   0.9650  0.9860    0.9580
-QuantileTransformer   0.9650  0.9836    0.9580
-  Normalizer (rows)   0.9021  0.8568    0.9091

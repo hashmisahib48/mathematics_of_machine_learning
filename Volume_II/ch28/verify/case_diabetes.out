@@ -1,4 +1,0 @@
-OLS          test R2 0.359  RMSE 56.4
-HGB default  test R2 0.193  RMSE 63.3
-HGB tuned    test R2 0.296  RMSE 59.1
-tuned: {'learning_rate': 0.03, 'max_iter': 100, 'max_leaf_nodes': 8, 'min_samples_leaf': 10}

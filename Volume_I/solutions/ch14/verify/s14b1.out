@@ -1,7 +1,0 @@
-fit                     coef_      intercept_
-weights 1,1,2,1,1      0.415141   0.070725
-row 3 listed twice     0.415141   0.070725
-weights 2,2,4,2,2      0.415141   0.070725
-no weights             0.406134   0.126935
-weights 1,1,2,1,1: sum of weights 6, 1/(2*sum) = 0.0833
-weights 2,2,4,2,2: sum of weights 12, 1/(2*sum) = 0.0417

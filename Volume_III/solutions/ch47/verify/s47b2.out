@@ -1,6 +1,0 @@
-standardised: ln f -0.762  h per fold [0.1  0.11 0.11 0.13 0.11]
-raw         : ln f -1.138  h per fold [0.13 0.13 0.13 0.16 0.14]
-sd of columns [1.759 0.76 ]  sum ln sd 0.29
-raw score in standardised units: -0.848
-gain from standardising: 0.085
-wrong sign of the Jacobian: -1.428

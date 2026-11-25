@@ -1,9 +1,0 @@
-get_params() -> raises AttributeError: 'Broken' object has no attribute 'alpha'
-clone(b) -> raises AttributeError: 'Broken' object has no attribute 'alpha'
-check_is_fitted(b) after fit: NotFittedError
-Broken(alpha=-1.0) raises at construction: alpha must be non-negative
-Repaired: {'alpha': 0.5} Repaired(alpha=0.5)
-fitted: coef_ = [2.]
-clone of the fitted one has coef_: False
-set_params(alpha=-1) accepted: -1.0
-fit then raises: alpha must be non-negative

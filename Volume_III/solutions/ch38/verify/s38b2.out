@@ -1,9 +1,0 @@
-largest sd 314.02 (proline)
-smallest sd 0.1241 (nonflavanoid_phenols)
-largest / smallest: 2530
-share of the largest column: 0.9977
-second largest share: 0.00205
-standardised: shares 0.0769 to 0.0769, 1/13 = 0.0769
-correlation of pairwise distances, 13 columns vs proline: 0.9999
-DBSCAN eps=40 on 13 columns: 3 clusters, 8 noise, ARI 0.241
-DBSCAN eps=40 on proline alone: 3 clusters, 7 noise, ARI 0.240

@@ -1,8 +1,0 @@
-best inertia 1136.62   2 per cent limit 1159.35
-
-init       good  share    mean  median   worst
-random       3   0.06  2399.0  1850.5  5568.4
-k-means++   34   0.68  1185.7  1136.9  1300.6
-
-P(8 random seeds in 8 blobs) = 8!/8^8 = 0.0024
-standard error of 0.68 from 50 runs: 0.066

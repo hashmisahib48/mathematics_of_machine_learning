@@ -1,6 +1,0 @@
-rank of the pooled covariance: 38  n - K = 38
-largest eigenvalue 7.2413   smallest -5.3e-16
-tr(Sw)/p = 0.9331
-a = 0.0: min 0.0000 max 7.2413  a*tr/p 0.0000  cond singular
-a = 0.1: min 0.0933 max 6.6104  a*tr/p 0.0933  cond 70.8
-a = 0.5: min 0.4666 max 4.0872  a*tr/p 0.4666  cond 8.8

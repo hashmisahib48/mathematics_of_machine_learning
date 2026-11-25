@@ -1,0 +1,7 @@
+C =   0.01: accuracy 0.860
+C =    0.1: accuracy 0.927
+C =      1: accuracy 0.960
+C =     10: accuracy 0.973
+C =    100: accuracy 0.973
+coef_ shape (3, 4)
+flower 70: [5.9 3.2 4.8 1.8] P = [[0.001 0.45  0.549]]

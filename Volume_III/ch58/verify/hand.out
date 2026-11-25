@@ -1,5 +1,0 @@
-t* = 0.1667
-t = 0.50  FN 2  FP 1  cost 11
-t = 0.18  FN 0  FP 2  cost 2
-t = 0.08  FN 0  FP 3  cost 3
-t = 0.00  FN 0  FP 4  cost 4

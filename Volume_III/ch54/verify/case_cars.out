@@ -1,5 +1,0 @@
-                                   honest  leaky  fresh
-one-hot city, steps on all rows     3.351  3.351  3.327
-target city, fit then transform     3.959  3.547  3.767
-target city, fit_transform          3.959  3.959  3.767
-one-hot city, log target            3.245      -  3.236

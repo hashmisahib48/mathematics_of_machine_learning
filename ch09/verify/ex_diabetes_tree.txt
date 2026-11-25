@@ -1,0 +1,6 @@
+min_samples_leaf  1: leaves 318, train R2 1.000, test R2 -0.182
+min_samples_leaf  5: leaves  54, train R2 0.797, test R2 -0.074
+min_samples_leaf 10: leaves  26, train R2 0.676, test R2 0.078
+min_samples_leaf 20: leaves  11, train R2 0.590, test R2 0.101
+min_samples_leaf 40: leaves   6, train R2 0.523, test R2 0.136
+min_samples_leaf 80: leaves   3, train R2 0.387, test R2 0.145

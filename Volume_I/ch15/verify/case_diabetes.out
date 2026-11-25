@@ -1,9 +1,0 @@
-training patients: 331  test patients: 111
-model                  columns  CV R2  test R2
-bmi: line                    1  0.377  0.158
-bmi: degree 2                2  0.372  0.158
-bmi: degree 3                3  0.375  0.150
-bmi: spline                  6  0.364  0.133
-ten: line                   10  0.522  0.359
-ten: degree 2 + ridge       65  0.524  0.340
-alpha chosen by RidgeCV: 100.0

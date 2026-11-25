@@ -1,7 +1,0 @@
-posterior Beta(9, 5): mean 0.6429, MAP 0.6667
-posterior mean 1.5000, variance 0.5000
-Ridge(alpha=4) coef_ = 1.5000
-c = 1.0: bias^2 0.000  var 1.000  MSE 1.000
-c = 0.8: bias^2 0.040  var 0.640  MSE 0.680
-c = 0.5: bias^2 0.250  var 0.250  MSE 0.500
-simulated MSE: [1.001 0.68  0.499]

@@ -1,8 +1,0 @@
-largest difference: 1.3e-14
-df = trace(H) = 4.189   (average H_ii = 0.1496)
-RMSE of ordinary residuals    0.2163
-RMSE of leave-one-out errors  0.2605
-factor 1/(1 - H_ii): smallest 1.106, largest 1.839
-   largest at x = 0.49, where H_ii = 0.456
-largest leave-one-out errors at x = [0.8  5.41 2.26]
-   H_ii there: [0.252 0.1   0.17 ]

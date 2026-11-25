@@ -1,8 +1,0 @@
-forest bins (mean score, observed share, n): [(0.027, 0.025, 79), (0.304, 0.0, 8), (0.501, 0.571, 7), (0.648, 0.333, 3), (0.971, 1.0, 46)]
-forest, sigmoid bins (mean score, observed share, n): [(0.033, 0.024, 83), (0.295, 0.167, 6), (0.45, 0.5, 2), (0.668, 0.6, 5), (0.965, 0.979, 47)]
-logistic bins (mean score, observed share, n): [(0.018, 0.023, 86), (0.22, 0.0, 1), (0.489, 0.2, 5), (0.642, 0.667, 3), (0.989, 1.0, 48)]
-forest           out-of-fold cost at t* = 1/11: 0.1315 ; minimum 0.0798 at t = 0.327 ; cost at 0.5: 0.2770
-forest, sigmoid  out-of-fold cost at t* = 1/11: 0.0986 ; minimum 0.0704 at t = 0.179 ; cost at 0.5: 0.2770
-out-of-fold share of forest scores below 0.05: 0.493, above 0.95: 0.254
-test: forest scores equal to 0: 34  forest minimum nonzero: 0.005
-figure width 4.44 in, printed 4.9 in, smallest font 8.2 pt -> printed 9.0 pt

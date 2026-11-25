@@ -1,9 +1,0 @@
-theta_ = [[2.0, 3.0], [6.0, 7.0]]
-var_   = [[0.6667, 0.6667], [2.6667, 2.6667]]
-class_prior_ = [0.5 0.5]  epsilon_ = 5.667e-09
-predict_proba(q) = [[0.0142 0.9858]]
-hand log joint = [-9.6256 -5.3869]
-predict_joint_log_proba = [[-9.6256 -5.3869]]
-partial_fit equal: True True
-category_count_[0]: [[1.0, 0.0, 1.0], [1.0, 2.0, 1.0]]
-unseen outlook 3: [[0.6 0.4]]

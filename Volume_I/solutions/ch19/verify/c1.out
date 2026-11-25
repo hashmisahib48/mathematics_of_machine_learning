@@ -1,9 +1,0 @@
-copies of x1 r = 1: log-odds   4.2387  P(class 1) = 0.9858  label 1
-copies of x1 r = 2: log-odds   2.6081  P(class 1) = 0.9314  label 1
-copies of x1 r = 3: log-odds   0.9774  P(class 1) = 0.7266  label 1
-copies of x1 r = 4: log-odds  -0.6532  P(class 1) = 0.3423  label 0
-copies of x1 r = 5: log-odds  -2.2839  P(class 1) = 0.0925  label 0
-copies of x1 r = 6: log-odds  -3.9145  P(class 1) = 0.0196  label 0
-copies of x1 r = 7: log-odds  -5.5452  P(class 1) = 0.0039  label 0
-copies of x1 r = 8: log-odds  -7.1758  P(class 1) = 0.0008  label 0
-each extra copy changes the log-odds by -1.6306 ; first r with label 0: 4

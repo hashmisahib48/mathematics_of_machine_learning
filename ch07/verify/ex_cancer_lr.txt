@@ -1,0 +1,7 @@
+test accuracy 0.958
+[[50  3]
+ [ 3 87]]
+radius error           w  -1.21  odds x 0.30
+worst texture          w  -1.11  odds x 0.33
+mean concave points    w  -1.11  odds x 0.33
+worst radius           w  -0.99  odds x 0.37

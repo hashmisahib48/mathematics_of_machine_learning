@@ -1,8 +1,0 @@
-estimator        par   error  test ll lam_min    cond
-true Sigma              0.00   -36.90   0.438    36.5
-Empirical      0.000    8.50   -62.61   0.054   398.5
-Shrunk 0.1     0.100    6.77   -41.06   0.432    45.3
-LedoitWolf     0.390    4.83   -39.06   1.530     9.5
-OAS            0.403    4.85   -39.08   1.580     9.0
-GraphLassoCV   0.169    3.64   -38.25   0.445    38.4
-graphical lasso edges 55 of 190 ; true edges 18

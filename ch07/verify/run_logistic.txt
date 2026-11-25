@@ -1,0 +1,6 @@
+one step:  w = 0.0583  b = 0.0
+fitted:    w = 1.2140  b = -4.2491  iterations 2173
+cost:      0.6931 -> 0.4130
+odds ratio e^w = 3.367  boundary x = 3.500
+P(pass | 5 h) = 0.8607
+training accuracy 0.667

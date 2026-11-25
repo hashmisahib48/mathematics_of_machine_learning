@@ -1,0 +1,5 @@
+P(+) = 0.1085
+P(disease | +) = 0.0876
+a-b: Euclidean 4.004  Manhattan 6.7
+a-c: Euclidean 5.285  Manhattan 8.3
+b-c: Euclidean 1.844  Manhattan 3.2

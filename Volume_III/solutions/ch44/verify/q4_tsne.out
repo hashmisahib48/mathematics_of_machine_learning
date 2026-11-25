@@ -1,6 +1,0 @@
-== Q4  t-SNE: cluster sizes and gaps
-true sd per coordinate: [0.5, 3.0, 0.5]  true centres on the first axis: 0, 8, 40
-perplexity  10: map radius per cluster [12.9 14.5 13. ]   distances between centres 1-2  51.9  2-3  90.6  1-3  59.9  ratio of the gaps 1.74
-perplexity  30: map radius per cluster [6.  6.7 6. ]   distances between centres 1-2  26.0  2-3  68.7  1-3  44.1  ratio of the gaps 2.64
-perplexity 100: map radius per cluster [1.3 1.8 1.3]   distances between centres 1-2   6.1  2-3  28.5  1-3  34.4  ratio of the gaps 4.67
-true radius per cluster (sqrt(5) sd): [1.12 6.71 1.12]  true centre distances 8, 32, 40

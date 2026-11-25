@@ -1,7 +1,0 @@
-eigenvalues [  1.69 118.31]
-within 0.01 of minimum: plain 93 steps, momentum 36 steps
-within 1e-06 of minimum: plain 413 steps, momentum 74 steps
-plain    h=   1.69: b^2=0.972, 4mu=0.000, factor 0.986
-plain    h= 118.31: b^2=0.000, 4mu=0.000, factor 0.000
-momentum h=   1.69: b^2=3.191, 4mu=3.200, factor 0.894
-momentum h= 118.31: b^2=0.729, 4mu=3.200, factor 0.894

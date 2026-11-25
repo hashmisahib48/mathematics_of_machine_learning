@@ -1,8 +1,0 @@
-mean test R^2 over 12 patterns, 20% blank cells
-                  MCAR    MAR   MNAR
-complete rows     0.262  0.217  0.047
-mean              0.314  0.307  0.316
-mean+ind          0.307  0.296  0.324
-KNN k=5           0.313  0.310  0.308
-iterative         0.331  0.330  0.294
-native NaN        0.260  0.269  0.294

@@ -1,7 +1,0 @@
-uniform  predict [0]  proba [0.6667 0.3333]
-distance predict [1]  proba [0.4384 0.5616]
-kneighbors: d = [1.     2.2361 3.    ]  rows [5 1 2]
-classes_ [0 1]  n_samples_fit_ 8  metric euclidean
-k = 2 tie: [0] [0.5 0.5]
-query on point 5: [0. 1.]
-1-NN training accuracy 1.0   leave-one-out 0.875

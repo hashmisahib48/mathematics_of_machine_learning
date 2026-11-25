@@ -1,0 +1,5 @@
+DummyRegressor         test R2 = -0.000
+LinearRegression       test R2 =  0.359
+KNeighborsRegressor    test R2 =  0.264
+DecisionTreeRegressor  test R2 =  0.087
+max_depth = 3  coef_ shape = (10,)

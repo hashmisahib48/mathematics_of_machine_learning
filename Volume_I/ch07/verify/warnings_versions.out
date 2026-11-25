@@ -1,5 +1,0 @@
-scikit-learn 1.9.1
-numpy        2.5.3
-raw features : ConvergenceWarning
-  lbfgs failed to converge after 100 iteration(s) (status=1):
-scaled       : 0 warnings

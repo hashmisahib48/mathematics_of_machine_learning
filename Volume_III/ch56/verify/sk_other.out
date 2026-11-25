@@ -1,6 +1,0 @@
-random   CV 0.9883  test 0.9510  C 1.91  gamma 0.0254
-halving  CV 0.9811  test 0.9510  C 32  gamma 0.00195
-halving rows  [20, 40, 80, 160, 320]
-halving cands [72, 36, 18, 9, 5]
-iterations 5  required 7  possible 5
-rows in cv_results_: 140  best rung: 4

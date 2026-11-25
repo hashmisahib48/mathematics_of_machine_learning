@@ -1,4 +1,0 @@
-mean_ : [5.5 5.5]  scale_: [3.594 3.594]
-coef_ : [1.3856 0.3856]  R^2: 0.9979
-labels: [1 1 1 0 0 0]  inertia_: 8.0
-transform shape: (6, 2)

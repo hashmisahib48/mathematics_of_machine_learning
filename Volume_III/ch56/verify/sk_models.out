@@ -1,4 +1,0 @@
-SVC                     0.9859
-LogisticRegression      0.9790
-RandomForestClassifier  0.9578
-chosen: SVC 1  test 0.958

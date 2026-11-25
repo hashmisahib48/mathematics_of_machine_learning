@@ -1,8 +1,0 @@
-model    alpha  slope(y)  slope(1000y)  b(1000y)-b(y)
-gamma      0.0    0.3800       0.3800         6.9078
-gamma      1.0    0.2838       0.2838         6.9078
-Poisson    0.0    0.3885       0.3885         6.9078
-Poisson    1.0    0.3640       0.3885         6.8219
-ln(1000) = 6.9078
-power 1: deviance 2.9539 -> 2953.9141, ratio 1000.0
-power 2: deviance 0.4902 -> 0.4902, ratio 1.0

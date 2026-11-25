@@ -1,0 +1,42 @@
+7-1 n 32 improved 11 PSI 14
+7-1 coef [[2.8261 0.0952 2.3787]] b [-13.0213] odds [[16.88   1.1   10.791]]
+7-1 statsmodels [-13.0213   2.8261   0.0952   2.3787] p [0.0083 0.0252 0.5014 0.0255]
+7-1 P(GPA3,TUCE20,PSI 0 ) 0.0666
+7-1 P(GPA3,TUCE20,PSI 1 ) 0.4351
+7-1 LOO acc 0.75
+7-1 base rate acc 0.6562
+7-2 th 0.5 missed 8 false 3
+7-2 th 0.3 missed 6 false 14
+7-2 th 0.1 missed 5 false 38
+7-2 th 0.05 missed 2 false 55
+7-3 C 0.001 acc 0.9111 errors 40
+7-3 C 0.01 acc 0.9511 errors 22
+7-3 C 0.1 acc 0.9711 errors 13
+7-3 C 1 acc 0.9689 errors 14
+7-3 C 10 acc 0.9644 errors 16
+7-3 most common confusion 8 -> 1 4
+7-1d student 5 [ 4. 21.  0.] score 0.2823 P 0.5701 grade 1.0
+7-1d student 32 [ 2.39 19.    1.  ] score -2.0794 P 0.1111 grade 1.0
+7-1e GPA boundary 3.0921
+7-1f odds factor for +0.5 GPA 4.1085
+7-1g sums: sum x 99.75 sum xy 37.76 sum y 11.0 grad w 0.37859 grad b 0.15625 w1 -0.03786 b1 -0.01562 J0 0.6931
+7-2d score limits t <= ln((1-p0)/p0) [(0.5, 0.0), (0.3, 0.8473), (0.1, 2.1972), (0.05, 2.9444)]
+7-2d at 0.1 missed 5 of 212 = 0.0236 flagged 38 of 357 = 0.1064
+7-3c acc C=0.1 0.9711 params 650
+7-3d test index 12 true 8 pred 1 top classes [1 8] scores [4.0574 3.8141] probs [0.4964 0.3892] ratio 1.2754 exp diff 1.2754
+7-4 sizes [50 50 10] n 110
+7-4 class_weight None confusion
+ [[50  0  0]
+ [ 0 50  0]
+ [ 0  4  6]]
+7-4 class_weight balanced confusion
+ [[50  0  0]
+ [ 0 48  2]
+ [ 0  0 10]]
+7-4c weights n/(K n_c) [np.float64(0.7333), np.float64(0.7333), np.float64(3.6667)] ratio 5.0
+7-4d th 0.5 virginica found 6 of 10, flagged versicolor 0
+7-4d th 0.3 virginica found 9 of 10, flagged versicolor 1
+7-4d th 0.2 virginica found 10 of 10, flagged versicolor 2
+7-2e flag threshold for cost ratio 20 0.0476
+7-4e term -ln 0.30 1.204 weighted 4.4146
+7-3e digit 12 P(true class 8) 0.3892 cost 0.9437 random guess 2.3026

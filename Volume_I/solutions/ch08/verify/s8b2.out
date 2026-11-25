@@ -1,7 +1,0 @@
-shares p_k: [0.8998 0.1002]  sum p_k^2 = 0.8196
-200 seeds: mean 0.8189  sd 0.0145  range 0.784 to 0.853
-test part: [405, 45]  expected accuracy there: 0.8198
-variance of the number right: 40.58  exact sd of the accuracy: 0.0142
-binomial sd sqrt(a(1-a)/m): 0.0181
-standard error of the mean of 200: 0.001
-uncertainty of the sd: 0.0007

@@ -1,6 +1,0 @@
-test errors: four voters 6  five voters 5  boosting alone 6
-patients on which the two votes differ: [125]
-2-2 ties of the four voters: [18, 94, 125]
-  patient 18: true class 0, four-vote 0, boosting 0, five-vote 0
-  patient 94: true class 0, four-vote 0, boosting 0, five-vote 0
-  patient 125: true class 1, four-vote 0, boosting 1, five-vote 1

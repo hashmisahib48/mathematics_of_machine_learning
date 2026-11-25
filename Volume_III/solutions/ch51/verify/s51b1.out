@@ -1,7 +1,0 @@
-blank cells: 270  per column: [70 62 67 71]
-mean fill      0.993
-    k   uniform  distance
-    1   0.950    0.950
-    3   0.815    0.812
-   10   0.744    0.742
-   30   0.755    0.749

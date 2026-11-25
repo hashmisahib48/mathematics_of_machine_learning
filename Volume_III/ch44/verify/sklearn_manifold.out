@@ -1,6 +1,0 @@
-ClassicalMDS       trust 0.8953  [33237.4 23536.9]  transform: False
-MDS                trust 0.9272  (0.2125, 155)  transform: False
-Isomap             trust 0.9904  93.2906  transform: True
-LLE                trust 0.8718  3.51e-07  transform: True
-SpectralEmbedding  trust 0.9292  (600, 600)  transform: False
-TSNE               trust 0.9991  (0.448, 999, 50.0)  transform: False

@@ -1,0 +1,4 @@
+coef_      : [5.1]
+intercept_ : 46.7
+predict 6 h: [77.3]
+R^2 score  : 0.9927480916030536

@@ -1,6 +1,0 @@
-trend + season + noise: LML -28.22
-  period 0.997 years
-  noise sd 0.326  test RMSE 0.331  2-sigma cover 1.00
-RBF + noise: LML -57.99
-  noise sd 0.345  test RMSE 2.085  2-sigma cover 0.62
-training-mean baseline: test RMSE 2.153

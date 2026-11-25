@@ -1,7 +1,0 @@
-uncalibrated SVC: accuracy 0.9580
-sigmoid      changed 1 of 143; accuracy 0.9510
-   patient  30: score f = +0.043, true class 1, plain 1, calibrated 0
-isotonic     changed 2 of 143; accuracy 0.9441
-   patient  30: score f = +0.043, true class 1, plain 1, calibrated 0
-   patient  97: score f = +0.104, true class 1, plain 1, calibrated 0
-temperature  changed 0 of 143; accuracy 0.9580

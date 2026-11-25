@@ -1,0 +1,3 @@
+neighbors: [1 5 3]  distances: [1.118 1.581 1.803]
+class: 1   probabilities: [0.333 0.667]
+regression, distance weights: 18.917

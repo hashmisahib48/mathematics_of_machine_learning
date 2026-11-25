@@ -1,0 +1,2 @@
+naive Bayes  errors 11, made with over 99 % confidence 7, log loss 1.221
+logistic     errors  6, made with over 99 % confidence 0, log loss 0.086

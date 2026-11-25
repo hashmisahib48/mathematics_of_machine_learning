@@ -1,9 +1,0 @@
-step 1: scores [17. 15.] -> feature 1
-  w = [1.7]  |r|^2 = 1.1000
-  residual [ 0.4 -0.3  0.  -0.7  0.6]
-step 2: scores [0.  1.4] -> feature 2
-  w = [1.3889 0.3889]  |r|^2 = 0.5556
-  residual [ 0.17  0.17 -0.39 -0.39  0.44]
-scikit-learn, 1 term: [1.7 0. ] 0.9
-OMP, 4 terms selected: [ 0  6  7 10]
-OMPCV: n_nonzero_coefs_ = 3  selected: [0 6 7]

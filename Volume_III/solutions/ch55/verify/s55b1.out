@@ -1,8 +1,0 @@
-mean of the 50 scores      : 0.9772
-sd of the 50 scores        : 0.0148
-sd of the 10 repeat means  : 0.0045
-repeat means: min 0.9701  max 0.9842
-
-binomial sd of one fold (113.8 rows): 0.0140
-binomial sd of the whole sample (n = 569): 0.0063
-sd(50) / sqrt(50), a false standard error: 0.0021

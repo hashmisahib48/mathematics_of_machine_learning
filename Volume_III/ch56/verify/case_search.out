@@ -1,6 +1,0 @@
-method   evals  fits   cost   CV      test    log2 C  log2 g
-grid        72   361   72.0  0.9906  0.9510    7.00  -11.00
-random      72   361   72.0  0.9883  0.9510    0.93   -5.30
-halving    140   701   17.3  0.9811  0.9510    5.00   -9.00
-defaults: CV 0.9859  test 0.958
-nested folds [1.     0.9882 0.9765 0.9882 0.9529]  mean 0.9812

@@ -1,6 +1,0 @@
-R =  1: mean 0.0638  sd over 10 seeds 0.0296  1/sqrt(R) rule 0.0296
-R =  4: mean 0.0681  sd over 10 seeds 0.0172  1/sqrt(R) rule 0.0148
-R = 16: mean 0.0692  sd over 10 seeds 0.0055  1/sqrt(R) rule 0.0074
-sd ratios: R = 1 to 4 1.72 (rule 2), 4 to 16 3.14 (rule 2)
-sd ratio R = 1 to 16: 5.40 (rule 4)
-one run, R = 16: mean 0.0699  sd over the shuffles 0.0261

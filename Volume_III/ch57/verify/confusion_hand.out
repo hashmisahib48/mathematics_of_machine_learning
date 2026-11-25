@@ -1,4 +1,0 @@
-accuracy=0.8900  recall=0.7000  specificity=0.9000
-precision=0.2692  balanced=0.8000  F1=0.3889  F2=0.5303
-F0.5=0.3070  MCC=0.3888  kappa=0.3413  Jaccard=0.2414
-p_e = 0.833   LR+ = 7.0

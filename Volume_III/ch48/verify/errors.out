@@ -1,8 +1,0 @@
-LOF(novelty=False).predict -> AttributeError
-    This 'LocalOutlierFactor' has no attribute 'predict'
-LOF(novelty=True).fit_predict -> AttributeError
-    This 'LocalOutlierFactor' has no attribute 'fit_predict'
-OneClassSVM(contamination=0.05) -> TypeError
-    OneClassSVM.__init__() got an unexpected keyword argument 'contamination'
-EllipticEnvelope(contamination='auto') -> InvalidParameterError
-    The 'contamination' parameter of EllipticEnvelope must be a float in the range (0.0, 0.5]. Got 'auto' instead.

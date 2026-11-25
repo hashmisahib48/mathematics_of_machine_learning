@@ -1,4 +1,0 @@
-Nelder-Mead x=[0.9 1.7] J=1.100000 nit= 94 nfev=182 njev=0
-BFGS        x=[0.9 1.7] J=1.100000 nit=  5 nfev=  6 njev=6
-exact solution [0.9 1.7]
-BFGS, numerical gradient: nfev=18, njev=6

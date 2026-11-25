@@ -1,7 +1,0 @@
-least squares                  w_bmi =   593.41  test R2 = 0.359
-ridge 0.05                     w_bmi =   569.92  test R2 = 0.362
-ridge 0.05, bmi x 100          w_bmi =     6.25  test R2 = 0.352
-scaled ridge 0.05              w_bmi =    28.86  test R2 = 0.359
-scaled ridge 0.05, bmi x 100   w_bmi =    28.86  test R2 = 0.359
-original   sum of squares:    0.7827  ratio to alpha:     15.7
-bmi x 100  sum of squares: 7826.5932  ratio to alpha: 156531.9

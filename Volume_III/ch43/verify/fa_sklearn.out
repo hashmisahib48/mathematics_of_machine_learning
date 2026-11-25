@@ -1,8 +1,0 @@
-tol 0.01: n_iter  25  loadings [0.8924 0.8059 0.602 ]  psi [0.2045 0.3498 0.6374]
-tol 1e-10: n_iter 172  loadings [0.9 0.8 0.6]  psi [0.19 0.36 0.64]
-true loadings   [0.9 0.8 0.7 0.6 0.5 0.2]
-FA loadings     [0.89 0.77 0.7  0.6  0.49 0.15]
-PCA direction   [0.27 0.23 0.22 0.19 0.15 0.87]
-FA noise var    [0.21 0.2  0.17 0.19 0.21 2.92]
-PCA noise var   0.66
-mean log-likelihood: FA -6.273  PCA -8.05

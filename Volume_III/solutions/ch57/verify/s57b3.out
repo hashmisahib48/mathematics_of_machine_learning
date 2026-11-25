@@ -1,9 +1,0 @@
-eps 0.000  log loss 0.3702
-eps 0.005  log loss 0.1574
-eps 0.010  log loss 0.1548
-eps 0.020  log loss 0.1560
-eps 0.050  log loss 0.1702
-forecasts exactly 0 or 1: 64  wrong: 1
-test row 12: forecast 0.0, truth 1
--ln(2.2e-16) = 36.04; per patient 0.2521 of 0.3702
-log loss of the other 142 patients: 0.119

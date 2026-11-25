@@ -1,0 +1,3 @@
+best parameters {'knn__n_neighbors': 3, 'knn__weights': 'uniform'}
+best cross-validated accuracy 0.974
+test accuracy of the refitted model 0.951

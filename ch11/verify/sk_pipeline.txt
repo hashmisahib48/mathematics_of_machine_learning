@@ -1,0 +1,2 @@
+cross-validated R2 [0.428 0.522 0.486 0.427 0.549]  mean 0.482
+columns after preprocessing: ['cat__sex_1.0' 'cat__sex_2.0' 'num__age' 'num__bmi']

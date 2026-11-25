@@ -1,0 +1,47 @@
+1-1 shape (178, 13) counts [59 71 48]
+1-1 test counts [15 18 12] baseline 0.4
+1-1 k 1 0.711 train 1.0
+1-1 k 5 0.667 train 0.82
+1-1 k 15 0.622 train 0.752
+1-1 ranges proline 278.0 1680.0 color 1.28 13.0 hue 0.48 1.71
+1-1 data (row, proline, color, class):
+    127 466.0 3.0 1
+    146 415.0 4.9 2
+    37 1105.0 4.25 0
+    41 1035.0 4.28 0
+    141 780.0 5.6 2
+    112 607.0 3.8 1
+    105 315.0 2.7 1
+1-1 hand raw dist [151. 100. 790. 720. 465. 292.] 1-NN class 2 3-NN classes [2 1 1]
+1-1 hand scaled dist [0.111 0.201 0.579 0.531 0.414 0.228] 1-NN class 1 3-NN classes [1 2 1]
+1-1 k=5 scaled 0.956
+1-2 shape (569, 30) counts [212 357] always benign 0.627 always malignant 0.373
+1-2 test counts [53 90] baseline 0.629
+1-2 5-NN confusion (rows true malignant, benign) [[47, 6], [6, 84]] acc 0.916 found malignant 0.887 found benign 0.933
+1-2 logistic 0.937 malignant called benign 4 benign called malignant 5
+1-2 5-NN standardized 0.951
+1-3 stump feature s5 threshold 0.0217 leaf means 121.1 217.3 training mean 151.9
+1-3 six test patients (s5, progression, stump prediction, error):
+    0.0037 321.0 121.1 199.9
+    0.0702 215.0 217.3 -2.3
+    -0.0181 127.0 121.1 5.9
+    -0.0385 64.0 121.1 -57.1
+    -0.0345 175.0 121.1 53.9
+    0.0617 275.0 217.3 57.7
+1-3 hand MSE stump 8248.0 RMSE 90.8 constant MSE 9433.0 RMSE 97.1 R2 six -0.103
+1-3 stump test R2 0.074
+1-3 depth 1 train 0.322 test 0.074
+1-3 depth 2 train 0.496 test 0.105
+1-3 depth 3 train 0.578 test 0.087
+1-3 depth 4 train 0.654 test 0.084
+1-3 depth 6 train 0.775 test -0.005
+1-3 depth 8 train 0.883 test -0.126
+1-3 depth 12 train 0.984 test -0.09
+1-3 linear test R2 0.359
+1-3 seed 1 depth 1 train 0.34 test 0.042
+1-3 seed 1 depth 2 train 0.49 test 0.151
+1-3 seed 1 depth 3 train 0.586 test 0.14
+1-3 seed 1 depth 4 train 0.655 test 0.115
+1-3 seed 1 depth 6 train 0.801 test -0.02
+1-3 seed 1 depth 8 train 0.906 test 0.052
+1-3 seed 1 depth 12 train 0.99 test -0.173

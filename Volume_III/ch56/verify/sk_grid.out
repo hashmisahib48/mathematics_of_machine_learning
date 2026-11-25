@@ -1,8 +1,0 @@
-37 keys; for 'acc': ['mean_test_acc', 'std_test_acc', 'rank_test_acc', 'mean_train_acc', 'std_train_acc']
-multimetric_ True  best_index_ 56
-best_score_ 0.9906  test 0.951 (accuracy, the refit scorer)
-rank  log2 C  log2 g   acc    sd   train     f1
-   1       7     -11  0.9906  0.0088  0.9900  0.9926
-   1       9     -13  0.9906  0.0088  0.9900  0.9926
-   3       5      -9  0.9883  0.0074  0.9912  0.9907
-   4       1      -5  0.9859  0.0115  0.9935  0.9889

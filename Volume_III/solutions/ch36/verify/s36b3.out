@@ -1,9 +1,0 @@
-column std, smallest and largest: 0.12 314.0
-
-scaling             ARI    inertia  widest column
-none            0.371 2370689.69    0.998
-StandardScaler  0.897    1277.93    0.077
-MinMaxScaler    0.869      48.95    0.125
-
-wines misplaced: standard 6  min-max 8
-ARI between the two clusterings: 0.934

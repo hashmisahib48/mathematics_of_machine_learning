@@ -1,4 +1,0 @@
-final loss: mine 0.082352  scikit-learn 0.082352
-largest difference of W1: 2.5e-16
-same predictions: True
-ReLU class, loss at 100: 0.073153

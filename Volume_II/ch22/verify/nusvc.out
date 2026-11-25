@@ -1,8 +1,0 @@
-  nu   margin errors   support vectors   train acc
- 0.10        0.070           0.170        0.965   bounds hold
- 0.20        0.160           0.255        0.955   bounds hold
- 0.30        0.280           0.330        0.950   bounds hold
- 0.50        0.480           0.515        0.940   bounds hold
- 0.70        0.680           0.720        0.910   bounds hold
-class sizes: [103  97]  largest feasible nu: 0.97
-nu = 0.99 -> specified nu is infeasible

@@ -1,7 +1,0 @@
-point 595: 6 of its 20 nearest neighbours lie on another whorl; among its 10 nearest: 0
-distance to its 10th neighbour 4.43, to its 20th 5.14; to the nearest point of the other whorl 4.67
-m =  5: share of edges between different whorls 0.0000, share of points with such an edge 0.000
-m = 10: share of edges between different whorls 0.0000, share of points with such an edge 0.000
-m = 20: share of edges between different whorls 0.0040, share of points with such an edge 0.036
-m = 40: share of edges between different whorls 0.0349, share of points with such an edge 0.263
-figure width 3.11 in, printed 3.4 in, smallest font 7.8 pt -> printed 8.5 pt

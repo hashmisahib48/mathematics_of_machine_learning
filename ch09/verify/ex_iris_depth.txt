@@ -1,0 +1,6 @@
+max_depth 1   : train 0.667  validation 0.667
+max_depth 2   : train 0.962  validation 0.933
+max_depth 3   : train 0.973  validation 0.960
+max_depth 4   : train 0.990  validation 0.967
+max_depth 6   : train 1.000  validation 0.960
+max_depth None: train 1.000  validation 0.960

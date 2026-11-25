@@ -1,0 +1,5 @@
+fold [1, 4] training mean 6.25 errors [3.25 1.75] MAE 2.5
+fold [2, 5] training mean 6.0 errors [1. 1.] MAE 1.0
+fold [3, 6] training mean 5.75 errors [1.75 3.25] MAE 2.5
+a [np.float64(2.5), np.float64(1.0), np.float64(2.5)] CV 2.0
+slate: arithmetic mean 0.55 F1 0.18

@@ -1,9 +1,0 @@
-residuals [-1.  0.  1. -2.  2.]  SSE 10.0  SST 74.0
-MSE  2.0   sklearn 2.0
-RMSE 1.4142   sklearn 1.4142
-MAE  1.2   sklearn 1.2
-R2   0.8649   sklearn 0.8649
-training R2: 0.9633
-predictions: [11.1 12.8 14.5 16.2]
-SSE 11.14  SST 5.0
-test R2: -1.228  = 1 - SSE/SST = -1.228

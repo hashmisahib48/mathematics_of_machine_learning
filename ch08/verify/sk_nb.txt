@@ -1,0 +1,4 @@
+priors [0.4286 0.5714]  means [[3.0, 7.0], [7.0, 4.0]]
+P at (5, 5): [[0.1715 0.8285]]
+['free' 'lunch' 'meeting' 'money' 'now' 'prize' 'tomorrow' 'win']
+['ham' 'spam'] [[0.2545 0.7455]]

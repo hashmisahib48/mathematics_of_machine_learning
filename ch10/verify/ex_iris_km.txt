@@ -1,0 +1,6 @@
+cluster   0   1   2
+species            
+0         0  50   0
+1        39   0  11
+2        14   0  36
+adjusted Rand index 0.62

@@ -1,7 +1,0 @@
-full data (426 rows): best five-fold accuracy 0.9906; 11 cells score at least 0.98
-
- rows  Spearman, all 72  Spearman, best 20  distinct scores  best cell kept by the best 1/3 | best 1/9  (mean of 5 subsamples)
-  26   0.89              0.31              7.4             1.0 | 0.4
-  53   0.89              -0.12             12.0             0.8 | 0.2
- 106   0.93              0.11             15.6             1.0 | 0.2
- 213   0.97              0.40             21.4             1.0 | 0.4

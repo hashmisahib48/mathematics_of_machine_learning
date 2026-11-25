@@ -1,8 +1,0 @@
-               model     raw  scaled
-                5-NN  0.9161  0.9510
-           SVC (RBF)  0.9161  0.9580
-  LogisticRegression  0.9371  0.9580
-       MLPClassifier  0.9091  0.9510
-        DecisionTree  0.9021  0.9021
-    PCA, first ratio  0.9823  0.4448
-feature s.d. from 0.0023 to 576.7

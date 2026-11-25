@@ -1,6 +1,0 @@
-forecast 0.009 0.033 0.126 0.698 0.991
-observed 0.000 0.012 0.012 0.847 1.000
-threshold for recall 0.99 out of fold: 0.176, false alarms 0.120
-test AUC 0.9954  log loss 0.1175  Brier 0.0309
-cut 0.5    caught 48 of 53, false alarms 1 of 90, precision 0.980
-cut 0.176  caught 53 of 53, false alarms 11 of 90, precision 0.828

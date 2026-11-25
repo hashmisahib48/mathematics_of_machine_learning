@@ -1,4 +1,0 @@
-forward:  u = 1.2000  z = 0.7000  p = 0.6682  L = 0.4032
-backward: dL/dp = -1.4966  dp/dz = 0.2217  dL/dz = -0.3318
-          dL/dw = -0.4977  dL/db = -0.3318
-p - y = -0.3318   (equals dL/dz)

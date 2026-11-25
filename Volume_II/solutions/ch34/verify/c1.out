@@ -1,9 +1,0 @@
-== 5000 random graphs: harmonic values against the labels 0 and 1
-graphs used 4573, skipped (no path to a label) 427; smallest value 0.0000, largest 1.0000; all strictly inside (0, 1): 3587
-of them 4307 graphs are connected, and in 3503 of these every value is strictly inside (0, 1)
-
-== two moons (Figure 34.2-1), one label per moon: the values change with gamma, the classes do not
- gamma   min    max   mean(moon 0)  mean(moon 1)  accuracy  n_iter
-    20  0.087  0.879        0.314         0.685      0.97     5266
-    50  0.017  0.955        0.169         0.804      1.00    25540
-   100  0.002  0.986        0.075         0.936      1.00   137988

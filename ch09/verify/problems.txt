@@ -1,0 +1,40 @@
+9-1 data (178, 13) cultivars [59 71 48]
+9-1 depth 1 0.6463
+9-1 depth 2 0.8206
+9-1 depth 3 0.8932
+9-1 depth 4 0.916
+9-1 depth None 0.8876
+9-1 top [('proline', np.float64(0.409)), ('od280/od315_of_diluted_wines', np.float64(0.333)), ('flavanoids', np.float64(0.133))]
+9-2 linear CV R2 0.7674
+9-2 depth 1 CV R2 0.5353
+9-2 depth 2 CV R2 0.7866
+9-2 depth 3 CV R2 0.8236
+9-2 depth 5 CV R2 0.7618
+9-2 depth 8 CV R2 0.7053
+9-2 depth1 split 1172.61
+9-3 data (569, 30) classes [212 357]
+9-3 sample 0 root worst perimeter 114.4 acc 0.9091
+9-3 sample 1 root worst concave points 0.146 acc 0.9301
+9-3 sample 2 root worst perimeter 106.2 acc 0.9231
+9-3 sample 3 root worst radius 16.805 acc 0.9161
+9-3 sample 4 root worst concave points 0.142 acc 0.8951
+9-3 sample 5 root worst concave points 0.142 acc 0.9371
+9-3 sample 6 root worst perimeter 106.05 acc 0.8951
+9-3 sample 7 root worst perimeter 106.1 acc 0.9021
+9-3 sample 8 root worst perimeter 107.45 acc 0.8881
+9-3 sample 9 root worst concave points 0.132 acc 0.9371
+9-3 range 0.8881 0.9371 vote acc 0.9231
+9-1d counts [59 71 48] gini 0.6583 entropy 1.5668
+9-1d root proline 755.0 left n 111 counts [ 2. 67. 42.] gini 0.4922 right n 67 counts [57.  4.  6.] gini 0.2646
+9-1d weighted 0.4065 decrease 0.2518
+9-2c split 1172.61 n [178  57] means [509.08 983.5 ] root mean 624.15 mse [76103.2 19807.1 81424.3]
+9-4 root mean 17.5238 mse 98.5351
+9-4 split 53.0 nL 5 meanL 8.0 nR 16 meanR 20.5 Isplit 70.1905
+9-4 split 57.0 nL 6 meanL 9.1667 nR 15 meanR 20.8667 Isplit 70.5984
+9-4 split 60.0 nL 12 meanL 11.1667 nR 9 meanR 26.0 Isplit 44.6508
+9-4 split 66.0 nL 17 meanL 13.9412 nR 4 meanR 32.75 Isplit 43.9853
+9-4 split 72.5 nL 18 meanL 14.0 nR 3 meanR 38.6667 Isplit 24.0317
+9-4 split 77.5 nL 19 meanL 15.2105 nR 2 meanR 39.5 Isplit 47.698
+9-4 sums: by group {np.float64(50.0): (5, 40.0, 322.0), np.float64(56.0): (1, 15.0, 225.0), np.float64(58.0): (6, 79.0, 1051.0), np.float64(62.0): (5, 103.0, 2193.0), np.float64(70.0): (1, 15.0, 225.0), np.float64(75.0): (1, 37.0, 1369.0), np.float64(80.0): (2, 79.0, 3133.0)}
+9-4c depth2 thresholds [72.5 60.  -2.  -2.  77.5 -2.  -2. ] values [17.524 14.    11.167 19.667 38.667 37.    39.5  ] pred 60, 72 [11.167 19.667]
+9-2c weighted mse 34752.5

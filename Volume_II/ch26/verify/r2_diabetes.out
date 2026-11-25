@@ -1,5 +1,0 @@
-one tree, depth 3         test R2 0.087
-AdaBoost.R2, linear       test R2 0.289   rounds kept 50
-AdaBoost.R2, square       test R2 0.310   rounds kept 50
-AdaBoost.R2, exponential  test R2 0.279   rounds kept 50
-200 rounds, learning_rate 0.5: test R2 0.289

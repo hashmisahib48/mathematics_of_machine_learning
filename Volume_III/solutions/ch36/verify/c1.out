@@ -1,8 +1,0 @@
-radius of the points: inner ring mean 0.405 (min 0.256 max 0.530), outer ring mean 1.000 (min 0.883 max 1.123)
-2-means: centres [[0.381, 0.279], [-0.349, -0.258]]  inertia 114.10  ARI -0.002
-share of each ring in cluster 0: outer 0.49  inner 0.45
-inertia of the true partition (rings): 175.41   inertia of the 2-means solution: 114.10
-means of the two rings: [-0.002, -0.001] [-0.01, -0.01]
-best accuracy of any straight line (angle 97.5 deg, offset 0.44): 0.683   ARI 0.133   (all in one cluster: 0.500)
-SpectralClustering(2, nearest_neighbors, 15): ARI 1.000   DBSCAN(eps=0.15): ARI 0.587  clusters 9
-figure width 5.24 in, printed 4.9 in, smallest font 8.6 pt -> printed 8.0 pt

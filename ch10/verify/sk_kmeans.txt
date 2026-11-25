@@ -1,0 +1,4 @@
+centers [[6.0, 4.3333], [1.3333, 1.3333]]
+labels [1 1 1 0 0 0]  inertia 4.0
+distances of (2, 2) to the centers: [[4.6308 0.9428]]
+silhouettes [0.8344 0.7698 0.7822 0.6266 0.7629 0.7285]  mean 0.7507

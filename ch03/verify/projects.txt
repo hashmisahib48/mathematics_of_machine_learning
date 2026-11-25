@@ -1,0 +1,47 @@
+P1a n 21 xbar 60.4286 ybar 17.5238 Sxx 1681.1429 Sxy 1715.2857 Syy 2069.2381
+P1a w 1.0203 b -44.132 R2 0.8458
+P1 corr air 0.92
+P1 corr water 0.876
+P1 corr acid 0.4
+P1b w [0.7156, 1.2953, -0.1521] b -39.9197 R2 0.9136
+P1b sk [0.7156, 1.2953, -0.1521] -39.9197
+P1c largest errors days [21, 4, 3] [-7.238, 5.698, 4.556] rmse 2.918
+P1c sum e -0.0 sum xe [0.0, -0.0, 0.0]
+P1d pred 15.994 one-feature pred 17.087
+P1e without day 21 [0.8891, 0.8166, -0.1071] -43.704 R2 0.9488
+P2a cond A 3.328e+11 cond Xc 5.769e+05
+P2a corr GNP-YEAR 0.9953 GNP-POP 0.9911 POP-YEAR 0.994
+P2b ours ['15.0619', '-0.0358192', '-2.02023', '-1.03323', '-0.0511041', '1829.15'] -3482258.6
+P2b skl  ['15.0619', '-0.0358192', '-2.02023', '-1.03323', '-0.0511041', '1829.15'] -3482258.6 R2 0.995479
+P2b max rel diff 6.29e-13
+P2c three features ['0.040788', '-0.79682', '-0.48277'] 53306.46 R2 0.9851 cond 5.861e+04
+P2d 1962 actual 70551.0 six 71215.0 three 71726.1
+P2d six weights on 1947-61 ['-20.51', '-0.02733', '-1.952', '-0.9582', '0.05134', '1585']
+P3 n 235 income range 377.1 4957.8 food range 242.3 2032.7
+P3a w 0.4852 b 147.475 R2 0.8304
+P3b error sd low half 61.8 high half 145.79
+P3c elasticity 0.8559 b 0.5451 R2 0.8839 sd low 0.127 high 0.1448
+P3d share at 500 0.704 food 352.2
+P3d share at 1000 0.637 food 637.4
+P3d share at 2000 0.577 food 1153.7
+P3e test R2 linear 0.4718 log 0.6125 MAE 103.1 95.5
+P1g air flow for loss 10 53.05
+P3f rise for 10 % income 8.5 %
+P4 data (20, 6) ['Chins', 'Situps', 'Jumps', 'Weight', 'Waist', 'Pulse']
+P4a waist w -12.615 b 592.12 R2 0.4168
+P4b w [0.728, -17.387, 0.139] b 623.28 R2 0.4365
+P4c corr weight-waist 0.87 corr weight-situps -0.493
+P4c two features [0.718, -17.432] 634.44 R2 0.4363
+P4d pred 171.5 163.2
+P4e LOO R2 waist 0.211
+P4e LOO R2 three -0.024
+P1h corr air-water 0.782 air-acid 0.5 water-acid 0.391
+P2e cond A standardized 1.222e+04 cond A raw 3.328e+11
+P3g sd of ln errors low 0.127 high 0.1448 corr e vs ln income 0.0
+P4f standardized weights [17.51, -54.26, 0.98] b 145.55 R2 0.4365
+P4g two-feature pred 180 lb 34 in 171.0
+P3h mean food share poorest ten 0.7 richest ten 0.573
+P4h largest errors men [10, 16, 15] [81.6, 74.4, -74.2] rmse 45.78
+P4i pulse alone corr 0.225 R2 0.0506 w 1.953
+P4j waist in cm w -4.9665 b 592.12 R2 0.4168 ratio 0.3937
+P4k men 1-5 xbar 36.2 ybar 126.6 Sxx 6.8 Sxy -74.6 w -10.9706 b 523.735

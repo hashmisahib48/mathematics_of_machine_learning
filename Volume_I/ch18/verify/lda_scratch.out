@@ -1,6 +1,0 @@
-svd   max |dP| = 4.8e-14  same labels: True
-lsqr  max |dP| = 7.2e-13  same labels: True
-eigen max |dP| = 4.3e-14  same labels: True
-transform equal up to sign: True
-explained ratio: [0.6875 0.3125] [0.6875 0.3125]
-shrinkage 0.3 agrees: True

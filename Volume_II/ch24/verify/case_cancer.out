@@ -1,9 +1,0 @@
-baseline test accuracy: 0.6294
-full tree: depth 5  leaves 18  train 1.0  test 0.9021  5-fold 0.9248
-depth  train   5-fold  test
-    1  0.9296  0.8968  0.8881
-    2  0.9319  0.9272  0.8881
-    3  0.9765  0.9249  0.9161
-    4  0.9859  0.9225  0.9091
-    5  1.0000  0.9295  0.9021
-logistic regression (Chapter 16, Volume I): test 0.958  5-fold 0.9742

@@ -1,0 +1,3 @@
+eta 0.02: J1 5930  J10 3528  J_end 2860.43  iterations 5000
+eta 0.20: J1 5930  J10 2882  J_end 2859.7  iterations 1977
+eta 0.26: J1 5930  J10 1.188e+04  J_end inf  iterations 5000

@@ -1,4 +1,0 @@
-linear    matches KernelRidge, max diff 1.4e-14
-poly      matches KernelRidge, max diff 2.7e-15
-rbf       matches KernelRidge, max diff 4.4e-16
-laplacian matches KernelRidge, max diff 8.9e-16

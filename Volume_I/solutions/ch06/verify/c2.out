@@ -1,7 +1,0 @@
-check against scikit-learn (Ridge pipeline), max |difference| of predictions: 1.7674264829459219e-12
-single run: lowest test RMSE 0.2357 at alpha = 2.81e-05; fresh RMSE at that alpha 0.2805; best fresh RMSE of all alphas 0.2796
-            the 15 test samples understate the error of the chosen model by 0.0448 (16.0 per cent)
-
-200 repetitions (30 training samples, 15 test samples, fresh set of 3000):
-  chosen on the test samples : mean squared error reported 0.0681, true (fresh) 0.0843; true minus reported +0.0162 +- 0.0028; median RMSE reported 0.253, true 0.278; reported below true in 71%
-  chosen by cross-validation : mean squared error reported 0.5421, true (fresh) 0.7765; true minus reported +0.2344 +- 0.3254; median RMSE reported 0.284, true 0.282; reported below true in 58%

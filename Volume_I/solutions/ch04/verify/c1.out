@@ -1,7 +1,0 @@
-mean x = 0.0218   mean y = 1.1767
-covariance (x, y) = -0.0136   Var x = 1.1757   Var y = 1.2977
-r(x, y) = -0.011   r(x^2, y) = 0.986   r(|x|, y) = 0.954
-sum of dx*dy over x > 0: 34.97   over x < 0: -36.59   total -1.62
-quadrant counts of (dx, dy): ++ 23  -+ 26  +- 39  -- 32
-exact: Cov(x, x^2) = E[x^3] - E[x] E[x^2] = 0 - 0 for x uniform on [-2, 2]; E[x^2] = 1.3333 (4/3)
-R^2 of y on x: 0.000   on x^2: 0.973

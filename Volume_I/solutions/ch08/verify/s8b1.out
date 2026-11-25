@@ -1,8 +1,0 @@
-cv_scores       : [0.43  0.523 0.483 0.426 0.55 ] mean 0.482
-cross_val_score : [0.43  0.523 0.483 0.426 0.55 ] mean 0.482
-largest difference: 0.0
-same to 1e-12   : True
-fold sizes      : [89, 89, 88, 88, 88]
-sd of the folds : 0.055
-R2 on its own training rows: 0.518
-rows reversed   : [0.544 0.425 0.484 0.537 0.423] mean 0.483

@@ -1,0 +1,27 @@
+5-1 raw eta 0.0077 iters 292 w [ 0.7156  1.2953 -0.1521] b -39.92 cond 27.6
+5-1 std eta 0.3 iters 105 w [ 6.4031  3.9954 -0.7955] b 17.524 cond 10.3
+5-1 LS [ 0.7156  1.2953 -0.1521]
+5-2 eta0 0.001 epochs 844 test R2 0.351
+5-2 eta0 0.01 epochs 33 test R2 0.351
+5-2 eta0 0.1 epochs 20 test R2 0.298
+5-3 cond 1.22e+04 factor per iter at eta=n/lmax*0.9 0.9998527006098542
+5-3c rho 0.99985 iterations for factor 1000 46893
+5-3 iters 1000 w [  114.   986. -1182.  -538.  -949.  4161.]
+5-3 iters 10000 w [  -51. -2182. -1662.  -668.  -826.  7736.]
+5-3 iters 100000 w [  157. -3447. -1828.  -696.  -344.  8432.]
+5-3 LS [  157. -3447. -1828.  -696.  -344.  8432.]
+5-4 n 235 Sxx 45.3048 limit 5.1871 best 2.5935
+5-4 eta 1.2968 iters 33 w 0.8559
+5-4 eta 2.5935 iters 2 w 0.8559
+5-4 eta 3.8903 iters 33 w 0.8559
+5-1d w* 1.0203 limit 0.012492 best 0.006246 rho -0.60109
+5-1d k 1 w 1.6336 w-w* 0.6133
+5-1d k 2 w 0.6517 w-w* -0.3686
+5-1d k 3 w 1.2419 w-w* 0.2216
+5-1d iterations for |err|<0.001: 14
+5-4c Sxy 38.7763 Sxx 45.3048 w* 0.8559 mean lx 6.7862 mean ly 6.3534 b 0.5451 pred 1000 637.4
+5-5d updates [331, 42, 11, 1] work per epoch 331 each
+5-1f raw 15.994 std 15.994 LS 15.994
+5-2d sgd l2 w [ 0.48 -4.03 16.42] R2 0.367 | ridge w [-2.01 -9.86 28.89] R2 0.358
+5-3d ridge w [ 896. 1086. -744. -197.  789. 1062.]
+5-4d sgd slope in log units 0.8562 epochs 32 exact 0.8559

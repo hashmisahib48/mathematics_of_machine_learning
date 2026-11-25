@@ -1,6 +1,0 @@
-r = 3 rows per category; correlation of the leaky column with y, 1/sqrt(r) = 0.577
-  smooth =    0.1: correlation 0.5791   spread of the column 0.5698
-  smooth =    1.0: correlation 0.5791   spread of the column 0.4416
-  smooth =    5.0: correlation 0.5791   spread of the column 0.2208
-  smooth =   50.0: correlation 0.5791   spread of the column 0.0333
-  smooth =  500.0: correlation 0.5791   spread of the column 0.0035

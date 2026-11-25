@@ -1,0 +1,6 @@
+8.4-1 distance to A 2.83 to B 2.24
+8.4-1 squared distance in variance units A 12.0 B 10.0
+var_smoothing default 1e-09 epsilon_ 9.9e-05
+smallest variance 0.0048 largest feature variance 99000.0
+var_ equals Eq. 8.2-6 plus epsilon_ True
+digits k-NN accuracy 0.98

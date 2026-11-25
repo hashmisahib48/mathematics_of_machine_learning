@@ -1,6 +1,0 @@
-precision [0.8333 0.5714 0.6667] recall [0.9091 0.4    0.75  ]
-F1        [0.8696 0.4706 0.7059]  support [22 10  8]
-micro    F1 0.7500
-macro    F1 0.6820
-weighted F1 0.7371
-macro P, R: 0.6905 0.6864  F1 of the means: 0.6884
